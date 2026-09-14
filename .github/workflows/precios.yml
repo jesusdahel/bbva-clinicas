@@ -1,0 +1,40 @@
+name: Actualizar cotizaciones BMV
+
+on:
+  schedule:
+    # Cada 30 minutos durante la sesión de la BMV.
+    # La bolsa opera de 8:30 a 15:00 hora de Ciudad de México, que es UTC-6 todo el año.
+    - cron: "*/30 14-21 * * 1-5"
+  workflow_dispatch:        # permite dispararlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: precios
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Consultar precios
+        run: python actualiza_precios.py
+
+      - name: Publicar cotizaciones.csv
+        run: |
+          if git diff --quiet -- cotizaciones.csv; then
+            echo "Sin cambios en los precios."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cotizaciones.csv
+          git commit -m "Cotizaciones BMV $(TZ=America/Mexico_City date '+%d/%m/%Y %H:%M')"
+          git push
