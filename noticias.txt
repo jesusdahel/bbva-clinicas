@@ -1,0 +1,143 @@
+# ══════════════════════════════════════════════════════════════════════════════
+#  NOTICIAS · Fondo de Inversión ITESM-BBVA · North Star Strategies
+#
+#  FORMATO
+#  · Un bloque por noticia, separados por una línea con tres guiones.
+#  · Solo fecha y titulo son obligatorios. Lo demás puede faltar.
+#  · emisora  Ticker del sistema. Use MERCADO para noticias generales.
+#  · tono     positiva | negativa | neutral   — pinta el borde de la tarjeta
+#  · impacto  alto | medio | bajo             — sale como etiqueta
+#  · resumen  Texto libre en varias líneas, indentadas con dos espacios.
+#  · Las líneas que empiezan con # son comentarios.
+# ══════════════════════════════════════════════════════════════════════════════
+
+---
+fecha: 2026-09-15 07:00
+emisora: MERCADO
+titulo: Advertencias de líderes de IA desatan corrección global en acciones tecnológicas[cite: 1]
+fuente: Reuters[cite: 1]
+tono: negativa
+impacto: alto
+resumen:
+  Las acciones vinculadas a inteligencia artificial registraron fuertes caídas a nivel global
+  después de que directivos de empresas como OpenAI y Anthropic advirtieran sobre riesgos
+  asociados al avance de esta tecnología[cite: 1]. El índice de semiconductores de 
+  Filadelfia cayó 5.2%, impactando a emisoras como Nvidia y AMD[cite: 1]. Esto puede 
+  moderar el apetito por riesgo y proyectos de nearshoring en México[cite: 1].
+
+---
+fecha: 2026-09-15 07:00
+emisora: MERCADO
+titulo: SHCP prevé consolidar el déficit en 3.9%, aunque la deuda escala a un histórico 55% del PIB[cite: 1]
+fuente: SHCP / Boletín diario[cite: 1]
+tono: negativa
+impacto: alto
+resumen:
+  El Paquete Económico 2027 estima contener los Requerimientos Financieros del 
+  Sector Público en 3.9% del PIB[cite: 1]. Sin embargo, el Saldo Histórico ascenderá 
+  a 55%, una cifra sin precedentes[cite: 1]. Con un 80% de los recursos atados a 
+  gastos inflexibles como deuda y pensiones, cualquier brecha recaudatoria 
+  obligaría a recortes severos o mayor financiamiento[cite: 1].
+
+---
+fecha: 2026-09-15 07:00
+emisora: MERCADO
+titulo: Escalada hutí complica reapertura de Ormuz y eleva riesgos petroleros[cite: 1]
+fuente: Reuters[cite: 1]
+tono: negativa
+impacto: alto
+resumen:
+  Una nueva ola de ataques hutíes contra objetivos saudíes complicó las 
+  conversaciones para reabrir el estrecho de Ormuz, por donde antes de la guerra 
+  transitaba cerca del 20% de las exportaciones mundiales de petróleo[cite: 1]. 
+  Esto eleva riesgos inflacionarios y genera efectos mixtos para México[cite: 1].
+
+---
+fecha: 2026-09-15 07:00
+emisora: MERCADO
+titulo: Rendimientos de bonos de EE.UU. a 10 años alcanzan su máximo desde 2007[cite: 1]
+fuente: Bloomberg Línea[cite: 1]
+tono: negativa
+impacto: alto
+resumen:
+  El rendimiento de los bonos del Tesoro a 10 años alcanzó 5.04%, superando 
+  niveles de 2023[cite: 1]. Las tasas altas en EE. UU. aumentan la presión sobre la Fed, 
+  limitan el apetito por mercados emergentes e incrementan el costo de 
+  financiamiento en dólares para las emisoras[cite: 1].
+
+---
+fecha: 2026-09-15 07:00
+emisora: MERCADO
+titulo: Morgan Stanley prevé 2 subidas de tasas de la Fed y 1 del BCE[cite: 1]
+fuente: El Economista[cite: 1]
+tono: negativa
+impacto: alto
+resumen:
+  Morgan Stanley proyecta que la Fed subirá sus tasas 25 puntos básicos en 
+  septiembre y otro cuarto de punto en diciembre debido a las persistentes 
+  presiones inflacionarias[cite: 1]. También prevén un alza adicional del BCE, 
+  reduciendo el diferencial de tasas con México y limitando el apetito por riesgo[cite: 1].
+
+---
+fecha: 2026-09-15 07:00
+emisora: MERCADO
+titulo: Negociaciones CCE-Hacienda: el ajuste a deducciones fiscales amenaza a sectores de bajo margen[cite: 1]
+fuente: El Economista y AM[cite: 1]
+tono: negativa
+impacto: medio
+resumen:
+  La propuesta de topar las deducciones empresariales a un rango de 97% a 99% 
+  afectaría directamente a industrias de alto volumen con márgenes delgados, 
+  como cadenas minoristas y distribuidoras[cite: 1]. El CCE advierte que esto podría 
+  implicar el pago de impuestos sobre ganancias ficticias y obstaculizar el nearshoring[cite: 1].
+
+---
+fecha: 2026-09-15 07:00
+emisora: GRUMAB
+titulo: Cae el trigo en Chicago por menor preocupación sobre suministros del Mar Negro[cite: 1]
+fuente: Reuters[cite: 1]
+tono: positiva
+impacto: medio
+resumen:
+  Los futuros del trigo se ubicaron cerca de mínimos de más de dos semanas tras 
+  señales de menor tensión entre Ucrania y Rusia[cite: 1]. Esta caída en insumos 
+  beneficiaría a empresas mexicanas productoras de alimentos como GRUMA y BIMBO, 
+  reduciendo sus costos de materias primas[cite: 1].
+
+---
+fecha: 2026-09-15 07:00
+emisora: MERCADO
+titulo: EU elimina límites a emisiones de gas y carbón[cite: 1]
+fuente: El Economista[cite: 1]
+tono: neutral
+impacto: medio
+resumen:
+  La administración Trump eliminó regulaciones de emisiones de carbono para 
+  centrales de energía, revirtiendo medidas previas para impulsar el sector 
+  energético[cite: 1]. La EPA estimó un ahorro de 310,000 millones de dólares con esta 
+  derogación[cite: 1].
+
+---
+fecha: 2026-09-15 07:00
+emisora: SPCX
+titulo: SpaceX llega al SIC de la Bolsa Mexicana de Valores[cite: 1]
+fuente: Forbes México / El CEO[cite: 1]
+tono: positiva
+impacto: bajo
+resumen:
+  SpaceX se sumó al Sistema Internacional de Cotizaciones de la BMV con la clave 
+  de pizarra 'SPCX', cerrando operaciones iniciales en 2,539 pesos tras tocar un 
+  máximo de 2,572 pesos[cite: 1]. Esto amplía el abanico de inversión aeroespacial[cite: 1].
+
+---
+fecha: 2026-09-15 07:00
+emisora: MERCADO
+titulo: Flujo de divisas turísticas desacelera a julio[cite: 1]
+fuente: El Economista[cite: 1]
+tono: negativa
+impacto: medio
+resumen:
+  A pesar de registrar ingresos internacionales récord hasta julio, los turistas 
+  que llegan por vía aérea presentaron una caída acumulada de 4.6%[cite: 1]. El gasto de 
+  estos viajeros disminuyó 2.6%, muy afectado por una reducción de 10% en los 
+  turistas provenientes de Estados Unidos, principal mercado emisor[cite: 1].
