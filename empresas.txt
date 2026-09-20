@@ -1,0 +1,963 @@
+# ══════════════════════════════════════════════════════════════════════════════
+#  FICHAS DE EMISORAS · Fondo de Inversión ITESM-BBVA
+#  North Star Strategies · Estrategia Q-tilt 50/25/25 · Modelo V5
+#
+#  FORMATO
+#  · Un bloque por emisora. Abre con === TICKER === y cierra donde abre el siguiente.
+#  · Cada dato va como  campo: valor  · Todo campo es opcional.
+#  · Los textos largos se indentan con dos espacios en las líneas siguientes.
+#  · Las listas van con guion al inicio, indentadas con dos espacios.
+#  · Los datos comparativos usan barra vertical:  campo: emisora | industria
+#  · No hace falta capturar precio ni variación: eso lo toma del mercado.
+#  · Las líneas que empiezan con # son comentarios.
+#
+#  Precios, rangos, rendimientos, betas y volatilidades: cierres reales de la BMV
+#  al 11 de septiembre de 2026, calculados sobre cinco años de historia semanal.
+#  Pesos y desviaciones: rebalanceo V0 del Modelo V5 con blend 60/40 del mandato.
+# ══════════════════════════════════════════════════════════════════════════════
+
+
+=== MEXTRAC ===
+nombre: MEXTRAC 09
+sector: ETF
+industria: Índice de referencia
+pais: México
+bolsa: Bolsa Mexicana de Valores
+descripcion:
+  Fideicomiso F/4826 que replica el índice S&P/BMV IPC CompMX Rentable ESG Tilted TR.
+  Es el índice de referencia contra el que se mide esta gestión y, al mismo tiempo, el vehículo con el que se implementa la cartera pasiva del mandato.
+  Su composición la publica el fideicomiso y se reconstruye en el sistema a partir del archivo PCF oficial.
+
+# ───────── MERCADO ─────────
+rango_52s: 57.46 - 68.54
+ytd: +2.24%
+rend_1a: +8.78%
+rend_3a: +33.62%
+beta_5a: 1.000
+volatilidad_anual: 14.96%
+r2_vs_indice: 1.000
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 40.0000%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Es la cartera pasiva del mandato.
+  El 40% del capital replica el índice de forma exacta, lo que ancla el tracking error del fondo y garantiza que ninguna decisión activa pueda alejar la cartera del mercado más allá de lo que la política permite.
+riesgos:
+  - No aplica riesgo activo: por construcción replica el índice.
+  - El costo de operación de entrada y salida sí afecta el rendimiento neto frente al benchmark teórico.
+
+
+=== FEMSAUBD ===
+nombre: Fomento Económico Mexicano, S.A.B. de C.V.
+sector: Consumo Frecuente
+industria: Bebidas y comercio de proximidad
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: femsa.com
+descripcion:
+  Conglomerado de bebidas y comercio de proximidad.
+  Controla Coca-Cola FEMSA y opera la red de tiendas OXXO, además de negocios de salud y combustibles.
+  Obtuvo el score compuesto más alto del universo en el rebalanceo del modelo.
+
+# ───────── MERCADO ─────────
+rango_52s: 155.72 - 230.17
+ytd: +14.98%
+rend_1a: +31.15%
+rend_3a: +24.26%
+rend_5a: +39.26%
+beta_5a: 0.669
+volatilidad_anual: 22.39%
+r2_vs_indice: 0.200
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 8.2146%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Score compuesto más alto del universo en el rebalanceo: z-Quality de +1.72 y z-Momentum de +2.04, la tendencia de precio de mediano plazo más fuerte de la canasta.
+  Es la mayor posición activa con 13.69% de esa parte y una sobreponderación de 4.18 puntos porcentuales, la apuesta de mayor convicción del modelo.
+catalizadores:
+  - Score compuesto más alto del universo en el rebalanceo del modelo
+  - Momentum de precio más fuerte de la canasta
+  - Expansión de la red de proximidad
+riesgos:
+  - Es la mayor posición individual de la parte activa: concentra el tracking error del fondo en un solo nombre.
+  - Sobreponderación de 4.18 puntos, la mayor de la cartera, con poco margen de sorpresa positiva si el consenso ya es favorable.
+  - Exposición al consumo mexicano vía OXXO en un entorno de inflación de alimentos y servicios.
+
+
+=== GMEXICOB ===
+nombre: Grupo México, S.A.B. de C.V.
+sector: Materiales
+industria: Minería de cobre, transporte e infraestructura
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: gmexico.com
+descripcion:
+  Grupo minero e industrial con operaciones de cobre en México, Perú y Estados Unidos, además de la división de transporte ferroviario y de infraestructura.
+  Es la exposición cíclica principal de la cartera.
+
+# ───────── MERCADO ─────────
+rango_52s: 128.88 - 235.80
+ytd: +31.72%
+rend_1a: +72.05%
+rend_3a: +201.85%
+rend_5a: +230.71%
+beta_5a: 1.406
+volatilidad_anual: 35.83%
+r2_vs_indice: 0.346
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 7.2624%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Segundo peso del índice y segundo peso activo del modelo.
+  Su beta de 1.41 es la más alta de la canasta, así que concentra la exposición cíclica del fondo: es la posición que más aporta cuando el mercado sube y la que más resta cuando corrige.
+catalizadores:
+  - Ciclo del cobre y demanda de electrificación
+  - Rendimiento de 72% en el último año y 231% en cinco años
+riesgos:
+  - Beta de 1.41: amplifica cualquier corrección del mercado.
+  - Precio del cobre y ciclo industrial global determinan el resultado más que la operación propia.
+  - Volatilidad anualizada de 35.8%, de las más altas de la cartera.
+
+
+=== GFNORTEO ===
+nombre: Grupo Financiero Banorte, S.A.B. de C.V.
+sector: Financieros
+industria: Banca múltiple diversificada
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: banorte.com
+descripcion:
+  Grupo financiero mexicano con más de 20 millones de clientes a través de banca minorista, banca mayorista, seguros, pensiones y Afore.
+  Opera 1,216 sucursales, 12,168 cajeros y más de 45,000 puntos de corresponsalía que cubren el 72% de los municipios del país.
+  Es el único banco entre los seis grandes de México cuyas decisiones se toman localmente, sin matriz extranjera.
+
+# ───────── MERCADO ─────────
+rango_52s: 155.32 - 200.90
+ytd: +23.08%
+rend_1a: +26.13%
+rend_3a: +81.04%
+rend_5a: +151.80%
+beta_5a: 0.917
+volatilidad_anual: 28.75%
+r2_vs_indice: 0.229
+valor_mercado: MXN 573,680 MDP
+div_yield: 6.2%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 6.0228%
+peso_indice: 11.03%
+esg_sp: 71
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  ROE de 24.8% al primer semestre, margen de interés neto resiliente en 6.8% e índice de capitalización de 21.48%.
+  Su ESG de 71 es el más alto de la canasta financiera, lo que reduce el riesgo de que el índice le recorte peso por criterios metodológicos.
+  El modelo lo deja 1.07 puntos por debajo del índice porque es la mayor posición individual de la canasta y cualquier desviación mueve el tracking error de forma desproporcionada.
+catalizadores:
+  - Pausa prolongada de Banxico en 6.50% favorece el margen financiero
+  - Guía 2026 sin cambios: utilidad neta de 62,000 a 64,000 millones
+  - Consenso favorable con 13 compras de 19 analistas
+riesgos:
+  - Perspectiva negativa por vínculo soberano de S&P y Moody´s: un ajuste a la calificación de México se transmite directo sin importar el desempeño operativo.
+  - El índice de morosidad subió a 1.50%.
+  - Es la posición de mayor peso base del índice: cualquier desviación mueve el tracking error de forma desproporcionada.
+
+
+=== GAPB ===
+nombre: Grupo Aeroportuario del Pacífico, S.A.B. de C.V.
+sector: Industriales
+industria: Concesiones aeroportuarias
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: aeropuertosgap.com.mx
+descripcion:
+  Concesionario de doce aeropuertos en el Pacífico mexicano y dos en Jamaica, entre ellos Guadalajara, Tijuana y Los Cabos.
+
+# ───────── MERCADO ─────────
+rango_52s: 343.87 - 512.62
+ytd: -26.29%
+rend_1a: -26.45%
+rend_3a: +27.31%
+rend_5a: +87.19%
+beta_5a: 1.242
+volatilidad_anual: 33.54%
+r2_vs_indice: 0.308
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 5.9304%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Tráfico de pasajeros al alza con UAFIDA creciendo 8.4% y margen de 69.3% contra 67.1% del año previo.
+  Prácticamente neutral contra el índice: el modelo reconoce la calidad del activo pero no encuentra razón para desviarse.
+riesgos:
+  - Sensible a la demanda de viaje discrecional y al tipo de cambio.
+  - Regulación tarifaria por la Secretaría de Infraestructura acota el margen de maniobra en precios.
+
+
+=== AMXB ===
+nombre: América Móvil, S.A.B. de C.V.
+sector: Comunicaciones
+industria: Telecomunicaciones móviles y fijas
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: americamovil.com
+descripcion:
+  Operador de telecomunicaciones con presencia en más de veinte países de América y Europa.
+  Cerca del 64% de sus ingresos se genera fuera de México, lo que la vuelve sensible al tipo de cambio por conversión.
+  Su negocio de conectividad es relativamente inelástico al ciclo, lo que le da carácter defensivo dentro de la canasta.
+
+# ───────── MERCADO ─────────
+rango_52s: 17.35 - 23.64
+ytd: +5.61%
+rend_1a: +7.92%
+rend_3a: +29.99%
+rend_5a: +24.33%
+beta_5a: 0.525
+volatilidad_anual: 23.81%
+r2_vs_indice: 0.109
+valor_mercado: MXN 1,156,980 MDP
+div_yield: 2.8%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 5.8956%
+peso_indice: 8.90%
+esg_sp: 65
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Utilidad neta creciendo 9.2% anual en el segundo trimestre, EBITDA +3.8% en pesos y apalancamiento bajo de 1.31 veces deuda neta a EBITDAaL.
+  Beta de 0.53, la más baja entre las posiciones grandes: es el contrapeso defensivo de la exposición cíclica.
+riesgos:
+  - Litigios abiertos con el IFT, el IRS y en Brasil.
+  - Depuración regulatoria de líneas en México.
+  - El 64% de ingresos fuera de México expone el resultado reportado a conversión cambiaria; las coberturas ya generaron pérdida de 4,596 millones en el semestre.
+
+
+=== WALMEX ===
+nombre: Wal-Mart de México, S.A.B. de C.V.
+sector: Consumo Frecuente
+industria: Autoservicio y comercio minorista
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: walmex.mx
+descripcion:
+  Mayor cadena de autoservicio de México y Centroamérica, con formatos Walmart, Bodega Aurrerá, Sam´s Club y Superama.
+
+# ───────── MERCADO ─────────
+rango_52s: 45.49 - 61.97
+ytd: -19.00%
+rend_1a: -17.62%
+rend_3a: -26.47%
+rend_5a: -28.19%
+beta_5a: 0.699
+volatilidad_anual: 23.24%
+r2_vs_indice: 0.203
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 5.2530%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Sobreponderación de 1.77 puntos.
+  Consumo básico con beta de 0.70 que funciona como ancla defensiva del bloque de Consumer Staples.
+  Cotiza en el piso de su rango de 52 semanas, lo que el factor Value recoge favorablemente.
+riesgos:
+  - Cotiza en el mínimo de 52 semanas: el momentum de precio sigue en contra.
+  - Presión competitiva de comercio electrónico y de formatos de descuento.
+  - Caída de 19% en el año, el peor desempeño del bloque defensivo.
+
+
+=== ASURB ===
+nombre: Grupo Aeroportuario del Sureste, S.A.B. de C.V.
+sector: Industriales
+industria: Concesiones aeroportuarias
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: asur.com.mx
+descripcion:
+  Concesionario de nueve aeropuertos en el sureste mexicano, seis en Colombia y uno en Puerto Rico.
+  Cancún concentra la mayor parte de su tráfico.
+
+# ───────── MERCADO ─────────
+rango_52s: 425.74 - 638.54
+ytd: -24.60%
+rend_1a: -27.35%
+rend_3a: +13.97%
+rend_5a: +59.23%
+beta_5a: 1.094
+volatilidad_anual: 27.16%
+r2_vs_indice: 0.365
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 3.3726%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Peso prácticamente idéntico al del índice.
+  El modelo mantiene la exposición aeroportuaria repartida entre ASUR y GAP en lugar de concentrarla en un solo concesionario.
+riesgos:
+  - Concentración en Cancún: cualquier choque al turismo del Caribe pega de forma directa.
+  - Exposición regulatoria en Colombia y Puerto Rico.
+
+
+=== AC ===
+nombre: Arca Continental, S.A.B. de C.V.
+sector: Consumo Frecuente
+industria: Embotellado de bebidas
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: arcacontal.com
+descripcion:
+  Segundo embotellador de Coca-Cola más grande de América Latina, con operaciones en México, Estados Unidos, Ecuador, Perú y Argentina.
+
+# ───────── MERCADO ─────────
+rango_52s: 170.10 - 227.13
+ytd: +4.58%
+rend_1a: +7.55%
+rend_3a: +35.99%
+rend_5a: +90.90%
+beta_5a: 0.509
+volatilidad_anual: 20.00%
+r2_vs_indice: 0.145
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 3.1230%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Subponderada 1.5 puntos.
+  El negocio es sólido pero la valuación relativa frente a su sector no justifica el peso pasivo completo bajo el factor Value.
+riesgos:
+  - Costos de edulcorantes y empaque presionan margen.
+  - Exposición a Argentina y su volatilidad cambiaria.
+
+
+=== KOFUBL ===
+nombre: Coca-Cola FEMSA, S.A.B. de C.V.
+sector: Consumo Frecuente
+industria: Embotellado de bebidas
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: coca-colafemsa.com
+descripcion:
+  Mayor embotellador de Coca-Cola del mundo por volumen, con operaciones en México, Centroamérica y Sudamérica.
+
+# ───────── MERCADO ─────────
+rango_52s: 142.72 - 197.88
+ytd: +12.98%
+rend_1a: +24.57%
+rend_3a: +48.19%
+rend_5a: +96.20%
+beta_5a: 0.568
+volatilidad_anual: 21.47%
+r2_vs_indice: 0.157
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 2.5830%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Subponderación de 3.61 puntos, la mayor apuesta en contra de toda la cartera.
+  El modelo prefiere la exposición a bebidas por la vía de FEMSA, que además captura el negocio de proximidad de OXXO.
+riesgos:
+  - La subponderación de 3.61 puntos es la mayor apuesta en contra: si el nombre repunta, es el que más resta al retorno activo.
+  - Impuestos a bebidas azucaradas en varias jurisdicciones.
+
+
+=== VESTA ===
+nombre: Corporación Inmobiliaria Vesta, S.A.B. de C.V.
+sector: Bienes Raíces
+industria: Parques industriales en arrendamiento
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: vesta.com.mx
+descripcion:
+  Desarrolladora y arrendadora de parques industriales con contratos mayoritariamente denominados en dólares.
+  Es la exposición directa de la cartera al nearshoring.
+
+# ───────── MERCADO ─────────
+rango_52s: 47.65 - 63.58
+ytd: +4.17%
+rend_1a: +8.28%
+rend_3a: -9.37%
+rend_5a: +63.36%
+beta_5a: 0.739
+volatilidad_anual: 23.33%
+r2_vs_indice: 0.225
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 2.1714%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Sobreponderación de 1.42 puntos.
+  Nearshoring, ocupación alta y rentas denominadas en dólares.
+  Su beta de 0.74 y su baja correlación con la banca la vuelven un diversificador real dentro de la parte activa.
+catalizadores:
+  - Nearshoring y ocupación alta
+  - Rentas denominadas en dólares
+riesgos:
+  - Exposición directa a la revisión del T-MEC y a la política comercial de Estados Unidos.
+  - La apreciación del peso reduce el valor en pesos de rentas denominadas en dólares.
+
+
+=== KIMBERA ===
+nombre: Kimberly-Clark de México, S.A.B. de C.V.
+sector: Consumo Frecuente
+industria: Productos de cuidado personal y del hogar
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: kimberly-clark.com.mx
+descripcion:
+  Fabricante de productos de cuidado personal y del hogar con marcas como Kleenex, Huggies y Petalo.
+
+# ───────── MERCADO ─────────
+rango_52s: 32.83 - 42.60
+ytd: +3.68%
+rend_1a: +9.91%
+rend_3a: +15.11%
+rend_5a: +39.17%
+beta_5a: 0.774
+volatilidad_anual: 23.97%
+r2_vs_indice: 0.234
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 1.8468%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Posición prácticamente neutral.
+  Aporta estabilidad de márgenes al factor Quality sin consumir presupuesto de tracking error.
+riesgos:
+  - Costos de pulpa y resinas atados al dólar.
+  - Poder de fijación de precios limitado frente a marcas propias de autoservicio.
+
+
+=== GCC ===
+nombre: GCC, S.A.B. de C.V.
+sector: Materiales
+industria: Cemento y concreto
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: gcc.com
+descripcion:
+  Productora de cemento y concreto con operaciones en el norte de México y en el centro de Estados Unidos, donde genera la mayor parte de sus ingresos.
+
+# ───────── MERCADO ─────────
+rango_52s: 155.06 - 217.43
+ytd: +1.92%
+rend_1a: +5.15%
+rend_3a: +12.83%
+rend_5a: +30.97%
+beta_5a: 0.836
+volatilidad_anual: 26.99%
+r2_vs_indice: 0.216
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 1.8252%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No forma parte del índice, así que los 3.04 puntos de peso activo son sobreponderación pura y toda la posición contribuye directo al tracking error.
+  La tesis descansa en su exposición a infraestructura en Estados Unidos, un motor de demanda distinto al del resto de la canasta doméstica.
+catalizadores:
+  - Gasto en infraestructura en Estados Unidos
+  - Sobreponderación pura sin peso en el índice
+riesgos:
+  - Toda la posición es sobreponderación pura: no hay ancla de benchmark que comparta el riesgo.
+  - Depende del gasto en infraestructura en Estados Unidos y del clima en el ciclo de construcción.
+
+
+=== PINFRA ===
+nombre: Promotora y Operadora de Infraestructura, S.A.B. de C.V.
+sector: Industriales
+industria: Concesiones carreteras
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: pinfra.com.mx
+descripcion:
+  Concesionaria de autopistas de cuota en México, con una de las estructuras de capital más conservadoras del sector de infraestructura.
+
+# ───────── MERCADO ─────────
+rango_52s: 227.62 - 302.95
+ytd: -0.67%
+rend_1a: +7.99%
+rend_3a: +69.36%
+rend_5a: +116.36%
+beta_5a: 0.736
+volatilidad_anual: 23.16%
+r2_vs_indice: 0.227
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 1.6242%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Segundo score compuesto más alto del universo con +1.22, impulsado por un z-Value excepcional de +1.66, la acción más barata frente a su sector ese día, y un z-Quality de +1.20.
+  Sobreponderada 2.14 puntos sobre un peso de índice mínimo.
+catalizadores:
+  - Valuación más barata del universo frente a su sector según el factor Value
+  - Estructura de capital conservadora
+riesgos:
+  - Bursatilidad moderada: el costo de entrada y salida de una posición activa grande puede superar el beneficio del sesgo.
+  - Riesgo regulatorio y de renegociación de concesiones.
+
+
+=== BBAJIOO ===
+nombre: Banco del Bajío, S.A., Institución de Banca Múltiple
+sector: Financieros
+industria: Banca comercial y agroindustrial
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: bb.com.mx
+descripcion:
+  Banco comercial especializado en empresas medianas y en el sector agroindustrial, con la mayor exposición agroexportadora del sistema bancario mexicano listado.
+  Paga el dividend yield más alto de la canasta analizada.
+
+# ───────── MERCADO ─────────
+rango_52s: 40.45 - 58.68
+ytd: +34.75%
+rend_1a: +36.91%
+rend_3a: +47.60%
+rend_5a: +171.12%
+beta_5a: 0.839
+volatilidad_anual: 29.44%
+r2_vs_indice: 0.182
+valor_mercado: MXN 68,412 MDP
+div_yield: 9.4%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 1.0788%
+peso_indice: 2.14%
+esg_sp: 34
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Punto de inflexión operativo con utilidad neta creciendo 3.7% trimestral, guía anual revisada al alza y calificación de depósitos elevada a AAA.mx por Moody´s Local.
+  Aun así el modelo lo deja por debajo del índice: su ESG de 34 es señal de alerta en un índice con sesgo ESG.
+catalizadores:
+  - Guía anual revisada al alza: cartera 11% a 12% y utilidad de 8,400 a 9,000 millones
+  - Dividend yield de 9.4%, el más alto de la canasta
+  - Costo de riesgo bajo en 0.55%
+riesgos:
+  - ESG de 34 en un índice con sesgo ESG: perfil que históricamente precede a recortes de peso del índice.
+  - Exposición agroexportadora de 6.44% de la cartera comercial ante la revisión del T-MEC.
+  - El re-rating positivo reciente ya está parcialmente en precio.
+
+
+=== TLEVISACPO ===
+nombre: Grupo Televisa, S.A.B.
+sector: Comunicaciones
+industria: Cable, satélite y contenidos
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: televisair.com
+descripcion:
+  Grupo de medios y telecomunicaciones cuyo negocio principal hoy es Cable y Sky tras la separación del negocio de contenidos.
+  La expansión de margen por sinergias convive con una pérdida neta reciente y con dilución potencial por obligaciones convertibles.
+
+# ───────── MERCADO ─────────
+rango_52s: 7.93 - 11.85
+ytd: -25.05%
+rend_1a: -23.98%
+rend_3a: -40.26%
+rend_5a: -81.74%
+beta_5a: 1.029
+volatilidad_anual: 44.71%
+r2_vs_indice: 0.119
+valor_mercado: MXN 24,320 MDP
+div_yield: 2.9%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 1.0512%
+peso_indice: 0.70%
+esg_sp: 47
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Sobreponderación táctica de 1.04 puntos tomada después de la caída por el anuncio preliminar de posible salida del S&P/BMV IPC.
+  Es una apuesta de rebote sobre una venta técnica que parece excesiva frente a la mejora operativa de Cable y Sky, no una posición estructural.
+catalizadores:
+  - Expansión de margen de 310 puntos base a 41.8% por sinergias de Cable y Sky
+  - Liquidez de aproximadamente 45,900 millones
+  - Programa de recompra de 2,000 millones disponible
+riesgos:
+  - Revisión activa de exclusión del S&P/BMV IPC el 21 de septiembre: ventas forzadas de fondos indexados sin relación con fundamentales.
+  - Pérdida neta de 497.4 millones en el segundo trimestre y suspensión del dividendo anual 2026.
+  - Dilución potencial de hasta 19.48% por obligaciones convertibles.
+  - Volatilidad anualizada de 44.7%, la segunda más alta de la cartera.
+
+
+=== OMAB ===
+nombre: Grupo Aeroportuario del Centro Norte, S.A.B. de C.V.
+sector: Industriales
+industria: Concesiones aeroportuarias
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: oma.aero
+descripcion:
+  Concesionario de trece aeropuertos en el centro y norte de México, con Monterrey como principal activo.
+
+# ───────── MERCADO ─────────
+rango_52s: 206.96 - 279.00
+ytd: -11.43%
+rend_1a: -11.29%
+rend_3a: +19.93%
+rend_5a: +151.98%
+beta_5a: 1.273
+volatilidad_anual: 34.29%
+r2_vs_indice: 0.309
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 1.0128%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Subponderada 2.32 puntos.
+  Dentro del bloque aeroportuario el modelo prefiere GAP y ASUR por score compuesto.
+riesgos:
+  - Concentración en Monterrey y exposición al ciclo industrial del norte.
+  - Subponderar 2.32 puntos implica renunciar al aeropuerto con mayor crecimiento de carga.
+
+
+=== ALSEA ===
+nombre: Alsea, S.A.B. de C.V.
+sector: Consumo Discrecional
+industria: Operación de restaurantes
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: alsea.net
+descripcion:
+  Operadora de restaurantes con marcas franquiciadas en México, Europa y Sudamérica, entre ellas Starbucks, Domino´s Pizza y Burger King.
+  Su ventaja está en escalar marcas globales sobre una misma plataforma de servicios compartidos, con compras consolidadas y 94% de proveedores locales.
+
+# ───────── MERCADO ─────────
+rango_52s: 39.80 - 60.07
+ytd: -18.39%
+rend_1a: -19.90%
+rend_3a: -25.06%
+rend_5a: +10.09%
+beta_5a: 0.691
+volatilidad_anual: 30.75%
+r2_vs_indice: 0.113
+valor_mercado: MXN 34,032 MDP
+div_yield: 1.5%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.4746%
+peso_indice: 0.00%
+esg_sp: 39
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Fuera del índice, así que toda la posición es apuesta activa.
+  Refinanciamiento exitoso de 4,000 millones a tasa fija, flujo libre de caja positivo y licencia de Starbucks extendida hasta 2046.
+  Posición deliberadamente pequeña por la guía recortada.
+catalizadores:
+  - Refinanciamiento de 4,000 millones a tasa fija
+  - Licencia de Starbucks extendida hasta 2046
+  - Flujo libre de caja positivo
+riesgos:
+  - ESG de 39 y sin ancla de benchmark: apuesta 100% activa sobre consumo discrecional.
+  - Guía anual 2026 recortada por menor consumo; ventas netas -0.9% y EBITDA ajustado -6.2% en el segundo trimestre.
+  - La fortaleza del peso reduce los ingresos reportados de las operaciones internacionales.
+
+
+=== GRUMAB ===
+nombre: Gruma, S.A.B. de C.V.
+sector: Consumo Frecuente
+industria: Harina de maíz y tortilla
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: gruma.com
+descripcion:
+  Productora de harina de maíz y tortilla con operaciones en México, Estados Unidos, Europa y Centroamérica.
+
+# ───────── MERCADO ─────────
+rango_52s: 233.54 - 345.98
+ytd: -23.63%
+rend_1a: -28.25%
+rend_3a: -16.54%
+rend_5a: +5.77%
+beta_5a: 0.361
+volatilidad_anual: 22.94%
+r2_vs_indice: 0.055
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.4710%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Sobreponderación marginal de 0.39 puntos.
+  ROE de 24.6% y múltiplo de nueve veces utilidad, de los más bajos del bloque de alimentos.
+riesgos:
+  - Precio del maíz y tipo de cambio determinan el margen.
+  - Exposición a la política migratoria de Estados Unidos por el consumo de su mercado principal.
+
+
+=== BIMBOA ===
+nombre: Grupo Bimbo, S.A.B. de C.V.
+sector: Consumo Frecuente
+industria: Panificación
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: grupobimbo.com
+descripcion:
+  Panificadora global con presencia en más de veinte países y cerca de cien marcas, entre ellas Bimbo, Barcel, Sara Lee, Oroweat y Entenmann´s.
+
+# ───────── MERCADO ─────────
+rango_52s: 52.63 - 67.34
+ytd: -4.37%
+rend_1a: -10.44%
+rend_3a: -30.96%
+rend_5a: +2.92%
+beta_5a: 0.573
+volatilidad_anual: 26.87%
+r2_vs_indice: 0.102
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.3942%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Subponderada 1.35 puntos.
+  Márgenes brutos muy por encima de la industria pero margen neto de apenas 3.03% contra 11.13% del sector, con apalancamiento de 162% sobre capital y cobertura de intereses de 2.6 veces.
+riesgos:
+  - Apalancamiento de 162% sobre capital con cobertura de intereses de apenas 2.6 veces.
+  - Margen neto de 3.03% contra 11.13% de la industria.
+  - Deterioro del pilar de gobernanza en el puntaje ESG, de 87.27 a 77.37.
+
+
+=== BOLSAA ===
+nombre: Bolsa Mexicana de Valores, S.A.B. de C.V.
+sector: Financieros
+industria: Infraestructura de mercados
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: bmv.com.mx
+descripcion:
+  Operadora de la Bolsa Mexicana de Valores.
+  Sus ingresos dependen del volumen operado, los listados y la actividad del mercado de capitales, lo que la hace procíclica al propio sentimiento accionario.
+
+# ───────── MERCADO ─────────
+rango_52s: 32.13 - 39.54
+ytd: +8.15%
+rend_1a: +7.12%
+rend_3a: +31.67%
+rend_5a: +27.18%
+beta_5a: 0.518
+volatilidad_anual: 23.72%
+r2_vs_indice: 0.107
+valor_mercado: MXN 21,219 MDP
+div_yield: 5.9%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.3930%
+peso_indice: 0.00%
+esg_sp: 70
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Fuera del índice y posición mínima.
+  ESG alto de 70, pero su negocio es procíclico al mismo mercado que la cartera busca superar: no diversifica, amplifica el factor de riesgo que ya domina el portafolio.
+riesgos:
+  - Al no estar en el índice, toda la posición contribuye directo al tracking error.
+  - Riesgo de doble exposición: sufre en el mismo escenario de aversión al riesgo que afecta al resto de la canasta.
+
+
+=== RA ===
+nombre: RA
+sector: 
+industria: 
+pais: México
+bolsa: Bolsa Mexicana de Valores
+descripcion:
+  Banco regional con base en Monterrey, enfocado en empresas medianas y banca patrimonial.
+  Su cartera se concentra en Nuevo León (28%) y Jalisco (14%), con participación relevante del sector inmobiliario.
+
+# ───────── MERCADO ─────────
+rango_52s: 123.28 - 157.22
+ytd: +1.34%
+rend_1a: +0.65%
+rend_3a: +32.29%
+rend_5a: +66.36%
+beta_5a: 0.912
+volatilidad_anual: 28.27%
+r2_vs_indice: 0.234
+valor_mercado: MXN 45,830 MDP
+div_yield: 5.1%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_indice: 1.11%
+esg_sp: 43
+
+# ───────── NUESTRA POSTURA ─────────
+catalizadores:
+  - Dividendo de noviembre; el histórico fue de 3.35 pesos por acción en 2025
+  - ROAE de 17.7% con cartera creciendo 11% anual
+  - Depósitos core creciendo 16%
+
+
+=== GENTERA ===
+nombre: GENTERA
+sector: 
+industria: 
+pais: México
+bolsa: Bolsa Mexicana de Valores
+descripcion:
+  Grupo financiero especializado en microcrédito a través de Compartamos Banco, dirigido a segmentos de la población sin acceso a la banca tradicional.
+  Su modelo es más sensible al ciclo económico que la banca comercial.
+
+# ───────── MERCADO ─────────
+rango_52s: 35.72 - 53.24
+ytd: -14.72%
+rend_1a: -13.87%
+rend_3a: +99.46%
+rend_5a: +315.85%
+beta_5a: 0.788
+volatilidad_anual: 30.92%
+r2_vs_indice: 0.146
+valor_mercado: MXN 60,215 MDP
+div_yield: 3.1%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_indice: 0.74%
+esg_sp: 37
+
+# ───────── NUESTRA POSTURA ─────────
+catalizadores:
+  - Utilidad neta récord semestral con alza de 11.9% y ROE de 25.0%
+  - Dividendo relevante pagado en noviembre
+  - ICAP de Compartamos en 32.10%
+
+
+=== Q ===
+nombre: Q
+sector: 
+industria: 
+pais: México
+bolsa: Bolsa Mexicana de Valores
+descripcion:
+  Aseguradora líder del ramo automotriz en México, con 33% a 34% de participación de mercado y más de seis millones de unidades aseguradas.
+  El 14.3% de su portafolio de inversión está en renta variable global, lo que la conecta de forma indirecta con la volatilidad de los mercados de capitales.
+
+# ───────── MERCADO ─────────
+rango_52s: 148.71 - 186.09
+ytd: -14.96%
+rend_1a: -8.92%
+rend_3a: +29.62%
+rend_5a: +100.37%
+beta_5a: 0.565
+volatilidad_anual: 29.22%
+r2_vs_indice: 0.084
+valor_mercado: MXN 61,929 MDP
+div_yield: 4.4%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_indice: 1.39%
+esg_sp: 53
+
+# ───────── NUESTRA POSTURA ─────────
+catalizadores:
+  - Liderazgo de mercado de 33.3% a 34.2% con 6.14 millones de unidades aseguradas
+  - Índice combinado en 92.8%, dentro del rango objetivo
+  - Solvencia de 341% y rendimiento de 8.9% en el portafolio de inversión
+
+
+=== MEGACPO ===
+nombre: MEGACPO
+sector: 
+industria: 
+pais: México
+bolsa: Bolsa Mexicana de Valores
+descripcion:
+  Operador de cable y telecomunicaciones con más de seis millones de suscriptores de internet.
+  El 100% de su deuda está en pesos y su apalancamiento es bajo, pero enfrenta competencia directa de Totalplay con una cobertura de hogares casi idéntica.
+
+# ───────── MERCADO ─────────
+rango_52s: 47.27 - 64.10
+ytd: +3.19%
+rend_1a: -5.38%
+rend_3a: +49.76%
+rend_5a: +5.32%
+beta_5a: 0.660
+volatilidad_anual: 32.62%
+r2_vs_indice: 0.092
+valor_mercado: MXN 43,625 MDP
+div_yield: 6.2%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_indice: 0.62%
+esg_sp: 28
+
+# ───────── NUESTRA POSTURA ─────────
+catalizadores:
+  - Más de seis millones de suscriptores de internet
+  - EBITDA menos CAPEX de 1.7 veces con apalancamiento de 1.37
+  - 100% de la deuda en pesos
+
+
+=== LIVEPOLC1 ===
+nombre: LIVEPOLC1
+sector: 
+industria: 
+pais: México
+bolsa: Bolsa Mexicana de Valores
+descripcion:
+  Cadena de tiendas departamentales con un ecosistema integrado de retail, crédito e inmobiliaria.
+  Es el mayor emisor de tarjetas de crédito no bancarias de México: sus medios de pago propios representan más del 54% de las ventas del formato Liverpool.
+  Mantiene 49.9% de Nordstrom.
+
+# ───────── MERCADO ─────────
+rango_52s: 83.83 - 109.39
+ytd: +2.37%
+rend_1a: +12.00%
+rend_3a: +4.43%
+rend_5a: +34.63%
+beta_5a: 0.524
+volatilidad_anual: 21.84%
+r2_vs_indice: 0.129
+valor_mercado: MXN 136,880 MDP
+div_yield: 2.4%
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_indice: 0.00%
+esg_sp: 51
+
+# ───────── NUESTRA POSTURA ─────────
+catalizadores:
+  - Utilidad neta +55.4% en el segundo trimestre
+  - Dividendo de octubre de 1.18 pesos por acción
+  - Grado de inversión BBB/BBB+ con apalancamiento de 0.62 veces
+
+
+=== GFINBURO ===
+nombre: GFINBURO
+sector: 
+industria: 
+pais: México
+bolsa: Bolsa Mexicana de Valores
+descripcion:
+  Grupo financiero del Grupo Carso con banca, seguros y casa de bolsa, caracterizado por una estructura de capitalización elevada y un modelo de negocio conservador en originación de crédito.
+
+# ───────── MERCADO ─────────
+rango_52s: 40.94 - 51.87
+ytd: +0.38%
+rend_1a: -14.46%
+rend_3a: +20.96%
+rend_5a: +147.17%
+beta_5a: 0.832
+volatilidad_anual: 28.08%
+r2_vs_indice: 0.197
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_indice: 0.00%
+
+# ───────── NUESTRA POSTURA ─────────
