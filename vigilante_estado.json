@@ -1,8 +1,8 @@
 {
   "estado": "ok",
-  "detalle": "Publicando",
+  "detalle": "BMV cerrada, en espera",
   "errores_seguidos": 0,
-  "ultima_revision": "2026-09-22T19:16:28+00:00",
-  "hora_cdmx": "22/09/2026 13:16",
+  "ultima_revision": "2026-09-22T23:25:20+00:00",
+  "hora_cdmx": "22/09/2026 17:25",
   "maquina": "DAHEL"
 }
