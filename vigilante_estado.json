@@ -1,8 +1,8 @@
 {
-  "estado": "ok",
-  "detalle": "BMV cerrada, en espera",
-  "errores_seguidos": 0,
-  "ultima_revision": "2026-09-22T23:25:20+00:00",
-  "hora_cdmx": "22/09/2026 17:25",
+  "estado": "error",
+  "detalle": "1 fallos seguidos al leer de Workspace",
+  "errores_seguidos": 1,
+  "ultima_revision": "2026-09-22T23:43:51+00:00",
+  "hora_cdmx": "22/09/2026 17:43",
   "maquina": "DAHEL"
 }
