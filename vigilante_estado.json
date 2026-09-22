@@ -1,8 +1,8 @@
 {
-  "estado": "error",
-  "detalle": "1 fallos seguidos al leer de Workspace",
-  "errores_seguidos": 1,
-  "ultima_revision": "2026-09-22T23:43:51+00:00",
-  "hora_cdmx": "22/09/2026 17:43",
+  "estado": "ok",
+  "detalle": "Vigilante iniciado",
+  "errores_seguidos": 0,
+  "ultima_revision": "2026-09-22T23:48:31+00:00",
+  "hora_cdmx": "22/09/2026 17:48",
   "maquina": "DAHEL"
 }
