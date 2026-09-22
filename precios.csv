@@ -1,22 +1,22 @@
 simbolo,titulos,compra,venta,actual,fecha_compra,fecha_venta,razon
 MEXTRAC,12666,62.94,,62.8500,2026-09-08,,Cartera pasiva: replica exacta del indice MEXTRAC 09 conforme al mandato 60/40
-FEMSAUBD,810,202.18,,210.6000,2026-09-08,,Score compuesto mas alto del universo en el rebalanceo V0: z-Quality +1.72 y z-Momentum +2.04. Mayor posicion de la parte activa.
-GMEXICOB,631,229.56,,223.4700,2026-09-08,,Segundo peso del indice con score alto. Beta 1.41 es la mas alta de la canasta: aporta la exposicion ciclica de la cartera.
-GFNORTEO,601,199.85,,197.0900,2026-09-08,,"ROE 24.8% al 1S26 y MIN de 6.8%. ESG 71, el mas alto de la canasta financiera. Se mantiene ligeramente por debajo del indice por concentracion."
-GAPB,339,348.09,,360.0400,2026-09-08,,Trafico de pasajeros al alza y margen UAFIDA de 69.3%. Practicamente neutral contra el indice.
-AMXB,6035,19.47,,19.2100,2026-09-08,,Utilidad neta +9.2% en 2T26 y apalancamiento de 1.31x. Beta 0.53: la posicion mas defensiva de las grandes.
-WALMEX,2258,46.37,,45.3000,2026-09-08,,"Sobreponderacion de 1.77pp. Consumo basico con beta 0.70, ancla defensiva del bloque Consumer Staples."
-ASURB,155,432.24,,423.9400,2026-09-08,,Aeropuertos con exposicion al sureste. Peso practicamente igual al del indice.
-AC,324,192.0,,197.7500,2026-09-08,,Bebidas defensivas. Subponderada 1.5pp frente al indice: el score de Value no justifica el peso pasivo completo.
-KOFUBL,278,185.38,,193.7100,2026-09-08,,"Subponderacion de 3.61pp, la mayor apuesta en contra de la cartera. Valuacion relativa por debajo del sector."
-VESTA,750,57.72,,56.7700,2026-09-08,,Nearshoring y rentas en dolares. Sobreponderada 1.42pp; beta 0.74 y correlacion baja con banca.
-KIMBERA,945,38.96,,38.7800,2026-09-08,,"Cuidado del hogar, practicamente neutral. Aporta estabilidad de margenes al score de Quality."
-GCC,193,188.94,,182.5000,2026-09-08,,Fuera del indice: los 3.04pp son sobreponderacion pura. Cemento con exposicion a infraestructura en Estados Unidos.
-PINFRA,120,270.03,,263.3900,2026-09-08,,Segundo score compuesto mas alto (+1.22) por z-Value de +1.66. Sobreponderada 2.14pp sobre un peso indice minimo.
-BBAJIOO,372,57.76,,57.0600,2026-09-08,,"Dividend yield de 9.4%, el mas alto de la canasta. Se mantiene por debajo del indice por su ESG de 34 en un indice ESG-tilted."
-TLEVISACPO,2500,8.38,,8.5300,2026-09-08,,"Sobreponderacion tactica de 1.04pp tras la caida por el anuncio de posible salida del IPC. Apuesta de rebote, no estructural."
-OMAB,96,209.98,,222.5300,2026-09-08,,Subponderada 2.32pp. Se prefiere GAPB y ASURB dentro del bloque aeroportuario.
-ALSEA,216,43.7,,43.2900,2026-09-08,,"Fuera del indice. Posicion pequena: refinanciamiento exitoso y licencia Starbucks a 2046, contra guia 2026 recortada."
-GRUMAB,39,238.44,,235.2600,2026-09-08,,Alimentos empacados con ROE de 24.6%. Sobreponderacion marginal de 0.39pp.
-BOLSAA,199,39.4,,38.7700,2026-09-08,,Fuera del indice. Posicion minima: ESG de 70 pero negocio procíclico al propio mercado que la cartera busca superar.
-BIMBOA,140,55.99,,55.6000,2026-09-08,,Subponderada 1.35pp. Margen neto de 3.03% contra 11.13% de la industria y apalancamiento de 162%.
+FEMSAUBD,810,202.18,,210.5600,2026-09-08,,Score compuesto mas alto del universo en el rebalanceo V0: z-Quality +1.72 y z-Momentum +2.04. Mayor posicion de la parte activa.
+GMEXICOB,631,229.56,,222.5300,2026-09-08,,Segundo peso del indice con score alto. Beta 1.41 es la mas alta de la canasta: aporta la exposicion ciclica de la cartera.
+GFNORTEO,601,199.85,,197.2000,2026-09-08,,"ROE 24.8% al 1S26 y MIN de 6.8%. ESG 71, el mas alto de la canasta financiera. Se mantiene ligeramente por debajo del indice por concentracion."
+GAPB,339,348.09,,359.8800,2026-09-08,,Trafico de pasajeros al alza y margen UAFIDA de 69.3%. Practicamente neutral contra el indice.
+AMXB,6035,19.47,,19.2300,2026-09-08,,Utilidad neta +9.2% en 2T26 y apalancamiento de 1.31x. Beta 0.53: la posicion mas defensiva de las grandes.
+WALMEX,2258,46.37,,45.3300,2026-09-08,,"Sobreponderacion de 1.77pp. Consumo basico con beta 0.70, ancla defensiva del bloque Consumer Staples."
+ASURB,155,432.24,,423.6800,2026-09-08,,Aeropuertos con exposicion al sureste. Peso practicamente igual al del indice.
+AC,324,192.0,,197.5400,2026-09-08,,Bebidas defensivas. Subponderada 1.5pp frente al indice: el score de Value no justifica el peso pasivo completo.
+KOFUBL,278,185.38,,193.7000,2026-09-08,,"Subponderacion de 3.61pp, la mayor apuesta en contra de la cartera. Valuacion relativa por debajo del sector."
+VESTA,750,57.72,,56.7300,2026-09-08,,Nearshoring y rentas en dolares. Sobreponderada 1.42pp; beta 0.74 y correlacion baja con banca.
+KIMBERA,945,38.96,,38.7700,2026-09-08,,"Cuidado del hogar, practicamente neutral. Aporta estabilidad de margenes al score de Quality."
+GCC,193,188.94,,182.7500,2026-09-08,,Fuera del indice: los 3.04pp son sobreponderacion pura. Cemento con exposicion a infraestructura en Estados Unidos.
+PINFRA,120,270.03,,263.3400,2026-09-08,,Segundo score compuesto mas alto (+1.22) por z-Value de +1.66. Sobreponderada 2.14pp sobre un peso indice minimo.
+BBAJIOO,372,57.76,,57.1600,2026-09-08,,"Dividend yield de 9.4%, el mas alto de la canasta. Se mantiene por debajo del indice por su ESG de 34 en un indice ESG-tilted."
+TLEVISACPO,2500,8.38,,8.5200,2026-09-08,,"Sobreponderacion tactica de 1.04pp tras la caida por el anuncio de posible salida del IPC. Apuesta de rebote, no estructural."
+OMAB,96,209.98,,221.5600,2026-09-08,,Subponderada 2.32pp. Se prefiere GAPB y ASURB dentro del bloque aeroportuario.
+ALSEA,216,43.7,,43.3000,2026-09-08,,"Fuera del indice. Posicion pequena: refinanciamiento exitoso y licencia Starbucks a 2046, contra guia 2026 recortada."
+GRUMAB,39,238.44,,234.9600,2026-09-08,,Alimentos empacados con ROE de 24.6%. Sobreponderacion marginal de 0.39pp.
+BOLSAA,199,39.4,,38.6400,2026-09-08,,Fuera del indice. Posicion minima: ESG de 70 pero negocio procíclico al propio mercado que la cartera busca superar.
+BIMBOA,140,55.99,,55.5500,2026-09-08,,Subponderada 1.35pp. Margen neto de 3.03% contra 11.13% de la industria y apalancamiento de 162%.
