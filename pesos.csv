@@ -1,0 +1,23 @@
+simbolo,peso,razon
+MEXTRAC,39.9986,"Cartera pasiva: réplica del índice MEXTRAC 09. Peso derivado de 12,666 títulos por regla de tres"
+EFECTIVO,0.0101,Remanente tras comprar títulos enteros; la estrategia V5 busca 0% de efectivo
+FEMSAUBD,8.2168,Score compuesto mas alto del universo en el rebalanceo V0: z-Quality +1.72 y z-Momentum +2.04. Mayor posicion de la parte activa.
+GMEXICOB,7.2678,Segundo peso del indice con score alto. Beta 1.41 es la mas alta de la canasta: aporta la exposicion ciclica de la cartera.
+GFNORTEO,6.0264,"ROE 24.8% al 1S26 y MIN de 6.8%. ESG 71, el mas alto de la canasta financiera. Se mantiene ligeramente por debajo del indice por concentracion."
+GAPB,5.9207,Trafico de pasajeros al alza y margen UAFIDA de 69.3%. Practicamente neutral contra el indice.
+AMXB,5.8955,Utilidad neta +9.2% en 2T26 y apalancamiento de 1.31x. Beta 0.53: la posicion mas defensiva de las grandes.
+WALMEX,5.2534,"Sobreponderacion de 1.77pp. Consumo basico con beta 0.70, ancla defensiva del bloque Consumer Staples."
+ASURB,3.3615,Aeropuertos con exposicion al sureste. Peso practicamente igual al del indice.
+AC,3.1212,Bebidas defensivas. Subponderada 1.5pp frente al indice: el score de Value no justifica el peso pasivo completo.
+KOFUBL,2.5858,"Subponderacion de 3.61pp, la mayor apuesta en contra de la cartera. Valuacion relativa por debajo del sector."
+VESTA,2.1720,Nearshoring y rentas en dolares. Sobreponderada 1.42pp; beta 0.74 y correlacion baja con banca.
+KIMBERA,1.8473,"Cuidado del hogar, practicamente neutral. Aporta estabilidad de margenes al score de Quality."
+GCC,1.8296,Fuera del indice: los 3.04pp son sobreponderacion pura. Cemento con exposicion a infraestructura en Estados Unidos.
+PINFRA,1.6258,Segundo score compuesto mas alto (+1.22) por z-Value de +1.66. Sobreponderada 2.14pp sobre un peso indice minimo.
+BBAJIOO,1.0781,"Dividend yield de 9.4%, el mas alto de la canasta. Se mantiene por debajo del indice por su ESG de 34 en un indice ESG-tilted."
+TLEVISACPO,1.0511,"Sobreponderacion tactica de 1.04pp tras la caida por el anuncio de posible salida del IPC. Apuesta de rebote, no estructural."
+OMAB,1.0114,Subponderada 2.32pp. Se prefiere GAPB y ASURB dentro del bloque aeroportuario.
+ALSEA,0.4736,"Fuera del indice. Posicion pequena: refinanciamiento exitoso y licencia Starbucks a 2046, contra guia 2026 recortada."
+GRUMAB,0.4666,Alimentos empacados con ROE de 24.6%. Sobreponderacion marginal de 0.39pp.
+BOLSAA,0.3934,Fuera del indice. Posicion minima: ESG de 70 pero negocio procíclico al propio mercado que la cartera busca superar.
+BIMBOA,0.3933,Subponderada 1.35pp. Margen neto de 3.03% contra 11.13% de la industria y apalancamiento de 162%.
