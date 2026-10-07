@@ -145,6 +145,168 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-07 14:12
+emisora: MERCADO
+titulo: Mexico's Exports to the U.S. Increase by 18% as the Mexican Tech Sector Gains Strength
+fuente: NOTENG
+tono: positiva
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261007:nNRA28kqpt:0
+resumen:
+  Mexico's Exports to the U.S. Increase by 18% as the Mexican Tech Sector Gains
+  StrengthMexico's exports to the United States (US) reached a total of $419.3 billion
+  during the January-August period of 2026, marking an 18% annual increase compared to
+  the same period the previous year, according to data from the US Census Bureau.
+
+---
+fecha: 2026-10-07 14:11
+emisora: MERCADO
+titulo: World Bank raises Mexico's 2026 growth forecast to 1.4%
+fuente: BNEINT
+tono: positiva
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261007:nNRA28kp0p:0
+resumen:
+  World Bank raises Mexico's 2026 growth forecast to 1.4%Oct 07, 2026 La Jornada The
+  World Bank raised its forecast for Mexico's gross domestic product (GDP) growth this
+  year to 1.4% from 1.3%,reported on October 6. The lender also lifted its 2027 estimate
+  for the Mexican economy to 1.8% from 1.7%. The upgrade still leaves Mexico behind the
+  wider region…
+
+---
+fecha: 2026-10-07 14:10
+emisora: MERCADO
+titulo: Mexico-US trade hits record $683bn in eight months
+fuente: BNEINT
+tono: positiva
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261007:nNRA28kpdu:0
+resumen:
+  Mexico-US trade hits record $683bn in eight monthsOct 07, 2026 La Jornada Trade between
+  Mexico and the US reached a record $682.82bn in the first eight months of 2026, driven
+  largely by Mexican exports,reported on October 6, citing data from the US Census
+  Bureau. In August alone, two-way trade totalled $94.29bn, up 26.7% from the same month
+  of 2025…
+
+---
+fecha: 2026-10-07 14:09
+emisora: MERCADO
+titulo: Mexico private consumption flat in July despite World Cup
+fuente: BNEINT
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261007:nNRA28ko7d:0
+resumen:
+  Mexico private consumption flat in July despite World CupOct 07, 2026 El Economista
+  Mexican household consumption was unchanged in July from the previous month, the
+  National Institute of Statistics and Geography (Inegi) reported,reported on October 5.
+  The flat reading followed a 0.5% monthly contraction in June, according to Inegi's
+  Monthly Indicator of Private Consumption…
+
+---
+fecha: 2026-10-07 14:06
+emisora: FEMSAUBD
+titulo: Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) lifts ; +16c [0.1%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28kmo5:0
+resumen:
+  Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) lifts ; +16c [0.1%]GLOBAL
+  ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Fomento Economico
+  Mexicano, S.A.B de C.V. (NYSE:FMX $117.14) has increased 16.0c (0.1%) to trade at
+  $117.14 at 15:26 pm, Wednesday. Compared with the BNY Mellon Composite ADR Index which
+  is down 4.2 points (1.5%) to 273.95, the relative price increase is 1.6%…
+
+---
+fecha: 2026-10-07 14:06
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) slides 3.7% on firm volume; -$7.83 [-3.7%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261007:nNRA28klyo:0
+resumen:
+  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) slides 3.7% on firm
+  volume; -$7.83 [-3.7%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Grupo Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC $201.37)
+  has slid $7.83 (3.7%) to trade at $201.37 at 15:26 pm, Wednesday…
+
+---
+fecha: 2026-10-07 14:06
+emisora: AMXB
+titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) increases, climbs 6.0% for week; +10c [0.4%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28kndz:0
+resumen:
+  America Movil S.A.B. de CV ADR (NYSE:AMX) increases, climbs 6.0% for week; +10c
+  [0.4%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com America Movil
+  S.A.B. de CV (NYSE:AMX $22.46), has increased 10.0c (0.4%) to trade at $22.46 at 15:26
+  pm, Wednesday. Compared with the BNY Mellon Composite ADR Index which is down 4.2
+  points (1.5%) to 273.95, the relative price increase is 1.9%…
+
+---
+fecha: 2026-10-07 13:58
+emisora: BOLSAA
+titulo: BMV - Acuerdos de Tenedores de la DALUSCK 16
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNDL2W0fzF:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/711CE595479C478C3FFCC92C2350B3BC4776AAF3). BOLSA
+  MEXICANA DE VALORES, S.A.B…
+
+---
+fecha: 2026-10-07 13:57
+emisora: KIMBERA
+titulo: Kimberly-Clark de Mexico SAB de CV (OTCMKTS:KCDMY) Sees Unusually-High Trading Volume – Time to Buy?
+fuente: TRADAJ
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261007:nNRA28kifs:0
+resumen:
+  Kimberly-Clark de Mexico SAB de CV (OTCMKTS:KCDMY) Sees Unusually-High Trading Volume –
+  Time to Buy?Oct 06, 2026 Kimberly-Clark de Mexico SAB de CV (OTCMKTS:KCDMY - Get Free
+  Report) shares saw strong trading volume on Wednesday. Approximately 143,365 shares
+  traded hands during trading, an increase of 199% from the previous session's volume of
+  47,887 shares…
+
+---
+fecha: 2026-10-07 13:57
+emisora: VESTA
+titulo: Corporacion Inmobiliaria Vesta (NYSE:VTMX) VP Melgar Pablo Barcos Sells 6,154 Shares of Company Stock
+fuente: TRADAJ
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261007:nNRA28khei:0
+resumen:
+  Corporacion Inmobiliaria Vesta (NYSE:VTMX) VP Melgar Pablo Barcos Sells 6,154 Shares of
+  Company StockOct 06, 2026 Corporacion Inmobiliaria Vesta, S.A.B. de C.V. Sponsored ADR
+  (NYSE:VTMX - Get Free Report) VP Melgar Pablo Barcos sold 6,154 shares of the company's
+  stock in a transaction on Tuesday, August 25th. The shares were sold at an average
+  price of $3.51, for a total value of $21,600.54…
+
+---
+fecha: 2026-10-07 13:51
+emisora: GMEXICOB
+titulo: Southern Copper Corporation (NYSE:SCCO) loses $3.6 billion (2.1%) in MCap, steepest heavyweight fall in Non ferrous metals sector; -$4.32 [-2.1%]
+fuente: NEWBTS
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28kft1:0
+resumen:
+  Southern Copper Corporation (NYSE:SCCO) loses $3.6 billion (2.1%) in MCap, steepest
+  heavyweight fall in Non ferrous metals sector; -$4.32 [-2.1%]NYSE END-OF-DAY STOCK
+  REPORT www.buysellsignals.com PHOENIX, Wednesday, Oct 07, 2026 - Southern Copper
+  Corporation's (NYSE:SCCO $199.94) stock price fell $4.32 (2.1%) from its previous
+  trading session to close at $199.94…
+
+---
 fecha: 2026-10-07 13:50
 emisora: GAPB
 titulo: GAP ENFRENTA MENOR TRÁFICO, PERO CONSERVA RECOMENDACIÓN DE "MANTENER": MONEX
