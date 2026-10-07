@@ -1,39 +1,39 @@
 simbolo,titulos,compra,venta,actual,fecha_compra,fecha_venta,razon
 MEXTRAC,0,,,63.3600,,,Pasivo (núcleo)
-PEOLES,0,,,874.5800,,,OVER (top-10)
-FEMSAUBD,0,,,210.4600,,,OVER (top-10)
+PEOLES,0,,,876.5800,,,OVER (top-10)
+FEMSAUBD,0,,,210.6500,,,OVER (top-10)
 BOLSAA,0,,,36.7000,,,OVER (top-10)
-GMEXICOB,0,,,231.0300,,,OVER (top-10)
-PINFRA,0,,,268.8400,,,OVER (top-10)
-MEGACPO,0,,,52.1200,,,OVER (top-10)
-BBAJIOO,0,,,57.9700,,,OVER (top-10)
-KOFUBL,0,,,194.4900,,,OVER (top-10)
-GAPB,0,,,361.6600,,,Representativa
-AMXB,0,,,20.1900,,,Representativa
-GFNORTEO,0,,,189.5900,,,Representativa
-AC,0,,,194.2000,,,Representativa
-WALMEX,0,,,46.5400,,,Representativa
-ASURB,0,,,417.4200,,,Representativa
-OMAB,0,,,206.8000,,,Representativa
-KIMBERA,0,,,37.6700,,,Representativa
-VESTA,0,,,60.7200,,,Representativa
-BIMBOA,0,,,55.5500,,,Representativa
-Q,0,,,153.6800,,,Representativa
-CEMEXCPO,0,,,17.2900,,,Representativa
-SIGMAFA,0,,,18.4100,,,OVER (top-10)
-RA,0,,,139.5000,,,Representativa
-TLEVISACPO,0,,,7.9300,,,EXCLUIDO (anti value-trap)
-GENTERA,0,,,36.9400,,,Representativa
-GCARSOA1,0,,,141.9700,,,OVER (top-10)
-GRUMAB,0,,,237.3400,,,Representativa
-CHDRAUIB,0,,,85.5000,,,Representativa
-ALPEKA,0,,,14.7100,,,EXCLUIDO (anti value-trap)
-ALSEA,0,,,46.9800,,,Fuera del índice
-CUERVO,0,,,13.6500,,,EXCLUIDO (anti value-trap)
-GCC,0,,,174.1200,,,Fuera del índice
-GFINBURO,0,,,41.2700,,,Fuera del índice
-LABB,0,,,12.7800,,,Fuera del índice
+GMEXICOB,0,,,231.3600,,,OVER (top-10)
+PINFRA,0,,,270.0600,,,OVER (top-10)
+MEGACPO,0,,,52.2000,,,OVER (top-10)
+BBAJIOO,0,,,58.0000,,,OVER (top-10)
+KOFUBL,0,,,194.2000,,,OVER (top-10)
+GAPB,0,,,362.1900,,,Representativa
+AMXB,0,,,20.2100,,,Representativa
+GFNORTEO,0,,,189.9200,,,Representativa
+AC,0,,,194.0300,,,Representativa
+WALMEX,0,,,46.6200,,,Representativa
+ASURB,0,,,417.4000,,,Representativa
+OMAB,0,,,206.9600,,,Representativa
+KIMBERA,0,,,37.5600,,,Representativa
+VESTA,0,,,60.6500,,,Representativa
+BIMBOA,0,,,55.5100,,,Representativa
+Q,0,,,153.6700,,,Representativa
+CEMEXCPO,0,,,17.3100,,,Representativa
+SIGMAFA,0,,,18.4000,,,OVER (top-10)
+RA,0,,,139.6500,,,Representativa
+TLEVISACPO,0,,,7.9400,,,EXCLUIDO (anti value-trap)
+GENTERA,0,,,37.0400,,,Representativa
+GCARSOA1,0,,,141.5700,,,OVER (top-10)
+GRUMAB,0,,,237.2900,,,Representativa
+CHDRAUIB,0,,,85.6900,,,Representativa
+ALPEKA,0,,,14.7900,,,EXCLUIDO (anti value-trap)
+ALSEA,0,,,47.0500,,,Fuera del índice
+CUERVO,0,,,13.7000,,,EXCLUIDO (anti value-trap)
+GCC,0,,,174.9600,,,Fuera del índice
+GFINBURO,0,,,41.3300,,,Fuera del índice
+LABB,0,,,12.8200,,,Fuera del índice
 LACOMERUBC,0,,,31.1600,,,Fuera del índice
-LIVEPOLC1,0,,,102.7500,,,EXCLUIDO (anti value-trap)
-ORBIA,0,,,22.0800,,,Fuera del índice
+LIVEPOLC1,0,,,102.2300,,,EXCLUIDO (anti value-trap)
+ORBIA,0,,,22.1300,,,Fuera del índice
 VOLARA,0,,,11.5900,,,Fuera del índice
