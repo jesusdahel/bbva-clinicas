@@ -145,6 +145,74 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-07 13:50
+emisora: GAPB
+titulo: GAP ENFRENTA MENOR TRÁFICO, PERO CONSERVA RECOMENDACIÓN DE "MANTENER": MONEX
+fuente: VISOR
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261007:nVIS4Q0t2H:1
+resumen:
+  Analistas de Monex reiteraron su recomendación de "Mantener" para los títulos de Grupo
+  Aeroportuario del Pacífico GAPB <GAPB.MX>, con un precio objetivo de 480 pesos para
+  finales de 2026, pese a la debilidad operativa observada en septiembre. El tráfico
+  total de pasajeros cayó 7.3% anual en el mes y acumula un ajuste de 3.5% en los últimos
+  12 meses…
+
+---
+fecha: 2026-10-07 13:47
+emisora: MERCADO
+titulo: Mexico remains top US trading partner as August commerce hits $94.3B
+fuente: FREIGH
+tono: neutral
+impacto: bajo
+id: lseg:urn:link:webnews:20261007:nNRA28keux:0
+
+---
+fecha: 2026-10-07 13:46
+emisora: MERCADO
+titulo: About 25% of Gulf of Mexico oil output shut in due to Isaias, US agency says
+fuente: Reuters
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:reuters.com:20261007:nL4N45T1G2:1
+resumen:
+  Oct 7 (Reuters) - US Gulf of Mexico oil and gas producers had shut in about 25.08% of
+  current oil production and 16.37% of current natural gas production as of Wednesday, as
+  operators responded to Tropical Storm Isaias, according to the Marine Minerals
+  Administration. The regulator said personnel had been evacuated from eight production
+  platforms, representing 2.16% of the 371 manned platforms in the Gulf of Mexico…
+
+---
+fecha: 2026-10-07 13:26
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) down 5.0% in 2 days; -$9.60 [-4.6%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261007:nNRA28k8co:0
+resumen:
+  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) down 5.0% in 2 days;
+  -$9.60 [-4.6%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
+  Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC $199.60), ADR price extended its
+  slide on Wednesday, shedding an additional $9.60 (4.6%) to trade at $199.60 at 14:44
+  pm, Wednesday…
+
+---
+fecha: 2026-10-07 13:26
+emisora: AMXB
+titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) in 4th consecutive rise; +3c [0.1%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28k8pd:0
+resumen:
+  America Movil S.A.B. de CV ADR (NYSE:AMX) in 4th consecutive rise; +3c [0.1%]GLOBAL
+  ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com America Movil S.A.B. de CV
+  (NYSE:AMX $22.39), ADR price extended its gains on Wednesday, rising an additional 3.0c
+  (0.1%) to trade at $22.39 at 14:44 pm, Wednesday…
+
+---
 fecha: 2026-10-07 13:14
 emisora: BOLSAA
 titulo: BMV - Aviso de Tenedores de TFSMX 24-2
