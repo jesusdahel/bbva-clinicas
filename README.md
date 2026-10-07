@@ -1,9 +1,9 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 07/10/2026 14:38 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 07/10/2026 16:44 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
-| | Hoy (en curso) | Acumulado |
+| | Último cierre (07/10) | Acumulado |
 |---|---:|---:|
 | Cartera | -0.92% | +0.07% |
 | MEXTRAC | -1.09% | -0.35% |
@@ -16,7 +16,7 @@ Valor del portafolio **$10,006,614.11** · día 32 de gestión · TE ex ante 6.3
 
 | Fecha | Valor | Cartera | MEXTRAC | Diferencia | Acum. cartera | Acum. MEXTRAC | Acum. diferencia |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 07/10/2026 (en curso) | $10,006,614 | -0.92% | -1.09% | +0.17% | +0.07% | -0.35% | +0.41% |
+| 07/10/2026 | $10,006,614 | -0.92% | -1.09% | +0.17% | +0.07% | -0.35% | +0.41% |
 | 06/10/2026 | $10,099,599 | -0.16% | +0.20% | -0.36% | +1.00% | +0.75% | +0.24% |
 | 05/10/2026 | $10,115,927 | +0.92% | +1.03% | -0.10% | +1.16% | +0.55% | +0.61% |
 | 02/10/2026 | $10,023,266 | +1.11% | +1.17% | -0.05% | +0.23% | -0.47% | +0.70% |
@@ -54,20 +54,20 @@ Valor del portafolio **$10,006,614.11** · día 32 de gestión · TE ex ante 6.3
 | Emisora | Títulos | Precio | Cambio hoy | Peso |
 |---|---:|---:|---:|---:|
 | MEXTRAC | 39,670 | 63.36 | -1.09% | 25.12% |
-| FEMSAUBD | 7,670 | 210.93 | -0.01% | 16.17% |
-| GMEXICOB | 5,835 | 230.65 | -0.77% | 13.45% |
-| KOFUBL | 4,205 | 193.33 | +0.18% | 8.12% |
-| BOLSAA | 15,900 | 36.40 | -2.47% | 5.78% |
-| GAPB | 1,420 | 361.80 | -4.25% | 5.13% |
-| AMXB | 24,340 | 20.11 | -0.05% | 4.89% |
-| GFNORTEO | 2,515 | 189.79 | -1.13% | 4.77% |
-| PINFRA | 1,275 | 270.09 | -0.87% | 3.44% |
-| AC | 1,445 | 194.11 | -0.56% | 2.80% |
-| WALMEX | 5,940 | 46.69 | +0.11% | 2.77% |
-| BBAJIOO | 4,725 | 57.99 | -1.26% | 2.74% |
-| MEGACPO | 3,255 | 52.38 | -0.76% | 1.70% |
-| ASURB | 340 | 416.79 | -3.96% | 1.42% |
-| OMAB | 300 | 205.44 | -3.56% | 0.62% |
+| FEMSAUBD | 7,670 | 210.93 | +0.10% | 16.17% |
+| GMEXICOB | 5,835 | 230.65 | -0.96% | 13.45% |
+| KOFUBL | 4,205 | 193.33 | +0.17% | 8.12% |
+| BOLSAA | 15,900 | 36.40 | -2.44% | 5.78% |
+| GAPB | 1,420 | 361.80 | -3.81% | 5.13% |
+| AMXB | 24,340 | 20.11 | +0.30% | 4.89% |
+| GFNORTEO | 2,515 | 189.79 | -0.87% | 4.77% |
+| PINFRA | 1,275 | 270.09 | -1.23% | 3.44% |
+| AC | 1,445 | 194.11 | -0.63% | 2.80% |
+| WALMEX | 5,940 | 46.69 | +0.00% | 2.77% |
+| BBAJIOO | 4,725 | 57.99 | -0.85% | 2.74% |
+| MEGACPO | 3,255 | 52.38 | -0.93% | 1.70% |
+| ASURB | 340 | 416.79 | -3.75% | 1.42% |
+| OMAB | 300 | 205.44 | -3.31% | 0.62% |
 
 ## Reglas A · B · C (datos al 07/10/2026)
 
@@ -77,21 +77,21 @@ Quién explica más el TE del libro: FEMSAUBD 1.01 pp · GMEXICOB 0.84 pp · BOL
 
 ## Noticias recientes (LSEG)
 
-- ▲ **MERCADO** · 07/10 14:12 · NOTENG — Mexico's Exports to the U.S. Increase by 18% as the Mexican Tech Sector Gains Strength
-- ▲ **MERCADO** · 07/10 14:11 · BNEINT — World Bank raises Mexico's 2026 growth forecast to 1.4%
-- ▲ **MERCADO** · 07/10 14:10 · BNEINT — Mexico-US trade hits record $683bn in eight months
-- • **MERCADO** · 07/10 14:09 · BNEINT — Mexico private consumption flat in July despite World Cup
-- • **FEMSAUBD** · 07/10 14:06 · GLORDP — Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) lifts ; +16c [0.1%]
-- • **GAPB** · 07/10 14:06 · GLORDP — Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) slides 3.7% on firm volume; -$7.83 [-3.7%]
-- • **AMXB** · 07/10 14:06 · GLORDP — America Movil S.A.B. de CV ADR (NYSE:AMX) increases, climbs 6.0% for week; +10c [0.4%]
-- • **BOLSAA** · 07/10 13:58 · PUBT — BMV - Acuerdos de Tenedores de la DALUSCK 16
-- ▲ **KIMBERA** · 07/10 13:57 · TRADAJ — Kimberly-Clark de Mexico SAB de CV (OTCMKTS:KCDMY) Sees Unusually-High Trading Volume – Time to Buy?
-- • **VESTA** · 07/10 13:57 · TRADAJ — Corporacion Inmobiliaria Vesta (NYSE:VTMX) VP Melgar Pablo Barcos Sells 6,154 Shares of Company Stock
-- • **GMEXICOB** · 07/10 13:51 · NEWBTS — Southern Copper Corporation (NYSE:SCCO) loses $3.6 billion (2.1%) in MCap, steepest heavyweight fall in Non ferrous metals sector; -$4.32 [-2.1%]
-- • **GAPB** · 07/10 13:50 · VISOR — GAP ENFRENTA MENOR TRÁFICO, PERO CONSERVA RECOMENDACIÓN DE "MANTENER": MONEX
-- • **MERCADO** · 07/10 13:47 · FREIGH — Mexico remains top US trading partner as August commerce hits $94.3B
-- • **MERCADO** · 07/10 13:46 · Reuters — About 25% of Gulf of Mexico oil output shut in due to Isaias, US agency says
-- • **GAPB** · 07/10 13:26 · GLORDP — Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) down 5.0% in 2 days; -$9.60 [-4.6%]
+- ▲ **MEGACPO** · 07/10 16:34 · STOCKP — On Wednesday 7th of October Megacable -Cpo trades 1.93 percent higher
+- ▼ **MERCADO** · 07/10 16:32 · PUBT — Fitch México SA de CV - Baja la Calificación de Morelia a ‘BBB+(mex)’
+- ▲ **MERCADO** · 07/10 16:31 · PUBT — Fitch México SA de CV - Sube la Calificación de Atizapán de Zaragoza a ‘AA(mex)’
+- • **GMEXICOB** · 07/10 16:22 · PUBT — Moody's de Mexico SA de CV - Moody''s Local México afirma calificación de INVTACB 26
+- • **MERCADO** · 07/10 16:13 · NOTENG — ICC Mexico recommends enhancing certainty regarding the investment review mechanism
+- • **ASURB** · 07/10 16:12 · WPRPRO — ASUR Announces Total Passenger Traffic for September 2026
+- • **OMAB** · 07/10 16:02 · PUBT — Grupo Aeroportuario del Centro Norte SAB de CV - [2018] Eventos Relevantes - Emisoras - OMA
+- • **OMAB** · 07/10 16:00 · PUBT — Grupo Aeroportuario del Centro Norte SAB de CV - OMA reporta tráfico septiembre 2026
+- • **GMEXICOB** · 07/10 15:57 · NEWBTS — Southern Copper Corporation's (NYSE:SCCO $200.51): Recent News and Research Digest
+- • **GMEXICOB** · 07/10 15:57 · GLORDP — Southern Copper Corporation (NYSE:SCCO) loses $3.1 billion (1.8%) in MCap, steepest heavyweight fall in Non ferrous metals sector; -$3.75 [-1.8%]
+- • **ASURB** · 07/10 15:57 · LATMIA — PR Newswire Project Infrastructure Finance
+- • **ASURB** · 07/10 15:26 · Reuters — BRIEF-Grupo Aeroportuario Del Sureste Sab De Cv  Total Passenger Traffic For September 2026 Reached 8.6 Million Passengers
+- • **BOLSAA** · 07/10 15:26 · PUBT — BMV - Amortizaciones MONTPIO 21
+- • **BOLSAA** · 07/10 15:26 · PUBT — BMV - Composición de Cartera TRACS
+- ▲ **AMXB** · 07/10 15:19 · STOCKP — America Movil Sab De C trades 0.3 percent higher on Wednesday 7th of October
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._

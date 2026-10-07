@@ -145,6 +145,310 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-07 16:34
+emisora: MEGACPO
+titulo: On Wednesday 7th of October Megacable -Cpo trades 1.93 percent higher
+fuente: STOCKP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261007:nNRA28m3cg:0
+resumen:
+  On Wednesday 7th of October Megacable -Cpo trades 1.93 percent higherOct 07, 2026
+  Megacable -Cpo (MEGACPO.MX) traded up 1.93 % during a 24 hours period ending at 11:58
+  PM Central Europe on Wednesday 7th. One Megacable -Cpo stock can currently be bought
+  for about MXN 52.38 on popular exchanges. Current supply of Megacable -Cpo stocks is
+  858.9 mn…
+
+---
+fecha: 2026-10-07 16:32
+emisora: MERCADO
+titulo: Fitch México SA de CV - Baja la Calificación de Morelia a ‘BBB+(mex)’
+fuente: PUBT
+tono: negativa
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNDL1fmpHT:1
+resumen:
+   Sign In | Register RATING ACTION COMMENTARY Fitch Baja la Calificación de Morelia a
+  'BBB+(mex)'; Perspectiva Negativa Mexico
+  (https://www.fitchratings.com/es/region/mexico) Wed 07 Oct, 2026 - 2:33 PM ET Fitch
+  Ratings - Mexico City - 07 Oct 2026: Fitch Ratings bajó la calificación nacional del
+  municipio de Morelia, Michoacán a 'BBB+(mex)' desde 'A-(mex)'. La Perspectiva de la
+  calificación se mantiene Negativa…
+
+---
+fecha: 2026-10-07 16:31
+emisora: MERCADO
+titulo: Fitch México SA de CV - Sube la Calificación de Atizapán de Zaragoza a ‘AA(mex)’
+fuente: PUBT
+tono: positiva
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNDL78BKFl:1
+resumen:
+   Sign In | Register RATING ACTION COMMENTARY Fitch Sube la Calificación de Atizapán de
+  Zaragoza a 'AA(mex)'; Perspectiva Estable Mexico
+  (https://www.fitchratings.com/es/region/mexico) Wed 07 Oct, 2026 - 5:21 PM ET Fitch
+  Ratings - Mexico City - 07 Oct 2026: Fitch Ratings subió la calificación nacional de
+  largo plazo del municipio de Atizapán de Zaragoza, Estado de México, a 'AA(mex)' desde
+  'AA-(mex)'…
+
+---
+fecha: 2026-10-07 16:22
+emisora: GMEXICOB
+titulo: Moody's de Mexico SA de CV - Moody''s Local México afirma calificación de INVTACB 26
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNDL4fMg3J:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/0146B33D347DBB129935B413BB978002277FF444)…
+
+---
+fecha: 2026-10-07 16:13
+emisora: MERCADO
+titulo: ICC Mexico recommends enhancing certainty regarding the investment review mechanism
+fuente: NOTENG
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261007:nNRA28lwgh:0
+resumen:
+  ICC Mexico recommends enhancing certainty regarding the investment review mechanismThe
+  International Chamber of Commerce Mexico (ICC Mexico) has presented four
+  recommendations to provide greater certainty for the new mechanism for reviewing
+  investments in the country, aiming to avoid unnecessarily complex procedures that could
+  impact companies' decisions…
+
+---
+fecha: 2026-10-07 16:12
+emisora: ASURB
+titulo: ASUR Announces Total Passenger Traffic for September 2026
+fuente: WPRPRO
+tono: neutral
+impacto: medio
+id: lseg:urn:link:webnews:20261007:nNRA28lw1t:0
+
+---
+fecha: 2026-10-07 16:02
+emisora: OMAB
+titulo: Grupo Aeroportuario del Centro Norte SAB de CV - [2018] Eventos Relevantes - Emisoras - OMA
+fuente: PUBT
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261007:nNDL3rrHwg:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/2955DCAE3E15C7ADB20A3974B56F2DCE43BAE78D)…
+
+---
+fecha: 2026-10-07 16:00
+emisora: OMAB
+titulo: Grupo Aeroportuario del Centro Norte SAB de CV - OMA reporta tráfico septiembre 2026
+fuente: PUBT
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261007:nNDLbSsStc:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/AFF82EE3DFB0F50D6C68297F019C21B00E4289E7)…
+
+---
+fecha: 2026-10-07 15:57
+emisora: GMEXICOB
+titulo: Southern Copper Corporation's (NYSE:SCCO $200.51): Recent News and Research Digest
+fuente: NEWBTS
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28lpee:0
+resumen:
+  Southern Copper Corporation's (NYSE:SCCO $200.51): Recent News and Research DigestNYSE
+  END-OF-DAY STOCK REPORT PHOENIX, Wednesday, Oct 07, 2026 - Southern Copper
+  Corporation's (NYSE:SCCO $200.51) stock price dropped $3.75 (1.8%) from its previous
+  trading session to close at $200.51. Compared with the S&P 500 Index which fell 20.1
+  points (0.3%) in the day, the relative price change was -1.6%…
+
+---
+fecha: 2026-10-07 15:57
+emisora: GMEXICOB
+titulo: Southern Copper Corporation (NYSE:SCCO) loses $3.1 billion (1.8%) in MCap, steepest heavyweight fall in Non ferrous metals sector; -$3.75 [-1.8%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28lpy3:0
+resumen:
+  Southern Copper Corporation (NYSE:SCCO) loses $3.1 billion (1.8%) in MCap, steepest
+  heavyweight fall in Non ferrous metals sector; -$3.75 [-1.8%]NYSE END-OF-DAY STOCK
+  REPORT www.buysellsignals.com PHOENIX, Wednesday, Oct 07, 2026 - Southern Copper
+  Corporation's (NYSE:SCCO $200.51) stock price dropped $3.75 (1.8%) from its previous
+  trading session to close at $200.51…
+
+---
+fecha: 2026-10-07 15:57
+emisora: ASURB
+titulo: PR Newswire Project Infrastructure Finance
+fuente: LATMIA
+tono: neutral
+impacto: medio
+id: lseg:urn:link:webnews:20261007:nNRA28lr26:0
+
+---
+fecha: 2026-10-07 15:26
+emisora: ASURB
+titulo: BRIEF-Grupo Aeroportuario Del Sureste Sab De Cv  Total Passenger Traffic For September 2026 Reached 8.6 Million Passengers
+fuente: Reuters
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261007:nFWN45T23J:1
+resumen:
+  Grupo Aeroportuario del Sureste SAB de CV <ASURB.MX>: * GRUPO AEROPORTUARIO DEL SURESTE
+  SAB DE CV: TOTAL PASSENGER TRAFFIC FOR SEPTEMBER 2026 REACHED 8.6 MILLION PASSENGERS
+  Source text: [ID:n0001104659-26-114381] Further company coverage: [ASURB.MX]
+
+---
+fecha: 2026-10-07 15:26
+emisora: BOLSAA
+titulo: BMV - Amortizaciones MONTPIO 21
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNDL4kVctP:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/FA688281F6AA02EFF1F5A9D7CDFFC5D1A128D120).
+  Amortizacion FECHA: 07/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA:
+  PREFIJO Amortizacion AMORTIZACIÓN TOTAL O PARCIAL POR TÍTULOS CLAVE SERIE/T.V…
+
+---
+fecha: 2026-10-07 15:26
+emisora: BOLSAA
+titulo: BMV - Composición de Cartera TRACS
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNDL73GqJ4:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/26743F0B96BDBC9617BBAC69291065CCA8A206DF)…
+
+---
+fecha: 2026-10-07 15:19
+emisora: AMXB
+titulo: America Movil Sab De C trades 0.3 percent higher on Wednesday 7th of October
+fuente: STOCKP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261007:nNRA28lffy:0
+resumen:
+  America Movil Sab De C trades 0.3 percent higher on Wednesday 7th of OctoberOct 07,
+  2026 America Movil Sab De C (AMXB.MX) traded up 0.3 % during a 24 hours period ending
+  at 11:10 PM Central Europe on Wednesday 7th. One America Movil Sab De C stock can
+  currently be bought for about MXN 20.11 on popular exchanges. Current supply of America
+  Movil Sab De C stocks is 60.3 bn…
+
+---
+fecha: 2026-10-07 15:17
+emisora: WALMEX
+titulo: Walmart De Mexico Sab De Cv (WALMEX.MX) is trading 0.41 percent higher on Wednesday 7th of October and has a trading volume of MXN 523.6 mn
+fuente: STOCKP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261007:nNRA28leou:0
+resumen:
+  Walmart De Mexico Sab De Cv (WALMEX.MX) is trading 0.41 percent higher on Wednesday 7th
+  of October and has a trading volume of MXN 523.6 mnOct 07, 2026 Walmart De Mexico Sab
+  De Cv (WALMEX.MX) traded up 0.41 % during a 24 hours period ending at 11:06 PM Central
+  Europe on Wednesday 7th. One Walmart De Mexico Sab De Cv stock can currently be bought
+  for about MXN 46.69 on popular exchanges…
+
+---
+fecha: 2026-10-07 15:04
+emisora: BOLSAA
+titulo: BMV - Aviso de Tenedores de MONTPIO 21
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNDL6zJgBP:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/9A1D40C1FDE86DFC4D3FBB02633CB6FBE0BD42FC). Aviso a
+  Tenedores FECHA: 07/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO
+  Aviso a Tenedores EMISIÓN CLAVE DE COTIZACIÓN SERIE/T.V…
+
+---
+fecha: 2026-10-07 15:04
+emisora: BOLSAA
+titulo: BMV - Aviso de Tenedores de BACOMER 130-25
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNDL720Z2l:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/68BB599B613D3262E273262AD65075A916E87126). BOLSA
+  MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO Aviso a Tenedores EMISIÓN CLAVE
+  DE COTIZACIÓN SERIE/T.V…
+
+---
+fecha: 2026-10-07 15:04
+emisora: BOLSAA
+titulo: BMV - Aviso de Tenedores de BACOMER 9-25
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNDL9KHjh9:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/CA61B49D6DFA10E85FEC3BC436FCA7AAAFE52AD6). Aviso a
+  Tenedores FECHA: 07/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO
+  Aviso a Tenedores EMISIÓN CLAVE DE COTIZACIÓN SERIE/T.V…
+
+---
+fecha: 2026-10-07 14:57
+emisora: GMEXICOB
+titulo: Southern Copper Corporation's (NYSE:SCCO $200.51) dropped 1.84%: Risk Factors and Bearish Indicators Analysis
+fuente: NEWBTS
+tono: negativa
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28l4km:0
+resumen:
+  Southern Copper Corporation's (NYSE:SCCO $200.51) dropped 1.84%: Risk Factors and
+  Bearish Indicators AnalysisNYSE END-OF-DAY STOCK REPORT PHOENIX, Wednesday, Oct 07,
+  2026 - Southern Copper Corporation's (NYSE:SCCO $200.51) stock price dropped $4.78
+  (2.3%) over the past two trading days…
+
+---
+fecha: 2026-10-07 14:51
+emisora: AMXB
+titulo: Benchmarking America Movil S.A.B. de CV's (NYSE:AMX) dividend against Its Peers *Updated*
+fuente: GLORDP
+tono: positiva
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28l3dn:0
+resumen:
+  Benchmarking America Movil S.A.B. de CV's (NYSE:AMX) dividend against Its Peers
+  *Updated*GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS America Movil S.A.B. de CV's
+  trailing twelve months dividend is 58.89c. Its dividend yield at its current price is
+  2.63%. Its current price is at a 20.49% discount to its 52 week high. Its current price
+  is at a 14.83% premium to its 52 week low. If America Movil S.A.B…
+
+---
+fecha: 2026-10-07 14:47
+emisora: GMEXICOB
+titulo: Southern Copper Corporation (NYSE:SCCO) accelerates decline, down 2.3% in 2 days; -$4.78 [-2.3%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28l0pu:0
+resumen:
+  Southern Copper Corporation (NYSE:SCCO) accelerates decline, down 2.3% in 2 days;
+  -$4.78 [-2.3%]NYSE END-OF-DAY STOCK REPORT www.buysellsignals.com PHOENIX, Wednesday,
+  Oct 07, 2026 - Southern Copper Corporation's (NYSE:SCCO $200.51) stock price dropped
+  $4.78 (2.3%) over the past two trading days…
+
+---
 fecha: 2026-10-07 14:12
 emisora: MERCADO
 titulo: Mexico's Exports to the U.S. Increase by 18% as the Mexican Tech Sector Gains Strength
