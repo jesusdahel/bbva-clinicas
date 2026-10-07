@@ -1,9 +1,9 @@
 {
-  "estado": "error",
-  "detalle": "1 fallos seguidos",
-  "errores_seguidos": 1,
-  "ultima_revision": "2026-10-07T19:44:02+00:00",
-  "hora_cdmx": "07/10/2026 13:44",
+  "estado": "ok",
+  "detalle": "Publicando",
+  "errores_seguidos": 0,
+  "ultima_revision": "2026-10-07T19:45:09+00:00",
+  "hora_cdmx": "07/10/2026 13:45",
   "maquina": "DAHEL",
   "operaciones": 0,
   "bitacora": "Excel"
