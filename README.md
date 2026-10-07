@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 07/10/2026 13:20 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 07/10/2026 13:35 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 La gestión arranca el **12/10/2026**. Las órdenes van antes de las **12:45**; la primera semana (hasta el 16/10) no paga comisión.
@@ -10,7 +10,7 @@ La gestión arranca el **12/10/2026**. Las órdenes van antes de las **12:45**; 
 
 Las reglas empiezan a medir después del cierre del 16/10/2026 (fin de la construcción).
 
-Quién explica más el TE del libro: PEOLES 2.77 pp · GMEXICOB 1.07 pp · FEMSAUBD 0.64 pp · BOLSAA 0.31 pp · PINFRA 0.22 pp
+Quién explica más el TE del libro: PEOLES 2.77 pp · GMEXICOB 1.06 pp · FEMSAUBD 0.64 pp · BOLSAA 0.31 pp · PINFRA 0.22 pp
 
 ## Noticias recientes (LSEG)
 
