@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 07/10/2026 16:44 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 07/10/2026 17:14 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 | | Último cierre (07/10) | Acumulado |
@@ -54,20 +54,20 @@ Valor del portafolio **$10,006,614.11** · día 32 de gestión · TE ex ante 6.3
 | Emisora | Títulos | Precio | Cambio hoy | Peso |
 |---|---:|---:|---:|---:|
 | MEXTRAC | 39,670 | 63.36 | -1.09% | 25.12% |
-| FEMSAUBD | 7,670 | 210.93 | +0.10% | 16.17% |
-| GMEXICOB | 5,835 | 230.65 | -0.96% | 13.45% |
-| KOFUBL | 4,205 | 193.33 | +0.17% | 8.12% |
-| BOLSAA | 15,900 | 36.40 | -2.44% | 5.78% |
-| GAPB | 1,420 | 361.80 | -3.81% | 5.13% |
-| AMXB | 24,340 | 20.11 | +0.30% | 4.89% |
-| GFNORTEO | 2,515 | 189.79 | -0.87% | 4.77% |
-| PINFRA | 1,275 | 270.09 | -1.23% | 3.44% |
-| AC | 1,445 | 194.11 | -0.63% | 2.80% |
-| WALMEX | 5,940 | 46.69 | +0.00% | 2.77% |
-| BBAJIOO | 4,725 | 57.99 | -0.85% | 2.74% |
-| MEGACPO | 3,255 | 52.38 | -0.93% | 1.70% |
-| ASURB | 340 | 416.79 | -3.75% | 1.42% |
-| OMAB | 300 | 205.44 | -3.31% | 0.62% |
+| FEMSAUBD | 7,670 | 210.93 | -0.01% | 16.17% |
+| GMEXICOB | 5,835 | 230.65 | -0.77% | 13.45% |
+| KOFUBL | 4,205 | 193.33 | +0.18% | 8.12% |
+| BOLSAA | 15,900 | 36.40 | -2.47% | 5.78% |
+| GAPB | 1,420 | 361.80 | -4.25% | 5.13% |
+| AMXB | 24,340 | 20.11 | -0.05% | 4.89% |
+| GFNORTEO | 2,515 | 189.79 | -1.13% | 4.77% |
+| PINFRA | 1,275 | 270.09 | -0.87% | 3.44% |
+| AC | 1,445 | 194.11 | -0.56% | 2.80% |
+| WALMEX | 5,940 | 46.69 | +0.11% | 2.77% |
+| BBAJIOO | 4,725 | 57.99 | -1.26% | 2.74% |
+| MEGACPO | 3,255 | 52.38 | -0.76% | 1.70% |
+| ASURB | 340 | 416.79 | -3.96% | 1.42% |
+| OMAB | 300 | 205.44 | -3.56% | 0.62% |
 
 ## Reglas A · B · C (datos al 07/10/2026)
 
@@ -77,6 +77,14 @@ Quién explica más el TE del libro: FEMSAUBD 1.01 pp · GMEXICOB 0.84 pp · BOL
 
 ## Noticias recientes (LSEG)
 
+- • **MERCADO** · 07/10 17:13 · NOTENG — Drought Hits Agricultural Production
+- ▼ **MERCADO** · 07/10 17:12 · NOTENG — Mexican Stock Exchange Drops After Three-Day Surge; Airport Stocks Weigh Down Market
+- • **GMEXICOB** · 07/10 17:07 · NEWBTS — Southern Copper Corporation's (NYSE:SCCO $200.51) Yields 2%: In-Depth Bullish/Bearish Signals Overview
+- • **GMEXICOB** · 07/10 17:07 · GLORDP — Southern Copper Corporation (NYSE:SCCO) Posts Q2 2026 Revenue of USD 4.29 Billion and Net Income USD 1.67 Billion
+- • **GMEXICOB** · 07/10 16:52 · ZACKSC — Here's Why Southern Copper (SCCO) Fell More Than Broader Market
+- • **OMAB** · 07/10 16:52 · TIPRAN — OMA September Traffic Shows Domestic Weakness Amid International Gains
+- • **ASURB** · 07/10 16:48 · PUBT — ASUR - 7 October, 2026 - ASUR Announces Total Passenger Traffic for September 2026
+- • **ASURB** · 07/10 16:43 · PUBT — ASUR - 7 octubre, 2026 - ASUR anuncia el total de tráfico para Septiembre del 2026
 - ▲ **MEGACPO** · 07/10 16:34 · STOCKP — On Wednesday 7th of October Megacable -Cpo trades 1.93 percent higher
 - ▼ **MERCADO** · 07/10 16:32 · PUBT — Fitch México SA de CV - Baja la Calificación de Morelia a ‘BBB+(mex)’
 - ▲ **MERCADO** · 07/10 16:31 · PUBT — Fitch México SA de CV - Sube la Calificación de Atizapán de Zaragoza a ‘AA(mex)’
@@ -84,14 +92,6 @@ Quién explica más el TE del libro: FEMSAUBD 1.01 pp · GMEXICOB 0.84 pp · BOL
 - • **MERCADO** · 07/10 16:13 · NOTENG — ICC Mexico recommends enhancing certainty regarding the investment review mechanism
 - • **ASURB** · 07/10 16:12 · WPRPRO — ASUR Announces Total Passenger Traffic for September 2026
 - • **OMAB** · 07/10 16:02 · PUBT — Grupo Aeroportuario del Centro Norte SAB de CV - [2018] Eventos Relevantes - Emisoras - OMA
-- • **OMAB** · 07/10 16:00 · PUBT — Grupo Aeroportuario del Centro Norte SAB de CV - OMA reporta tráfico septiembre 2026
-- • **GMEXICOB** · 07/10 15:57 · NEWBTS — Southern Copper Corporation's (NYSE:SCCO $200.51): Recent News and Research Digest
-- • **GMEXICOB** · 07/10 15:57 · GLORDP — Southern Copper Corporation (NYSE:SCCO) loses $3.1 billion (1.8%) in MCap, steepest heavyweight fall in Non ferrous metals sector; -$3.75 [-1.8%]
-- • **ASURB** · 07/10 15:57 · LATMIA — PR Newswire Project Infrastructure Finance
-- • **ASURB** · 07/10 15:26 · Reuters — BRIEF-Grupo Aeroportuario Del Sureste Sab De Cv  Total Passenger Traffic For September 2026 Reached 8.6 Million Passengers
-- • **BOLSAA** · 07/10 15:26 · PUBT — BMV - Amortizaciones MONTPIO 21
-- • **BOLSAA** · 07/10 15:26 · PUBT — BMV - Composición de Cartera TRACS
-- ▲ **AMXB** · 07/10 15:19 · STOCKP — America Movil Sab De C trades 0.3 percent higher on Wednesday 7th of October
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._

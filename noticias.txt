@@ -145,6 +145,116 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-07 17:13
+emisora: MERCADO
+titulo: Drought Hits Agricultural Production
+fuente: NOTENG
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261007:nNRA28mdrb:0
+resumen:
+  Drought Hits Agricultural ProductionMexico City.- For Mexican farmers, the impact of
+  drought has significantly affected both grain and vegetable production, leading to
+  changes in planting schemes, with a greater emphasis on protected agriculture and a
+  reduction in open-air farming…
+
+---
+fecha: 2026-10-07 17:12
+emisora: MERCADO
+titulo: Mexican Stock Exchange Drops After Three-Day Surge; Airport Stocks Weigh Down Market
+fuente: NOTENG
+tono: negativa
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261007:nNRA28mc1u:0
+resumen:
+  Mexican Stock Exchange Drops After Three-Day Surge; Airport Stocks Weigh Down MarketThe
+  stock exchanges in Mexico closed with significant losses during trading on Wednesday.
+  Local indices fell after a streak of three consecutive sessions of gains, with airline
+  sector stocks leading the decline…
+
+---
+fecha: 2026-10-07 17:07
+emisora: GMEXICOB
+titulo: Southern Copper Corporation's (NYSE:SCCO $200.51) Yields 2%: In-Depth Bullish/Bearish Signals Overview
+fuente: NEWBTS
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28m9ue:0
+resumen:
+  Southern Copper Corporation's (NYSE:SCCO $200.51) Yields 2%: In-Depth Bullish/Bearish
+  Signals OverviewNYSE END-OF-DAY STOCK REPORT PHOENIX, Wednesday, Oct 07, 2026 -
+  Southern Copper Corporation's (NYSE:SCCO $200.51) stock price dropped $3.75 (1.8%) from
+  its previous trading session to close at $200.51. Compared with the S&P 500 Index which
+  fell 20.1 points (0.3%) in the day, the relative price change was -1.6%…
+
+---
+fecha: 2026-10-07 17:07
+emisora: GMEXICOB
+titulo: Southern Copper Corporation (NYSE:SCCO) Posts Q2 2026 Revenue of USD 4.29 Billion and Net Income USD 1.67 Billion
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261007:nNRA28ma7m:0
+resumen:
+  Southern Copper Corporation (NYSE:SCCO) Posts Q2 2026 Revenue of USD 4.29 Billion and
+  Net Income USD 1.67 BillionUNITED STATES EDITION 07 October 2026 19:03 EDT Southern
+  Copper Corporation (NYSE:SCCO) traded at EUR 183.73 on 5th October 2026, up 0.69
+  percent from EUR 182.48, as reported by Lang & Schwarz…
+
+---
+fecha: 2026-10-07 16:52
+emisora: GMEXICOB
+titulo: Here's Why Southern Copper (SCCO) Fell More Than Broader Market
+fuente: ZACKSC
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261007:nNRA28m6xx:1
+resumen:
+  For best results when printing this announcement, please click on link below:
+  https://newsfile.refinitiv.com/getnewsfile/v1/story?guid=urn:newsml:reuters.com:20261007:nNRA28m6xx&default-theme=true
+  Oct 07, 2026 Free: See Our Top Stock And 4 Runners Up Southern Copper Corporation
+  (SCCO): Free Stock Analysis Report In the latest trading session, Southern Copper
+  (SCCO) closed at $200.57, marking a -1.81% move from the pr…
+
+---
+fecha: 2026-10-07 16:52
+emisora: OMAB
+titulo: OMA September Traffic Shows Domestic Weakness Amid International Gains
+fuente: TIPRAN
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261007:nNRA28m7of:0
+resumen:
+  OMA September Traffic Shows Domestic Weakness Amid International GainsGrupo
+  Aeroportuario del Centro Norte SAB de CV ( (MX:OMAB) ) has shared an announcement.
+  Mexican airport operator OMA reported a 4.8% year-on-year decline in total passenger
+  traffic across its 13 airports in September 2026, reflecting softer domestic demand…
+
+---
+fecha: 2026-10-07 16:48
+emisora: ASURB
+titulo: ASUR - 7 October, 2026 - ASUR Announces Total Passenger Traffic for September 2026
+fuente: PUBT
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261007:nNDL3WtjCH:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/6C88FA2EC695D6AAC92010F7C8FAA531E0770BDA)…
+
+---
+fecha: 2026-10-07 16:43
+emisora: ASURB
+titulo: ASUR - 7 octubre, 2026 - ASUR anuncia el total de tráfico para Septiembre del 2026
+fuente: PUBT
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261007:nNDLYhdlt:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/A29061BC4EE332965272CDE84C15E5B0A573402F)…
+
+---
 fecha: 2026-10-07 16:34
 emisora: MEGACPO
 titulo: On Wednesday 7th of October Megacable -Cpo trades 1.93 percent higher
