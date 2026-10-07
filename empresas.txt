@@ -1,21 +1,29 @@
 # ══════════════════════════════════════════════════════════════════════════════
 #  FICHAS DE EMISORAS · Fondo de Inversión ITESM-BBVA
-#  North Star Strategies · Estrategia Q-tilt 50/25/25 · Modelo V5
+#  North Star Strategies · Modelo M-tilt (Momentum 50 · Quality 40 · Value 10)
 #
 #  FORMATO
 #  · Un bloque por emisora. Abre con === TICKER === y cierra donde abre el siguiente.
 #  · Cada dato va como  campo: valor  · Todo campo es opcional.
 #  · Los textos largos se indentan con dos espacios en las líneas siguientes.
 #  · Las listas van con guion al inicio, indentadas con dos espacios.
-#  · Los datos comparativos usan barra vertical:  campo: emisora | industria
-#  · No hace falta capturar precio ni variación: eso lo toma del mercado.
+#  · No hace falta capturar precio ni variación: el tablero los toma del mercado.
 #  · Las líneas que empiezan con # son comentarios.
 #
-#  Precios, rangos, rendimientos, betas y volatilidades: cierres reales de la BMV
-#  al 11 de septiembre de 2026, calculados sobre cinco años de historia semanal.
-#  Pesos y desviaciones: rebalanceo V0 del Modelo V5 con blend 60/40 del mandato.
+#  CARTERA OBJETIVO (presentada a BBVA; pesos que publica el tracker en pesos.csv)
+#  · Pasiva 45%: ETF MEXTRAC09 25.5% + representativas 19.6%
+#  · Activa 55%: ocho overs del M-tilt (FEMSAUBD, GMEXICOB, PEOLES, KOFUBL, BOLSAA, PINFRA, BBAJIOO, MEGACPO)
+#  · Peso efectivo = peso directo + peso del ETF × peso en el índice. Desviación = efectivo − índice.
+#  · Las desviaciones de la presentación (p. ej. +7.50 pp) suponen el ETF en 25%; con el colchón de 25.5%
+#    del tracker la desviación calculada sale unas centésimas abajo.
+#
+#  Precios, rangos, rendimientos de precio, betas y volatilidades: LSEG Refinitiv, cierre del 6 de octubre de 2026.
+#  Betas y volatilidad: 262 semanas contra el MEXTRAC09. Datos fundamentales: reportes del 2T26
+#  (bitácora del 8 de octubre). Valor de mercado, dividendo y ESG: ficha anterior del equipo.
 # ══════════════════════════════════════════════════════════════════════════════
 
+
+# ══════════════════════════════ ETF ══════════════════════════════
 
 === MEXTRAC ===
 nombre: MEXTRAC 09
@@ -23,69 +31,86 @@ sector: ETF
 industria: Índice de referencia
 pais: México
 bolsa: Bolsa Mexicana de Valores
+recomendacion: Pasiva · núcleo de réplica
 descripcion:
   Fideicomiso F/4826 que replica el índice S&P/BMV IPC CompMX Rentable ESG Tilted TR.
-  Es el índice de referencia contra el que se mide esta gestión y, al mismo tiempo, el vehículo con el que se implementa la cartera pasiva del mandato.
-  Su composición la publica el fideicomiso y se reconstruye en el sistema a partir del archivo PCF oficial.
+  Es el índice de referencia contra el que se mide la gestión y, al mismo tiempo, el vehículo con el que se implementa la parte pasiva del mandato.
 
 # ───────── MERCADO ─────────
-rango_52s: 57.46 - 68.54
-ytd: +2.24%
-rend_1a: +8.78%
-rend_3a: +33.62%
+rango_52s: 57.44 - 68.54
+ytd: +4.66%
+rend_1a: +11.22%
+rend_3a: +45.99%
+rend_5a: +49.05%
 beta_5a: 1.000
-volatilidad_anual: 14.96%
+volatilidad_anual: 15.04%
 r2_vs_indice: 1.000
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 40.0000%
+peso_objetivo: 25.5000%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Es la cartera pasiva del mandato.
-  El 40% del capital replica el índice de forma exacta, lo que ancla el tracking error del fondo y garantiza que ninguna decisión activa pueda alejar la cartera del mercado más allá de lo que la política permite.
+  La cartera pasiva pesa 45% del mandato y se arma con dos piezas: el ETF, con 25.5% del portafolio, y la cartera representativa de cerca de 20%, acciones del índice que calcula el optimizador para controlar las subponderaciones no deseadas.
+  La política pide mínimo 25% en el ETF; se dejan 0.5 pp de colchón para que el redondeo a títulos enteros y el movimiento diario no lo saquen de política. Cada emisora del índice que no se compra directo se tiene de forma indirecta a través del ETF.
 riesgos:
-  - No aplica riesgo activo: por construcción replica el índice.
-  - El costo de operación de entrada y salida sí afecta el rendimiento neto frente al benchmark teórico.
+  - No genera riesgo activo: por construcción replica el índice.
+  - El precio del ETF puede separarse un poco del valor de su canasta (prima o descuento) en días de poca operación.
+  - Las comisiones de entrada y salida sí afectan el rendimiento neto contra el benchmark teórico.
 
+
+
+# ══════════════════════════════ OVERS · CARTERA ACTIVA ══════════════════════════════
 
 === FEMSAUBD ===
 nombre: Fomento Económico Mexicano, S.A.B. de C.V.
-sector: Consumo Frecuente
-industria: Bebidas y comercio de proximidad
+sector: Consumo básico
+industria: Comercio de proximidad y bebidas
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: femsa.com
+recomendacion: Sobreponderar · +7.45 pp
+conviccion: Alta · 3 de 3 factores
 descripcion:
-  Conglomerado de bebidas y comercio de proximidad.
-  Controla Coca-Cola FEMSA y opera la red de tiendas OXXO, además de negocios de salud y combustibles.
-  Obtuvo el score compuesto más alto del universo en el rebalanceo del modelo.
+  Opera la red de tiendas OXXO, consolida a Coca-Cola FEMSA y tiene negocios de salud, combustibles y servicios digitales (Spin by OXXO y Spin Premia).
+  Es la mayor posición individual del portafolio.
 
 # ───────── MERCADO ─────────
-rango_52s: 155.72 - 230.17
-ytd: +14.98%
-rend_1a: +31.15%
-rend_3a: +24.26%
-rend_5a: +39.26%
-beta_5a: 0.669
-volatilidad_anual: 22.39%
-r2_vs_indice: 0.200
+rango_52s: 170.42 - 232.52
+ytd: +15.76%
+rend_1a: +20.53%
+rend_3a: +10.56%
+rend_5a: +21.35%
+beta_5a: 0.663
+volatilidad_anual: 22.37%
+r2_vs_indice: 0.199
+margen_bruto: 40.1% (2T26)
+margen_operativo: 10.0% OXXO México
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 8.2146%
+peso_objetivo: 15.1816%
+peso_indice: 10.38%
+peso_efectivo: 17.83%
+desviacion: +7.45 pp
+bloque: ACTIVA
+senal_modelo: OVER (top-10)
+factores: Quality +1.35, Value +0.41, Momentum +1.17; score +1.16, percentil 91.9%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Score compuesto más alto del universo en el rebalanceo: z-Quality de +1.72 y z-Momentum de +2.04, la tendencia de precio de mediano plazo más fuerte de la canasta.
-  Es la mayor posición activa con 13.69% de esa parte y una sobreponderación de 4.18 puntos porcentuales, la apuesta de mayor convicción del modelo.
+  La sobreponderación se sustenta en la recuperación operativa de OXXO México y en la diversificación de sus fuentes de resultados. En el 2T26 los ingresos consolidados subieron 9.3% y la utilidad de operación 7.2%; en términos comparables (sin OXXO Brasil ni efectos cambiarios) fueron +10.1% y +11.7%.
+  OXXO México creció 11.8% en ingresos con ventas mismas tiendas de +9.5% (ticket +7.4%, tráfico +2.0%). La recuperación del tráfico llega después de varios trimestres de caída y fue generalizada entre regiones. Su utilidad de operación subió 12.3% y el margen se expandió 10 pb a 10.0%.
+  Coca-Cola FEMSA, consolidada, creció 4.7% en ingresos y 9.1% en utilidad de operación; Spin by OXXO llegó a 11.5 millones de usuarios activos (+22.1%) y Spin Premia a 29.1 millones (+9.4%). Los tres factores son positivos y el modelo le da +7.50 pp, la mayor apuesta junto con Peñoles.
 catalizadores:
-  - Score compuesto más alto del universo en el rebalanceo del modelo
-  - Momentum de precio más fuerte de la canasta
-  - Expansión de la red de proximidad
+  - Tráfico de OXXO México en recuperación tras varios trimestres de caída
+  - Ventas mismas tiendas +9.5% y margen operativo de OXXO México en 10.0%
+  - Ecosistema digital: Spin by OXXO con 11.5 millones de usuarios activos (+22.1%)
+  - Tender de Spin Premia en OXXO México de 50.4% contra 45.8% del 2T25
 riesgos:
-  - Es la mayor posición individual de la parte activa: concentra el tracking error del fondo en un solo nombre.
-  - Sobreponderación de 4.18 puntos, la mayor de la cartera, con poco margen de sorpresa positiva si el consenso ya es favorable.
-  - Exposición al consumo mexicano vía OXXO en un entorno de inflación de alimentos y servicios.
+  - El margen bruto consolidado se contrajo 60 pb a 40.1%.
+  - La deuda neta a UAFIDA sin KOF subió de 0.93x a 1.15x.
+  - La administración reconoce que el consumo en México sigue débil y espera una segunda mitad del año más moderada.
+  - Es la mayor posición del portafolio: concentra una parte importante del tracking error en un solo nombre.
 
 
 === GMEXICOB ===
@@ -95,384 +120,198 @@ industria: Minería de cobre, transporte e infraestructura
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: gmexico.com
+recomendacion: Sobreponderar · +5.36 pp
+conviccion: Media · 2 de 3 factores
 descripcion:
-  Grupo minero e industrial con operaciones de cobre en México, Perú y Estados Unidos, además de la división de transporte ferroviario y de infraestructura.
-  Es la exposición cíclica principal de la cartera.
+  Grupo minero e industrial con operaciones de cobre en México, Perú y Estados Unidos, además de la división de transporte ferroviario y la de infraestructura.
+  Cerca de 60% de sus ventas totales está ligado directamente al cobre.
 
 # ───────── MERCADO ─────────
-rango_52s: 128.88 - 235.80
-ytd: +31.72%
-rend_1a: +72.05%
-rend_3a: +201.85%
-rend_5a: +230.71%
-beta_5a: 1.406
-volatilidad_anual: 35.83%
-r2_vs_indice: 0.346
+rango_52s: 137.12 - 236.61
+ytd: +37.54%
+rend_1a: +71.62%
+rend_3a: +195.38%
+rend_5a: +189.64%
+beta_5a: 1.371
+volatilidad_anual: 35.57%
+r2_vs_indice: 0.336
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 7.2624%
+peso_objetivo: 12.3881%
+peso_indice: 9.43%
+peso_efectivo: 14.79%
+desviacion: +5.36 pp
+bloque: ACTIVA
+senal_modelo: OVER (top-10)
+factores: Quality +1.60, Value -0.72, Momentum +1.45; score +1.29, percentil 97.3%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Segundo peso del índice y segundo peso activo del modelo.
-  Su beta de 1.41 es la más alta de la canasta, así que concentra la exposición cíclica del fondo: es la posición que más aporta cuando el mercado sube y la que más resta cuando corrige.
+  Combina una fuerte expansión de resultados con una estructura de costos competitiva. En el primer semestre de 2026 las ventas consolidadas fueron de US$11,283 millones (+33.8%) y las de la División Minera de US$9,304 millones (+39.5%); el UAFIDA consolidado llegó a US$6,850 millones (+49.6%) y el de minería a US$5,918 millones (+61.3%).
+  El cash cost neto de subproductos fue de US$0.31 por libra en el semestre (−68.4%) y de US$0.40 en el 2T26 (−56.7%). Reporta deuda neta a UAFIDA negativa y 85% de su deuda a tasa fija.
+  Frente a una lectura de cobre estable con posibilidad de mejora, la sobreponderación se defiende por el bajo costo, la expansión del UAFIDA y la poca presión financiera, más que por crecimiento de producción.
 catalizadores:
-  - Ciclo del cobre y demanda de electrificación
-  - Rendimiento de 72% en el último año y 231% en cinco años
+  - Cash cost de US$0.40 por libra en el 2T26: seguiría con utilidades aun con una caída fuerte del cobre
+  - UAFIDA de minería +61.3% en el semestre
+  - Demanda estructural de cobre por electrificación, redes eléctricas y centros de datos
 riesgos:
-  - Beta de 1.41: amplifica cualquier corrección del mercado.
-  - Precio del cobre y ciclo industrial global determinan el resultado más que la operación propia.
-  - Volatilidad anualizada de 35.8%, de las más altas de la cartera.
+  - La producción de cobre del 2T26 fue de 257,537 toneladas, −3.7% a/a, y −3.2% en el semestre: el resultado depende del precio, que subió 28.6% en el semestre.
+  - Beta de 1.37 contra el MEXTRAC: amplifica las correcciones del mercado.
+  - Relación con el cobre medida con estadístico t de 4.12: un choque al metal pega directo.
 
 
-=== GFNORTEO ===
-nombre: Grupo Financiero Banorte, S.A.B. de C.V.
-sector: Financieros
-industria: Banca múltiple diversificada
+=== PEOLES ===
+nombre: Industrias Peñoles, S.A.B. de C.V.
+sector: Materiales
+industria: Minería de plata, oro y zinc y metalurgia
 pais: México
 bolsa: Bolsa Mexicana de Valores
-sitio: banorte.com
+sitio: penoles.com.mx
+recomendacion: Sobreponderar · +7.45 pp
+conviccion: Alta · 3 de 3 factores
 descripcion:
-  Grupo financiero mexicano con más de 20 millones de clientes a través de banca minorista, banca mayorista, seguros, pensiones y Afore.
-  Opera 1,216 sucursales, 12,168 cajeros y más de 45,000 puntos de corresponsalía que cubren el 72% de los municipios del país.
-  Es el único banco entre los seis grandes de México cuyas decisiones se toman localmente, sin matriz extranjera.
+  Grupo minero-metalúrgico mexicano y controlador de Fresnillo plc, el mayor productor de plata primaria del mundo.
+  Opera minas de oro, plata, zinc y plomo y el complejo metalúrgico Met-Mex en Torreón, donde refina oro, plata y zinc.
+  No forma parte del MEXTRAC: todo su peso en la cartera es sobreponderación.
 
 # ───────── MERCADO ─────────
-rango_52s: 155.32 - 200.90
-ytd: +23.08%
-rend_1a: +26.13%
-rend_3a: +81.04%
-rend_5a: +151.80%
-beta_5a: 0.917
-volatilidad_anual: 28.75%
-r2_vs_indice: 0.229
-valor_mercado: MXN 573,680 MDP
-div_yield: 6.2%
+rango_52s: 714.85 - 1,207.85
+ytd: -6.13%
+rend_1a: +14.23%
+rend_3a: +349.83%
+rend_5a: +251.38%
+beta_5a: 1.475
+volatilidad_anual: 53.58%
+r2_vs_indice: 0.171
+margen_operativo: 44.5% (2T26)
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 6.0228%
-peso_indice: 11.03%
-esg_sp: 71
+peso_objetivo: 7.4493%
+peso_indice: 0.00%
+peso_efectivo: 7.45%
+desviacion: +7.45 pp
+bloque: ACTIVA
+senal_modelo: OVER (top-10)
+factores: Quality +2.35, Value +1.42, Momentum +0.35; score +1.26, percentil 94.6%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  ROE de 24.8% al primer semestre, margen de interés neto resiliente en 6.8% e índice de capitalización de 21.48%.
-  Su ESG de 71 es el más alto de la canasta financiera, lo que reduce el riesgo de que el índice le recorte peso por criterios metodológicos.
-  El modelo lo deja 1.07 puntos por debajo del índice porque es la mayor posición individual de la canasta y cualquier desviación mueve el tracking error de forma desproporcionada.
+  La sobreponderación se sostiene en la magnitud de la mejora operativa del 2T26: ventas netas de US$2,886.9 millones (+38.9% a/a), utilidad bruta de US$1,535.9 millones (+117.9%), UAFIDA de US$1,444.3 millones (+112.3%) y utilidad de operación de US$1,285.0 millones (+150.8%).
+  La compañía lo atribuye sobre todo a precios: en el trimestre la plata promedió 118.6% más que en el 2T25, el oro 37.4%, el cobre 40.0% y el zinc 31.2%. La producción minera de oro subió 6.5% y la de plata 2.4%.
+  Tiene los tres factores positivos y el Quality más alto del universo (2.35), así que conserva el multiplicador completo de la regla de consenso. Tras el optimizador queda en +7.50 pp, la desviación máxima junto con FEMSA.
 catalizadores:
-  - Pausa prolongada de Banxico en 6.50% favorece el margen financiero
-  - Guía 2026 sin cambios: utilidad neta de 62,000 a 64,000 millones
-  - Consenso favorable con 13 compras de 19 analistas
+  - Precios de plata y oro en niveles altos: la relación de Peñoles con oro y plata tiene un estadístico t de 5.70 (p < 0.001)
+  - UAFIDA del 2T26 +112.3% y utilidad de operación +150.8%
+  - Producción minera de oro +6.5% y de plata +2.4%
 riesgos:
-  - Perspectiva negativa por vínculo soberano de S&P y Moody´s: un ajuste a la calificación de México se transmite directo sin importar el desempeño operativo.
-  - El índice de morosidad subió a 1.50%.
-  - Es la posición de mayor peso base del índice: cualquier desviación mueve el tracking error de forma desproporcionada.
-
-
-=== GAPB ===
-nombre: Grupo Aeroportuario del Pacífico, S.A.B. de C.V.
-sector: Industriales
-industria: Concesiones aeroportuarias
-pais: México
-bolsa: Bolsa Mexicana de Valores
-sitio: aeropuertosgap.com.mx
-descripcion:
-  Concesionario de doce aeropuertos en el Pacífico mexicano y dos en Jamaica, entre ellos Guadalajara, Tijuana y Los Cabos.
-
-# ───────── MERCADO ─────────
-rango_52s: 343.87 - 512.62
-ytd: -26.29%
-rend_1a: -26.45%
-rend_3a: +27.31%
-rend_5a: +87.19%
-beta_5a: 1.242
-volatilidad_anual: 33.54%
-r2_vs_indice: 0.308
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 5.9304%
-
-# ───────── NUESTRA POSTURA ─────────
-tesis:
-  Tráfico de pasajeros al alza con UAFIDA creciendo 8.4% y margen de 69.3% contra 67.1% del año previo.
-  Prácticamente neutral contra el índice: el modelo reconoce la calidad del activo pero no encuentra razón para desviarse.
-riesgos:
-  - Sensible a la demanda de viaje discrecional y al tipo de cambio.
-  - Regulación tarifaria por la Secretaría de Infraestructura acota el margen de maniobra en precios.
-
-
-=== AMXB ===
-nombre: América Móvil, S.A.B. de C.V.
-sector: Comunicaciones
-industria: Telecomunicaciones móviles y fijas
-pais: México
-bolsa: Bolsa Mexicana de Valores
-sitio: americamovil.com
-descripcion:
-  Operador de telecomunicaciones con presencia en más de veinte países de América y Europa.
-  Cerca del 64% de sus ingresos se genera fuera de México, lo que la vuelve sensible al tipo de cambio por conversión.
-  Su negocio de conectividad es relativamente inelástico al ciclo, lo que le da carácter defensivo dentro de la canasta.
-
-# ───────── MERCADO ─────────
-rango_52s: 17.35 - 23.64
-ytd: +5.61%
-rend_1a: +7.92%
-rend_3a: +29.99%
-rend_5a: +24.33%
-beta_5a: 0.525
-volatilidad_anual: 23.81%
-r2_vs_indice: 0.109
-valor_mercado: MXN 1,156,980 MDP
-div_yield: 2.8%
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 5.8956%
-peso_indice: 8.90%
-esg_sp: 65
-
-# ───────── NUESTRA POSTURA ─────────
-tesis:
-  Utilidad neta creciendo 9.2% anual en el segundo trimestre, EBITDA +3.8% en pesos y apalancamiento bajo de 1.31 veces deuda neta a EBITDAaL.
-  Beta de 0.53, la más baja entre las posiciones grandes: es el contrapeso defensivo de la exposición cíclica.
-riesgos:
-  - Litigios abiertos con el IFT, el IRS y en Brasil.
-  - Depuración regulatoria de líneas en México.
-  - El 64% de ingresos fuera de México expone el resultado reportado a conversión cambiaria; las coberturas ya generaron pérdida de 4,596 millones en el semestre.
-
-
-=== WALMEX ===
-nombre: Wal-Mart de México, S.A.B. de C.V.
-sector: Consumo Frecuente
-industria: Autoservicio y comercio minorista
-pais: México
-bolsa: Bolsa Mexicana de Valores
-sitio: walmex.mx
-descripcion:
-  Mayor cadena de autoservicio de México y Centroamérica, con formatos Walmart, Bodega Aurrerá, Sam´s Club y Superama.
-
-# ───────── MERCADO ─────────
-rango_52s: 45.49 - 61.97
-ytd: -19.00%
-rend_1a: -17.62%
-rend_3a: -26.47%
-rend_5a: -28.19%
-beta_5a: 0.699
-volatilidad_anual: 23.24%
-r2_vs_indice: 0.203
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 5.2530%
-
-# ───────── NUESTRA POSTURA ─────────
-tesis:
-  Sobreponderación de 1.77 puntos.
-  Consumo básico con beta de 0.70 que funciona como ancla defensiva del bloque de Consumer Staples.
-  Cotiza en el piso de su rango de 52 semanas, lo que el factor Value recoge favorablemente.
-riesgos:
-  - Cotiza en el mínimo de 52 semanas: el momentum de precio sigue en contra.
-  - Presión competitiva de comercio electrónico y de formatos de descuento.
-  - Caída de 19% en el año, el peor desempeño del bloque defensivo.
-
-
-=== ASURB ===
-nombre: Grupo Aeroportuario del Sureste, S.A.B. de C.V.
-sector: Industriales
-industria: Concesiones aeroportuarias
-pais: México
-bolsa: Bolsa Mexicana de Valores
-sitio: asur.com.mx
-descripcion:
-  Concesionario de nueve aeropuertos en el sureste mexicano, seis en Colombia y uno en Puerto Rico.
-  Cancún concentra la mayor parte de su tráfico.
-
-# ───────── MERCADO ─────────
-rango_52s: 425.74 - 638.54
-ytd: -24.60%
-rend_1a: -27.35%
-rend_3a: +13.97%
-rend_5a: +59.23%
-beta_5a: 1.094
-volatilidad_anual: 27.16%
-r2_vs_indice: 0.365
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 3.3726%
-
-# ───────── NUESTRA POSTURA ─────────
-tesis:
-  Peso prácticamente idéntico al del índice.
-  El modelo mantiene la exposición aeroportuaria repartida entre ASUR y GAP en lugar de concentrarla en un solo concesionario.
-riesgos:
-  - Concentración en Cancún: cualquier choque al turismo del Caribe pega de forma directa.
-  - Exposición regulatoria en Colombia y Puerto Rico.
-
-
-=== AC ===
-nombre: Arca Continental, S.A.B. de C.V.
-sector: Consumo Frecuente
-industria: Embotellado de bebidas
-pais: México
-bolsa: Bolsa Mexicana de Valores
-sitio: arcacontal.com
-descripcion:
-  Segundo embotellador de Coca-Cola más grande de América Latina, con operaciones en México, Estados Unidos, Ecuador, Perú y Argentina.
-
-# ───────── MERCADO ─────────
-rango_52s: 170.10 - 227.13
-ytd: +4.58%
-rend_1a: +7.55%
-rend_3a: +35.99%
-rend_5a: +90.90%
-beta_5a: 0.509
-volatilidad_anual: 20.00%
-r2_vs_indice: 0.145
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 3.1230%
-
-# ───────── NUESTRA POSTURA ─────────
-tesis:
-  Subponderada 1.5 puntos.
-  El negocio es sólido pero la valuación relativa frente a su sector no justifica el peso pasivo completo bajo el factor Value.
-riesgos:
-  - Costos de edulcorantes y empaque presionan margen.
-  - Exposición a Argentina y su volatilidad cambiaria.
+  - Es de las posiciones más sensibles a una corrección de la plata y el oro: buena parte de la mejora viene de precio, no de volumen.
+  - En la operación metalúrgica la producción cayó: oro −29.0%, plata −23.4% y zinc refinado −33.9%.
+  - No está en el índice: los 7.5 pp completos son riesgo activo y pesan directo en el tracking error.
+  - Volatilidad de 53.6% anual, la más alta del universo.
 
 
 === KOFUBL ===
 nombre: Coca-Cola FEMSA, S.A.B. de C.V.
-sector: Consumo Frecuente
+sector: Consumo básico
 industria: Embotellado de bebidas
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: coca-colafemsa.com
+recomendacion: Sobreponderar · +1.18 pp
+conviccion: Media · 2 de 3 factores
 descripcion:
   Mayor embotellador de Coca-Cola del mundo por volumen, con operaciones en México, Centroamérica y Sudamérica.
+  Sudamérica ya genera una parte creciente de la utilidad, lo que reduce su dependencia del consumo mexicano.
 
 # ───────── MERCADO ─────────
-rango_52s: 142.72 - 197.88
-ytd: +12.98%
-rend_1a: +24.57%
-rend_3a: +48.19%
-rend_5a: +96.20%
-beta_5a: 0.568
-volatilidad_anual: 21.47%
-r2_vs_indice: 0.157
+rango_52s: 148.83 - 197.88
+ytd: +12.85%
+rend_1a: +26.68%
+rend_3a: +41.85%
+rend_5a: +69.60%
+beta_5a: 0.566
+volatilidad_anual: 21.32%
+r2_vs_indice: 0.160
+margen_bruto: 47.1% (2T26)
+margen_operativo: 14.0% (2T26)
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 2.5830%
+peso_objetivo: 7.1736%
+peso_indice: 8.05%
+peso_efectivo: 9.23%
+desviacion: +1.18 pp
+bloque: ACTIVA
+senal_modelo: OVER (top-10)
+factores: Quality +0.14, Value -0.45, Momentum +1.85; score +0.93, percentil 89.2%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Subponderación de 3.61 puntos, la mayor apuesta en contra de toda la cartera.
-  El modelo prefiere la exposición a bebidas por la vía de FEMSA, que además captura el negocio de proximidad de OXXO.
+  La compañía mantiene crecimiento de volumen y expande rentabilidad pese al consumo débil. En el 2T26 el volumen subió 3.5% a 1,071.8 millones de cajas unidad, los ingresos 4.7% a $76,318 millones, el UAFIDA ajustado 12.1% a $15,008 millones y la utilidad de operación 9.1% a $10,654 millones; el margen operativo se expandió 60 pb a 14.0% y el bruto 180 pb a 47.1% por menores costos de edulcorantes y PET, coberturas y monedas.
+  Sudamérica compensó la debilidad doméstica: volumen +6.9%, ingresos +11.8% a $30,868 millones y utilidad de operación +46.5% a $4,303 millones con margen de 13.9% (+330 pb). Por eso el over de +1.18 pp se justifica por crecimiento de volumen, expansión de márgenes y diversificación geográfica.
+catalizadores:
+  - Margen bruto +180 pb a 47.1% en el 2T26
+  - Sudamérica: utilidad de operación +46.5%
+  - Momentum z de 1.85, el más alto de los overs
 riesgos:
-  - La subponderación de 3.61 puntos es la mayor apuesta en contra: si el nombre repunta, es el que más resta al retorno activo.
+  - México y Centroamérica: volumen +1.4%, ingresos +0.3% y utilidad de operación −7.0%; el entorno doméstico todavía no permite asumir una aceleración.
   - Impuestos a bebidas azucaradas en varias jurisdicciones.
 
 
-=== VESTA ===
-nombre: Corporación Inmobiliaria Vesta, S.A.B. de C.V.
-sector: Bienes Raíces
-industria: Parques industriales en arrendamiento
+=== BOLSAA ===
+nombre: Bolsa Mexicana de Valores, S.A.B. de C.V.
+sector: Financieras
+industria: Infraestructura de mercados
 pais: México
 bolsa: Bolsa Mexicana de Valores
-sitio: vesta.com.mx
+sitio: bmv.com.mx
+recomendacion: Sobreponderar · +5.36 pp
+conviccion: Media · 2 de 3 factores
 descripcion:
-  Desarrolladora y arrendadora de parques industriales con contratos mayoritariamente denominados en dólares.
-  Es la exposición directa de la cartera al nearshoring.
+  Grupo BMV opera un modelo integrado de infraestructura bursátil: bolsa de capitales, custodia y liquidación (Indeval), operación OTC (SIF ICAP), servicios de información y listado de emisoras.
+  Cerca de la mitad de sus ingresos es transaccional (sensible al volumen) y la otra mitad son cuotas recurrentes y suscripciones.
+  No forma parte del MEXTRAC: todo su peso en la cartera es sobreponderación.
 
 # ───────── MERCADO ─────────
-rango_52s: 47.65 - 63.58
-ytd: +4.17%
-rend_1a: +8.28%
-rend_3a: -9.37%
-rend_5a: +63.36%
-beta_5a: 0.739
-volatilidad_anual: 23.33%
-r2_vs_indice: 0.225
+rango_52s: 33.90 - 39.72
+ytd: +0.87%
+rend_1a: +0.92%
+rend_3a: +12.21%
+rend_5a: -4.09%
+beta_5a: 0.479
+volatilidad_anual: 23.87%
+r2_vs_indice: 0.091
+valor_mercado: MXN 21,219 MDP
+div_yield: 5.9%
+pe: 10.9x
+ev_ebitda: 6.3x
+roe: 24.2%
+margen_operativo: 55.5% margen UAFIDA LTM
+esg_combinado: 70 · S&P Global
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 2.1714%
+peso_objetivo: 5.3635%
+peso_indice: 0.00%
+peso_efectivo: 5.36%
+desviacion: +5.36 pp
+bloque: ACTIVA
+senal_modelo: OVER (top-10)
+factores: Quality +2.10, Value -0.40, Momentum +1.31; score +1.45, percentil 100.0%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Sobreponderación de 1.42 puntos.
-  Nearshoring, ocupación alta y rentas denominadas en dólares.
-  Su beta de 0.74 y su baja correlación con la banca la vuelven un diversificador real dentro de la parte activa.
+  Es la número 1 del ranking vanilla del modelo, con Quality z de 2.10 y Momentum z de 1.31. Al tener Value negativo (−0.40) solo dos de tres factores son positivos, así que la regla de consenso le aplica un multiplicador de 0.75 y el optimizador la deja en +5.40 pp.
+  Al 2T26 muestra solidez patrimonial, alta conversión de caja y múltiplos descontados: valor empresa de $16,223.3 millones, 10.9x utilidad y 6.3x VE/UAFIDA, sin deuda bursátil ni bancaria (deuda neta a UAFIDA de −1.16x), ROE de 24.2%, ROA de 19.4% y margen de flujo libre de 36.8%.
+  Sus ingresos tienen correlación de 0.464 con el USD/MXN (p = 0.0005): cerca de 80% de Servicios de Información se cobra en dólares, igual que la custodia y la intermediación del SIC. Además, se beneficia de la volatilidad y el volumen operado, lo que funciona como cobertura natural en un entorno incierto.
 catalizadores:
-  - Nearshoring y ocupación alta
-  - Rentas denominadas en dólares
+  - Ingresos del 2T26 de $1,197.6 millones, +8.2% contra $1,106.6 millones del 2T25
+  - Custodia (Indeval) aporta 31.5% de los ingresos; servicios de información 16.6% y operación OTC 16%
+  - Una depreciación del peso aumenta sus ingresos en pesos
+  - Posición dominante: 82% de participación de mercado
 riesgos:
-  - Exposición directa a la revisión del T-MEC y a la política comercial de Estados Unidos.
-  - La apreciación del peso reduce el valor en pesos de rentas denominadas en dólares.
-
-
-=== KIMBERA ===
-nombre: Kimberly-Clark de México, S.A.B. de C.V.
-sector: Consumo Frecuente
-industria: Productos de cuidado personal y del hogar
-pais: México
-bolsa: Bolsa Mexicana de Valores
-sitio: kimberly-clark.com.mx
-descripcion:
-  Fabricante de productos de cuidado personal y del hogar con marcas como Kleenex, Huggies y Petalo.
-
-# ───────── MERCADO ─────────
-rango_52s: 32.83 - 42.60
-ytd: +3.68%
-rend_1a: +9.91%
-rend_3a: +15.11%
-rend_5a: +39.17%
-beta_5a: 0.774
-volatilidad_anual: 23.97%
-r2_vs_indice: 0.234
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 1.8468%
-
-# ───────── NUESTRA POSTURA ─────────
-tesis:
-  Posición prácticamente neutral.
-  Aporta estabilidad de márgenes al factor Quality sin consumir presupuesto de tracking error.
-riesgos:
-  - Costos de pulpa y resinas atados al dólar.
-  - Poder de fijación de precios limitado frente a marcas propias de autoservicio.
-
-
-=== GCC ===
-nombre: GCC, S.A.B. de C.V.
-sector: Materiales
-industria: Cemento y concreto
-pais: México
-bolsa: Bolsa Mexicana de Valores
-sitio: gcc.com
-descripcion:
-  Productora de cemento y concreto con operaciones en el norte de México y en el centro de Estados Unidos, donde genera la mayor parte de sus ingresos.
-
-# ───────── MERCADO ─────────
-rango_52s: 155.06 - 217.43
-ytd: +1.92%
-rend_1a: +5.15%
-rend_3a: +12.83%
-rend_5a: +30.97%
-beta_5a: 0.836
-volatilidad_anual: 26.99%
-r2_vs_indice: 0.216
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 1.8252%
-
-# ───────── NUESTRA POSTURA ─────────
-tesis:
-  No forma parte del índice, así que los 3.04 puntos de peso activo son sobreponderación pura y toda la posición contribuye directo al tracking error.
-  La tesis descansa en su exposición a infraestructura en Estados Unidos, un motor de demanda distinto al del resto de la canasta doméstica.
-catalizadores:
-  - Gasto en infraestructura en Estados Unidos
-  - Sobreponderación pura sin peso en el índice
-riesgos:
-  - Toda la posición es sobreponderación pura: no hay ancla de benchmark que comparta el riesgo.
-  - Depende del gasto en infraestructura en Estados Unidos y del clima en el ciclo de construcción.
+  - Una baja de la tasa objetivo reduce los ingresos por rendimientos de tesorería; el nocional de swaps de TIIE cayó 53.5% en el 2T26.
+  - CAGR de UAFIDA de 1.5% y contracción de margen de 2.4 pp por gastos de personal y tecnología.
+  - La apreciación del peso restó $98 millones a los ingresos del primer semestre de 2026.
+  - No está en el índice: toda la posición es riesgo activo.
 
 
 === PINFRA ===
@@ -482,118 +321,413 @@ industria: Concesiones carreteras
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: pinfra.com.mx
+recomendacion: Sobreponderar · +2.57 pp
+conviccion: Alta · 3 de 3 factores
 descripcion:
-  Concesionaria de autopistas de cuota en México, con una de las estructuras de capital más conservadoras del sector de infraestructura.
+  Concesionaria de autopistas de cuota en México con un negocio de construcción y materiales.
+  No tiene deuda corporativa ni avales cruzados entre subsidiarias: la deuda que emite es de proyecto y se paga con los flujos de cada concesión.
 
 # ───────── MERCADO ─────────
-rango_52s: 227.62 - 302.95
-ytd: -0.67%
-rend_1a: +7.99%
-rend_3a: +69.36%
-rend_5a: +116.36%
-beta_5a: 0.736
-volatilidad_anual: 23.16%
-r2_vs_indice: 0.227
+rango_52s: 227.84 - 303.09
+ytd: +2.33%
+rend_1a: +13.70%
+rend_3a: +80.51%
+rend_5a: +97.18%
+beta_5a: 0.710
+volatilidad_anual: 23.38%
+r2_vs_indice: 0.208
+margen_operativo: 56% margen UAFIDA consolidado
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 1.6242%
+peso_objetivo: 3.0169%
+peso_indice: 0.60%
+peso_efectivo: 3.17%
+desviacion: +2.57 pp
+bloque: ACTIVA
+senal_modelo: OVER (top-10)
+factores: Quality +0.70, Value +1.32, Momentum +0.12; score +0.47, percentil 81.1%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Segundo score compuesto más alto del universo con +1.22, impulsado por un z-Value excepcional de +1.66, la acción más barata frente a su sector ese día, y un z-Quality de +1.20.
-  Sobreponderada 2.14 puntos sobre un peso de índice mínimo.
+  Crecimiento en el núcleo recurrente aun con actividad económica moderada. En el 2T26 las autopistas que consolidan registraron un tráfico promedio diario de 326,733 vehículos (+4%) e ingresos de $4,028.3 millones (+15%); el segmento de concesiones facturó $4,087.0 millones (+4.0%) con UAFIDA de $3,241.3 millones (+4.1%), por tráfico orgánico e incrementos tarifarios.
+  En un escenario de tasas elevadas pesa su estructura: no tiene deuda corporativa y la de proyecto se paga con los flujos de las concesiones. Los tres factores son positivos, con Value z de 1.32.
 catalizadores:
-  - Valuación más barata del universo frente a su sector según el factor Value
-  - Estructura de capital conservadora
+  - Tráfico promedio diario +4% e ingresos de autopistas +15% en el 2T26
+  - Incrementos tarifarios aplicados en el trimestre
+  - Sin deuda corporativa: la tasa alta no se transmite al balance del grupo
 riesgos:
-  - Bursatilidad moderada: el costo de entrada y salida de una posición activa grande puede superar el beneficio del sesgo.
+  - El margen UAFIDA consolidado bajó de 64% a 56% por la mayor participación del negocio de construcción.
   - Riesgo regulatorio y de renegociación de concesiones.
+  - Bursatilidad moderada: el costo de entrar y salir de la posición es mayor que en las grandes.
 
 
 === BBAJIOO ===
 nombre: Banco del Bajío, S.A., Institución de Banca Múltiple
-sector: Financieros
-industria: Banca comercial y agroindustrial
+sector: Financieras
+industria: Banca comercial y empresarial
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: bb.com.mx
+recomendacion: Sobreponderar · +1.18 pp
+conviccion: Media · 2 de 3 factores
 descripcion:
-  Banco comercial especializado en empresas medianas y en el sector agroindustrial, con la mayor exposición agroexportadora del sistema bancario mexicano listado.
-  Paga el dividend yield más alto de la canasta analizada.
+  BanBajío es la octava institución del sistema financiero mexicano por tamaño de cartera y el tercer banco más grande entre los no afiliados a una matriz extranjera.
+  Se especializa en empresas medianas y en el sector agroindustrial; su margen es más sensible a la TIIE que el de otros bancos.
 
 # ───────── MERCADO ─────────
-rango_52s: 40.45 - 58.68
-ytd: +34.75%
-rend_1a: +36.91%
-rend_3a: +47.60%
-rend_5a: +171.12%
-beta_5a: 0.839
-volatilidad_anual: 29.44%
-r2_vs_indice: 0.182
+rango_52s: 44.13 - 60.67
+ytd: +28.38%
+rend_1a: +29.37%
+rend_3a: +8.78%
+rend_5a: +49.59%
+beta_5a: 0.834
+volatilidad_anual: 29.31%
+r2_vs_indice: 0.183
 valor_mercado: MXN 68,412 MDP
 div_yield: 9.4%
+pe: 7.8x
+roe: 18.1%
+esg_combinado: 34 · S&P Global
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 1.0788%
-peso_indice: 2.14%
-esg_sp: 34
+peso_objetivo: 2.6594%
+peso_indice: 1.99%
+peso_efectivo: 3.17%
+desviacion: +1.18 pp
+bloque: ACTIVA
+senal_modelo: OVER (top-10)
+factores: Quality -0.08, Value +1.39, Momentum +0.87; score +0.54, percentil 83.8%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Punto de inflexión operativo con utilidad neta creciendo 3.7% trimestral, guía anual revisada al alza y calificación de depósitos elevada a AAA.mx por Moody´s Local.
-  Aun así el modelo lo deja por debajo del índice: su ESG de 34 es señal de alerta en un índice con sesgo ESG.
+  Perfil de valuación atractivo al cierre del 2T26: 7.8x utilidad y valor empresa de $97,960.9 millones, con CAGR de ingresos de 13.9% entre diciembre de 2021 y junio de 2026.
+  Opera con margen de interés neto de 5.40%, IMOR de 1.81%, eficiencia de 44.0%, ICAP de 14.7%, ROE de 18.1% y ROA de 2.1%.
+  Es más sensible a la TIIE que otros bancos, pero con la expectativa de un Banxico en pausa se puede sostener su margen de interés neto. Value z de 1.39 y Momentum z de 0.87.
 catalizadores:
-  - Guía anual revisada al alza: cartera 11% a 12% y utilidad de 8,400 a 9,000 millones
-  - Dividend yield de 9.4%, el más alto de la canasta
-  - Costo de riesgo bajo en 0.55%
+  - Banxico en pausa: protege el margen de interés neto
+  - Valuación de 7.8x utilidad
+  - Dividend yield alto dentro del universo
 riesgos:
-  - ESG de 34 en un índice con sesgo ESG: perfil que históricamente precede a recortes de peso del índice.
-  - Exposición agroexportadora de 6.44% de la cartera comercial ante la revisión del T-MEC.
-  - El re-rating positivo reciente ya está parcialmente en precio.
+  - El margen de interés neto se contrajo 71 pb a/a en el 2T26 por menores tasas y mezcla.
+  - Crecimiento de ingresos LTM de −4.2% por el ciclo de recortes de la tasa de referencia.
+  - ESG de S&P de 34 en un índice con sesgo ESG.
 
 
-=== TLEVISACPO ===
-nombre: Grupo Televisa, S.A.B.
-sector: Comunicaciones
-industria: Cable, satélite y contenidos
+=== MEGACPO ===
+nombre: Megacable Holdings, S.A.B. de C.V.
+sector: Servicios de comunicación
+industria: Cable, internet y telefonía
 pais: México
 bolsa: Bolsa Mexicana de Valores
-sitio: televisair.com
+sitio: megacable.com.mx
+recomendacion: Sobreponderar · +1.18 pp
+conviccion: Media · 2 de 3 factores
 descripcion:
-  Grupo de medios y telecomunicaciones cuyo negocio principal hoy es Cable y Sky tras la separación del negocio de contenidos.
-  La expansión de margen por sinergias convive con una pérdida neta reciente y con dilución potencial por obligaciones convertibles.
+  Empresa mexicana de telecomunicaciones y entretenimiento con presencia nacional: internet, video y telefonía fija y móvil.
+  Su red llegó a 86% de fibra óptica a marzo de 2026, la proporción más alta del sector frente a América Móvil e Izzi.
 
 # ───────── MERCADO ─────────
-rango_52s: 7.93 - 11.85
-ytd: -25.05%
-rend_1a: -23.98%
-rend_3a: -40.26%
-rend_5a: -81.74%
-beta_5a: 1.029
-volatilidad_anual: 44.71%
-r2_vs_indice: 0.119
-valor_mercado: MXN 24,320 MDP
-div_yield: 2.9%
+rango_52s: 49.65 - 67.81
+ytd: +2.01%
+rend_1a: -1.53%
+rend_3a: +36.76%
+rend_5a: -11.14%
+beta_5a: 0.660
+volatilidad_anual: 32.43%
+r2_vs_indice: 0.094
+valor_mercado: MXN 43,625 MDP
+div_yield: 6.2%
+esg_combinado: 28 · S&P Global
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 1.0512%
-peso_indice: 0.70%
-esg_sp: 47
+peso_objetivo: 1.6463%
+peso_indice: 0.63%
+peso_efectivo: 1.81%
+desviacion: +1.18 pp
+bloque: ACTIVA
+senal_modelo: OVER (top-10)
+factores: Quality +0.96, Value -0.05, Momentum +0.05; score +0.40, percentil 75.7%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Sobreponderación táctica de 1.04 puntos tomada después de la caída por el anuncio preliminar de posible salida del S&P/BMV IPC.
-  Es una apuesta de rebote sobre una venta técnica que parece excesiva frente a la mejora operativa de Cable y Sky, no una posición estructural.
+  La intensidad de CAPEX bajó de picos de 40% de los ingresos a 25.9% en 2025 y se proyecta en 21.3% para 2026: la fase de crecimiento por despliegue cede a la de rentabilidad por penetración, lo que libera flujo libre.
+  Superó 6.0 millones de suscriptores de internet en el 2T26 (+8.5% contra 2025) sobre 19.7 millones de casas pasadas, con ARPU de $440.9 y 2.45 RGU por suscriptor. La correlación positiva entre inflación e ingresos por ARPU (R² de 0.272) muestra poder de fijación de precios sin erosionar la base.
+  Su deuda es 100% en pesos con deuda neta a UAFIDA de 1.31x a 1.37x, la más conservadora del sector TMT en América Latina, e insensible al USD/MXN.
 catalizadores:
-  - Expansión de margen de 310 puntos base a 41.8% por sinergias de Cable y Sky
-  - Liquidez de aproximadamente 45,900 millones
-  - Programa de recompra de 2,000 millones disponible
+  - CAPEX de 21.3% de los ingresos en 2026, contra picos de 40%
+  - Más de 6.0 millones de suscriptores de internet (+8.5%)
+  - Negocio contracíclico: en debilidad del PIB los usuarios priorizan conectividad
 riesgos:
-  - Revisión activa de exclusión del S&P/BMV IPC el 21 de septiembre: ventas forzadas de fondos indexados sin relación con fundamentales.
-  - Pérdida neta de 497.4 millones en el segundo trimestre y suspensión del dividendo anual 2026.
-  - Dilución potencial de hasta 19.48% por obligaciones convertibles.
-  - Volatilidad anualizada de 44.7%, la segunda más alta de la cartera.
+  - Competencia directa de Totalplay e Izzi en las mismas zonas.
+  - Su ESG de S&P (28) es de los más bajos del universo, en un índice con sesgo ESG.
 
+
+
+# ══════════════════════════════ REPRESENTATIVAS · CARTERA PASIVA ══════════════════════════════
+
+=== GAPB ===
+nombre: Grupo Aeroportuario del Pacífico, S.A.B. de C.V.
+sector: Industriales
+industria: Concesiones aeroportuarias
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: aeropuertosgap.com.mx
+recomendacion: Representativa · -3.01 pp
+descripcion:
+  Concesionario de doce aeropuertos en el Pacífico mexicano y dos en Jamaica, entre ellos Guadalajara, Tijuana y Los Cabos.
+
+# ───────── MERCADO ─────────
+rango_52s: 343.65 - 512.62
+ytd: -20.14%
+rend_1a: -9.81%
+rend_3a: +62.91%
+rend_5a: +56.52%
+beta_5a: 1.236
+volatilidad_anual: 33.52%
+r2_vs_indice: 0.308
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 4.5813%
+peso_indice: 10.19%
+peso_efectivo: 7.18%
+desviacion: -3.01 pp
+bloque: REPRESENTATIVA
+senal_modelo: Representativa
+factores: Quality -2.45, Value -1.58, Momentum -0.73; score -1.50, percentil 2.7%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
+  Pesa 10.19% en el MEXTRAC; en la cartera queda en 7.18% (4.58% directo más 2.60% a través del ETF), una desviación de -3.01 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality -2.45, Value -1.58, Momentum -0.73; score -1.50, percentil 2.7%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+catalizadores:
+  - UAFIDA +8.4% con margen de 69.3% contra 67.1% del año previo
+riesgos:
+  - Subponderada 3.01 pp: si repunta más que el índice, resta al retorno activo.
+  - Sensible a la demanda de viaje discrecional y al tipo de cambio.
+  - La regulación tarifaria acota el margen de maniobra en precios.
+
+
+=== AMXB ===
+nombre: América Móvil, S.A.B. de C.V.
+sector: Servicios de comunicación
+industria: Telecomunicaciones móviles y fijas
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: americamovil.com
+recomendacion: Representativa · -3.02 pp
+descripcion:
+  Operador de telecomunicaciones con presencia en más de veinte países de América y Europa.
+  Cerca de 64% de sus ingresos se genera fuera de México, lo que la vuelve sensible al tipo de cambio por conversión.
+
+# ───────── MERCADO ─────────
+rango_52s: 17.56 - 23.92
+ytd: +7.85%
+rend_1a: +4.86%
+rend_3a: +33.22%
+rend_5a: +12.83%
+beta_5a: 0.669
+volatilidad_anual: 23.39%
+r2_vs_indice: 0.185
+valor_mercado: MXN 1,156,980 MDP
+div_yield: 2.8%
+esg_combinado: 65 · S&P Global
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 4.4100%
+peso_indice: 9.97%
+peso_efectivo: 6.95%
+desviacion: -3.02 pp
+bloque: REPRESENTATIVA
+senal_modelo: Representativa
+factores: Quality -0.24, Value -0.43, Momentum -0.40; score -0.34, percentil 32.4%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
+  Pesa 9.97% en el MEXTRAC; en la cartera queda en 6.95% (4.41% directo más 2.54% a través del ETF), una desviación de -3.02 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality -0.24, Value -0.43, Momentum -0.40; score -0.34, percentil 32.4%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+catalizadores:
+  - Utilidad neta +9.2% en el 2T26 y apalancamiento de 1.31x
+riesgos:
+  - Subponderada 3.02 pp: si repunta más que el índice, resta al retorno activo.
+  - Litigios abiertos con el IFT, el IRS y en Brasil.
+  - 64% de los ingresos fuera de México: el resultado reportado depende de la conversión cambiaria.
+
+
+=== GFNORTEO ===
+nombre: Grupo Financiero Banorte, S.A.B. de C.V.
+sector: Financieras
+industria: Banca múltiple diversificada
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: banorte.com
+recomendacion: Representativa · -3.02 pp
+descripcion:
+  Grupo financiero mexicano con más de 20 millones de clientes en banca minorista, banca mayorista, seguros, pensiones y Afore.
+  Es el único banco entre los seis grandes de México cuyas decisiones se toman localmente, sin matriz extranjera.
+
+# ───────── MERCADO ─────────
+rango_52s: 164.82 - 208.50
+ytd: +14.76%
+rend_1a: +8.91%
+rend_3a: +32.74%
+rend_5a: +41.70%
+beta_5a: 0.903
+volatilidad_anual: 28.72%
+r2_vs_indice: 0.224
+valor_mercado: MXN 573,680 MDP
+div_yield: 6.2%
+esg_combinado: 71 · S&P Global
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 4.2684%
+peso_indice: 9.78%
+peso_efectivo: 6.76%
+desviacion: -3.02 pp
+bloque: REPRESENTATIVA
+senal_modelo: Representativa
+factores: Quality -0.43, Value -0.76, Momentum +0.73; score +0.12, percentil 62.2%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
+  Pesa 9.78% en el MEXTRAC; en la cartera queda en 6.76% (4.27% directo más 2.49% a través del ETF), una desviación de -3.02 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality -0.43, Value -0.76, Momentum +0.73; score +0.12, percentil 62.2%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+catalizadores:
+  - ROE de 24.8% al primer semestre y margen de interés neto de 6.8%
+  - Guía 2026 de utilidad de 62,000 a 64,000 millones
+riesgos:
+  - Subponderada 3.02 pp: si repunta más que el índice, resta al retorno activo.
+  - Perspectiva negativa por el vínculo soberano: un ajuste a la calificación de México se transmite directo.
+  - El índice de morosidad subió a 1.50%.
+
+
+=== AC ===
+nombre: Arca Continental, S.A.B. de C.V.
+sector: Consumo básico
+industria: Embotellado de bebidas
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: arcacontal.com
+recomendacion: Representativa · -3.02 pp
+descripcion:
+  Segundo embotellador de Coca-Cola más grande de América Latina, con operaciones en México, Estados Unidos, Ecuador, Perú y Argentina.
+
+# ───────── MERCADO ─────────
+rango_52s: 176.91 - 230.08
+ytd: +0.43%
+rend_1a: +3.31%
+rend_3a: +23.84%
+rend_5a: +54.92%
+beta_5a: 0.483
+volatilidad_anual: 20.20%
+r2_vs_indice: 0.129
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 2.5104%
+peso_indice: 7.42%
+peso_efectivo: 4.40%
+desviacion: -3.02 pp
+bloque: REPRESENTATIVA
+senal_modelo: Representativa
+factores: Quality +0.07, Value -0.93, Momentum +0.25; score +0.06, percentil 59.5%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
+  Pesa 7.42% en el MEXTRAC; en la cartera queda en 4.40% (2.51% directo más 1.89% a través del ETF), una desviación de -3.02 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality +0.07, Value -0.93, Momentum +0.25; score +0.06, percentil 59.5%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+riesgos:
+  - Subponderada 3.02 pp: si repunta más que el índice, resta al retorno activo.
+  - Costos de edulcorantes y empaque presionan el margen.
+  - Exposición a Argentina y su volatilidad cambiaria.
+
+
+=== WALMEX ===
+nombre: Wal-Mart de México, S.A.B. de C.V.
+sector: Consumo básico
+industria: Autoservicio y comercio minorista
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: walmex.mx
+recomendacion: Representativa · -3.02 pp
+descripcion:
+  Mayor cadena de autoservicio de México y Centroamérica, con formatos Walmart, Bodega Aurrerá, Sam´s Club y Walmart Express.
+
+# ───────── MERCADO ─────────
+rango_52s: 45.15 - 63.74
+ytd: -16.64%
+rend_1a: -14.53%
+rend_3a: -26.82%
+rend_5a: -34.30%
+beta_5a: 0.684
+volatilidad_anual: 23.25%
+r2_vs_indice: 0.196
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 2.4881%
+peso_indice: 7.39%
+peso_efectivo: 4.37%
+desviacion: -3.02 pp
+bloque: REPRESENTATIVA
+senal_modelo: Representativa
+factores: Quality +0.43, Value -0.98, Momentum -1.25; score -0.55, percentil 21.6%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
+  Pesa 7.39% en el MEXTRAC; en la cartera queda en 4.37% (2.49% directo más 1.88% a través del ETF), una desviación de -3.02 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality +0.43, Value -0.98, Momentum -1.25; score -0.55, percentil 21.6%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+riesgos:
+  - Subponderada 3.02 pp: si repunta más que el índice, resta al retorno activo.
+  - Cotiza cerca del mínimo de 52 semanas: el momentum de precio sigue en contra.
+  - Presión de comercio electrónico y de formatos de descuento.
+
+
+=== ASURB ===
+nombre: Grupo Aeroportuario del Sureste, S.A.B. de C.V.
+sector: Industriales
+industria: Concesiones aeroportuarias
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: asur.com.mx
+recomendacion: Representativa · -3.01 pp
+descripcion:
+  Concesionario de nueve aeropuertos en el sureste mexicano, seis en Colombia y uno en Puerto Rico. Cancún concentra la mayor parte de su tráfico.
+
+# ───────── MERCADO ─────────
+rango_52s: 419.00 - 650.68
+ytd: -25.46%
+rend_1a: -25.61%
+rend_3a: +12.98%
+rend_5a: +10.17%
+beta_5a: 1.077
+volatilidad_anual: 27.47%
+r2_vs_indice: 0.347
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 1.3632%
+peso_indice: 5.87%
+peso_efectivo: 2.86%
+desviacion: -3.01 pp
+bloque: REPRESENTATIVA
+senal_modelo: Representativa
+factores: Quality +2.10, Value -0.91, Momentum -1.52; score -0.01, percentil 51.4%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
+  Pesa 5.87% en el MEXTRAC; en la cartera queda en 2.86% (1.36% directo más 1.50% a través del ETF), una desviación de -3.01 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality +2.10, Value -0.91, Momentum -1.52; score -0.01, percentil 51.4%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+riesgos:
+  - Subponderada 3.01 pp: si repunta más que el índice, resta al retorno activo.
+  - Concentración en Cancún: un choque al turismo del Caribe pega de forma directa.
+  - Exposición regulatoria en Colombia y Puerto Rico.
+
+
+
+# ══════════════════════════════ EN EL ÍNDICE · SIN POSICIÓN DIRECTA ══════════════════════════════
 
 === OMAB ===
 nombre: Grupo Aeroportuario del Centro Norte, S.A.B. de C.V.
@@ -602,362 +736,867 @@ industria: Concesiones aeroportuarias
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: oma.aero
+recomendacion: Subponderar · -2.90 pp
 descripcion:
   Concesionario de trece aeropuertos en el centro y norte de México, con Monterrey como principal activo.
 
 # ───────── MERCADO ─────────
-rango_52s: 206.96 - 279.00
-ytd: -11.43%
-rend_1a: -11.29%
-rend_3a: +19.93%
-rend_5a: +151.98%
+rango_52s: 206.91 - 286.92
+ytd: -13.07%
+rend_1a: -8.91%
+rend_3a: +43.37%
+rend_5a: +70.30%
 beta_5a: 1.273
-volatilidad_anual: 34.29%
-r2_vs_indice: 0.309
+volatilidad_anual: 34.77%
+r2_vs_indice: 0.303
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 1.0128%
+peso_objetivo: 0.0000%
+peso_indice: 3.89%
+peso_efectivo: 0.99%
+desviacion: -2.90 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality +0.07, Value -1.12, Momentum -0.10; score -0.13, percentil 48.6%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Subponderada 2.32 puntos.
-  Dentro del bloque aeroportuario el modelo prefiere GAP y ASUR por score compuesto.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality +0.07, Value -1.12, Momentum -0.10; score -0.13, percentil 48.6%).
+  Pesa 3.89% en el MEXTRAC y se tiene solo a través del ETF (0.99%), una subponderación de 2.90 pp que financia las convicciones del modelo.
 riesgos:
-  - Concentración en Monterrey y exposición al ciclo industrial del norte.
-  - Subponderar 2.32 puntos implica renunciar al aeropuerto con mayor crecimiento de carga.
+  - Subponderada 2.90 pp: si sube más que el índice, resta al retorno activo.
 
 
-=== ALSEA ===
-nombre: Alsea, S.A.B. de C.V.
-sector: Consumo Discrecional
-industria: Operación de restaurantes
+=== KIMBERA ===
+nombre: Kimberly-Clark de México, S.A.B. de C.V.
+sector: Consumo básico
+industria: Productos de cuidado personal y del hogar
 pais: México
 bolsa: Bolsa Mexicana de Valores
-sitio: alsea.net
+sitio: kimberly-clark.com.mx
+recomendacion: Subponderar · -2.06 pp
 descripcion:
-  Operadora de restaurantes con marcas franquiciadas en México, Europa y Sudamérica, entre ellas Starbucks, Domino´s Pizza y Burger King.
-  Su ventaja está en escalar marcas globales sobre una misma plataforma de servicios compartidos, con compras consolidadas y 94% de proveedores locales.
+  Fabricante de productos de cuidado personal y del hogar con marcas como Kleenex, Huggies y Pétalo.
 
 # ───────── MERCADO ─────────
-rango_52s: 39.80 - 60.07
-ytd: -18.39%
-rend_1a: -19.90%
-rend_3a: -25.06%
-rend_5a: +10.09%
-beta_5a: 0.691
-volatilidad_anual: 30.75%
-r2_vs_indice: 0.113
-valor_mercado: MXN 34,032 MDP
-div_yield: 1.5%
+rango_52s: 34.20 - 43.79
+ytd: -0.81%
+rend_1a: -0.18%
+rend_3a: +10.05%
+rend_5a: +16.19%
+beta_5a: 0.717
+volatilidad_anual: 23.43%
+r2_vs_indice: 0.211
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 0.4746%
-peso_indice: 0.00%
-esg_sp: 39
+peso_objetivo: 0.0000%
+peso_indice: 2.77%
+peso_efectivo: 0.71%
+desviacion: -2.06 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality -0.07, Value -0.88, Momentum +0.34; score +0.05, percentil 56.8%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Fuera del índice, así que toda la posición es apuesta activa.
-  Refinanciamiento exitoso de 4,000 millones a tasa fija, flujo libre de caja positivo y licencia de Starbucks extendida hasta 2046.
-  Posición deliberadamente pequeña por la guía recortada.
-catalizadores:
-  - Refinanciamiento de 4,000 millones a tasa fija
-  - Licencia de Starbucks extendida hasta 2046
-  - Flujo libre de caja positivo
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.07, Value -0.88, Momentum +0.34; score +0.05, percentil 56.8%).
+  Pesa 2.77% en el MEXTRAC y se tiene solo a través del ETF (0.71%), una subponderación de 2.06 pp que financia las convicciones del modelo.
 riesgos:
-  - ESG de 39 y sin ancla de benchmark: apuesta 100% activa sobre consumo discrecional.
-  - Guía anual 2026 recortada por menor consumo; ventas netas -0.9% y EBITDA ajustado -6.2% en el segundo trimestre.
-  - La fortaleza del peso reduce los ingresos reportados de las operaciones internacionales.
+  - Subponderada 2.06 pp: si sube más que el índice, resta al retorno activo.
 
 
-=== GRUMAB ===
-nombre: Gruma, S.A.B. de C.V.
-sector: Consumo Frecuente
-industria: Harina de maíz y tortilla
+=== VESTA ===
+nombre: Corporación Inmobiliaria Vesta, S.A.B. de C.V.
+sector: Inmobiliario
+industria: Parques industriales en arrendamiento
 pais: México
 bolsa: Bolsa Mexicana de Valores
-sitio: gruma.com
+sitio: vesta.com.mx
+recomendacion: Subponderar · -1.56 pp
 descripcion:
-  Productora de harina de maíz y tortilla con operaciones en México, Estados Unidos, Europa y Centroamérica.
+  Desarrolladora y arrendadora de parques industriales con contratos mayoritariamente en dólares; es la exposición más directa de la bolsa al nearshoring.
 
 # ───────── MERCADO ─────────
-rango_52s: 233.54 - 345.98
-ytd: -23.63%
-rend_1a: -28.25%
-rend_3a: -16.54%
-rend_5a: +5.77%
-beta_5a: 0.361
-volatilidad_anual: 22.94%
-r2_vs_indice: 0.055
+rango_52s: 47.72 - 63.62
+ytd: +9.02%
+rend_1a: +22.50%
+rend_3a: +3.05%
+rend_5a: +71.77%
+beta_5a: 0.703
+volatilidad_anual: 23.03%
+r2_vs_indice: 0.211
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 0.4710%
+peso_objetivo: 0.0000%
+peso_indice: 2.10%
+peso_efectivo: 0.54%
+desviacion: -1.56 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality -0.91, Value -0.38, Momentum +0.34; score -0.23, percentil 40.5%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Sobreponderación marginal de 0.39 puntos.
-  ROE de 24.6% y múltiplo de nueve veces utilidad, de los más bajos del bloque de alimentos.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.91, Value -0.38, Momentum +0.34; score -0.23, percentil 40.5%).
+  Pesa 2.10% en el MEXTRAC y se tiene solo a través del ETF (0.54%), una subponderación de 1.56 pp que financia las convicciones del modelo.
 riesgos:
-  - Precio del maíz y tipo de cambio determinan el margen.
-  - Exposición a la política migratoria de Estados Unidos por el consumo de su mercado principal.
+  - Subponderada 1.56 pp: si sube más que el índice, resta al retorno activo.
 
 
 === BIMBOA ===
 nombre: Grupo Bimbo, S.A.B. de C.V.
-sector: Consumo Frecuente
+sector: Consumo básico
 industria: Panificación
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: grupobimbo.com
+recomendacion: Subponderar · -1.53 pp
 descripcion:
-  Panificadora global con presencia en más de veinte países y cerca de cien marcas, entre ellas Bimbo, Barcel, Sara Lee, Oroweat y Entenmann´s.
+  Panificadora global con presencia en más de veinte países y marcas como Bimbo, Barcel, Sara Lee, Oroweat y Entenmann´s.
 
 # ───────── MERCADO ─────────
-rango_52s: 52.63 - 67.34
-ytd: -4.37%
-rend_1a: -10.44%
-rend_3a: -30.96%
-rend_5a: +2.92%
-beta_5a: 0.573
-volatilidad_anual: 26.87%
-r2_vs_indice: 0.102
+rango_52s: 53.60 - 68.58
+ytd: -6.03%
+rend_1a: -15.01%
+rend_3a: -32.71%
+rend_5a: -8.14%
+beta_5a: 0.536
+volatilidad_anual: 26.71%
+r2_vs_indice: 0.091
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 0.3942%
+peso_objetivo: 0.0000%
+peso_indice: 2.06%
+peso_efectivo: 0.53%
+desviacion: -1.53 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality -0.30, Value -0.45, Momentum +0.77; score +0.22, percentil 67.6%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Subponderada 1.35 puntos.
-  Márgenes brutos muy por encima de la industria pero margen neto de apenas 3.03% contra 11.13% del sector, con apalancamiento de 162% sobre capital y cobertura de intereses de 2.6 veces.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.30, Value -0.45, Momentum +0.77; score +0.22, percentil 67.6%).
+  Pesa 2.06% en el MEXTRAC y se tiene solo a través del ETF (0.53%), una subponderación de 1.53 pp que financia las convicciones del modelo.
 riesgos:
-  - Apalancamiento de 162% sobre capital con cobertura de intereses de apenas 2.6 veces.
-  - Margen neto de 3.03% contra 11.13% de la industria.
-  - Deterioro del pilar de gobernanza en el puntaje ESG, de 87.27 a 77.37.
-
-
-=== BOLSAA ===
-nombre: Bolsa Mexicana de Valores, S.A.B. de C.V.
-sector: Financieros
-industria: Infraestructura de mercados
-pais: México
-bolsa: Bolsa Mexicana de Valores
-sitio: bmv.com.mx
-descripcion:
-  Operadora de la Bolsa Mexicana de Valores.
-  Sus ingresos dependen del volumen operado, los listados y la actividad del mercado de capitales, lo que la hace procíclica al propio sentimiento accionario.
-
-# ───────── MERCADO ─────────
-rango_52s: 32.13 - 39.54
-ytd: +8.15%
-rend_1a: +7.12%
-rend_3a: +31.67%
-rend_5a: +27.18%
-beta_5a: 0.518
-volatilidad_anual: 23.72%
-r2_vs_indice: 0.107
-valor_mercado: MXN 21,219 MDP
-div_yield: 5.9%
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 0.3930%
-peso_indice: 0.00%
-esg_sp: 70
-
-# ───────── NUESTRA POSTURA ─────────
-tesis:
-  Fuera del índice y posición mínima.
-  ESG alto de 70, pero su negocio es procíclico al mismo mercado que la cartera busca superar: no diversifica, amplifica el factor de riesgo que ya domina el portafolio.
-riesgos:
-  - Al no estar en el índice, toda la posición contribuye directo al tracking error.
-  - Riesgo de doble exposición: sufre en el mismo escenario de aversión al riesgo que afecta al resto de la canasta.
-
-
-=== RA ===
-nombre: RA
-sector: 
-industria: 
-pais: México
-bolsa: Bolsa Mexicana de Valores
-descripcion:
-  Banco regional con base en Monterrey, enfocado en empresas medianas y banca patrimonial.
-  Su cartera se concentra en Nuevo León (28%) y Jalisco (14%), con participación relevante del sector inmobiliario.
-
-# ───────── MERCADO ─────────
-rango_52s: 123.28 - 157.22
-ytd: +1.34%
-rend_1a: +0.65%
-rend_3a: +32.29%
-rend_5a: +66.36%
-beta_5a: 0.912
-volatilidad_anual: 28.27%
-r2_vs_indice: 0.234
-valor_mercado: MXN 45,830 MDP
-div_yield: 5.1%
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_indice: 1.11%
-esg_sp: 43
-
-# ───────── NUESTRA POSTURA ─────────
-catalizadores:
-  - Dividendo de noviembre; el histórico fue de 3.35 pesos por acción en 2025
-  - ROAE de 17.7% con cartera creciendo 11% anual
-  - Depósitos core creciendo 16%
-
-
-=== GENTERA ===
-nombre: GENTERA
-sector: 
-industria: 
-pais: México
-bolsa: Bolsa Mexicana de Valores
-descripcion:
-  Grupo financiero especializado en microcrédito a través de Compartamos Banco, dirigido a segmentos de la población sin acceso a la banca tradicional.
-  Su modelo es más sensible al ciclo económico que la banca comercial.
-
-# ───────── MERCADO ─────────
-rango_52s: 35.72 - 53.24
-ytd: -14.72%
-rend_1a: -13.87%
-rend_3a: +99.46%
-rend_5a: +315.85%
-beta_5a: 0.788
-volatilidad_anual: 30.92%
-r2_vs_indice: 0.146
-valor_mercado: MXN 60,215 MDP
-div_yield: 3.1%
-
-# ───────── POSICIÓN EN EL FONDO ─────────
-peso_indice: 0.74%
-esg_sp: 37
-
-# ───────── NUESTRA POSTURA ─────────
-catalizadores:
-  - Utilidad neta récord semestral con alza de 11.9% y ROE de 25.0%
-  - Dividendo relevante pagado en noviembre
-  - ICAP de Compartamos en 32.10%
+  - Subponderada 1.53 pp: si sube más que el índice, resta al retorno activo.
 
 
 === Q ===
-nombre: Q
-sector: 
-industria: 
+nombre: Quálitas Controladora, S.A.B. de C.V.
+sector: Financieras
+industria: Seguros de automóviles
 pais: México
 bolsa: Bolsa Mexicana de Valores
+sitio: qualitas.com.mx
+recomendacion: Subponderar · -1.11 pp
 descripcion:
   Aseguradora líder del ramo automotriz en México, con 33% a 34% de participación de mercado y más de seis millones de unidades aseguradas.
-  El 14.3% de su portafolio de inversión está en renta variable global, lo que la conecta de forma indirecta con la volatilidad de los mercados de capitales.
 
 # ───────── MERCADO ─────────
-rango_52s: 148.71 - 186.09
-ytd: -14.96%
-rend_1a: -8.92%
-rend_3a: +29.62%
-rend_5a: +100.37%
-beta_5a: 0.565
+rango_52s: 148.02 - 191.09
+ytd: -18.06%
+rend_1a: -9.52%
+rend_3a: +12.99%
+rend_5a: +62.21%
+beta_5a: 0.532
 volatilidad_anual: 29.22%
-r2_vs_indice: 0.084
+r2_vs_indice: 0.075
 valor_mercado: MXN 61,929 MDP
 div_yield: 4.4%
+esg_combinado: 53 · S&P Global
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_indice: 1.39%
-esg_sp: 53
+peso_objetivo: 0.0000%
+peso_indice: 1.49%
+peso_efectivo: 0.38%
+desviacion: -1.11 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality -0.41, Value -1.06, Momentum -0.29; score -0.41, percentil 27.0%
 
 # ───────── NUESTRA POSTURA ─────────
-catalizadores:
-  - Liderazgo de mercado de 33.3% a 34.2% con 6.14 millones de unidades aseguradas
-  - Índice combinado en 92.8%, dentro del rango objetivo
-  - Solvencia de 341% y rendimiento de 8.9% en el portafolio de inversión
+tesis:
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.41, Value -1.06, Momentum -0.29; score -0.41, percentil 27.0%).
+  Pesa 1.49% en el MEXTRAC y se tiene solo a través del ETF (0.38%), una subponderación de 1.11 pp que financia las convicciones del modelo.
+riesgos:
+  - Subponderada 1.11 pp: si sube más que el índice, resta al retorno activo.
 
 
-=== MEGACPO ===
-nombre: MEGACPO
-sector: 
-industria: 
+=== CEMEXCPO ===
+nombre: Cemex, S.A.B. de C.V.
+sector: Materiales
+industria: Cemento, concreto y agregados
 pais: México
 bolsa: Bolsa Mexicana de Valores
+sitio: cemex.com
+recomendacion: Subponderar · -1.03 pp
 descripcion:
-  Operador de cable y telecomunicaciones con más de seis millones de suscriptores de internet.
-  El 100% de su deuda está en pesos y su apalancamiento es bajo, pero enfrenta competencia directa de Totalplay con una cobertura de hogares casi idéntica.
+  Productora global de cemento, concreto premezclado y agregados con operaciones en México, Estados Unidos, Europa, Medio Oriente y Latinoamérica.
 
 # ───────── MERCADO ─────────
-rango_52s: 47.27 - 64.10
-ytd: +3.19%
-rend_1a: -5.38%
-rend_3a: +49.76%
-rend_5a: +5.32%
-beta_5a: 0.660
-volatilidad_anual: 32.62%
-r2_vs_indice: 0.092
-valor_mercado: MXN 43,625 MDP
-div_yield: 6.2%
+rango_52s: 16.71 - 23.40
+ytd: -13.30%
+rend_1a: +8.73%
+rend_3a: +68.52%
+rend_5a: +28.99%
+beta_5a: 1.110
+volatilidad_anual: 35.99%
+r2_vs_indice: 0.215
 
 # ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 1.38%
+peso_efectivo: 0.35%
+desviacion: -1.03 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality -0.68, Value -0.63, Momentum -1.20; score -0.94, percentil 8.1%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.68, Value -0.63, Momentum -1.20; score -0.94, percentil 8.1%).
+  Pesa 1.38% en el MEXTRAC y se tiene solo a través del ETF (0.35%), una subponderación de 1.03 pp que financia las convicciones del modelo.
+riesgos:
+  - Subponderada 1.03 pp: si sube más que el índice, resta al retorno activo.
+
+
+=== SIGMAFA ===
+nombre: Sigma Foods
+sector: Consumo básico
+industria: Alimentos refrigerados y empacados
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: sigma-alimentos.com
+recomendacion: Subponderar · -0.83 pp
+descripcion:
+  Productora de carnes frías, lácteos y quesos con operaciones en México, Estados Unidos, Europa y Latinoamérica; en Europa opera Campofrío.
+
+# ───────── MERCADO ─────────
+rango_52s: 13.90 - 19.30
+ytd: +16.25%
+rend_1a: +22.47%
+rend_3a: +114.04%
+rend_5a: +74.20%
+beta_5a: 0.833
+volatilidad_anual: 27.96%
+r2_vs_indice: 0.200
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 1.11%
+peso_efectivo: 0.28%
+desviacion: -0.83 pp
+bloque: SIN POSICIÓN
+senal_modelo: OVER (top-10)
+factores: Quality -0.58, Value -1.13, Momentum +1.18; score +0.24, percentil 70.3%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Quedó entre las diez mejores del ranking (Quality -0.58, Value -1.13, Momentum +1.18; score +0.24, percentil 70.3%), pero solo uno de sus tres factores es positivo. Después de las bandas por z-score y de la regla de consenso (multiplicador de 0.10), su desviación queda debajo del trade mínimo de 1 pp y la posición se descarta.
+  Se tiene solo a través del ETF: 0.28% contra 1.11% del índice (-0.83 pp).
+riesgos:
+  - Subponderada 0.83 pp: el Momentum es su factor más fuerte; si la tendencia sigue, resta al retorno activo.
+
+
+=== RA ===
+nombre: Regional, S.A.B. de C.V.
+sector: Financieras
+industria: Banca regional
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: regional.mx
+recomendacion: Subponderar · -0.74 pp
+descripcion:
+  Banco regional con base en Monterrey (Banregio), enfocado en empresas medianas y banca patrimonial.
+  Su cartera se concentra en Nuevo León (28%) y Jalisco (14%), con participación relevante del sector inmobiliario.
+
+# ───────── MERCADO ─────────
+rango_52s: 126.00 - 162.40
+ytd: -0.42%
+rend_1a: -12.99%
+rend_3a: +10.45%
+rend_5a: +20.08%
+beta_5a: 0.905
+volatilidad_anual: 28.64%
+r2_vs_indice: 0.226
+valor_mercado: MXN 45,830 MDP
+div_yield: 5.1%
+esg_combinado: 43 · S&P Global
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.99%
+peso_efectivo: 0.25%
+desviacion: -0.74 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality -1.00, Value +0.44, Momentum -0.44; score -0.57, percentil 18.9%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -1.00, Value +0.44, Momentum -0.44; score -0.57, percentil 18.9%).
+  Pesa 0.99% en el MEXTRAC y se tiene solo a través del ETF (0.25%), una subponderación de 0.74 pp que financia las convicciones del modelo.
+riesgos:
+  - Subponderada 0.74 pp: si sube más que el índice, resta al retorno activo.
+
+
+=== TLEVISACPO ===
+nombre: Grupo Televisa, S.A.B.
+sector: Servicios de comunicación
+industria: Cable, satélite y contenidos
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: televisair.com
+recomendacion: Excluida · regla anti value-trap
+descripcion:
+  Grupo de medios y telecomunicaciones cuyo negocio principal hoy es Cable y Sky tras la separación del negocio de contenidos.
+
+# ───────── MERCADO ─────────
+rango_52s: 7.64 - 11.85
+ytd: -22.60%
+rend_1a: -13.02%
+rend_3a: -17.56%
+rend_5a: -81.85%
+beta_5a: 1.033
+volatilidad_anual: 44.33%
+r2_vs_indice: 0.123
+valor_mercado: MXN 24,320 MDP
+div_yield: 2.9%
+esg_combinado: 47 · S&P Global
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.67%
+peso_efectivo: 0.17%
+desviacion: -0.50 pp
+bloque: SIN POSICIÓN
+senal_modelo: EXCLUIDO (anti value-trap)
+factores: Quality -0.25, Value +2.47, Momentum -0.27; score +0.01, percentil 54.1%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Queda fuera por la regla anti value-trap: una emisora con Value z mayor a 0.3 y profitability menor a −0.25 no puede ser over, porque puede parecer barata y tener un deterioro fundamental detrás.
+  Value z de 2.47, el más alto del universo, pero con rentabilidad débil: pérdida neta en el 2T26 y dividendo 2026 suspendido (Quality -0.25, Value +2.47, Momentum -0.27; score +0.01, percentil 54.1%).
+  Pesa 0.67% en el índice y solo se tiene a través del ETF (0.17%), una desviación de -0.50 pp.
+riesgos:
+  - Subponderada 0.50 pp: si el mercado revalúa la emisora, resta al retorno activo.
+
+
+=== GENTERA ===
+nombre: Gentera, S.A.B. de C.V.
+sector: Financieras
+industria: Microfinanzas
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: gentera.com.mx
+recomendacion: Subponderar · -0.46 pp
+descripcion:
+  Grupo financiero especializado en microcrédito a través de Compartamos Banco, dirigido a segmentos sin acceso a la banca tradicional; más sensible al ciclo que la banca comercial.
+
+# ───────── MERCADO ─────────
+rango_52s: 35.72 - 54.44
+ytd: -19.47%
+rend_1a: -18.98%
+rend_3a: +78.88%
+rend_5a: +199.92%
+beta_5a: 0.779
+volatilidad_anual: 30.97%
+r2_vs_indice: 0.143
+valor_mercado: MXN 60,215 MDP
+div_yield: 3.1%
+esg_combinado: 37 · S&P Global
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
 peso_indice: 0.62%
-esg_sp: 28
+peso_efectivo: 0.16%
+desviacion: -0.46 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality +0.87, Value +0.90, Momentum -1.43; score -0.28, percentil 37.8%
 
 # ───────── NUESTRA POSTURA ─────────
-catalizadores:
-  - Más de seis millones de suscriptores de internet
-  - EBITDA menos CAPEX de 1.7 veces con apalancamiento de 1.37
-  - 100% de la deuda en pesos
+tesis:
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality +0.87, Value +0.90, Momentum -1.43; score -0.28, percentil 37.8%).
+  Pesa 0.62% en el MEXTRAC y se tiene solo a través del ETF (0.16%), una subponderación de 0.46 pp que financia las convicciones del modelo.
+riesgos:
+  - Subponderada 0.46 pp: si sube más que el índice, resta al retorno activo.
 
 
-=== LIVEPOLC1 ===
-nombre: LIVEPOLC1
-sector: 
-industria: 
+=== GCARSOA1 ===
+nombre: Grupo Carso, S.A.B. de C.V.
+sector: Industriales
+industria: Conglomerado industrial, comercial y de infraestructura
 pais: México
 bolsa: Bolsa Mexicana de Valores
+sitio: carso.com.mx
+recomendacion: Subponderar · -0.42 pp
 descripcion:
-  Cadena de tiendas departamentales con un ecosistema integrado de retail, crédito e inmobiliaria.
-  Es el mayor emisor de tarjetas de crédito no bancarias de México: sus medios de pago propios representan más del 54% de las ventas del formato Liverpool.
-  Mantiene 49.9% de Nordstrom.
+  Conglomerado con negocios de comercio (Grupo Sanborns), manufactura industrial (Condumex) e infraestructura y construcción.
 
 # ───────── MERCADO ─────────
-rango_52s: 83.83 - 109.39
-ytd: +2.37%
-rend_1a: +12.00%
-rend_3a: +4.43%
-rend_5a: +34.63%
-beta_5a: 0.524
-volatilidad_anual: 21.84%
-r2_vs_indice: 0.129
-valor_mercado: MXN 136,880 MDP
-div_yield: 2.4%
+rango_52s: 115.00 - 154.37
+ytd: +22.79%
+rend_1a: +10.84%
+rend_3a: +12.47%
+rend_5a: +103.16%
+beta_5a: 0.880
+volatilidad_anual: 32.34%
+r2_vs_indice: 0.168
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_indice: 0.00%
-esg_sp: 51
+peso_objetivo: 0.0000%
+peso_indice: 0.56%
+peso_efectivo: 0.14%
+desviacion: -0.42 pp
+bloque: SIN POSICIÓN
+senal_modelo: OVER (top-10)
+factores: Quality -0.41, Value -1.44, Momentum +1.52; score +0.45, percentil 78.4%
 
 # ───────── NUESTRA POSTURA ─────────
-catalizadores:
-  - Utilidad neta +55.4% en el segundo trimestre
-  - Dividendo de octubre de 1.18 pesos por acción
-  - Grado de inversión BBB/BBB+ con apalancamiento de 0.62 veces
+tesis:
+  Quedó entre las diez mejores del ranking (Quality -0.41, Value -1.44, Momentum +1.52; score +0.45, percentil 78.4%), pero solo uno de sus tres factores es positivo. Después de las bandas por z-score y de la regla de consenso (multiplicador de 0.10), su desviación queda debajo del trade mínimo de 1 pp y la posición se descarta.
+  Se tiene solo a través del ETF: 0.14% contra 0.56% del índice (-0.42 pp).
+riesgos:
+  - Subponderada 0.42 pp: el Momentum es su factor más fuerte; si la tendencia sigue, resta al retorno activo.
+
+
+=== GRUMAB ===
+nombre: Gruma, S.A.B. de C.V.
+sector: Consumo básico
+industria: Harina de maíz y tortilla
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: gruma.com
+recomendacion: Subponderar · -0.32 pp
+descripcion:
+  Productora de harina de maíz y tortilla con operaciones en México, Estados Unidos, Europa y Centroamérica; Estados Unidos es su mercado principal.
+
+# ───────── MERCADO ─────────
+rango_52s: 228.11 - 349.34
+ytd: -23.17%
+rend_1a: -28.47%
+rend_3a: -16.88%
+rend_5a: +3.17%
+beta_5a: 0.336
+volatilidad_anual: 22.71%
+r2_vs_indice: 0.050
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.43%
+peso_efectivo: 0.11%
+desviacion: -0.32 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality -0.31, Value +0.01, Momentum -1.48; score -0.86, percentil 10.8%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.31, Value +0.01, Momentum -1.48; score -0.86, percentil 10.8%).
+  Pesa 0.43% en el MEXTRAC y se tiene solo a través del ETF (0.11%), una subponderación de 0.32 pp que financia las convicciones del modelo.
+riesgos:
+  - Subponderada 0.32 pp: si sube más que el índice, resta al retorno activo.
+
+
+=== CHDRAUIB ===
+nombre: Grupo Comercial Chedraui, S.A.B. de C.V.
+sector: Consumo básico
+industria: Autoservicio
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: grupochedraui.com.mx
+recomendacion: Subponderar · -0.16 pp
+descripcion:
+  Cadena de supermercados con operaciones en México y en Estados Unidos, donde opera Smart & Final y El Super.
+
+# ───────── MERCADO ─────────
+rango_52s: 83.94 - 139.26
+ytd: -29.84%
+rend_1a: -38.23%
+rend_3a: -15.82%
+rend_5a: +140.92%
+beta_5a: 0.527
+volatilidad_anual: 24.52%
+r2_vs_indice: 0.104
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.22%
+peso_efectivo: 0.06%
+desviacion: -0.16 pp
+bloque: SIN POSICIÓN
+senal_modelo: Representativa
+factores: Quality -0.14, Value -0.08, Momentum -0.63; score -0.38, percentil 29.7%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.14, Value -0.08, Momentum -0.63; score -0.38, percentil 29.7%).
+  Pesa 0.22% en el MEXTRAC y se tiene solo a través del ETF (0.06%), una subponderación de 0.16 pp que financia las convicciones del modelo.
+riesgos:
+  - Subponderada 0.16 pp: si sube más que el índice, resta al retorno activo.
+
+
+
+# ══════════════════════════════ FUERA DEL ÍNDICE · SIN POSICIÓN ══════════════════════════════
+
+=== ALPEKA ===
+nombre: Alpek, S.A.B. de C.V.
+sector: Materiales
+industria: Petroquímica: poliéster, plásticos y químicos
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: alpek.com
+recomendacion: Excluida · regla anti value-trap
+descripcion:
+  Productora de PTA, PET y fibras de poliéster, además de plásticos y químicos, con plantas en el continente americano.
+
+# ───────── MERCADO ─────────
+rango_52s: 8.23 - 15.05
+ytd: +59.74%
+rend_1a: +39.77%
+rend_3a: +0.48%
+rend_5a: -37.51%
+beta_5a: 0.384
+volatilidad_anual: 39.32%
+r2_vs_indice: 0.022
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: EXCLUIDO (anti value-trap)
+factores: Quality -0.55, Value +0.55, Momentum +1.58; score +0.62, percentil 86.5%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Queda fuera por la regla anti value-trap: una emisora con Value z mayor a 0.3 y profitability menor a −0.25 no puede ser over, porque puede parecer barata y tener un deterioro fundamental detrás.
+  Value z de 0.55 con Quality z de −0.55: la señal de barata no viene acompañada de rentabilidad (Quality -0.55, Value +0.55, Momentum +1.58; score +0.62, percentil 86.5%).
+  No forma parte del índice, así que no tenerla no genera desviación.
+
+
+=== ALSEA ===
+nombre: Alsea, S.A.B. de C.V.
+sector: Consumo discrecional
+industria: Operación de restaurantes
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: alsea.net
+recomendacion: Sin posición · fuera del índice
+descripcion:
+  Operadora de restaurantes con marcas franquiciadas en México, Europa y Sudamérica, entre ellas Starbucks, Domino´s Pizza y Burger King.
+
+# ───────── MERCADO ─────────
+rango_52s: 39.80 - 61.24
+ytd: -14.38%
+rend_1a: -19.88%
+rend_3a: -27.60%
+rend_5a: +12.31%
+beta_5a: 0.667
+volatilidad_anual: 30.59%
+r2_vs_indice: 0.107
+valor_mercado: MXN 34,032 MDP
+div_yield: 1.5%
+esg_combinado: 39 · S&P Global
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: Fuera del índice
+factores: Quality +0.58, Value +0.66, Momentum -1.52; score -0.46, percentil 24.3%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality +0.58, Value +0.66, Momentum -1.52; score -0.46, percentil 24.3%).
+
+
+=== CUERVO ===
+nombre: Becle, S.A.B. de C.V.
+sector: Consumo básico
+industria: Bebidas destiladas
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: cuervo.com
+recomendacion: Excluida · regla anti value-trap
+descripcion:
+  Productora de tequila y otras bebidas destiladas, dueña de José Cuervo, 1800, Maestro Dobel y Bushmills.
+
+# ───────── MERCADO ─────────
+rango_52s: 13.21 - 24.47
+ytd: -33.14%
+rend_1a: -28.67%
+rend_3a: -65.84%
+rend_5a: -69.54%
+beta_5a: 0.625
+volatilidad_anual: 33.24%
+r2_vs_indice: 0.080
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: EXCLUIDO (anti value-trap)
+factores: Quality +0.14, Value +1.57, Momentum -0.12; score +0.15, percentil 64.9%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Queda fuera por la regla anti value-trap: una emisora con Value z mayor a 0.3 y profitability menor a −0.25 no puede ser over, porque puede parecer barata y tener un deterioro fundamental detrás.
+  Value z de 1.57 con rentabilidad débil: el equipo la considera el caso típico de value trap del universo (Quality +0.14, Value +1.57, Momentum -0.12; score +0.15, percentil 64.9%).
+  No forma parte del índice, así que no tenerla no genera desviación.
+
+
+=== GCC ===
+nombre: GCC, S.A.B. de C.V.
+sector: Materiales
+industria: Cemento y concreto
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: gcc.com
+recomendacion: Sin posición · fuera del índice
+descripcion:
+  Productora de cemento y concreto con operaciones en el norte de México y en el centro de Estados Unidos, donde genera la mayor parte de sus ingresos.
+
+# ───────── MERCADO ─────────
+rango_52s: 156.56 - 217.43
+ytd: -3.34%
+rend_1a: +5.48%
+rend_3a: +8.01%
+rend_5a: +16.87%
+beta_5a: 0.838
+volatilidad_anual: 27.00%
+r2_vs_indice: 0.218
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: Fuera del índice
+factores: Quality -0.26, Value -0.69, Momentum -0.04; score -0.19, percentil 43.2%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.26, Value -0.69, Momentum -0.04; score -0.19, percentil 43.2%).
 
 
 === GFINBURO ===
-nombre: GFINBURO
-sector: 
-industria: 
+nombre: Grupo Financiero Inbursa, S.A.B. de C.V.
+sector: Financieras
+industria: Banca, seguros y casa de bolsa
 pais: México
 bolsa: Bolsa Mexicana de Valores
+sitio: inbursa.com
+recomendacion: Sin posición · fuera del índice
 descripcion:
-  Grupo financiero del Grupo Carso con banca, seguros y casa de bolsa, caracterizado por una estructura de capitalización elevada y un modelo de negocio conservador en originación de crédito.
+  Grupo financiero del Grupo Carso con banca, seguros y casa de bolsa, de capitalización elevada y originación de crédito conservadora.
 
 # ───────── MERCADO ─────────
-rango_52s: 40.94 - 51.87
-ytd: +0.38%
-rend_1a: -14.46%
-rend_3a: +20.96%
-rend_5a: +147.17%
-beta_5a: 0.832
-volatilidad_anual: 28.08%
-r2_vs_indice: 0.197
+rango_52s: 40.72 - 49.75
+ytd: -4.93%
+rend_1a: -15.94%
+rend_3a: +17.84%
+rend_5a: +109.65%
+beta_5a: 0.796
+volatilidad_anual: 27.80%
+r2_vs_indice: 0.185
 
 # ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
 peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: Fuera del índice
+factores: Quality -1.16, Value -0.06, Momentum +0.31; score -0.31, percentil 35.1%
 
 # ───────── NUESTRA POSTURA ─────────
+tesis:
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -1.16, Value -0.06, Momentum +0.31; score -0.31, percentil 35.1%).
+
+
+=== LABB ===
+nombre: Genomma Lab Internacional, S.A.B. de C.V.
+sector: Salud
+industria: Medicamentos de libre venta y cuidado personal
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: genommalab.com
+recomendacion: Sin posición · fuera del índice
+descripcion:
+  Desarrolla y comercializa medicamentos de libre venta y productos de cuidado personal en México, Latinoamérica y Estados Unidos, con marcas como Cicatricure, Tío Nacho y Asepxia.
+
+# ───────── MERCADO ─────────
+rango_52s: 12.32 - 19.30
+ytd: -28.25%
+rend_1a: -31.54%
+rend_3a: -5.31%
+rend_5a: -33.87%
+beta_5a: 0.583
+volatilidad_anual: 29.51%
+r2_vs_indice: 0.088
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: Fuera del índice
+factores: Quality -0.37, Value +0.42, Momentum -1.39; score -0.80, percentil 13.5%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.37, Value +0.42, Momentum -1.39; score -0.80, percentil 13.5%).
+
+
+=== LACOMERUBC ===
+nombre: La Comer, S.A.B. de C.V.
+sector: Consumo básico
+industria: Autoservicio
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: lacomer.com.mx
+recomendacion: Sin posición · fuera del índice
+descripcion:
+  Cadena de supermercados enfocada en los segmentos medio y alto, con formatos La Comer, City Market, Fresko y Sumesa.
+
+# ───────── MERCADO ─────────
+rango_52s: 31.05 - 43.34
+ytd: -16.24%
+rend_1a: -21.38%
+rend_3a: -12.54%
+rend_5a: -5.13%
+beta_5a: 0.609
+volatilidad_anual: 24.19%
+r2_vs_indice: 0.143
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: Fuera del índice
+factores: Quality -0.38, Value +0.23, Momentum -1.79; score -1.02, percentil 5.4%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.38, Value +0.23, Momentum -1.79; score -1.02, percentil 5.4%).
+
+
+=== LIVEPOLC1 ===
+nombre: El Puerto de Liverpool, S.A.B. de C.V.
+sector: Consumo discrecional
+industria: Tiendas departamentales y crédito al consumo
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: liverpool.com.mx
+recomendacion: Excluida · regla anti value-trap
+descripcion:
+  Cadena de tiendas departamentales con un ecosistema de retail, crédito e inmobiliaria; es el mayor emisor de tarjetas de crédito no bancarias de México y mantiene 49.9% de Nordstrom.
+
+# ───────── MERCADO ─────────
+rango_52s: 85.26 - 111.26
+ytd: +4.20%
+rend_1a: +16.29%
+rend_3a: +15.39%
+rend_5a: +22.43%
+beta_5a: 0.514
+volatilidad_anual: 21.43%
+r2_vs_indice: 0.130
+valor_mercado: MXN 136,880 MDP
+div_yield: 2.4%
+esg_combinado: 51 · S&P Global
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: EXCLUIDO (anti value-trap)
+factores: Quality -0.08, Value +1.60, Momentum +0.54; score +0.40, percentil 73.0%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  Queda fuera por la regla anti value-trap: una emisora con Value z mayor a 0.3 y profitability menor a −0.25 no puede ser over, porque puede parecer barata y tener un deterioro fundamental detrás.
+  Value z de 1.60 con Quality z de −0.08: queda fuera por la regla aunque su utilidad neta del 2T26 creció 55.4% (Quality -0.08, Value +1.60, Momentum +0.54; score +0.40, percentil 73.0%).
+  No forma parte del índice, así que no tenerla no genera desviación.
+
+
+=== ORBIA ===
+nombre: Orbia Advance Corporation, S.A.B. de C.V.
+sector: Materiales
+industria: Productos especializados y químicos
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: orbia.com
+recomendacion: Sin posición · fuera del índice
+descripcion:
+  Grupo con negocios en tuberías e infraestructura (Wavin), riego de precisión (Netafim), conectividad (Dura-Line), polímeros (Vestolit) y fluorados (Koura).
+
+# ───────── MERCADO ─────────
+rango_52s: 15.57 - 24.59
+ytd: +35.94%
+rend_1a: +22.78%
+rend_3a: -40.77%
+rend_5a: -60.00%
+beta_5a: 1.027
+volatilidad_anual: 35.30%
+r2_vs_indice: 0.191
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: Fuera del índice
+factores: Quality -1.44, Value +0.18, Momentum -0.26; score -0.69, percentil 16.2%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -1.44, Value +0.18, Momentum -0.26; score -0.69, percentil 16.2%).
+
+
+=== VOLARA ===
+nombre: Controladora Vuela Compañía de Aviación, S.A.B. de C.V.
+sector: Industriales
+industria: Aerolínea de ultra bajo costo
+pais: México
+bolsa: Bolsa Mexicana de Valores
+sitio: volaris.com
+recomendacion: Sin posición · fuera del índice
+descripcion:
+  Aerolínea de ultra bajo costo (Volaris) con rutas en México, Estados Unidos y Centroamérica; su costo depende de la turbosina y del tipo de cambio.
+
+# ───────── MERCADO ─────────
+rango_52s: 10.81 - 18.40
+ytd: -26.25%
+rend_1a: -6.79%
+rend_3a: -4.76%
+rend_5a: -73.77%
+beta_5a: 1.184
+volatilidad_anual: 49.19%
+r2_vs_indice: 0.131
+
+# ───────── POSICIÓN EN EL FONDO ─────────
+peso_objetivo: 0.0000%
+peso_indice: 0.00%
+peso_efectivo: 0.00%
+desviacion: +0.00 pp
+bloque: SIN POSICIÓN
+senal_modelo: Fuera del índice
+factores: Quality -0.97, Value +1.57, Momentum +0.15; score -0.15, percentil 45.9%
+
+# ───────── NUESTRA POSTURA ─────────
+tesis:
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.97, Value +1.57, Momentum +0.15; score -0.15, percentil 45.9%).

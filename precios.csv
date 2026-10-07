@@ -1,39 +1,16 @@
 simbolo,titulos,compra,venta,actual,fecha_compra,fecha_venta,razon
-MEXTRAC,0,,,63.3600,,,Pasivo (núcleo)
-PEOLES,0,,,876.3900,,,OVER (top-10)
-FEMSAUBD,0,,,210.4800,,,OVER (top-10)
-BOLSAA,0,,,36.7000,,,OVER (top-10)
-GMEXICOB,0,,,231.6200,,,OVER (top-10)
-PINFRA,0,,,270.7700,,,OVER (top-10)
-MEGACPO,0,,,52.3000,,,OVER (top-10)
-BBAJIOO,0,,,58.0000,,,OVER (top-10)
-KOFUBL,0,,,193.6700,,,OVER (top-10)
-GAPB,0,,,362.1500,,,Representativa
-AMXB,0,,,20.2500,,,Representativa
-GFNORTEO,0,,,189.8900,,,Representativa
-AC,0,,,194.2700,,,Representativa
-WALMEX,0,,,46.8200,,,Representativa
-ASURB,0,,,418.6000,,,Representativa
-OMAB,0,,,206.5000,,,Representativa
-KIMBERA,0,,,37.5600,,,Representativa
-VESTA,0,,,60.8900,,,Representativa
-BIMBOA,0,,,55.5500,,,Representativa
-Q,0,,,153.8300,,,Representativa
-CEMEXCPO,0,,,17.3900,,,Representativa
-SIGMAFA,0,,,18.4300,,,OVER (top-10)
-RA,0,,,140.0000,,,Representativa
-TLEVISACPO,0,,,7.9400,,,EXCLUIDO (anti value-trap)
-GENTERA,0,,,36.9500,,,Representativa
-GCARSOA1,0,,,143.4900,,,OVER (top-10)
-GRUMAB,0,,,237.2500,,,Representativa
-CHDRAUIB,0,,,85.7000,,,Representativa
-ALPEKA,0,,,14.6100,,,EXCLUIDO (anti value-trap)
-ALSEA,0,,,47.1000,,,Fuera del índice
-CUERVO,0,,,13.7300,,,EXCLUIDO (anti value-trap)
-GCC,0,,,175.9900,,,Fuera del índice
-GFINBURO,0,,,41.4000,,,Fuera del índice
-LABB,0,,,12.8600,,,Fuera del índice
-LACOMERUBC,0,,,31.2000,,,Fuera del índice
-LIVEPOLC1,0,,,102.3200,,,EXCLUIDO (anti value-trap)
-ORBIA,0,,,22.3000,,,Fuera del índice
-VOLARA,0,,,11.5500,,,Fuera del índice
+MEXTRAC,39670,63.6254,,63.3600,2026-08-24,,Pasivo (núcleo)
+FEMSAUBD,7670,204.9397,,210.6300,2026-08-24,,OVER (top-10)
+GMEXICOB,5835,236.3745,,230.6700,2026-08-24,,OVER (top-10)
+KOFUBL,4205,189.5100,,194.0400,2026-08-24,,OVER (top-10)
+BOLSAA,15900,38.2473,,36.5000,2026-08-25,,OVER (top-10)
+GAPB,1420,359.8126,,363.8500,2026-08-24,,Representativa
+AMXB,24340,20.1300,,20.1200,2026-08-24,,Representativa
+GFNORTEO,2515,189.3954,,189.0100,2026-08-24,,Representativa
+PINFRA,1275,262.6734,,270.7200,2026-08-26,,OVER (top-10)
+AC,1445,192.9838,,194.5400,2026-08-24,,Representativa
+WALMEX,5940,46.5300,,46.6800,2026-08-24,,Representativa
+BBAJIOO,4725,57.2357,,57.9100,2026-08-27,,OVER (top-10)
+MEGACPO,3255,55.0725,,52.2900,2026-08-26,,OVER (top-10)
+ASURB,340,444.9900,,415.0400,2026-08-24,,Representativa
+OMAB,300,208.6284,,205.9900,2026-09-17,,Representativa
