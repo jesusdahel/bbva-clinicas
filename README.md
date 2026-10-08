@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 07/10/2026 17:14 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 07/10/2026 18:51 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 | | Último cierre (07/10) | Acumulado |
@@ -69,7 +69,9 @@ Valor del portafolio **$10,006,614.11** · día 32 de gestión · TE ex ante 6.3
 | ASURB | 340 | 416.79 | -3.96% | 1.42% |
 | OMAB | 300 | 205.44 | -3.56% | 0.62% |
 
-## Reglas A · B · C (datos al 07/10/2026)
+## Stop-loss y take-profit (datos al 07/10/2026)
+
+Día 27 desde la entrada · señales contra el NAV del MEXTRAC09.
 
 Sin señales hoy.
 
@@ -77,21 +79,21 @@ Quién explica más el TE del libro: FEMSAUBD 1.01 pp · GMEXICOB 0.84 pp · BOL
 
 ## Noticias recientes (LSEG)
 
-- • **MERCADO** · 07/10 17:13 · NOTENG — Drought Hits Agricultural Production
-- ▼ **MERCADO** · 07/10 17:12 · NOTENG — Mexican Stock Exchange Drops After Three-Day Surge; Airport Stocks Weigh Down Market
-- • **GMEXICOB** · 07/10 17:07 · NEWBTS — Southern Copper Corporation's (NYSE:SCCO $200.51) Yields 2%: In-Depth Bullish/Bearish Signals Overview
-- • **GMEXICOB** · 07/10 17:07 · GLORDP — Southern Copper Corporation (NYSE:SCCO) Posts Q2 2026 Revenue of USD 4.29 Billion and Net Income USD 1.67 Billion
-- • **GMEXICOB** · 07/10 16:52 · ZACKSC — Here's Why Southern Copper (SCCO) Fell More Than Broader Market
-- • **OMAB** · 07/10 16:52 · TIPRAN — OMA September Traffic Shows Domestic Weakness Amid International Gains
-- • **ASURB** · 07/10 16:48 · PUBT — ASUR - 7 October, 2026 - ASUR Announces Total Passenger Traffic for September 2026
-- • **ASURB** · 07/10 16:43 · PUBT — ASUR - 7 octubre, 2026 - ASUR anuncia el total de tráfico para Septiembre del 2026
-- ▲ **MEGACPO** · 07/10 16:34 · STOCKP — On Wednesday 7th of October Megacable -Cpo trades 1.93 percent higher
-- ▼ **MERCADO** · 07/10 16:32 · PUBT — Fitch México SA de CV - Baja la Calificación de Morelia a ‘BBB+(mex)’
-- ▲ **MERCADO** · 07/10 16:31 · PUBT — Fitch México SA de CV - Sube la Calificación de Atizapán de Zaragoza a ‘AA(mex)’
-- • **GMEXICOB** · 07/10 16:22 · PUBT — Moody's de Mexico SA de CV - Moody''s Local México afirma calificación de INVTACB 26
-- • **MERCADO** · 07/10 16:13 · NOTENG — ICC Mexico recommends enhancing certainty regarding the investment review mechanism
-- • **ASURB** · 07/10 16:12 · WPRPRO — ASUR Announces Total Passenger Traffic for September 2026
-- • **OMAB** · 07/10 16:02 · PUBT — Grupo Aeroportuario del Centro Norte SAB de CV - [2018] Eventos Relevantes - Emisoras - OMA
+- ▲ **MERCADO** · 07/10 18:28 · CNBSTR — Caribbean Cement Company Ltd. (JA:CCC) posts back-to-back gains, moving higher 3.6% over 2 days; increases 12.0c to close at J$114.0; +J$4 [+3.6%]
+- • **GAPB** · 07/10 18:13 · NOTENG — GAP Leads Declines on BMV and Drags Down Airlines and Airports Following Traffic Report
+- • **ASURB** · 07/10 18:13 · NOTENG — Asur reports no growth in September as Brazil and others contribute; Cancún declines again
+- ▼ **MERCADO** · 07/10 18:13 · NOTENG — Mexican stocks decline after a three-session winning streak
+- ▼ **FEMSAUBD** · 07/10 18:12 · GLOSTK — Fomento Economico Mexicano (BMV:FEMSA) Solvency and Other Financial Risk Metrics
+- ▼ **GMEXICOB** · 07/10 18:12 · GLOSTK — Grupo Mexico (BMV:GMEXICO) Solvency and Other Financial Risk Metrics
+- ▼ **AMXB** · 07/10 18:12 · GLOSTK — America Movil (BMV:AMXL) Solvency and Other Financial Risk Metrics
+- ▼ **AMXB** · 07/10 18:12 · GLOSTK — America Movil (BMV:AMXA) Solvency and Other Financial Risk Metrics
+- ▼ **WALMEX** · 07/10 18:12 · GLOSTK — Wal-Mart de Mexico (BMV:WALMEX) Solvency and Other Financial Risk Metrics
+- ▼ **AC** · 07/10 18:12 · GLOSTK — Arca Continental (BMV:AC) Solvency and Other Financial Risk Metrics
+- ▼ **ASURB** · 07/10 18:12 · GLOSTK — Grupo Aeroportuario del Sureste (BMV:ASUR) Solvency and Other Financial Risk Metrics
+- ▼ **MEGACPO** · 07/10 18:12 · GLOSTK — Megacable (BMV:MEGA) Solvency and Other Financial Risk Metrics
+- ▼ **OMAB** · 07/10 18:12 · GLOSTK — Grupo Aeroportuario del Centro Norte (BMV:OMA) Solvency and Other Financial Risk Metrics
+- ▼ **KIMBERA** · 07/10 18:12 · GLOSTK — Kimberly Clark de Mexico (BMV:KIMBERA) Solvency and Other Financial Risk Metrics
+- ▼ **KIMBERA** · 07/10 18:12 · GLOSTK — Kimberly Clark de Mexico (BMV:KIMBERB) Solvency and Other Financial Risk Metrics
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._
