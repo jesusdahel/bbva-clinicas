@@ -20,10 +20,8 @@ fecha,hora,simbolo,tipo,titulos,precio,comision,iva,bloque,motivo,comentario,caj
 2026-08-28,10:15,GFNORTEO,COMPRA,1005,190.7858,0.00,0.00,REPRESENTATIVA,Construcción,Completar la cartera objetivo,-191739.73
 2026-08-28,11:10,AC,COMPRA,145,194.6315,0.00,0.00,REPRESENTATIVA,Construcción,Completar la cartera objetivo,-28221.57
 2026-08-28,12:30,MEXTRAC,COMPRA,15605,63.6954,0.00,0.00,ETF,Construcción,Completar la cartera objetivo,-993966.72
-2026-09-09,11:30,FEMSAUBD,VENTA,600,199.3005,358.74,57.40,ACTIVA,Regla A,Práctica: recorte de sobrepeso,119164.16
-2026-09-17,10:40,OMAB,COMPRA,300,208.6284,187.77,30.04,REPRESENTATIVA,Regla B,Práctica: catch-up de under,-62806.33
+2026-09-09,11:30,FEMSAUBD,VENTA,600,199.3005,358.74,57.40,ACTIVA,Take-profit,Práctica: recorte de 25% del sobrepeso,119164.16
+2026-09-17,10:40,OMAB,COMPRA,300,208.6284,187.77,30.04,REPRESENTATIVA,Rebalanceo,Práctica: compra de control (la estrategia final ya no tiene catch-up),-62806.33
 2026-09-21,12:10,BBAJIOO,VENTA,500,57.2327,85.85,13.74,ACTIVA,Rebalanceo,Práctica: venta con comisión,28516.76
-2026-08-27,,GMEXICOB,DIVIDENDO,5835,0.8000,0.00,0.00,ACTIVA,Dividendo en efectivo,pago 2026-08-28 · Refinitiv,4668.00
-2026-09-03,,BBAJIOO,DIVIDENDO,5225,1.9070,0.00,0.00,ACTIVA,Dividendo en efectivo,pago 2026-09-04 · Refinitiv,9964.05
 2026-09-03,,WALMEX,DIVIDENDO,5940,0.4000,0.00,0.00,REPRESENTATIVA,Dividendo en efectivo,pago 2026-09-10 · Simulado (práctica),2376.00
 2026-09-11,,KOFUBL,DIVIDENDO,4205,1.2500,0.00,0.00,ACTIVA,Dividendo en efectivo,pago 2026-09-18 · Simulado (práctica),5256.25

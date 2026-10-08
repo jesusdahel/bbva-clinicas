@@ -11,11 +11,12 @@
 #  · Las líneas que empiezan con # son comentarios.
 #
 #  CARTERA OBJETIVO (presentada a BBVA; pesos que publica el tracker en pesos.csv)
-#  · Pasiva 45%: ETF MEXTRAC09 25.5% + representativas 19.6%
+#  · Pasiva 45%: ETF MEXTRAC09 25.0% + representativas 19.8%
 #  · Activa 55%: ocho overs del M-tilt (FEMSAUBD, GMEXICOB, PEOLES, KOFUBL, BOLSAA, PINFRA, BBAJIOO, MEGACPO)
 #  · Peso efectivo = peso directo + peso del ETF × peso en el índice. Desviación = efectivo − índice.
-#  · Las desviaciones de la presentación (p. ej. +7.50 pp) suponen el ETF en 25%; con el colchón de 25.5%
-#    del tracker la desviación calculada sale unas centésimas abajo.
+#  · z del ciclo: el score compuesto 0.40·Q + 0.10·V + 0.50·M re-estandarizado en el universo (decide overs y bandas).
+#  · Reglas tácticas: stop-loss híbrido (cae ≥ 3σ propias y ≥ 2σ de TE contra el índice → vende todo el sobrepeso) y
+#    take-profit (ventaja ≥ 3σ de TE con alerta de 3 días → recorta 25%). Solo overs; lo vendido se compra en MEXTRAC09.
 #
 #  Precios, rangos, rendimientos de precio, betas y volatilidades: LSEG Refinitiv, cierre del 6 de octubre de 2026.
 #  Betas y volatilidad: 262 semanas contra el MEXTRAC09. Datos fundamentales: reportes del 2T26
@@ -47,12 +48,12 @@ volatilidad_anual: 15.04%
 r2_vs_indice: 1.000
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 25.5000%
+peso_objetivo: 25.0000%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  La cartera pasiva pesa 45% del mandato y se arma con dos piezas: el ETF, con 25.5% del portafolio, y la cartera representativa de cerca de 20%, acciones del índice que calcula el optimizador para controlar las subponderaciones no deseadas.
-  La política pide mínimo 25% en el ETF; se dejan 0.5 pp de colchón para que el redondeo a títulos enteros y el movimiento diario no lo saquen de política. Cada emisora del índice que no se compra directo se tiene de forma indirecta a través del ETF.
+  La cartera pasiva pesa 45% del mandato y se arma con dos piezas: el ETF, con 25.0% del portafolio, y la cartera representativa de cerca de 20%, acciones del índice que calcula el optimizador para controlar las subponderaciones no deseadas.
+  El ETF queda en 25%, el mínimo de política: el Plan redondea sus títulos hacia arriba y las reglas tácticas solo lo suben, porque lo que liberan el stop-loss y el take-profit se compra aquí. Cada emisora del índice que no se compra directo se tiene de forma indirecta a través del ETF.
 riesgos:
   - No genera riesgo activo: por construcción replica el índice.
   - El precio del ETF puede separarse un poco del valor de su canasta (prima o descuento) en días de poca operación.
@@ -69,7 +70,7 @@ industria: Comercio de proximidad y bebidas
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: femsa.com
-recomendacion: Sobreponderar · +7.45 pp
+recomendacion: Sobreponderar · +7.50 pp
 conviccion: Alta · 3 de 3 factores
 descripcion:
   Opera la red de tiendas OXXO, consolida a Coca-Cola FEMSA y tiene negocios de salud, combustibles y servicios digitales (Spin by OXXO y Spin Premia).
@@ -88,13 +89,13 @@ margen_bruto: 40.1% (2T26)
 margen_operativo: 10.0% OXXO México
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 15.1816%
+peso_objetivo: 15.2850%
 peso_indice: 10.38%
-peso_efectivo: 17.83%
-desviacion: +7.45 pp
+peso_efectivo: 17.88%
+desviacion: +7.50 pp
 bloque: ACTIVA
 senal_modelo: OVER (top-10)
-factores: Quality +1.35, Value +0.41, Momentum +1.17; score +1.16, percentil 91.9%
+factores: Quality +1.35, Value +0.41, Momentum +1.17; z del ciclo +1.71, percentil 91.9%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
@@ -120,7 +121,7 @@ industria: Minería de cobre, transporte e infraestructura
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: gmexico.com
-recomendacion: Sobreponderar · +5.36 pp
+recomendacion: Sobreponderar · +5.40 pp
 conviccion: Media · 2 de 3 factores
 descripcion:
   Grupo minero e industrial con operaciones de cobre en México, Perú y Estados Unidos, además de la división de transporte ferroviario y la de infraestructura.
@@ -137,13 +138,13 @@ volatilidad_anual: 35.57%
 r2_vs_indice: 0.336
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 12.3881%
+peso_objetivo: 12.4725%
 peso_indice: 9.43%
-peso_efectivo: 14.79%
-desviacion: +5.36 pp
+peso_efectivo: 14.83%
+desviacion: +5.40 pp
 bloque: ACTIVA
 senal_modelo: OVER (top-10)
-factores: Quality +1.60, Value -0.72, Momentum +1.45; score +1.29, percentil 97.3%
+factores: Quality +1.60, Value -0.72, Momentum +1.45; z del ciclo +1.90, percentil 97.3%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
@@ -167,7 +168,7 @@ industria: Minería de plata, oro y zinc y metalurgia
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: penoles.com.mx
-recomendacion: Sobreponderar · +7.45 pp
+recomendacion: Sobreponderar · +7.50 pp
 conviccion: Alta · 3 de 3 factores
 descripcion:
   Grupo minero-metalúrgico mexicano y controlador de Fresnillo plc, el mayor productor de plata primaria del mundo.
@@ -186,13 +187,13 @@ r2_vs_indice: 0.171
 margen_operativo: 44.5% (2T26)
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 7.4493%
+peso_objetivo: 7.5000%
 peso_indice: 0.00%
-peso_efectivo: 7.45%
-desviacion: +7.45 pp
+peso_efectivo: 7.50%
+desviacion: +7.50 pp
 bloque: ACTIVA
 senal_modelo: OVER (top-10)
-factores: Quality +2.35, Value +1.42, Momentum +0.35; score +1.26, percentil 94.6%
+factores: Quality +2.35, Value +1.42, Momentum +0.35; z del ciclo +1.84, percentil 94.6%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
@@ -217,7 +218,7 @@ industria: Embotellado de bebidas
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: coca-colafemsa.com
-recomendacion: Sobreponderar · +1.18 pp
+recomendacion: Sobreponderar · +1.19 pp
 conviccion: Media · 2 de 3 factores
 descripcion:
   Mayor embotellador de Coca-Cola del mundo por volumen, con operaciones en México, Centroamérica y Sudamérica.
@@ -236,13 +237,13 @@ margen_bruto: 47.1% (2T26)
 margen_operativo: 14.0% (2T26)
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 7.1736%
+peso_objetivo: 7.2225%
 peso_indice: 8.05%
-peso_efectivo: 9.23%
-desviacion: +1.18 pp
+peso_efectivo: 9.24%
+desviacion: +1.19 pp
 bloque: ACTIVA
 senal_modelo: OVER (top-10)
-factores: Quality +0.14, Value -0.45, Momentum +1.85; score +0.93, percentil 89.2%
+factores: Quality +0.14, Value -0.45, Momentum +1.85; z del ciclo +1.37, percentil 89.2%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
@@ -264,7 +265,7 @@ industria: Infraestructura de mercados
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: bmv.com.mx
-recomendacion: Sobreponderar · +5.36 pp
+recomendacion: Sobreponderar · +5.40 pp
 conviccion: Media · 2 de 3 factores
 descripcion:
   Grupo BMV opera un modelo integrado de infraestructura bursátil: bolsa de capitales, custodia y liquidación (Indeval), operación OTC (SIF ICAP), servicios de información y listado de emisoras.
@@ -289,13 +290,13 @@ margen_operativo: 55.5% margen UAFIDA LTM
 esg_combinado: 70 · S&P Global
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 5.3635%
+peso_objetivo: 5.4000%
 peso_indice: 0.00%
-peso_efectivo: 5.36%
-desviacion: +5.36 pp
+peso_efectivo: 5.40%
+desviacion: +5.40 pp
 bloque: ACTIVA
 senal_modelo: OVER (top-10)
-factores: Quality +2.10, Value -0.40, Momentum +1.31; score +1.45, percentil 100.0%
+factores: Quality +2.10, Value -0.40, Momentum +1.31; z del ciclo +2.13, percentil 100.0%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
@@ -321,7 +322,7 @@ industria: Concesiones carreteras
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: pinfra.com.mx
-recomendacion: Sobreponderar · +2.57 pp
+recomendacion: Sobreponderar · +2.59 pp
 conviccion: Alta · 3 de 3 factores
 descripcion:
   Concesionaria de autopistas de cuota en México con un negocio de construcción y materiales.
@@ -339,13 +340,13 @@ r2_vs_indice: 0.208
 margen_operativo: 56% margen UAFIDA consolidado
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 3.0169%
+peso_objetivo: 3.0375%
 peso_indice: 0.60%
-peso_efectivo: 3.17%
-desviacion: +2.57 pp
+peso_efectivo: 3.19%
+desviacion: +2.59 pp
 bloque: ACTIVA
 senal_modelo: OVER (top-10)
-factores: Quality +0.70, Value +1.32, Momentum +0.12; score +0.47, percentil 81.1%
+factores: Quality +0.70, Value +1.32, Momentum +0.12; z del ciclo +0.69, percentil 81.1%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
@@ -390,13 +391,13 @@ roe: 18.1%
 esg_combinado: 34 · S&P Global
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 2.6594%
+peso_objetivo: 2.6775%
 peso_indice: 1.99%
 peso_efectivo: 3.17%
 desviacion: +1.18 pp
 bloque: ACTIVA
 senal_modelo: OVER (top-10)
-factores: Quality -0.08, Value +1.39, Momentum +0.87; score +0.54, percentil 83.8%
+factores: Quality -0.08, Value +1.39, Momentum +0.87; z del ciclo +0.79, percentil 83.8%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
@@ -440,13 +441,13 @@ div_yield: 6.2%
 esg_combinado: 28 · S&P Global
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 1.6463%
+peso_objetivo: 1.6575%
 peso_indice: 0.63%
 peso_efectivo: 1.81%
 desviacion: +1.18 pp
 bloque: ACTIVA
 senal_modelo: OVER (top-10)
-factores: Quality +0.96, Value -0.05, Momentum +0.05; score +0.40, percentil 75.7%
+factores: Quality +0.96, Value -0.05, Momentum +0.05; z del ciclo +0.59, percentil 75.7%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
@@ -472,7 +473,7 @@ industria: Concesiones aeroportuarias
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: aeropuertosgap.com.mx
-recomendacion: Representativa · -3.01 pp
+recomendacion: Representativa · -3.03 pp
 descripcion:
   Concesionario de doce aeropuertos en el Pacífico mexicano y dos en Jamaica, entre ellos Guadalajara, Tijuana y Los Cabos.
 
@@ -487,23 +488,23 @@ volatilidad_anual: 33.52%
 r2_vs_indice: 0.308
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 4.5813%
+peso_objetivo: 4.6125%
 peso_indice: 10.19%
-peso_efectivo: 7.18%
-desviacion: -3.01 pp
+peso_efectivo: 7.16%
+desviacion: -3.03 pp
 bloque: REPRESENTATIVA
 senal_modelo: Representativa
-factores: Quality -2.45, Value -1.58, Momentum -0.73; score -1.50, percentil 2.7%
+factores: Quality -2.45, Value -1.58, Momentum -0.73; z del ciclo -2.20, percentil 2.7%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
-  Pesa 10.19% en el MEXTRAC; en la cartera queda en 7.18% (4.58% directo más 2.60% a través del ETF), una desviación de -3.01 pp.
-  El modelo no la ubica entre las de mayor convicción (Quality -2.45, Value -1.58, Momentum -0.73; score -1.50, percentil 2.7%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+  Pesa 10.19% en el MEXTRAC; en la cartera queda en 7.16% (4.61% directo más 2.55% a través del ETF), una desviación de -3.03 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality -2.45, Value -1.58, Momentum -0.73; z del ciclo -2.20, percentil 2.7%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
 catalizadores:
   - UAFIDA +8.4% con margen de 69.3% contra 67.1% del año previo
 riesgos:
-  - Subponderada 3.01 pp: si repunta más que el índice, resta al retorno activo.
+  - Subponderada 3.03 pp: si repunta más que el índice, resta al retorno activo.
   - Sensible a la demanda de viaje discrecional y al tipo de cambio.
   - La regulación tarifaria acota el margen de maniobra en precios.
 
@@ -515,7 +516,7 @@ industria: Telecomunicaciones móviles y fijas
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: americamovil.com
-recomendacion: Representativa · -3.02 pp
+recomendacion: Representativa · -3.04 pp
 descripcion:
   Operador de telecomunicaciones con presencia en más de veinte países de América y Europa.
   Cerca de 64% de sus ingresos se genera fuera de México, lo que la vuelve sensible al tipo de cambio por conversión.
@@ -534,23 +535,23 @@ div_yield: 2.8%
 esg_combinado: 65 · S&P Global
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 4.4100%
+peso_objetivo: 4.4400%
 peso_indice: 9.97%
-peso_efectivo: 6.95%
-desviacion: -3.02 pp
+peso_efectivo: 6.93%
+desviacion: -3.04 pp
 bloque: REPRESENTATIVA
 senal_modelo: Representativa
-factores: Quality -0.24, Value -0.43, Momentum -0.40; score -0.34, percentil 32.4%
+factores: Quality -0.24, Value -0.43, Momentum -0.40; z del ciclo -0.50, percentil 32.4%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
-  Pesa 9.97% en el MEXTRAC; en la cartera queda en 6.95% (4.41% directo más 2.54% a través del ETF), una desviación de -3.02 pp.
-  El modelo no la ubica entre las de mayor convicción (Quality -0.24, Value -0.43, Momentum -0.40; score -0.34, percentil 32.4%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+  Pesa 9.97% en el MEXTRAC; en la cartera queda en 6.93% (4.44% directo más 2.49% a través del ETF), una desviación de -3.04 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality -0.24, Value -0.43, Momentum -0.40; z del ciclo -0.50, percentil 32.4%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
 catalizadores:
   - Utilidad neta +9.2% en el 2T26 y apalancamiento de 1.31x
 riesgos:
-  - Subponderada 3.02 pp: si repunta más que el índice, resta al retorno activo.
+  - Subponderada 3.04 pp: si repunta más que el índice, resta al retorno activo.
   - Litigios abiertos con el IFT, el IRS y en Brasil.
   - 64% de los ingresos fuera de México: el resultado reportado depende de la conversión cambiaria.
 
@@ -562,7 +563,7 @@ industria: Banca múltiple diversificada
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: banorte.com
-recomendacion: Representativa · -3.02 pp
+recomendacion: Representativa · -3.04 pp
 descripcion:
   Grupo financiero mexicano con más de 20 millones de clientes en banca minorista, banca mayorista, seguros, pensiones y Afore.
   Es el único banco entre los seis grandes de México cuyas decisiones se toman localmente, sin matriz extranjera.
@@ -581,24 +582,24 @@ div_yield: 6.2%
 esg_combinado: 71 · S&P Global
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 4.2684%
+peso_objetivo: 4.2975%
 peso_indice: 9.78%
-peso_efectivo: 6.76%
-desviacion: -3.02 pp
+peso_efectivo: 6.74%
+desviacion: -3.04 pp
 bloque: REPRESENTATIVA
 senal_modelo: Representativa
-factores: Quality -0.43, Value -0.76, Momentum +0.73; score +0.12, percentil 62.2%
+factores: Quality -0.43, Value -0.76, Momentum +0.73; z del ciclo +0.17, percentil 62.2%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
-  Pesa 9.78% en el MEXTRAC; en la cartera queda en 6.76% (4.27% directo más 2.49% a través del ETF), una desviación de -3.02 pp.
-  El modelo no la ubica entre las de mayor convicción (Quality -0.43, Value -0.76, Momentum +0.73; score +0.12, percentil 62.2%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+  Pesa 9.78% en el MEXTRAC; en la cartera queda en 6.74% (4.30% directo más 2.44% a través del ETF), una desviación de -3.04 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality -0.43, Value -0.76, Momentum +0.73; z del ciclo +0.17, percentil 62.2%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
 catalizadores:
   - ROE de 24.8% al primer semestre y margen de interés neto de 6.8%
   - Guía 2026 de utilidad de 62,000 a 64,000 millones
 riesgos:
-  - Subponderada 3.02 pp: si repunta más que el índice, resta al retorno activo.
+  - Subponderada 3.04 pp: si repunta más que el índice, resta al retorno activo.
   - Perspectiva negativa por el vínculo soberano: un ajuste a la calificación de México se transmite directo.
   - El índice de morosidad subió a 1.50%.
 
@@ -610,7 +611,7 @@ industria: Embotellado de bebidas
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: arcacontal.com
-recomendacion: Representativa · -3.02 pp
+recomendacion: Representativa · -3.04 pp
 descripcion:
   Segundo embotellador de Coca-Cola más grande de América Latina, con operaciones en México, Estados Unidos, Ecuador, Perú y Argentina.
 
@@ -625,21 +626,21 @@ volatilidad_anual: 20.20%
 r2_vs_indice: 0.129
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 2.5104%
+peso_objetivo: 2.5275%
 peso_indice: 7.42%
-peso_efectivo: 4.40%
-desviacion: -3.02 pp
+peso_efectivo: 4.38%
+desviacion: -3.04 pp
 bloque: REPRESENTATIVA
 senal_modelo: Representativa
-factores: Quality +0.07, Value -0.93, Momentum +0.25; score +0.06, percentil 59.5%
+factores: Quality +0.07, Value -0.93, Momentum +0.25; z del ciclo +0.08, percentil 59.5%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
-  Pesa 7.42% en el MEXTRAC; en la cartera queda en 4.40% (2.51% directo más 1.89% a través del ETF), una desviación de -3.02 pp.
-  El modelo no la ubica entre las de mayor convicción (Quality +0.07, Value -0.93, Momentum +0.25; score +0.06, percentil 59.5%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+  Pesa 7.42% en el MEXTRAC; en la cartera queda en 4.38% (2.53% directo más 1.86% a través del ETF), una desviación de -3.04 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality +0.07, Value -0.93, Momentum +0.25; z del ciclo +0.08, percentil 59.5%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
 riesgos:
-  - Subponderada 3.02 pp: si repunta más que el índice, resta al retorno activo.
+  - Subponderada 3.04 pp: si repunta más que el índice, resta al retorno activo.
   - Costos de edulcorantes y empaque presionan el margen.
   - Exposición a Argentina y su volatilidad cambiaria.
 
@@ -651,7 +652,7 @@ industria: Autoservicio y comercio minorista
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: walmex.mx
-recomendacion: Representativa · -3.02 pp
+recomendacion: Representativa · -3.04 pp
 descripcion:
   Mayor cadena de autoservicio de México y Centroamérica, con formatos Walmart, Bodega Aurrerá, Sam´s Club y Walmart Express.
 
@@ -666,21 +667,21 @@ volatilidad_anual: 23.25%
 r2_vs_indice: 0.196
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 2.4881%
+peso_objetivo: 2.5050%
 peso_indice: 7.39%
-peso_efectivo: 4.37%
-desviacion: -3.02 pp
+peso_efectivo: 4.35%
+desviacion: -3.04 pp
 bloque: REPRESENTATIVA
 senal_modelo: Representativa
-factores: Quality +0.43, Value -0.98, Momentum -1.25; score -0.55, percentil 21.6%
+factores: Quality +0.43, Value -0.98, Momentum -1.25; z del ciclo -0.80, percentil 21.6%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
-  Pesa 7.39% en el MEXTRAC; en la cartera queda en 4.37% (2.49% directo más 1.88% a través del ETF), una desviación de -3.02 pp.
-  El modelo no la ubica entre las de mayor convicción (Quality +0.43, Value -0.98, Momentum -1.25; score -0.55, percentil 21.6%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+  Pesa 7.39% en el MEXTRAC; en la cartera queda en 4.35% (2.50% directo más 1.85% a través del ETF), una desviación de -3.04 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality +0.43, Value -0.98, Momentum -1.25; z del ciclo -0.80, percentil 21.6%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
 riesgos:
-  - Subponderada 3.02 pp: si repunta más que el índice, resta al retorno activo.
+  - Subponderada 3.04 pp: si repunta más que el índice, resta al retorno activo.
   - Cotiza cerca del mínimo de 52 semanas: el momentum de precio sigue en contra.
   - Presión de comercio electrónico y de formatos de descuento.
 
@@ -692,7 +693,7 @@ industria: Concesiones aeroportuarias
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: asur.com.mx
-recomendacion: Representativa · -3.01 pp
+recomendacion: Representativa · -3.03 pp
 descripcion:
   Concesionario de nueve aeropuertos en el sureste mexicano, seis en Colombia y uno en Puerto Rico. Cancún concentra la mayor parte de su tráfico.
 
@@ -707,21 +708,21 @@ volatilidad_anual: 27.47%
 r2_vs_indice: 0.347
 
 # ───────── POSICIÓN EN EL FONDO ─────────
-peso_objetivo: 1.3632%
+peso_objetivo: 1.3725%
 peso_indice: 5.87%
-peso_efectivo: 2.86%
-desviacion: -3.01 pp
+peso_efectivo: 2.84%
+desviacion: -3.03 pp
 bloque: REPRESENTATIVA
 senal_modelo: Representativa
-factores: Quality +2.10, Value -0.91, Momentum -1.52; score -0.01, percentil 51.4%
+factores: Quality +2.10, Value -0.91, Momentum -1.52; z del ciclo -0.02, percentil 51.4%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Forma parte de la cartera representativa: acciones del índice que el optimizador compra para que la subponderación no se dispare y el tracking error se quede dentro de política.
-  Pesa 5.87% en el MEXTRAC; en la cartera queda en 2.86% (1.36% directo más 1.50% a través del ETF), una desviación de -3.01 pp.
-  El modelo no la ubica entre las de mayor convicción (Quality +2.10, Value -0.91, Momentum -1.52; score -0.01, percentil 51.4%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
+  Pesa 5.87% en el MEXTRAC; en la cartera queda en 2.84% (1.37% directo más 1.47% a través del ETF), una desviación de -3.03 pp.
+  El modelo no la ubica entre las de mayor convicción (Quality +2.10, Value -0.91, Momentum -1.52; z del ciclo -0.02, percentil 51.4%), así que no recibe sobrepeso: solo se controla cuánto se queda abajo del índice.
 riesgos:
-  - Subponderada 3.01 pp: si repunta más que el índice, resta al retorno activo.
+  - Subponderada 3.03 pp: si repunta más que el índice, resta al retorno activo.
   - Concentración en Cancún: un choque al turismo del Caribe pega de forma directa.
   - Exposición regulatoria en Colombia y Puerto Rico.
 
@@ -736,7 +737,7 @@ industria: Concesiones aeroportuarias
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: oma.aero
-recomendacion: Subponderar · -2.90 pp
+recomendacion: Subponderar · -2.92 pp
 descripcion:
   Concesionario de trece aeropuertos en el centro y norte de México, con Monterrey como principal activo.
 
@@ -753,18 +754,18 @@ r2_vs_indice: 0.303
 # ───────── POSICIÓN EN EL FONDO ─────────
 peso_objetivo: 0.0000%
 peso_indice: 3.89%
-peso_efectivo: 0.99%
-desviacion: -2.90 pp
+peso_efectivo: 0.97%
+desviacion: -2.92 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality +0.07, Value -1.12, Momentum -0.10; score -0.13, percentil 48.6%
+factores: Quality +0.07, Value -1.12, Momentum -0.10; z del ciclo -0.19, percentil 48.6%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality +0.07, Value -1.12, Momentum -0.10; score -0.13, percentil 48.6%).
-  Pesa 3.89% en el MEXTRAC y se tiene solo a través del ETF (0.99%), una subponderación de 2.90 pp que financia las convicciones del modelo.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality +0.07, Value -1.12, Momentum -0.10; z del ciclo -0.19, percentil 48.6%).
+  Pesa 3.89% en el MEXTRAC y se tiene solo a través del ETF (0.97%), una subponderación de 2.92 pp que financia las convicciones del modelo.
 riesgos:
-  - Subponderada 2.90 pp: si sube más que el índice, resta al retorno activo.
+  - Subponderada 2.92 pp: si sube más que el índice, resta al retorno activo.
 
 
 === KIMBERA ===
@@ -774,7 +775,7 @@ industria: Productos de cuidado personal y del hogar
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: kimberly-clark.com.mx
-recomendacion: Subponderar · -2.06 pp
+recomendacion: Subponderar · -2.08 pp
 descripcion:
   Fabricante de productos de cuidado personal y del hogar con marcas como Kleenex, Huggies y Pétalo.
 
@@ -791,18 +792,18 @@ r2_vs_indice: 0.211
 # ───────── POSICIÓN EN EL FONDO ─────────
 peso_objetivo: 0.0000%
 peso_indice: 2.77%
-peso_efectivo: 0.71%
-desviacion: -2.06 pp
+peso_efectivo: 0.69%
+desviacion: -2.08 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality -0.07, Value -0.88, Momentum +0.34; score +0.05, percentil 56.8%
+factores: Quality -0.07, Value -0.88, Momentum +0.34; z del ciclo +0.08, percentil 56.8%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.07, Value -0.88, Momentum +0.34; score +0.05, percentil 56.8%).
-  Pesa 2.77% en el MEXTRAC y se tiene solo a través del ETF (0.71%), una subponderación de 2.06 pp que financia las convicciones del modelo.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.07, Value -0.88, Momentum +0.34; z del ciclo +0.08, percentil 56.8%).
+  Pesa 2.77% en el MEXTRAC y se tiene solo a través del ETF (0.69%), una subponderación de 2.08 pp que financia las convicciones del modelo.
 riesgos:
-  - Subponderada 2.06 pp: si sube más que el índice, resta al retorno activo.
+  - Subponderada 2.08 pp: si sube más que el índice, resta al retorno activo.
 
 
 === VESTA ===
@@ -812,7 +813,7 @@ industria: Parques industriales en arrendamiento
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: vesta.com.mx
-recomendacion: Subponderar · -1.56 pp
+recomendacion: Subponderar · -1.58 pp
 descripcion:
   Desarrolladora y arrendadora de parques industriales con contratos mayoritariamente en dólares; es la exposición más directa de la bolsa al nearshoring.
 
@@ -829,18 +830,18 @@ r2_vs_indice: 0.211
 # ───────── POSICIÓN EN EL FONDO ─────────
 peso_objetivo: 0.0000%
 peso_indice: 2.10%
-peso_efectivo: 0.54%
-desviacion: -1.56 pp
+peso_efectivo: 0.53%
+desviacion: -1.58 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality -0.91, Value -0.38, Momentum +0.34; score -0.23, percentil 40.5%
+factores: Quality -0.91, Value -0.38, Momentum +0.34; z del ciclo -0.34, percentil 40.5%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.91, Value -0.38, Momentum +0.34; score -0.23, percentil 40.5%).
-  Pesa 2.10% en el MEXTRAC y se tiene solo a través del ETF (0.54%), una subponderación de 1.56 pp que financia las convicciones del modelo.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.91, Value -0.38, Momentum +0.34; z del ciclo -0.34, percentil 40.5%).
+  Pesa 2.10% en el MEXTRAC y se tiene solo a través del ETF (0.53%), una subponderación de 1.58 pp que financia las convicciones del modelo.
 riesgos:
-  - Subponderada 1.56 pp: si sube más que el índice, resta al retorno activo.
+  - Subponderada 1.58 pp: si sube más que el índice, resta al retorno activo.
 
 
 === BIMBOA ===
@@ -850,7 +851,7 @@ industria: Panificación
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: grupobimbo.com
-recomendacion: Subponderar · -1.53 pp
+recomendacion: Subponderar · -1.54 pp
 descripcion:
   Panificadora global con presencia en más de veinte países y marcas como Bimbo, Barcel, Sara Lee, Oroweat y Entenmann´s.
 
@@ -867,18 +868,18 @@ r2_vs_indice: 0.091
 # ───────── POSICIÓN EN EL FONDO ─────────
 peso_objetivo: 0.0000%
 peso_indice: 2.06%
-peso_efectivo: 0.53%
-desviacion: -1.53 pp
+peso_efectivo: 0.52%
+desviacion: -1.54 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality -0.30, Value -0.45, Momentum +0.77; score +0.22, percentil 67.6%
+factores: Quality -0.30, Value -0.45, Momentum +0.77; z del ciclo +0.33, percentil 67.6%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.30, Value -0.45, Momentum +0.77; score +0.22, percentil 67.6%).
-  Pesa 2.06% en el MEXTRAC y se tiene solo a través del ETF (0.53%), una subponderación de 1.53 pp que financia las convicciones del modelo.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.30, Value -0.45, Momentum +0.77; z del ciclo +0.33, percentil 67.6%).
+  Pesa 2.06% en el MEXTRAC y se tiene solo a través del ETF (0.52%), una subponderación de 1.54 pp que financia las convicciones del modelo.
 riesgos:
-  - Subponderada 1.53 pp: si sube más que el índice, resta al retorno activo.
+  - Subponderada 1.54 pp: si sube más que el índice, resta al retorno activo.
 
 
 === Q ===
@@ -888,7 +889,7 @@ industria: Seguros de automóviles
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: qualitas.com.mx
-recomendacion: Subponderar · -1.11 pp
+recomendacion: Subponderar · -1.12 pp
 descripcion:
   Aseguradora líder del ramo automotriz en México, con 33% a 34% de participación de mercado y más de seis millones de unidades aseguradas.
 
@@ -908,18 +909,18 @@ esg_combinado: 53 · S&P Global
 # ───────── POSICIÓN EN EL FONDO ─────────
 peso_objetivo: 0.0000%
 peso_indice: 1.49%
-peso_efectivo: 0.38%
-desviacion: -1.11 pp
+peso_efectivo: 0.37%
+desviacion: -1.12 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality -0.41, Value -1.06, Momentum -0.29; score -0.41, percentil 27.0%
+factores: Quality -0.41, Value -1.06, Momentum -0.29; z del ciclo -0.61, percentil 27.0%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.41, Value -1.06, Momentum -0.29; score -0.41, percentil 27.0%).
-  Pesa 1.49% en el MEXTRAC y se tiene solo a través del ETF (0.38%), una subponderación de 1.11 pp que financia las convicciones del modelo.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.41, Value -1.06, Momentum -0.29; z del ciclo -0.61, percentil 27.0%).
+  Pesa 1.49% en el MEXTRAC y se tiene solo a través del ETF (0.37%), una subponderación de 1.12 pp que financia las convicciones del modelo.
 riesgos:
-  - Subponderada 1.11 pp: si sube más que el índice, resta al retorno activo.
+  - Subponderada 1.12 pp: si sube más que el índice, resta al retorno activo.
 
 
 === CEMEXCPO ===
@@ -946,16 +947,16 @@ r2_vs_indice: 0.215
 # ───────── POSICIÓN EN EL FONDO ─────────
 peso_objetivo: 0.0000%
 peso_indice: 1.38%
-peso_efectivo: 0.35%
+peso_efectivo: 0.34%
 desviacion: -1.03 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality -0.68, Value -0.63, Momentum -1.20; score -0.94, percentil 8.1%
+factores: Quality -0.68, Value -0.63, Momentum -1.20; z del ciclo -1.37, percentil 8.1%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.68, Value -0.63, Momentum -1.20; score -0.94, percentil 8.1%).
-  Pesa 1.38% en el MEXTRAC y se tiene solo a través del ETF (0.35%), una subponderación de 1.03 pp que financia las convicciones del modelo.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.68, Value -0.63, Momentum -1.20; z del ciclo -1.37, percentil 8.1%).
+  Pesa 1.38% en el MEXTRAC y se tiene solo a través del ETF (0.34%), una subponderación de 1.03 pp que financia las convicciones del modelo.
 riesgos:
   - Subponderada 1.03 pp: si sube más que el índice, resta al retorno activo.
 
@@ -988,11 +989,11 @@ peso_efectivo: 0.28%
 desviacion: -0.83 pp
 bloque: SIN POSICIÓN
 senal_modelo: OVER (top-10)
-factores: Quality -0.58, Value -1.13, Momentum +1.18; score +0.24, percentil 70.3%
+factores: Quality -0.58, Value -1.13, Momentum +1.18; z del ciclo +0.36, percentil 70.3%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Quedó entre las diez mejores del ranking (Quality -0.58, Value -1.13, Momentum +1.18; score +0.24, percentil 70.3%), pero solo uno de sus tres factores es positivo. Después de las bandas por z-score y de la regla de consenso (multiplicador de 0.10), su desviación queda debajo del trade mínimo de 1 pp y la posición se descarta.
+  Quedó entre las diez mejores del ranking (Quality -0.58, Value -1.13, Momentum +1.18; z del ciclo +0.36, percentil 70.3%), pero solo uno de sus tres factores es positivo. Después de las bandas por z-score y de la regla de consenso (multiplicador de 0.10), su desviación queda debajo del trade mínimo de 1 pp y la posición se descarta.
   Se tiene solo a través del ETF: 0.28% contra 1.11% del índice (-0.83 pp).
 riesgos:
   - Subponderada 0.83 pp: el Momentum es su factor más fuerte; si la tendencia sigue, resta al retorno activo.
@@ -1030,11 +1031,11 @@ peso_efectivo: 0.25%
 desviacion: -0.74 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality -1.00, Value +0.44, Momentum -0.44; score -0.57, percentil 18.9%
+factores: Quality -1.00, Value +0.44, Momentum -0.44; z del ciclo -0.84, percentil 18.9%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -1.00, Value +0.44, Momentum -0.44; score -0.57, percentil 18.9%).
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -1.00, Value +0.44, Momentum -0.44; z del ciclo -0.84, percentil 18.9%).
   Pesa 0.99% en el MEXTRAC y se tiene solo a través del ETF (0.25%), una subponderación de 0.74 pp que financia las convicciones del modelo.
 riesgos:
   - Subponderada 0.74 pp: si sube más que el índice, resta al retorno activo.
@@ -1071,12 +1072,12 @@ peso_efectivo: 0.17%
 desviacion: -0.50 pp
 bloque: SIN POSICIÓN
 senal_modelo: EXCLUIDO (anti value-trap)
-factores: Quality -0.25, Value +2.47, Momentum -0.27; score +0.01, percentil 54.1%
+factores: Quality -0.25, Value +2.47, Momentum -0.27; z del ciclo +0.02, percentil 54.1%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Queda fuera por la regla anti value-trap: una emisora con Value z mayor a 0.3 y profitability menor a −0.25 no puede ser over, porque puede parecer barata y tener un deterioro fundamental detrás.
-  Value z de 2.47, el más alto del universo, pero con rentabilidad débil: pérdida neta en el 2T26 y dividendo 2026 suspendido (Quality -0.25, Value +2.47, Momentum -0.27; score +0.01, percentil 54.1%).
+  Su pilar de Profitability es -0.71. Value z de 2.47, el más alto del universo, pero con rentabilidad débil: pérdida neta en el 2T26 y dividendo 2026 suspendido (Quality -0.25, Value +2.47, Momentum -0.27; z del ciclo +0.02, percentil 54.1%).
   Pesa 0.67% en el índice y solo se tiene a través del ETF (0.17%), una desviación de -0.50 pp.
 riesgos:
   - Subponderada 0.50 pp: si el mercado revalúa la emisora, resta al retorno activo.
@@ -1109,16 +1110,16 @@ esg_combinado: 37 · S&P Global
 # ───────── POSICIÓN EN EL FONDO ─────────
 peso_objetivo: 0.0000%
 peso_indice: 0.62%
-peso_efectivo: 0.16%
+peso_efectivo: 0.15%
 desviacion: -0.46 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality +0.87, Value +0.90, Momentum -1.43; score -0.28, percentil 37.8%
+factores: Quality +0.87, Value +0.90, Momentum -1.43; z del ciclo -0.41, percentil 37.8%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality +0.87, Value +0.90, Momentum -1.43; score -0.28, percentil 37.8%).
-  Pesa 0.62% en el MEXTRAC y se tiene solo a través del ETF (0.16%), una subponderación de 0.46 pp que financia las convicciones del modelo.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality +0.87, Value +0.90, Momentum -1.43; z del ciclo -0.41, percentil 37.8%).
+  Pesa 0.62% en el MEXTRAC y se tiene solo a través del ETF (0.15%), una subponderación de 0.46 pp que financia las convicciones del modelo.
 riesgos:
   - Subponderada 0.46 pp: si sube más que el índice, resta al retorno activo.
 
@@ -1151,11 +1152,11 @@ peso_efectivo: 0.14%
 desviacion: -0.42 pp
 bloque: SIN POSICIÓN
 senal_modelo: OVER (top-10)
-factores: Quality -0.41, Value -1.44, Momentum +1.52; score +0.45, percentil 78.4%
+factores: Quality -0.41, Value -1.44, Momentum +1.52; z del ciclo +0.66, percentil 78.4%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  Quedó entre las diez mejores del ranking (Quality -0.41, Value -1.44, Momentum +1.52; score +0.45, percentil 78.4%), pero solo uno de sus tres factores es positivo. Después de las bandas por z-score y de la regla de consenso (multiplicador de 0.10), su desviación queda debajo del trade mínimo de 1 pp y la posición se descarta.
+  Quedó entre las diez mejores del ranking (Quality -0.41, Value -1.44, Momentum +1.52; z del ciclo +0.66, percentil 78.4%), pero solo uno de sus tres factores es positivo. Después de las bandas por z-score y de la regla de consenso (multiplicador de 0.10), su desviación queda debajo del trade mínimo de 1 pp y la posición se descarta.
   Se tiene solo a través del ETF: 0.14% contra 0.56% del índice (-0.42 pp).
 riesgos:
   - Subponderada 0.42 pp: el Momentum es su factor más fuerte; si la tendencia sigue, resta al retorno activo.
@@ -1189,11 +1190,11 @@ peso_efectivo: 0.11%
 desviacion: -0.32 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality -0.31, Value +0.01, Momentum -1.48; score -0.86, percentil 10.8%
+factores: Quality -0.31, Value +0.01, Momentum -1.48; z del ciclo -1.26, percentil 10.8%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.31, Value +0.01, Momentum -1.48; score -0.86, percentil 10.8%).
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.31, Value +0.01, Momentum -1.48; z del ciclo -1.26, percentil 10.8%).
   Pesa 0.43% en el MEXTRAC y se tiene solo a través del ETF (0.11%), una subponderación de 0.32 pp que financia las convicciones del modelo.
 riesgos:
   - Subponderada 0.32 pp: si sube más que el índice, resta al retorno activo.
@@ -1206,7 +1207,7 @@ industria: Autoservicio
 pais: México
 bolsa: Bolsa Mexicana de Valores
 sitio: grupochedraui.com.mx
-recomendacion: Subponderar · -0.16 pp
+recomendacion: Subponderar · -0.17 pp
 descripcion:
   Cadena de supermercados con operaciones en México y en Estados Unidos, donde opera Smart & Final y El Super.
 
@@ -1224,17 +1225,17 @@ r2_vs_indice: 0.104
 peso_objetivo: 0.0000%
 peso_indice: 0.22%
 peso_efectivo: 0.06%
-desviacion: -0.16 pp
+desviacion: -0.17 pp
 bloque: SIN POSICIÓN
 senal_modelo: Representativa
-factores: Quality -0.14, Value -0.08, Momentum -0.63; score -0.38, percentil 29.7%
+factores: Quality -0.14, Value -0.08, Momentum -0.63; z del ciclo -0.56, percentil 29.7%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.14, Value -0.08, Momentum -0.63; score -0.38, percentil 29.7%).
-  Pesa 0.22% en el MEXTRAC y se tiene solo a través del ETF (0.06%), una subponderación de 0.16 pp que financia las convicciones del modelo.
+  No entra a la cartera directa: el modelo la ubica abajo de las alternativas (Quality -0.14, Value -0.08, Momentum -0.63; z del ciclo -0.56, percentil 29.7%).
+  Pesa 0.22% en el MEXTRAC y se tiene solo a través del ETF (0.06%), una subponderación de 0.17 pp que financia las convicciones del modelo.
 riesgos:
-  - Subponderada 0.16 pp: si sube más que el índice, resta al retorno activo.
+  - Subponderada 0.17 pp: si sube más que el índice, resta al retorno activo.
 
 
 
@@ -1268,12 +1269,12 @@ peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
 senal_modelo: EXCLUIDO (anti value-trap)
-factores: Quality -0.55, Value +0.55, Momentum +1.58; score +0.62, percentil 86.5%
+factores: Quality -0.55, Value +0.55, Momentum +1.58; z del ciclo +0.91, percentil 86.5%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Queda fuera por la regla anti value-trap: una emisora con Value z mayor a 0.3 y profitability menor a −0.25 no puede ser over, porque puede parecer barata y tener un deterioro fundamental detrás.
-  Value z de 0.55 con Quality z de −0.55: la señal de barata no viene acompañada de rentabilidad (Quality -0.55, Value +0.55, Momentum +1.58; score +0.62, percentil 86.5%).
+  Su pilar de Profitability es -0.65. Value z de 0.55 con Quality z de −0.55: la señal de barata no viene acompañada de rentabilidad (Quality -0.55, Value +0.55, Momentum +1.58; z del ciclo +0.91, percentil 86.5%).
   No forma parte del índice, así que no tenerla no genera desviación.
 
 
@@ -1307,12 +1308,12 @@ peso_indice: 0.00%
 peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
-senal_modelo: Fuera del índice
-factores: Quality +0.58, Value +0.66, Momentum -1.52; score -0.46, percentil 24.3%
+senal_modelo: Representativa
+factores: Quality +0.58, Value +0.66, Momentum -1.52; z del ciclo -0.67, percentil 24.3%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality +0.58, Value +0.66, Momentum -1.52; score -0.46, percentil 24.3%).
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality +0.58, Value +0.66, Momentum -1.52; z del ciclo -0.67, percentil 24.3%).
 
 
 === CUERVO ===
@@ -1343,12 +1344,12 @@ peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
 senal_modelo: EXCLUIDO (anti value-trap)
-factores: Quality +0.14, Value +1.57, Momentum -0.12; score +0.15, percentil 64.9%
+factores: Quality +0.14, Value +1.57, Momentum -0.12; z del ciclo +0.22, percentil 64.9%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Queda fuera por la regla anti value-trap: una emisora con Value z mayor a 0.3 y profitability menor a −0.25 no puede ser over, porque puede parecer barata y tener un deterioro fundamental detrás.
-  Value z de 1.57 con rentabilidad débil: el equipo la considera el caso típico de value trap del universo (Quality +0.14, Value +1.57, Momentum -0.12; score +0.15, percentil 64.9%).
+  Su pilar de Profitability es -0.34. Value z de 1.57 con rentabilidad débil: el equipo la considera el caso típico de value trap del universo (Quality +0.14, Value +1.57, Momentum -0.12; z del ciclo +0.22, percentil 64.9%).
   No forma parte del índice, así que no tenerla no genera desviación.
 
 
@@ -1379,12 +1380,12 @@ peso_indice: 0.00%
 peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
-senal_modelo: Fuera del índice
-factores: Quality -0.26, Value -0.69, Momentum -0.04; score -0.19, percentil 43.2%
+senal_modelo: Representativa
+factores: Quality -0.26, Value -0.69, Momentum -0.04; z del ciclo -0.29, percentil 43.2%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.26, Value -0.69, Momentum -0.04; score -0.19, percentil 43.2%).
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.26, Value -0.69, Momentum -0.04; z del ciclo -0.29, percentil 43.2%).
 
 
 === GFINBURO ===
@@ -1414,12 +1415,12 @@ peso_indice: 0.00%
 peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
-senal_modelo: Fuera del índice
-factores: Quality -1.16, Value -0.06, Momentum +0.31; score -0.31, percentil 35.1%
+senal_modelo: Representativa
+factores: Quality -1.16, Value -0.06, Momentum +0.31; z del ciclo -0.46, percentil 35.1%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -1.16, Value -0.06, Momentum +0.31; score -0.31, percentil 35.1%).
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -1.16, Value -0.06, Momentum +0.31; z del ciclo -0.46, percentil 35.1%).
 
 
 === LABB ===
@@ -1449,12 +1450,12 @@ peso_indice: 0.00%
 peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
-senal_modelo: Fuera del índice
-factores: Quality -0.37, Value +0.42, Momentum -1.39; score -0.80, percentil 13.5%
+senal_modelo: Representativa
+factores: Quality -0.37, Value +0.42, Momentum -1.39; z del ciclo -1.17, percentil 13.5%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.37, Value +0.42, Momentum -1.39; score -0.80, percentil 13.5%).
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.37, Value +0.42, Momentum -1.39; z del ciclo -1.17, percentil 13.5%).
 
 
 === LACOMERUBC ===
@@ -1484,12 +1485,12 @@ peso_indice: 0.00%
 peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
-senal_modelo: Fuera del índice
-factores: Quality -0.38, Value +0.23, Momentum -1.79; score -1.02, percentil 5.4%
+senal_modelo: Representativa
+factores: Quality -0.38, Value +0.23, Momentum -1.79; z del ciclo -1.50, percentil 5.4%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.38, Value +0.23, Momentum -1.79; score -1.02, percentil 5.4%).
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.38, Value +0.23, Momentum -1.79; z del ciclo -1.50, percentil 5.4%).
 
 
 === LIVEPOLC1 ===
@@ -1523,12 +1524,12 @@ peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
 senal_modelo: EXCLUIDO (anti value-trap)
-factores: Quality -0.08, Value +1.60, Momentum +0.54; score +0.40, percentil 73.0%
+factores: Quality -0.08, Value +1.60, Momentum +0.54; z del ciclo +0.58, percentil 73.0%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
   Queda fuera por la regla anti value-trap: una emisora con Value z mayor a 0.3 y profitability menor a −0.25 no puede ser over, porque puede parecer barata y tener un deterioro fundamental detrás.
-  Value z de 1.60 con Quality z de −0.08: queda fuera por la regla aunque su utilidad neta del 2T26 creció 55.4% (Quality -0.08, Value +1.60, Momentum +0.54; score +0.40, percentil 73.0%).
+  Su pilar de Profitability es -0.29. Value z de 1.60 con Quality z de −0.08: queda fuera por la regla aunque su utilidad neta del 2T26 creció 55.4% (Quality -0.08, Value +1.60, Momentum +0.54; z del ciclo +0.58, percentil 73.0%).
   No forma parte del índice, así que no tenerla no genera desviación.
 
 
@@ -1559,12 +1560,12 @@ peso_indice: 0.00%
 peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
-senal_modelo: Fuera del índice
-factores: Quality -1.44, Value +0.18, Momentum -0.26; score -0.69, percentil 16.2%
+senal_modelo: Representativa
+factores: Quality -1.44, Value +0.18, Momentum -0.26; z del ciclo -1.00, percentil 16.2%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -1.44, Value +0.18, Momentum -0.26; score -0.69, percentil 16.2%).
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -1.44, Value +0.18, Momentum -0.26; z del ciclo -1.00, percentil 16.2%).
 
 
 === VOLARA ===
@@ -1594,9 +1595,9 @@ peso_indice: 0.00%
 peso_efectivo: 0.00%
 desviacion: +0.00 pp
 bloque: SIN POSICIÓN
-senal_modelo: Fuera del índice
-factores: Quality -0.97, Value +1.57, Momentum +0.15; score -0.15, percentil 45.9%
+senal_modelo: Representativa
+factores: Quality -0.97, Value +1.57, Momentum +0.15; z del ciclo -0.23, percentil 45.9%
 
 # ───────── NUESTRA POSTURA ─────────
 tesis:
-  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.97, Value +1.57, Momentum +0.15; score -0.15, percentil 45.9%).
+  No forma parte del MEXTRAC ni de la cartera: no tenerla no genera desviación contra el índice. El modelo no la selecciona como over (Quality -0.97, Value +1.57, Momentum +0.15; z del ciclo -0.23, percentil 45.9%).
