@@ -145,6 +145,21 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-07 19:03
+emisora: MERCADO
+titulo: Talarico says Paxton-backed tariffs threaten free chips and salsa
+fuente: USADAY
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:reuters.com:20261008:nNRA28ncct:1
+resumen:
+  For best results when printing this announcement, please click on link below:
+  https://newsfile.refinitiv.com/getnewsfile/v1/story?guid=urn:newsml:reuters.com:20261008:nNRA28ncct&default-theme=true
+  Democrat James Talarico says Republican-backed tariffs on Mexican tomatoes are driving
+  up costs for restaurants and could threaten a Texas dining staple: free chips and
+  salsa. In an Oct…
+
+---
 fecha: 2026-10-07 18:28
 emisora: MERCADO
 titulo: Caribbean Cement Company Ltd. (JA:CCC) posts back-to-back gains, moving higher 3.6% over 2 days; increases 12.0c to close at J$114.0; +J$4 [+3.6%]
@@ -2056,12 +2071,3 @@ fuente: GLFILE
 tono: neutral
 impacto: bajo
 id: lseg:urn:newsml:reuters.com:20261007:nGLF18wZKK:2
-
----
-fecha: 2026-10-07 01:38
-emisora: AC
-titulo: Arca Continental, S.A.B. de C.V. -- Assurance Statement (89638158)
-fuente: GLFILE
-tono: neutral
-impacto: bajo
-id: lseg:urn:newsml:reuters.com:20261007:nGLFtLWDF:3

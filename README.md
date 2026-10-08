@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 07/10/2026 18:51 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 07/10/2026 19:12 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 | | Último cierre (07/10) | Acumulado |
@@ -79,6 +79,7 @@ Quién explica más el TE del libro: FEMSAUBD 1.01 pp · GMEXICOB 0.84 pp · BOL
 
 ## Noticias recientes (LSEG)
 
+- • **MERCADO** · 07/10 19:03 · USADAY — Talarico says Paxton-backed tariffs threaten free chips and salsa
 - ▲ **MERCADO** · 07/10 18:28 · CNBSTR — Caribbean Cement Company Ltd. (JA:CCC) posts back-to-back gains, moving higher 3.6% over 2 days; increases 12.0c to close at J$114.0; +J$4 [+3.6%]
 - • **GAPB** · 07/10 18:13 · NOTENG — GAP Leads Declines on BMV and Drags Down Airlines and Airports Following Traffic Report
 - • **ASURB** · 07/10 18:13 · NOTENG — Asur reports no growth in September as Brazil and others contribute; Cancún declines again
@@ -93,7 +94,6 @@ Quién explica más el TE del libro: FEMSAUBD 1.01 pp · GMEXICOB 0.84 pp · BOL
 - ▼ **MEGACPO** · 07/10 18:12 · GLOSTK — Megacable (BMV:MEGA) Solvency and Other Financial Risk Metrics
 - ▼ **OMAB** · 07/10 18:12 · GLOSTK — Grupo Aeroportuario del Centro Norte (BMV:OMA) Solvency and Other Financial Risk Metrics
 - ▼ **KIMBERA** · 07/10 18:12 · GLOSTK — Kimberly Clark de Mexico (BMV:KIMBERA) Solvency and Other Financial Risk Metrics
-- ▼ **KIMBERA** · 07/10 18:12 · GLOSTK — Kimberly Clark de Mexico (BMV:KIMBERB) Solvency and Other Financial Risk Metrics
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._
