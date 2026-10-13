@@ -145,6 +145,20 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-13 17:51
+emisora: FEMSAUBD
+titulo: Benchmarking Fomento Economico Mexicano, S.A.B de C.V. (NYSE:FMX) vs Anheuser-Busch Inbev SA: Comprehensive Financial Performance Overview *Updated*
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261013:nNRA2bchdq:0
+resumen:
+  Benchmarking Fomento Economico Mexicano, S.A.B de C.V. (NYSE:FMX) vs Anheuser-Busch
+  Inbev SA: Comprehensive Financial Performance Overview *Updated*GLOBAL ROUND UP ADRS
+  AND DEPOSITORY RECEIPTS This comparative analysis covers the financial performance of
+  Fomento Economico Mexicano, S.A.B de C.V…
+
+---
 fecha: 2026-10-13 17:50
 emisora: MERCADO
 titulo: Grupo Standard & Poor's SA de CV - Emisiones FEFA 5-26, asignación, ''mxAAA''
@@ -2022,18 +2036,3 @@ resumen:
   here (https://docs.publicnow.com/68BB599B613D3262E273262AD65075A916E87126). BOLSA
   MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO Aviso a Tenedores EMISIÓN CLAVE
   DE COTIZACIÓN SERIE/T.V…
-
----
-fecha: 2026-10-07 15:04
-emisora: BOLSAA
-titulo: BMV - Aviso de Tenedores de BACOMER 9-25
-fuente: PUBT
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261007:nNDL9KHjh9:1
-resumen:
-  Attention : The text below has been extracted from an image-only document using OCR
-  technology and may contain errors and omissions. You can access the original document
-  here (https://docs.publicnow.com/CA61B49D6DFA10E85FEC3BC436FCA7AAAFE52AD6). Aviso a
-  Tenedores FECHA: 07/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO
-  Aviso a Tenedores EMISIÓN CLAVE DE COTIZACIÓN SERIE/T.V…
