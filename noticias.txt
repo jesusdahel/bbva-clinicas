@@ -145,6 +145,84 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-13 17:50
+emisora: MERCADO
+titulo: Grupo Standard & Poor's SA de CV - Emisiones FEFA 5-26, asignación, ''mxAAA''
+fuente: PUBT
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:reuters.com:20261013:nNDL5cTrHT:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/FA79022E300BDEBC1136468B1F6CD14AA217F3C1)…
+
+---
+fecha: 2026-10-13 17:49
+emisora: MERCADO
+titulo: Grupo Standard & Poor's SA de CV - Banco Compartamos, COMPART 26-5S, asignación, ‘mxAA’
+fuente: PUBT
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:reuters.com:20261013:nNDL2CgC44:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/3B7753BF37A7FB8E964E0C56957907BB99155228)…
+
+---
+fecha: 2026-10-13 17:45
+emisora: MERCADO
+titulo: HR Ratings de México SA de CV - Comunicado INVTACB 26L
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261013:nNDL3WvB8G:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/305D6AA8B43C400D4864905AD486E3E501244284)…
+
+---
+fecha: 2026-10-13 17:41
+emisora: BOLSAA
+titulo: BMV - Aviso de Tenedores de FUNO 21X
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261013:nNDL3GjBWZ:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/74A2E9E5E2EE9D25A2032B25C08D7E3C09EA0374). BOLSA
+  MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO Aviso a Tenedores EMISIÓN CLAVE
+  DE COTIZACIÓN SERIE/T.V…
+
+---
+fecha: 2026-10-13 17:37
+emisora: GMEXICOB
+titulo: Southern Copper (SCCO) is trading -0.25 percent lower on Wednesday 14th of October and has a trading volume of USD 128.6 mn
+fuente: STOCKP
+tono: negativa
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261013:nNRA2bccvm:0
+resumen:
+  Southern Copper (SCCO) is trading -0.25 percent lower on Wednesday 14th of October and
+  has a trading volume of USD 128.6 mnOct 13, 2026 Southern Copper (SCCO) traded down
+  -0.25 % during a 24 hours period ending at 01:07 AM Central Europe on Wednesday 14th.
+  One Southern Copper stock can currently be bought for about USD 207.42 on popular
+  exchanges. Current supply of Southern Copper stocks is 844.4 mn…
+
+---
+fecha: 2026-10-13 17:35
+emisora: MERCADO
+titulo: HR Ratings de México SA de CV - Comunicado Municipio de San Luis Potosí
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261013:nNDL4P2rF8:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/3FC1E205315925CBF732AA2F7D523B91D10EFAEA)…
+
+---
 fecha: 2026-10-13 17:27
 emisora: MERCADO
 titulo: Mexico Market Daily- Mexican Market: Top Movers and Top Value End of Day (EOD)
@@ -853,9 +931,7 @@ id: lseg:urn:newsml:newsroom:20261013:nNRA2b5ayd:0
 ---
 fecha: 2026-10-13 05:42
 emisora: BBAJIOO
-titulo: @dariocelise: Replying to @dariocelise: #LaQuintaTransformación
-Watts tuvo conocimiento del juicio, el 21 de abril de 2026, cuando se le congelaron cerca de tres millones 400 mil pesos en su cuenta de Banco del Bajío, propiedad de Salvador Oñate.
-https://t.co/XTUDsWCUkj https://t.co/gh6yo6hEuW
+titulo: @dariocelise: Replying to @dariocelise: #LaQuintaTransformación Watts tuvo conocimiento del juicio, el 21 de abril de 2026, cuando se le congelaron cerca de tres millones 400 mil pesos en su cuenta de Banco del Bajío, propiedad de Salvador Oñate.
 fuente: X
 tono: neutral
 impacto: medio
@@ -1961,90 +2037,3 @@ resumen:
   here (https://docs.publicnow.com/CA61B49D6DFA10E85FEC3BC436FCA7AAAFE52AD6). Aviso a
   Tenedores FECHA: 07/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO
   Aviso a Tenedores EMISIÓN CLAVE DE COTIZACIÓN SERIE/T.V…
-
----
-fecha: 2026-10-07 14:57
-emisora: GMEXICOB
-titulo: Southern Copper Corporation's (NYSE:SCCO $200.51) dropped 1.84%: Risk Factors and Bearish Indicators Analysis
-fuente: NEWBTS
-tono: negativa
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28l4km:0
-resumen:
-  Southern Copper Corporation's (NYSE:SCCO $200.51) dropped 1.84%: Risk Factors and
-  Bearish Indicators AnalysisNYSE END-OF-DAY STOCK REPORT PHOENIX, Wednesday, Oct 07,
-  2026 - Southern Copper Corporation's (NYSE:SCCO $200.51) stock price dropped $4.78
-  (2.3%) over the past two trading days…
-
----
-fecha: 2026-10-07 14:51
-emisora: AMXB
-titulo: Benchmarking America Movil S.A.B. de CV's (NYSE:AMX) dividend against Its Peers *Updated*
-fuente: GLORDP
-tono: positiva
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28l3dn:0
-resumen:
-  Benchmarking America Movil S.A.B. de CV's (NYSE:AMX) dividend against Its Peers
-  *Updated*GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS America Movil S.A.B. de CV's
-  trailing twelve months dividend is 58.89c. Its dividend yield at its current price is
-  2.63%. Its current price is at a 20.49% discount to its 52 week high. Its current price
-  is at a 14.83% premium to its 52 week low. If America Movil S.A.B…
-
----
-fecha: 2026-10-07 14:47
-emisora: GMEXICOB
-titulo: Southern Copper Corporation (NYSE:SCCO) accelerates decline, down 2.3% in 2 days; -$4.78 [-2.3%]
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28l0pu:0
-resumen:
-  Southern Copper Corporation (NYSE:SCCO) accelerates decline, down 2.3% in 2 days;
-  -$4.78 [-2.3%]NYSE END-OF-DAY STOCK REPORT www.buysellsignals.com PHOENIX, Wednesday,
-  Oct 07, 2026 - Southern Copper Corporation's (NYSE:SCCO $200.51) stock price dropped
-  $4.78 (2.3%) over the past two trading days…
-
----
-fecha: 2026-10-07 14:12
-emisora: MERCADO
-titulo: Mexico's Exports to the U.S. Increase by 18% as the Mexican Tech Sector Gains Strength
-fuente: NOTENG
-tono: positiva
-impacto: bajo
-id: lseg:urn:newsml:newsroom:20261007:nNRA28kqpt:0
-resumen:
-  Mexico's Exports to the U.S. Increase by 18% as the Mexican Tech Sector Gains
-  StrengthMexico's exports to the United States (US) reached a total of $419.3 billion
-  during the January-August period of 2026, marking an 18% annual increase compared to
-  the same period the previous year, according to data from the US Census Bureau.
-
----
-fecha: 2026-10-07 14:11
-emisora: MERCADO
-titulo: World Bank raises Mexico's 2026 growth forecast to 1.4%
-fuente: BNEINT
-tono: positiva
-impacto: bajo
-id: lseg:urn:newsml:newsroom:20261007:nNRA28kp0p:0
-resumen:
-  World Bank raises Mexico's 2026 growth forecast to 1.4%Oct 07, 2026 La Jornada The
-  World Bank raised its forecast for Mexico's gross domestic product (GDP) growth this
-  year to 1.4% from 1.3%,reported on October 6. The lender also lifted its 2027 estimate
-  for the Mexican economy to 1.8% from 1.7%. The upgrade still leaves Mexico behind the
-  wider region…
-
----
-fecha: 2026-10-07 14:10
-emisora: MERCADO
-titulo: Mexico-US trade hits record $683bn in eight months
-fuente: BNEINT
-tono: positiva
-impacto: bajo
-id: lseg:urn:newsml:newsroom:20261007:nNRA28kpdu:0
-resumen:
-  Mexico-US trade hits record $683bn in eight monthsOct 07, 2026 La Jornada Trade between
-  Mexico and the US reached a record $682.82bn in the first eight months of 2026, driven
-  largely by Mexican exports,reported on October 6, citing data from the US Census
-  Bureau. In August alone, two-way trade totalled $94.29bn, up 26.7% from the same month
-  of 2025…
