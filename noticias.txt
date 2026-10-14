@@ -145,6 +145,108 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-13 18:13
+emisora: MERCADO
+titulo: The Mexican Stock Exchange rises 0.33%, contrary to U.S. markets, and climbs to 66,965.15 points
+fuente: NOTENG
+tono: positiva
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261014:nNRA2bcr8z:0
+resumen:
+  The Mexican Stock Exchange rises 0.33%, contrary to U.S. markets, and climbs to
+  66,965.15 pointsMexico City, October 13 (EFE) - The Mexican Stock Exchange (BMV)
+  recorded a 0.33% increase on Tuesday, marking its fourth consecutive day of gains, with
+  the Price and Quotations Index (IPC), its main indicator, rising to 66,965.15 points,
+  amid negative results in the United States and most global markets…
+
+---
+fecha: 2026-10-13 18:13
+emisora: MERCADO
+titulo: Peso under pressure from the Federal Reserve; HSBC forecasts another rate hike from the Fed
+fuente: NOTENG
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261014:nNRA2bcrf6:0
+resumen:
+  Peso under pressure from the Federal Reserve; HSBC forecasts another rate hike from the
+  FedTo mitigate the impact of inflation on the purchasing power of Americans, the
+  Federal Reserve of the United States (Fed) will implement another increase in the
+  benchmark interest rate. The adjustment in monetary policy will put additional pressure
+  on the exchange rate of the Mexican peso against the dollar, according to HSBC…
+
+---
+fecha: 2026-10-13 18:12
+emisora: AMXB
+titulo: Why does Iron Maiden prohibit the use of mobile phones at their concerts?
+fuente: NOTENG
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261014:nNRA2bcr56:0
+resumen:
+  Why does Iron Maiden prohibit the use of mobile phones at their concerts?Thousands of
+  Bogotá residents experienced a new Iron Maiden concert on October 11 as part of their
+  'Run For Your Lives' tour at the Vive Claro Cultural District stage…
+
+---
+fecha: 2026-10-13 18:07
+emisora: MERCADO
+titulo: Codere Online US Corp's (NASDAQ:CDRO $9.40) dropped 1.47%: Risk Factors and Bearish Indicators Analysis
+fuente: NEWBTS
+tono: negativa
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261014:nNRA2bcne5:0
+resumen:
+  Codere Online US Corp's (NASDAQ:CDRO $9.40) dropped 1.47%: Risk Factors and Bearish
+  Indicators AnalysisNASDAQ END-OF-DAY STOCK REPORT Codere Online US Corp's (NASDAQ:CDRO
+  $9.40) stock price dropped 14.0c (1.5%) from its previous trading session to close at
+  $9.40. Compared with the NASDAQ-100 Index which fell 95.2 points (0.3%) in the day, the
+  relative price change was -1.2%…
+
+---
+fecha: 2026-10-13 18:07
+emisora: MERCADO
+titulo: BBB Foods Inc. Class A's (NYSE:TBBB $56.44) increased 0.25% to $56.44: Comprehensive Stock Performance Summary
+fuente: NEWBTS
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261014:nNRA2bcn8f:0
+resumen:
+  BBB Foods Inc. Class A's (NYSE:TBBB $56.44) increased 0.25% to $56.44: Comprehensive
+  Stock Performance SummaryNYSE END-OF-DAY STOCK REPORT BBB Foods Inc. Class A's
+  (NYSE:TBBB $56.44) stock price hit a 52-week high of $57.30 during the day. In the last
+  three months the stock has hit a new 52-week high fifteen times, pointing to a
+  significant uptrend. BBB Foods Inc…
+
+---
+fecha: 2026-10-13 18:07
+emisora: MERCADO
+titulo: Betterware de Mexico S.A.B. de C.V.'s (NYSE:BWMX $16.34) increased 0.43% to $16.34: Comprehensive Stock Performance Summary
+fuente: NEWBTS
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261014:nNRA2bcmsk:0
+resumen:
+  Betterware de Mexico S.A.B. de C.V.'s (NYSE:BWMX $16.34) increased 0.43% to $16.34:
+  Comprehensive Stock Performance SummaryNYSE END-OF-DAY STOCK REPORT Betterware de
+  Mexico S.A.B. de C.V.'s (NYSE:BWMX $16.34) stock price increased 7.0c (0.4%) from its
+  previous trading session to close at $16.34. Compared with the S&P 500 Index which fell
+  1.8 points (0.02%) in the day, the relative price increase was 0.5%…
+
+---
+fecha: 2026-10-13 18:03
+emisora: BOLSAA
+titulo: BMV - Acuerdos de Tenedores de la FUTILCB 24S
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261014:nNDL1xh455:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/9F10AA1CFE47EC4DAA7704CEE848A03ACEB8FCB1). BOLSA
+  MEXICANA DE VALORES, S.A.B…
+
+---
 fecha: 2026-10-13 17:51
 emisora: FEMSAUBD
 titulo: Benchmarking Fomento Economico Mexicano, S.A.B de C.V. (NYSE:FMX) vs Anheuser-Busch Inbev SA: Comprehensive Financial Performance Overview *Updated*
@@ -1936,103 +2038,3 @@ fuente: LATMIA
 tono: neutral
 impacto: medio
 id: lseg:urn:link:webnews:20261007:nNRA28lr26:0
-
----
-fecha: 2026-10-07 15:26
-emisora: ASURB
-titulo: BRIEF-Grupo Aeroportuario Del Sureste Sab De Cv  Total Passenger Traffic For September 2026 Reached 8.6 Million Passengers
-fuente: Reuters
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:reuters.com:20261007:nFWN45T23J:1
-resumen:
-  Grupo Aeroportuario del Sureste SAB de CV <ASURB.MX>: * GRUPO AEROPORTUARIO DEL SURESTE
-  SAB DE CV: TOTAL PASSENGER TRAFFIC FOR SEPTEMBER 2026 REACHED 8.6 MILLION PASSENGERS
-  Source text: [ID:n0001104659-26-114381] Further company coverage: [ASURB.MX]
-
----
-fecha: 2026-10-07 15:26
-emisora: BOLSAA
-titulo: BMV - Amortizaciones MONTPIO 21
-fuente: PUBT
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261007:nNDL4kVctP:1
-resumen:
-  Attention : The text below has been extracted from an image-only document using OCR
-  technology and may contain errors and omissions. You can access the original document
-  here (https://docs.publicnow.com/FA688281F6AA02EFF1F5A9D7CDFFC5D1A128D120).
-  Amortizacion FECHA: 07/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA:
-  PREFIJO Amortizacion AMORTIZACIÓN TOTAL O PARCIAL POR TÍTULOS CLAVE SERIE/T.V…
-
----
-fecha: 2026-10-07 15:26
-emisora: BOLSAA
-titulo: BMV - Composición de Cartera TRACS
-fuente: PUBT
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261007:nNDL73GqJ4:1
-resumen:
-  The text version of this document is not available. You can access the original
-  document here (https://docs.publicnow.com/26743F0B96BDBC9617BBAC69291065CCA8A206DF)…
-
----
-fecha: 2026-10-07 15:19
-emisora: AMXB
-titulo: America Movil Sab De C trades 0.3 percent higher on Wednesday 7th of October
-fuente: STOCKP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28lffy:0
-resumen:
-  America Movil Sab De C trades 0.3 percent higher on Wednesday 7th of OctoberOct 07,
-  2026 America Movil Sab De C (AMXB.MX) traded up 0.3 % during a 24 hours period ending
-  at 11:10 PM Central Europe on Wednesday 7th. One America Movil Sab De C stock can
-  currently be bought for about MXN 20.11 on popular exchanges. Current supply of America
-  Movil Sab De C stocks is 60.3 bn…
-
----
-fecha: 2026-10-07 15:17
-emisora: WALMEX
-titulo: Walmart De Mexico Sab De Cv (WALMEX.MX) is trading 0.41 percent higher on Wednesday 7th of October and has a trading volume of MXN 523.6 mn
-fuente: STOCKP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28leou:0
-resumen:
-  Walmart De Mexico Sab De Cv (WALMEX.MX) is trading 0.41 percent higher on Wednesday 7th
-  of October and has a trading volume of MXN 523.6 mnOct 07, 2026 Walmart De Mexico Sab
-  De Cv (WALMEX.MX) traded up 0.41 % during a 24 hours period ending at 11:06 PM Central
-  Europe on Wednesday 7th. One Walmart De Mexico Sab De Cv stock can currently be bought
-  for about MXN 46.69 on popular exchanges…
-
----
-fecha: 2026-10-07 15:04
-emisora: BOLSAA
-titulo: BMV - Aviso de Tenedores de MONTPIO 21
-fuente: PUBT
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261007:nNDL6zJgBP:1
-resumen:
-  Attention : The text below has been extracted from an image-only document using OCR
-  technology and may contain errors and omissions. You can access the original document
-  here (https://docs.publicnow.com/9A1D40C1FDE86DFC4D3FBB02633CB6FBE0BD42FC). Aviso a
-  Tenedores FECHA: 07/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO
-  Aviso a Tenedores EMISIÓN CLAVE DE COTIZACIÓN SERIE/T.V…
-
----
-fecha: 2026-10-07 15:04
-emisora: BOLSAA
-titulo: BMV - Aviso de Tenedores de BACOMER 130-25
-fuente: PUBT
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261007:nNDL720Z2l:1
-resumen:
-  Attention : The text below has been extracted from an image-only document using OCR
-  technology and may contain errors and omissions. You can access the original document
-  here (https://docs.publicnow.com/68BB599B613D3262E273262AD65075A916E87126). BOLSA
-  MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO Aviso a Tenedores EMISIÓN CLAVE
-  DE COTIZACIÓN SERIE/T.V…
