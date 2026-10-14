@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 14/10/2026 07:02 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 14/10/2026 07:30 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cierre del portafolio de referencia, el **16/10/2026**. Las órdenes van antes de las **12:45**; hasta el 16/10 las ventas no pagan comisión y las compras sí (0.30% + IVA). Liquidación T+1 hábil.
