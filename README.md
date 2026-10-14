@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 13/10/2026 18:33 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 13/10/2026 18:48 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 | | Último cierre (09/10) | Acumulado |
@@ -81,6 +81,8 @@ Quién explica más el TE del libro: FEMSAUBD 1.00 pp · GMEXICOB 0.93 pp · BOL
 
 ## Noticias recientes (LSEG)
 
+- • **BOLSAA** · 13/10 18:25 · PUBT — BMV - Amortizaciones FONDO 01326
+- • **MERCADO** · 13/10 18:21 · CNBSTR — Caribbean Cement Company Ltd. (JA:CCC) decreases on slipping relative strength; -95c [-0.8%]
 - ▲ **MERCADO** · 13/10 18:13 · NOTENG — The Mexican Stock Exchange rises 0.33%, contrary to U.S. markets, and climbs to 66,965.15 points
 - • **MERCADO** · 13/10 18:13 · NOTENG — Peso under pressure from the Federal Reserve; HSBC forecasts another rate hike from the Fed
 - • **AMXB** · 13/10 18:12 · NOTENG — Why does Iron Maiden prohibit the use of mobile phones at their concerts?
@@ -94,8 +96,6 @@ Quién explica más el TE del libro: FEMSAUBD 1.00 pp · GMEXICOB 0.93 pp · BOL
 - • **MERCADO** · 13/10 17:45 · PUBT — HR Ratings de México SA de CV - Comunicado INVTACB 26L
 - • **BOLSAA** · 13/10 17:41 · PUBT — BMV - Aviso de Tenedores de FUNO 21X
 - ▼ **GMEXICOB** · 13/10 17:37 · STOCKP — Southern Copper (SCCO) is trading -0.25 percent lower on Wednesday 14th of October and has a trading volume of USD 128.6 mn
-- • **MERCADO** · 13/10 17:35 · PUBT — HR Ratings de México SA de CV - Comunicado Municipio de San Luis Potosí
-- • **MERCADO** · 13/10 17:27 · GLORDP — Mexico Market Daily- Mexican Market: Top Movers and Top Value End of Day (EOD)
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._

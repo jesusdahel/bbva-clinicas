@@ -145,6 +145,36 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-13 18:25
+emisora: BOLSAA
+titulo: BMV - Amortizaciones FONDO 01326
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261014:nNDL1fVQv8:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/ADD4F4BE0C7ECDBC5F89C04FB5DC240213FF5469).
+  Amortizacion FECHA: 13/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA:
+  PREFIJO Amortizacion AMORTIZACIÓN TOTAL O PARCIAL POR TÍTULOS CLAVE SERIE/T.V…
+
+---
+fecha: 2026-10-13 18:21
+emisora: MERCADO
+titulo: Caribbean Cement Company Ltd. (JA:CCC) decreases on slipping relative strength; -95c [-0.8%]
+fuente: CNBSTR
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261014:nNRA2bcu3p:0
+resumen:
+  Caribbean Cement Company Ltd. (JA:CCC) decreases on slipping relative strength; -95c
+  [-0.8%]JAMAICAN END-OF-DAY STOCK REPORT www.buysellsignals.com Caribbean Cement Company
+  Ltd.'s (JA:CCC J$113.0) stock price decreased 95.0c (0.8%) from its previous trading
+  session to close at J$113.0. Compared with the JSE All Jamaican Composite Index which
+  fell 3,976.3 points (1%) in the day, the relative price increase was 0.2%…
+
+---
 fecha: 2026-10-13 18:13
 emisora: MERCADO
 titulo: The Mexican Stock Exchange rises 0.33%, contrary to U.S. markets, and climbs to 66,965.15 points
@@ -2014,27 +2044,3 @@ resumen:
   Corporation's (NYSE:SCCO $200.51) stock price dropped $3.75 (1.8%) from its previous
   trading session to close at $200.51. Compared with the S&P 500 Index which fell 20.1
   points (0.3%) in the day, the relative price change was -1.6%…
-
----
-fecha: 2026-10-07 15:57
-emisora: GMEXICOB
-titulo: Southern Copper Corporation (NYSE:SCCO) loses $3.1 billion (1.8%) in MCap, steepest heavyweight fall in Non ferrous metals sector; -$3.75 [-1.8%]
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28lpy3:0
-resumen:
-  Southern Copper Corporation (NYSE:SCCO) loses $3.1 billion (1.8%) in MCap, steepest
-  heavyweight fall in Non ferrous metals sector; -$3.75 [-1.8%]NYSE END-OF-DAY STOCK
-  REPORT www.buysellsignals.com PHOENIX, Wednesday, Oct 07, 2026 - Southern Copper
-  Corporation's (NYSE:SCCO $200.51) stock price dropped $3.75 (1.8%) from its previous
-  trading session to close at $200.51…
-
----
-fecha: 2026-10-07 15:57
-emisora: ASURB
-titulo: PR Newswire Project Infrastructure Finance
-fuente: LATMIA
-tono: neutral
-impacto: medio
-id: lseg:urn:link:webnews:20261007:nNRA28lr26:0
