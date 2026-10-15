@@ -145,6 +145,390 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-15 10:34
+emisora: BOLSAA
+titulo: BMV - Aviso de Tenedores de OMA 25
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261015:nNDL3yfqqh:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/0DC58F7346EE42772B943AE1AF3560E4A3AF0F36). Aviso a
+  Tenedores FECHA: 15/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO
+  Aviso a Tenedores EMISIÓN CLAVE DE COTIZACIÓN SERIE/T.V…
+
+---
+fecha: 2026-10-15 10:34
+emisora: BOLSAA
+titulo: BMV - Aviso de Tenedores de GAP 25-2
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261015:nNDL1VlFGb:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/5021A024416CC4D5EB1AAD3C3C9FD6EE7D368480). Aviso a
+  Tenedores FECHA: 15/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO
+  Aviso a Tenedores EMISIÓN CLAVE DE COTIZACIÓN SERIE/T.V…
+
+---
+fecha: 2026-10-15 10:34
+emisora: BOLSAA
+titulo: BMV - Acuerdos de Asamblea Extraordinaria
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261015:nNDL4cNrYT:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/C4931C4CD71EB4442F609163A3BA036DE25FED17)…
+
+---
+fecha: 2026-10-15 10:17
+emisora: AMXB
+titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) in 4th consecutive rise; +36c [1.6%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbnol:0
+resumen:
+  America Movil S.A.B. de CV ADR (NYSE:AMX) in 4th consecutive rise; +36c [1.6%]GLOBAL
+  ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com America Movil S.A.B. de CV
+  (NYSE:AMX $22.20), ADR price extended its gains on Thursday, rising an additional 36.0c
+  (1.6%) to trade at $22.20 at 11:50 am, Thursday…
+
+---
+fecha: 2026-10-15 10:17
+emisora: FEMSAUBD
+titulo: Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) climbs 2.0% strengthening above moving average price; +$2.44 [2.0%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbnom:0
+resumen:
+  Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) climbs 2.0% strengthening
+  above moving average price; +$2.44 [2.0%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Fomento Economico Mexicano, S.A.B de C.V. (NYSE:FMX $123.12) has
+  climbed $2.44 (2.0%) to trade at $123.12 at 11:50 am, Thursday…
+
+---
+fecha: 2026-10-15 10:13
+emisora: MERCADO
+titulo: Mexican Peso Recovers Ground from Its Lowest Level in Nearly a Year Amid Dollar Decline
+fuente: NOTENG
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbla4:0
+resumen:
+  Mexican Peso Recovers Ground from Its Lowest Level in Nearly a Year Amid Dollar
+  DeclineThe Mexican peso appreciates against the dollar on Thursday morning. The local
+  currency gains as the dollar weakens, after reaching a high yesterday not seen since
+  November, in a market attentive to bets regarding the Federal Reserve's interest rate.
+  The spot exchange rate stands at 18.4415 units per dollar…
+
+---
+fecha: 2026-10-15 10:12
+emisora: GMEXICOB
+titulo: Confirmatory Bearish Trend: Southern Copper Corporation (NYSE:SCCO) in 4th consecutive fall Friday October 16, 2026 02:29 AEDT6
+fuente: GLOSTK
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbkvj:0
+resumen:
+  Confirmatory Bearish Trend: Southern Copper Corporation (NYSE:SCCO) in 4th consecutive
+  fall Friday October 16, 2026 02:29 AEDT6NYSE CONFIRMATORY BEARISH TREND PHOENIX,
+  Thursday, October 15 2026 - Southern Copper Corporation (NYSE:SCCO $199.64), stock
+  price slipped further on Thursday, sliding an additional $1.04 (0.5%) to trade at
+  $199.64 at 11:28 am, New York time Thursday…
+
+---
+fecha: 2026-10-15 10:12
+emisora: GMEXICOB
+titulo: Southern Copper Corporation in 4th consecutive fall, nears low Thursday, October 15, 2026 11:00:00
+fuente: NEWBTS
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbk9d:0
+resumen:
+  Southern Copper Corporation in 4th consecutive fall, nears low Thursday, October 15,
+  2026 11:00:00NYSE STOCK SNIPPET Southern Copper Corporation (NYSE:SCCO), slipped
+  further on Thursday, sliding an additional $1.04 (0.5%) to trade at $199.64 at 11:00
+  today, Thursday…
+
+---
+fecha: 2026-10-15 09:57
+emisora: GMEXICOB
+titulo: Southern Copper Corporation (NYSE:SCCO) stock decreases 0.5%; -$1.04 [-0.5%]
+fuente: GLOTRA
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbcmg:0
+resumen:
+  Southern Copper Corporation (NYSE:SCCO) stock decreases 0.5%; -$1.04 [-0.5%]NYSE
+  INTRA-DAY STOCK REPORT www.buysellsignals.com Southern Copper Corporation (NYSE:SCCO
+  $199.64) has decreased $1.04 (0.5%) to trade at $199.64 at 11:28 am, New York time
+  Thursday. Compared with the S&P 500 Index which is up 13.9 points (0.2%) to 7,732.81,
+  the relative price change is -0.7%…
+
+---
+fecha: 2026-10-15 09:57
+emisora: MERCADO
+titulo: BBB Foods Inc. Class A (NYSE:TBBB) stock ticks up 0.1%; +5c [0.1%]
+fuente: GLOTRA
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbd1o:0
+resumen:
+  BBB Foods Inc. Class A (NYSE:TBBB) stock ticks up 0.1%; +5c [0.1%]NYSE INTRA-DAY STOCK
+  REPORT www.buysellsignals.com BBB Foods Inc. Class A (NYSE:TBBB $56.41) has ticked up
+  5.0c (0.1%) to trade at $56.41 at 11:28 am, New York time Thursday. Compared with the
+  S&P 500 Index which is up 13.9 points (0.2%) to 7,732.81, the relative price change is
+  -0.1%. There were 198,290 shares worth $11.2 million traded so far today…
+
+---
+fecha: 2026-10-15 09:52
+emisora: GMEXICOB
+titulo: Southern Copper Corporation (NYSE:SCCO) in negative territory today, declining 0.5%; -$1.04 [-0.5%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cb9ww:0
+resumen:
+  Southern Copper Corporation (NYSE:SCCO) in negative territory today, declining 0.5%;
+  -$1.04 [-0.5%]NYSE INTRA-DAY STOCK REPORT www.buysellsignals.com Southern Copper
+  Corporation (NYSE:SCCO $199.64) has declined $1.04 (0.5%) to trade at $199.64 at 11:28
+  am, New York time Thursday. Compared with the S&P 500 Index which is up 13.9 points
+  (0.2%) to 7,732.81, the relative price change is -0.7%…
+
+---
+fecha: 2026-10-15 09:51
+emisora: GMEXICOB
+titulo: Southern Copper Corporation (NYSE:SCCO) in 4th consecutive fall; -$1.04 [-0.5%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cb8v7:0
+resumen:
+  Southern Copper Corporation (NYSE:SCCO) in 4th consecutive fall; -$1.04 [-0.5%]NYSE
+  INTRA-DAY STOCK REPORT www.buysellsignals.com PHOENIX, Thursday, October 15 2026 -
+  Southern Copper Corporation (NYSE:SCCO $199.64), stock price slipped further on
+  Thursday, sliding an additional $1.04 (0.5%) to trade at $199.64 at 11:28 am, New York
+  time Thursday…
+
+---
+fecha: 2026-10-15 09:49
+emisora: BOLSAA
+titulo: BMV - Aviso de Tenedores de BIMBO 26-2
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261015:nNDL4SMQFS:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/F1ABB3827100894071F7AA136BFF3D3FCF2040C9). BOLSA
+  MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO Aviso a Tenedores EMISIÓN CLAVE
+  DE COTIZACIÓN SERIE/T.V…
+
+---
+fecha: 2026-10-15 09:36
+emisora: AMXB
+titulo: T-Mobile US, Inc. (NASDAQ:TMUS) continues to underperform America Movil S.A.B. de C.V. by 8.4% in the past month
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cb1pi:0
+resumen:
+  T-Mobile US, Inc. (NASDAQ:TMUS) continues to underperform America Movil S.A.B. de C.V.
+  by 8.4% in the past monthNASDAQ STOCK REPORT T-Mobile US, Inc.'s (NASDAQ:TMUS) share
+  price is continuing to underperform that of America Movil S.A.B. de C.V. (NYSE:AMX).
+  T-Mobile US, Inc.'s return over the past month has been -13.5% and America Movil S.A.B.
+  de C.V.'s return has been -5.0% over the same period. T-Mobile US, Inc…
+
+---
+fecha: 2026-10-15 09:22
+emisora: AMXB
+titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) climbs 1.1%; +23c [1.1%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cas1d:0
+resumen:
+  America Movil S.A.B. de CV ADR (NYSE:AMX) climbs 1.1%; +23c [1.1%]GLOBAL ROUND UP ADRS
+  AND DEPOSITORY RECEIPTS www.buysellsignals.com America Movil S.A.B. de CV (NYSE:AMX
+  $22.07) has lifted 23.0c (1.1%) to trade at $22.07 at 11:02 am, Thursday. Compared with
+  the BNY Mellon Composite ADR Index which is up 0.2 points (0.07%) to 268.63, the
+  relative price increase is 1.0%…
+
+---
+fecha: 2026-10-15 09:22
+emisora: FEMSAUBD
+titulo: Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) hits two-month high; +$1.72 [1.4%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2carpt:0
+resumen:
+  Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) hits two-month high; +$1.72
+  [1.4%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Fomento
+  Economico Mexicano, S.A.B de C.V. (NYSE:FMX $122.40) traded at its 44-day high of
+  $122.79. Fomento Economico Mexicano, S.A.B de C.V.'s ADR price has lifted $1.72 (1.4%)
+  to trade at $122.40 at 11:02 am, Thursday…
+
+---
+fecha: 2026-10-15 09:22
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) increases $1.50; +$1.50 [0.8%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2carfs:0
+resumen:
+  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) increases $1.50; +$1.50
+  [0.8%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
+  Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC $197.99) has increased $1.50 (0.8%)
+  to trade at $197.99 at 11:02 am, Thursday…
+
+---
+fecha: 2026-10-15 09:06
+emisora: BOLSAA
+titulo: BMV - Avisos de Derechos Emisoras del SIC
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261015:nNDL1WNsHZ:1
+resumen:
+  BOLSA MEXICANA DE VALORES, S.A.B DE C.V, INFORMA: FOLIO DE REFERENCIA DEL EVENTO
+  CORPORATIVO 299127 FOLIO DE REFERENCIA INDEVAL 948691C001 TIPO DE MENSAJE NEW COMPLETO
+  / INCOMPLETO INCOMPLETE CONFIRMADO / NO CONFIRMADO UNCONFIRMED CLAVE DE COTIZACIÓN CE
+  RAZÓN SOCIAL CELANESE CORPORATION SERIE * ISIN US1508701034 MERCADO PRINCIPAL NEW YORK
+  STOCK EXCHANGE TIPO DE EVENTO DIVIDEND REINVESTMENT MANDATORIO / OPCIONAL / VOL…
+
+---
+fecha: 2026-10-15 08:41
+emisora: FEMSAUBD
+titulo: Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) lifts 1.1% against the trend; +$1.29 [1.1%]
+fuente: GLORDP
+tono: positiva
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2ca5fj:0
+resumen:
+  Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) lifts 1.1% against the trend;
+  +$1.29 [1.1%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com
+  Fomento Economico Mexicano, S.A.B de C.V. (NYSE:FMX $121.97)Fomento Economico Mexicano,
+  S.A.B de C.V.'s ADR price has lifted $1.29 (1.1%) to trade at $121.97 at 10:16 am,
+  Thursday…
+
+---
+fecha: 2026-10-15 08:41
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico (BMV:GAP), Led by Raul Revuelta Musalem, Soars 5.7% Over the Past Month Thursday October 15, 2026
+fuente: NEWBTS
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2ca622:0
+resumen:
+  Grupo Aeroportuario del Pacifico (BMV:GAP), Led by Raul Revuelta Musalem, Soars 5.7%
+  Over the Past Month Thursday October 15, 2026NEWS BITES - PEOPLE IN BUSINESS Under
+  Chief Executive Officer Raul Revuelta Musalem's leadership, Grupo Aeroportuario del
+  Pacifico attracted investor focus past month with share-price gain…
+
+---
+fecha: 2026-10-15 08:41
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP), Under Raul Revuelta Musalem, Plunges 22.8% YTD Thursday October 15, 2026
+fuente: NEWBTS
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2ca60g:0
+resumen:
+  Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP), Under Raul Revuelta Musalem,
+  Plunges 22.8% YTD Thursday October 15, 2026NEWS BITES - PEOPLE IN BUSINESS Grupo
+  Aeroportuario del Pacifico SAB de CV (BMV:GAP) has struggled to attract investor
+  attention under CEO Raul Revuelta Musalem's leadership after posting a year-to-date
+  decline in its share price…
+
+---
+fecha: 2026-10-15 08:41
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) keeps sliding, down 3.4% in 3 days; -69c [-0.4%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2ca5fi:0
+resumen:
+  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) keeps sliding, down 3.4%
+  in 3 days; -69c [-0.4%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Grupo Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC
+  $195.80), ADR price extended its slide on Thursday, shedding an additional 69.0c (0.4%)
+  to trade at $195.80 at 10:16 am, Thursday…
+
+---
+fecha: 2026-10-15 08:37
+emisora: GAPB
+titulo: Raul Revuelta Musalem-led Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP), decreases 2.1% Month-to-Date Thursday October 15, 2026
+fuente: NEWBTS
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2ca4gh:0
+resumen:
+  Raul Revuelta Musalem-led Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP),
+  decreases 2.1% Month-to-Date Thursday October 15, 2026NEWS BITES - PEOPLE IN BUSINESS
+  Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP) has struggled to attract investor
+  attention under CEO Raul Revuelta Musalem's leadership after posting a month-to-date
+  decline in its share price…
+
+---
+fecha: 2026-10-15 08:21
+emisora: PINFRA
+titulo: Promotora Y Operadora De Inf trades -0.08 percent lower on Thursday 15th of October
+fuente: STOCKP
+tono: negativa
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c9tte:0
+resumen:
+  Promotora Y Operadora De Inf trades -0.08 percent lower on Thursday 15th of OctoberOct
+  15, 2026 Promotora Y Operadora De Inf (PINFRA.MX) traded down -0.08 % during a 24 hours
+  period ending at 03:31 PM Central Europe on Thursday 15th. One Promotora Y Operadora De
+  Inf stock can currently be bought for about MXN 288.96 on popular exchanges. Current
+  supply of Promotora Y Operadora De Inf stocks is 429.7 mn…
+
+---
+fecha: 2026-10-15 07:32
+emisora: GFNORTEO
+titulo: @Jotatrader_ok: Retweeted @arielsbdar: 2021 -> "LOS CHICOS DEL INSTAGRAM QUE SE DEDIQUEN A HACER VIDEITOS EN LAS REDES SOCIALES"
+
+2026 -> TOP BANCO Y GRUPO FINANCIERO CON MÁS CRECIMIENTO DE LA REGIÓN! https://t.co/H5vVEaYTVi
+fuente: X
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:social:20261015:nTWT8SbR0L:1
+resumen:
+  Retweeted @arielsbdar: 2021 -> "LOS CHICOS DEL INSTAGRAM QUE SE DEDIQUEN A HACER
+  VIDEITOS EN LAS REDES SOCIALES"2026 -> TOP BANCO Y GRUPO FINANCIERO CON MÁS CRECIMIENTO
+  DE LA REGIÓN! https://t.co/H5vVEaYTVi Nacho J &#160; @Jotatrader_ok
+  (https://twitter.com/Jotatrader_ok) Retweeted @arielsbdar
+  (https://twitter.com/arielsbdar) 9:32:09 AM EDT 15-Oct-2026 2021 -> &quot;LOS CHICOS
+  DEL INSTAGRAM QUE SE DEDIQUEN A HACER VI…
+
+---
+fecha: 2026-10-15 07:17
+emisora: AMXB
+titulo: America Movil, S.A.B. de C.V. (FRA:MV90) posts back-to-back gains, inching up 1.6% over 2 days; lifts 20.0c to close at €18.90; +30c [+1.6%]
+fuente: CNBSTR
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c8rj3:0
+resumen:
+  America Movil, S.A.B. de C.V. (FRA:MV90) posts back-to-back gains, inching up 1.6% over
+  2 days; lifts 20.0c to close at €18.90; +30c [+1.6%]GERMAN END-OF-DAY STOCK REPORT
+  www.buysellsignals.com America Movil, S.A.B. de C.V.'s (FRA:MV90 €18.90) ADR price
+  extended its gains on Wednesday, rising an additional 20.0c (1.1%) to close at €18.90…
+
+---
 fecha: 2026-10-15 06:12
 emisora: MERCADO
 titulo: Euro Today in Mexico: Price and Exchange Rate of the Currency This Thursday, October 15, 2026
@@ -548,6 +932,21 @@ impacto: medio
 id: lseg:urn:newsml:newsroom:20261015:nNRA2c25ty:0
 
 ---
+fecha: 2026-10-15 02:12
+emisora: GFNORTEO
+titulo: Grupo Financiero Banorte, S.A.B. De C.V. ADR (OTCQX:GBOOY) dips 0.8% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c24hx:0
+resumen:
+  Grupo Financiero Banorte, S.A.B. De C.V. ADR (OTCQX:GBOOY) dips 0.8% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
+  Financiero Banorte, S.A.B. De C.V. (OTCQX:GBOOY) last traded at $53.06 for a year to
+  date return of 20.6%. Grupo Financiero Banorte, S.A.B. De C.V., has dipped 42.0c (or
+  0.8%) in the past 3 months to close at $53.06 today…
+
+---
 fecha: 2026-10-15 02:11
 emisora: ASURB
 titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) plummets 17% in past 3 months
@@ -756,6 +1155,49 @@ fuente: GLORDP
 tono: neutral
 impacto: alto
 id: lseg:urn:newsml:newsroom:20261015:nNRA2c1tb1:0
+
+---
+fecha: 2026-10-15 02:09
+emisora: AC
+titulo: Arca Continental (BMV:AC) Solvency and Other Financial Risk Metrics
+fuente: GLOSTK
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1vtm:0
+resumen:
+  Arca Continental (BMV:AC) Solvency and Other Financial Risk MetricsMEXICAN STOCK REPORT
+  To mitigate risks in their investments including bankruptcy, insolvency, low levels of
+  liquidity and inflated earnings, investors look at several key metrics and scores to
+  assess each company. Below we include some of the analysis used to mitigate such risks…
+
+---
+fecha: 2026-10-15 02:09
+emisora: MEGACPO
+titulo: Megacable (BMV:MEGA) Solvency and Other Financial Risk Metrics
+fuente: GLOSTK
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1vtn:0
+resumen:
+  Megacable (BMV:MEGA) Solvency and Other Financial Risk MetricsMEXICAN STOCK REPORT To
+  mitigate risks in their investments including bankruptcy, insolvency, low levels of
+  liquidity and inflated earnings, investors look at several key metrics and scores to
+  assess each company. Below we include some of the analysis used to mitigate such risks…
+
+---
+fecha: 2026-10-15 02:09
+emisora: WALMEX
+titulo: Wal-Mart de Mexico (BMV:WALMEX) Solvency and Other Financial Risk Metrics
+fuente: GLOSTK
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1u4n:0
+resumen:
+  Wal-Mart de Mexico (BMV:WALMEX) Solvency and Other Financial Risk MetricsMEXICAN STOCK
+  REPORT To mitigate risks in their investments including bankruptcy, insolvency, low
+  levels of liquidity and inflated earnings, investors look at several key metrics and
+  scores to assess each company. Below we include some of the analysis used to mitigate
+  such risks…
 
 ---
 fecha: 2026-10-15 02:07
@@ -1600,336 +2042,3 @@ resumen:
   de C.V.: Comprehensive Financial Performance Overview *Updated*GLOBAL ROUND UP ADRS AND
   DEPOSITORY RECEIPTS This comparative analysis covers the financial performance of
   Heineken Holding N.V. and Fomento Economico Mexicano, S.A.B de C.V…
-
----
-fecha: 2026-10-13 13:52
-emisora: FEMSAUBD
-titulo: Benchmarking Kirin Holdings Co., Ltd. (OTC:KNBWY) vs Fomento Economico Mexicano, S.A.B de C.V.: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261013:nNRA2baa4i:0
-resumen:
-  Benchmarking Kirin Holdings Co., Ltd. (OTC:KNBWY) vs Fomento Economico Mexicano, S.A.B
-  de C.V.: Comprehensive Financial Performance Overview *Updated*GLOBAL ROUND UP ADRS AND
-  DEPOSITORY RECEIPTS This comparative analysis covers the financial performance of Kirin
-  Holdings Co., Ltd. and Fomento Economico Mexicano, S.A.B de C.V…
-
----
-fecha: 2026-10-13 13:52
-emisora: FEMSAUBD
-titulo: Benchmarking Coca-Cola HBC AG (OTC:CCHGY) vs Fomento Economico Mexicano, S.A.B de C.V.: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261013:nNRA2baa4d:0
-resumen:
-  Benchmarking Coca-Cola HBC AG (OTC:CCHGY) vs Fomento Economico Mexicano, S.A.B de C.V.:
-  Comprehensive Financial Performance Overview *Updated*GLOBAL ROUND UP ADRS AND
-  DEPOSITORY RECEIPTS This comparative analysis covers the financial performance of
-  Coca-Cola HBC AG and Fomento Economico Mexicano, S.A.B de C.V. across six key
-  categories: Profitability, Liquidity, Solvency, Efficiency, Valuation, and Growth…
-
----
-fecha: 2026-10-13 13:52
-emisora: GAPB
-titulo: Benchmarking Skanska AB (OTC:SKBSY) vs Grupo Aeroportuario del Pacifico S.A.B. de CV: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2babuy:0
-resumen:
-  Benchmarking Skanska AB (OTC:SKBSY) vs Grupo Aeroportuario del Pacifico S.A.B. de CV:
-  Comprehensive Financial Performance Overview *Updated*GLOBAL ROUND UP ADRS AND
-  DEPOSITORY RECEIPTS This comparative analysis covers the financial performance of
-  Skanska AB and Grupo Aeroportuario del Pacifico S.A.B. de CV across six key categories:
-  Profitability, Liquidity, Solvency, Efficiency, Valuation, and Growth…
-
----
-fecha: 2026-10-13 13:52
-emisora: KOFUBL
-titulo: Benchmarking Anheuser-Busch Inbev SA (NYSE:BUD) vs Coca-Cola FEMSA S.A.B de CV: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2baatn:0
-
----
-fecha: 2026-10-13 13:52
-emisora: WALMEX
-titulo: Benchmarking Wal-Mart De Mexico S.A.B. de C.V. (OTCQX:WMMVY) vs Alibaba Group Holding Limited: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2babuo:0
-
----
-fecha: 2026-10-13 13:51
-emisora: AMXB
-titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) in 2nd consecutive rise; +27c [1.3%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2bab5k:0
-resumen:
-  America Movil S.A.B. de CV ADR (NYSE:AMX) in 2nd consecutive rise; +27c [1.3%]GLOBAL
-  ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com America Movil S.A.B. de CV
-  (NYSE:AMX $21.68), ADR price extended its gains on Tuesday, rising an additional 27.0c
-  (1.3%) to trade at $21.68 at 15:26 pm, Tuesday…
-
----
-fecha: 2026-10-13 13:51
-emisora: GAPB
-titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) drops 1.4% weakening below moving average price; -$2.94 [-1.4%]
-fuente: GLORDP
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2baar6:0
-resumen:
-  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) drops 1.4% weakening below
-  moving average price; -$2.94 [-1.4%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
-  www.buysellsignals.com Grupo Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC $199.85)
-  has dropped $2.94 (1.4%) to trade at $199.85 at 15:26 pm, Tuesday. The 200-day Moving
-  Average Price (MAP) is $239.76, down from $240.12 on Monday…
-
----
-fecha: 2026-10-13 13:13
-emisora: AMXB
-titulo: Crunchyroll Arrives on Claro Video for Anime Lovers
-fuente: NOTENG
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9zgo:0
-resumen:
-  Crunchyroll Arrives on Claro Video for Anime LoversClaro Nicaragua enhances its
-  entertainment options with the addition of Crunchyroll to Claro Video, a new
-  alternative designed for anime fans to enjoy their favorite series on a single
-  platform. Interest in Japanese culture is continually growing, prompting Claro to
-  expand its entertainment offerings targeted at Claro Hogar customers and postpaid
-  plans…
-
----
-fecha: 2026-10-13 13:07
-emisora: GAPB
-titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) drops 1.9% weakening below moving average price; -$3.95 [-1.9%]
-fuente: GLORDP
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9wb9:0
-resumen:
-  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) drops 1.9% weakening below
-  moving average price; -$3.95 [-1.9%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
-  www.buysellsignals.com Grupo Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC $198.84)
-  has dropped $3.95 (1.9%) to trade at $198.84 at 14:44 pm, Tuesday…
-
----
-fecha: 2026-10-13 12:51
-emisora: KOFUBL
-titulo: Benchmarking Pernod Ricard S.A. (OTC:PRNDY) vs Coca-Cola FEMSA S.A.B de CV: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9rt5:0
-
----
-fecha: 2026-10-13 12:51
-emisora: KOFUBL
-titulo: Benchmarking Coca-Cola HBC AG (OTC:CCHGY) vs Coca-Cola FEMSA S.A.B de CV: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9rsy:0
-
----
-fecha: 2026-10-13 12:51
-emisora: KOFUBL
-titulo: Benchmarking Heineken Holding N.V. (OTCQX:HKHHY) vs Coca-Cola FEMSA S.A.B de CV: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9rac:0
-
----
-fecha: 2026-10-13 12:51
-emisora: WALMEX
-titulo: Benchmarking Christian Dior S.E. (OTC:CHDRY) vs Wal-Mart De Mexico S.A.B. de C.V.: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9ql3:0
-
----
-fecha: 2026-10-13 12:27
-emisora: ASURB
-titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) up 3.1% in 2 days; closes at $237.43 up $5.68; +$7.04 [+3.1%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9hgi:0
-resumen:
-  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) up 3.1% in 2 days; closes
-  at $237.43 up $5.68; +$7.04 [+3.1%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
-  www.buysellsignals.com Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR
-  $237.43) extended its gains on Monday, rising an additional $5.68 (2.5%) to close at
-  $237.43…
-
----
-fecha: 2026-10-13 12:27
-emisora: OMAB
-titulo: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADR (NASDAQ:OMAB) lifts $1.45 on average volume to close at $91.73; +$1.45 [+1.6%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9gsv:0
-
----
-fecha: 2026-10-13 12:27
-emisora: PINFRA
-titulo: Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY) extends winning streak, climbs 5.7% in 3 days; closes at $314.85 up $7.34; +$16.85 [+5.7%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9gsi:0
-
----
-fecha: 2026-10-13 12:27
-emisora: KIMBERA
-titulo: Kimberly-Clark de Mexico, S.A.B de C.V. ADR (OTC:KCDMY) in positive territory today, climbing 3.0%; +30.99c [+3.0%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9h60:0
-
----
-fecha: 2026-10-13 12:27
-emisora: VESTA
-titulo: Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX) lifts 60.0c on weak volume to close at $34.47; +60c [+1.8%]
-fuente: GLORDP
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b9g0y:0
-
----
-fecha: 2026-10-13 10:05
-emisora: VESTA
-titulo: On Tuesday 13th of October Inmobiliaria Vesta Sab trades 0.96 percent higher
-fuente: STOCKP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b7r1j:0
-
----
-fecha: 2026-10-13 08:49
-emisora: OMAB
-titulo: Cnt is trading -7.41 percent lower with a volume of KRW 17.3 mn on Tuesday 13th of October
-fuente: STOCKP
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b6i2h:0
-
----
-fecha: 2026-10-13 08:23
-emisora: VESTA
-titulo: Reviewing Corporacion Inmobiliaria Vesta (NYSE:VTMX) and Star (NASDAQ:STHO)
-fuente: TICREP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b67z4:0
-
----
-fecha: 2026-10-13 07:37
-emisora: PINFRA
-titulo: Promotora Y Operadora De Inf trades 3.42 percent higher on Tuesday 13th of October
-fuente: STOCKP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b5m6m:0
-
----
-fecha: 2026-10-13 07:18
-emisora: ASURB
-titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) offers dividend yield of 5.9%; +$5.68 [+2.5%]
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b5a05:0
-resumen:
-  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) offers dividend yield of
-  5.9%; +$5.68 [+2.5%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com
-  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR $237.43) ranks 13 in the Top
-  20 by dividend yielding ADRs in the BNY Mellon Composite ADR Index of 152 stocks…
-
----
-fecha: 2026-10-13 07:18
-emisora: OMAB
-titulo: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADR (NASDAQ:OMAB) lifts 1.6% against the trend; +$1.45 [+1.6%]
-fuente: GLORDP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b59at:0
-
----
-fecha: 2026-10-13 07:18
-emisora: PINFRA
-titulo: Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY) hits one-month high on spectacular volume; +$7.34 [+2.4%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b599p:0
-
----
-fecha: 2026-10-13 07:18
-emisora: KIMBERA
-titulo: Kimberly-Clark de Mexico, S.A.B de C.V. ADR (OTC:KCDMY) gains 30.99c (3.0%) on average volume to close at $10.56; +30.99c [+3.0%]
-fuente: GLORDP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b59oc:0
-
----
-fecha: 2026-10-13 07:18
-emisora: VESTA
-titulo: Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX) hits two-month high; +60c [+1.8%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b5ayd:0
-
----
-fecha: 2026-10-13 05:42
-emisora: BBAJIOO
-titulo: @dariocelise: Replying to @dariocelise: #LaQuintaTransformación Watts tuvo conocimiento del juicio, el 21 de abril de 2026, cuando se le congelaron cerca de tres millones 400 mil pesos en su cuenta de Banco del Bajío, propiedad de Salvador Oñate.
-fuente: X
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:social:20261013:nTWTb1Q6Lq:1
-resumen:
-  Replying to @dariocelise: #LaQuintaTransformaciónWatts tuvo conocimiento del juicio, el
-  21 de abril de 2026, cuando se le congelaron cerca de tres millones 400 mil pesos en su
-  cuenta de Banco del Bajío, propiedad de Salvador Oñate.https://t.co/XTUDsWCUkj
-  https://t.co/gh6yo6hEuW Darío Celis @dariocelise (https://twitter.com/dariocelise)
-  Replying to @dariocelise (https://twitter.com/dariocelise) 7:42:08 AM EDT 13-Oct-2…
-
----
-fecha: 2026-10-13 05:36
-emisora: PEOLES
-titulo: Benchmarking Newmont Corporation (NYSE:NEM) vs Fresnillo PLC: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b3jb2:0
-
----
-fecha: 2026-10-13 04:56
-emisora: AC
-titulo: Will Arca Continental SAB de CV's (BMV:AC), Recent Rally Hold Strong for Traders?
-fuente: GLORDP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b2tbr:0
-resumen:
-  Will Arca Continental SAB de CV's (BMV:AC), Recent Rally Hold Strong for
-  Traders?MEXICAN STOCK REPORT Ahead of this morning's market opening, Arca Continental
-  SAB de CV has shown some strength in recent days. Arca Continental SAB de CV (BMV:AC),
-  Mexico's largest Beverages company by market cap, climbed 2.2% during its previous
-  trading session to close at $205.36…
