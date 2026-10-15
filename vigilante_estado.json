@@ -1,9 +1,9 @@
 {
-  "estado": "ok",
-  "detalle": "BMV cerrada, en espera",
-  "errores_seguidos": 0,
-  "ultima_revision": "2026-10-15T14:02:00+00:00",
-  "hora_cdmx": "15/10/2026 08:02",
+  "estado": "error",
+  "detalle": "1 fallos seguidos",
+  "errores_seguidos": 1,
+  "ultima_revision": "2026-10-15T14:31:53+00:00",
+  "hora_cdmx": "15/10/2026 08:31",
   "maquina": "DAHEL",
   "operaciones": 31,
   "bitacora": "Excel"
