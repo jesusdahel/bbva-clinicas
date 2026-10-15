@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 15/10/2026 06:29 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 15/10/2026 07:02 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cierre del portafolio de referencia, el **16/10/2026**. Las órdenes van antes de las **12:45**; hasta el 16/10 las ventas no pagan comisión y las compras sí (0.30% + IVA). Liquidación T+1 hábil.
@@ -32,6 +32,24 @@ Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cie
 Las reglas empiezan a medir después del cierre del 16/10/2026 (fecha de entrada).
 
 Quién explica más el TE del libro: GMEXICOB 1.15 pp · BOLSAA 0.52 pp · FEMSAUBD 0.32 pp · PEOLES 0.31 pp · PINFRA 0.27 pp
+
+## Noticias recientes (LSEG)
+
+- • **MERCADO** · 15/10 06:12 · NOTENG — Euro Today in Mexico: Price and Exchange Rate of the Currency This Thursday, October 15, 2026
+- • **GMEXICOB** · 15/10 06:11 · NEWBTS — Southern Copper Corporation Targets US$471 Million Investment at Toquepala
+- • **GMEXICOB** · 15/10 05:53 · GLOSTK — THE NYSE PRE-MARKET BEARISH STOCK SNIPPETS SOUTHERN COPPER CORPORATION (SCCO: $200.68) Thursday October 15, 2026 07:10 EDT
+- • **GMEXICOB** · 15/10 05:53 · GLOSTK — Southern Copper Corporation (SCCO: $200.68) - PRE-MARKET CONFIRMATORY BEARISH SIGNAL FROM ITS GERMAN LISTING Thursday October 15, 2026 07:10 EDT
+- • **MERCADO** · 15/10 05:52 · GLORDP — Can Caribbean Cement Company Ltd. (JA:CCC), turn momentum into continued success?
+- • **GMEXICOB** · 15/10 05:48 · GLOSTK — Southern Copper Corporation (NYSE:SCCO) accelerates decline, down 3.9% in 2 days Thursday October 15, 2026 07:10 EDT
+- • **GMEXICOB** · 15/10 04:57 · NEWBTS — Update: Thursday's Preview: Can Southern Copper Corporation (NYSE:SCCO), rebound after being down?
+- ▲ **AC** · 15/10 04:56 · GLORDP — Will Arca Continental SAB de CV's (BMV:AC), recent surge keep climbing?
+- • **ASURB** · 15/10 04:56 · GLORDP — Grupo Aeroportuario del Sureste SAB de CV (BMV:ASUR), market watch - Can it recover this Thursday?
+- • **GAPB** · 15/10 04:56 · GLORDP — Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP), stock sees decline in recent days
+- • **GFNORTEO** · 15/10 04:56 · GLORDP — ICYMI: Traders look to see if Grupo Financiero Banorte, S.A.B De C.V.'s (BMV:GFNORTE), recent rally will continue
+- ▲ **MEGACPO** · 15/10 04:56 · GLORDP — Will Megacable Holdings' (BMV:MEGA), Recent Rally Hold Strong for Traders?
+- • **OMAB** · 15/10 04:56 · GLORDP — Will Grupo Aeroportuario Del Centro Norte, S.A.B. De C.V. (BMV:OMA), climb back after its latest drop?
+- • **PEOLES** · 15/10 04:56 · GLORDP — ICYMI: Thursday's Preview: Can Industrias Penoles SAB de CV (BMV:PE&OLES*), rebound after being down?
+- • **PINFRA** · 15/10 04:56 · GLORDP — ICYMI: Promotora Y Operadora De Infraestructura, S.A.B. De C.V. (BMV:PINFRA), down in recent days
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._

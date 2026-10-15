@@ -145,6 +145,827 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-15 06:12
+emisora: MERCADO
+titulo: Euro Today in Mexico: Price and Exchange Rate of the Currency This Thursday, October 15, 2026
+fuente: NOTENG
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c7o2w:0
+
+---
+fecha: 2026-10-15 06:11
+emisora: GMEXICOB
+titulo: Southern Copper Corporation Targets US$471 Million Investment at Toquepala
+fuente: NEWBTS
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c7m5s:0
+resumen:
+  Southern Copper Corporation Targets US$471 Million Investment at ToquepalaNEWS BITES -
+  ALERTS (NORTH AMERICA) UNITED STATES EDITION 15 October 2026 08:05 EDT Southern Copper
+  Corporation is poised to invest US$471 million in significant upgrades to enhance
+  efficiency and ensure the operational continuity of its Toquepala mine in Peru…
+
+---
+fecha: 2026-10-15 05:53
+emisora: GMEXICOB
+titulo: THE NYSE PRE-MARKET BEARISH STOCK SNIPPETS SOUTHERN COPPER CORPORATION (SCCO: $200.68) Thursday October 15, 2026 07:10 EDT
+fuente: GLOSTK
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c72e3:0
+resumen:
+  THE NYSE PRE-MARKET BEARISH STOCK SNIPPETS SOUTHERN COPPER CORPORATION (SCCO: $200.68)
+  Thursday October 15, 2026 07:10 EDTBEARISH SNIPPETS FROM THE NYSE SECTION 1 PRE-MARKET
+  CUES FROM ITS GERMAN TRADING: Southern Copper Corp…
+
+---
+fecha: 2026-10-15 05:53
+emisora: GMEXICOB
+titulo: Southern Copper Corporation (SCCO: $200.68) - PRE-MARKET CONFIRMATORY BEARISH SIGNAL FROM ITS GERMAN LISTING Thursday October 15, 2026 07:10 EDT
+fuente: GLOSTK
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c71rj:0
+resumen:
+  Southern Copper Corporation (SCCO: $200.68) - PRE-MARKET CONFIRMATORY BEARISH SIGNAL
+  FROM ITS GERMAN LISTING Thursday October 15, 2026 07:10 EDTSECTION 1 PRE-MARKET CUES
+  FROM ITS GERMAN TRADING: Southern Copper Corp…
+
+---
+fecha: 2026-10-15 05:52
+emisora: MERCADO
+titulo: Can Caribbean Cement Company Ltd. (JA:CCC), turn momentum into continued success?
+fuente: GLORDP
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c704c:0
+
+---
+fecha: 2026-10-15 05:48
+emisora: GMEXICOB
+titulo: Southern Copper Corporation (NYSE:SCCO) accelerates decline, down 3.9% in 2 days Thursday October 15, 2026 07:10 EDT
+fuente: GLOSTK
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c6xav:0
+resumen:
+  Southern Copper Corporation (NYSE:SCCO) accelerates decline, down 3.9% in 2 days
+  Thursday October 15, 2026 07:10 EDTTODAY'S THEME: BEARISH STOCK REPORT FROM THE NYSE
+  PHOENIX, Wednesday, Oct 14, 2026 - Southern Copper Corporation's (NYSE:SCCO $200.48)
+  stock price slid $8.21 (3.9%) over the past two trading days…
+
+---
+fecha: 2026-10-15 04:57
+emisora: GMEXICOB
+titulo: Update: Thursday's Preview: Can Southern Copper Corporation (NYSE:SCCO), rebound after being down?
+fuente: NEWBTS
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5yk1:0
+resumen:
+  Update: Thursday's Preview: Can Southern Copper Corporation (NYSE:SCCO), rebound after
+  being down?NYSE STOCK REPORT PHOENIX, Wednesday, October 14 2026 - Ahead of this
+  morning's market opening, Southern Copper Corporation has shown some weakness in recent
+  days…
+
+---
+fecha: 2026-10-15 04:56
+emisora: AC
+titulo: Will Arca Continental SAB de CV's (BMV:AC), recent surge keep climbing?
+fuente: GLORDP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5xnk:0
+resumen:
+  Will Arca Continental SAB de CV's (BMV:AC), recent surge keep climbing?MEXICAN STOCK
+  REPORT Ahead of this morning's market opening, Arca Continental SAB de CV closed higher
+  the previous trading day. Arca Continental SAB de CV (BMV:AC), Mexico's largest
+  Beverages company by market cap, increased 0.9% during its previous trading session to
+  close at $205.68…
+
+---
+fecha: 2026-10-15 04:56
+emisora: ASURB
+titulo: Grupo Aeroportuario del Sureste SAB de CV (BMV:ASUR), market watch - Can it recover this Thursday?
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5wov:0
+resumen:
+  Grupo Aeroportuario del Sureste SAB de CV (BMV:ASUR), market watch - Can it recover
+  this Thursday?MEXICAN STOCK REPORT Ahead of this morning's market opening, Grupo
+  Aeroportuario del Sureste SAB de CV has shown some weakness in recent days…
+
+---
+fecha: 2026-10-15 04:56
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP), stock sees decline in recent days
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5xnh:0
+resumen:
+  Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP), stock sees decline in recent
+  daysMEXICAN STOCK REPORT Ahead of this morning's market opening, Grupo Aeroportuario
+  del Pacifico SAB de CV has shown some weakness in recent days…
+
+---
+fecha: 2026-10-15 04:56
+emisora: GFNORTEO
+titulo: ICYMI: Traders look to see if Grupo Financiero Banorte, S.A.B De C.V.'s (BMV:GFNORTE), recent rally will continue
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5xyn:0
+resumen:
+  ICYMI: Traders look to see if Grupo Financiero Banorte, S.A.B De C.V.'s (BMV:GFNORTE),
+  recent rally will continueMEXICAN STOCK REPORT Ahead of this morning's market opening,
+  Grupo Financiero Banorte, S.A.B De C.V. has shown some strength in recent days. Grupo
+  Financiero Banorte, S.A.B De C.V…
+
+---
+fecha: 2026-10-15 04:56
+emisora: MEGACPO
+titulo: Will Megacable Holdings' (BMV:MEGA), Recent Rally Hold Strong for Traders?
+fuente: GLORDP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5x9y:0
+resumen:
+  Will Megacable Holdings' (BMV:MEGA), Recent Rally Hold Strong for Traders?MEXICAN STOCK
+  REPORT Ahead of this morning's market opening, Megacable Holdings has shown some
+  strength in recent days. Megacable Holdings (BMV:MEGA), Mexico's largest Media company
+  by market cap, gained 3.2% during its previous trading session to close at $55.08…
+
+---
+fecha: 2026-10-15 04:56
+emisora: OMAB
+titulo: Will Grupo Aeroportuario Del Centro Norte, S.A.B. De C.V. (BMV:OMA), climb back after its latest drop?
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5x9x:0
+
+---
+fecha: 2026-10-15 04:56
+emisora: PEOLES
+titulo: ICYMI: Thursday's Preview: Can Industrias Penoles SAB de CV (BMV:PE&OLES*), rebound after being down?
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5x47:0
+
+---
+fecha: 2026-10-15 04:56
+emisora: PINFRA
+titulo: ICYMI: Promotora Y Operadora De Infraestructura, S.A.B. De C.V. (BMV:PINFRA), down in recent days
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5wdn:0
+
+---
+fecha: 2026-10-15 04:56
+emisora: WALMEX
+titulo: What's Next for Wal - Mart De Mexico, S.A.B. De C.V.'s (BMV:WALMEX), Growth Trajectory
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5wp0:0
+
+---
+fecha: 2026-10-15 04:56
+emisora: KIMBERA
+titulo: ICYMI: Thursday's Preview: Can Kimberly - Clark De Mexico S.A.B. De C.V. (BMV:KIMBERA), continue its recent gains?
+fuente: GLORDP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5wdm:0
+
+---
+fecha: 2026-10-15 04:56
+emisora: VESTA
+titulo: Will Corp Inmobiliaria Vesta SAB de CV's (BMV:VESTA), recent surge keep climbing?
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5xyu:0
+
+---
+fecha: 2026-10-15 04:34
+emisora: WALMEX
+titulo: Walmart De Mexico Sab De Cv (WALMEX.MX) is trading 1.06 percent higher on Thursday 15th of October and has a trading volume of MXN 650.7 mn
+fuente: STOCKP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c5iwk:0
+
+---
+fecha: 2026-10-15 03:23
+emisora: AMXB
+titulo: Eurotelesites is trading 0 percent unchanged with a volume of EUR 40.8 k on Thursday 15th of October
+fuente: STOCKP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c44aq:0
+resumen:
+  Eurotelesites is trading 0 percent unchanged with a volume of EUR 40.8 k on Thursday
+  15th of OctoberOct 15, 2026 Eurotelesites (ETS.VI) traded flat 0 % during a 24 hours
+  period ending at 10:47 AM Central Europe on Thursday 15th. One Eurotelesites stock can
+  currently be bought for about EUR 4.3 on popular exchanges. Current supply of
+  Eurotelesites stocks is 166.9 mn…
+
+---
+fecha: 2026-10-15 03:10
+emisora: AMXB
+titulo: New DICT chief de Claro to review questioned deals
+fuente: BUSMIR
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c3rxt:0
+resumen:
+  New DICT chief de Claro to review questioned deals13 October 2026 NEWLY-APPOINTED
+  Department of Information and Communications Technology (DICT) ad interim secretary
+  Robert M. de Claro has vowed a stringent review of the transactions in his agency soon,
+  to exorcise public concerns related to the “ghost internet” controversy, that has
+  haunted its reputation…
+
+---
+fecha: 2026-10-15 02:53
+emisora: PEOLES
+titulo: INDUSTRIAS PENOLES, S.A.B. DE C.V. -- Code of Ethics (89709568)
+fuente: GLFILE
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261015:nGLF3xp5qK:3
+
+---
+fecha: 2026-10-15 02:17
+emisora: BOLSAA
+titulo: With a trading volume of MXN 87.1 mn BOLSAA.MX trades 2.68 percent higher today
+fuente: STOCKP
+tono: positiva
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c2lvl:0
+resumen:
+  With a trading volume of MXN 87.1 mn BOLSAA.MX trades 2.68 percent higher todayOct 15,
+  2026 Bolsa Mexicana De Valores (BOLSAA.MX) traded up 2.68 % during a 24 hours period
+  ending at 08:50 AM Central Europe on Thursday 15th. One Bolsa Mexicana De Valores stock
+  can currently be bought for about MXN 36.76 on popular exchanges. Current supply of
+  Bolsa Mexicana De Valores stocks is 551.7 mn…
+
+---
+fecha: 2026-10-15 02:13
+emisora: AMXB
+titulo: Will America Movil S.A.B. de CV's (NYSE:AMX), recent surge keep climbing?
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c26bv:0
+resumen:
+  Will America Movil S.A.B. de CV's (NYSE:AMX), recent surge keep climbing?GLOBAL ROUND
+  UP ADRS AND DEPOSITORY RECEIPTS Ahead of this morning's market opening, America Movil
+  S.A.B. de CV ADR has shown some strength in recent days. America Movil S.A.B…
+
+---
+fecha: 2026-10-15 02:13
+emisora: FEMSAUBD
+titulo: Will Fomento Economico Mexicano, S.A.B de C.V. (NYSE:FMX), climb back after its latest drop?
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c29fk:0
+resumen:
+  Will Fomento Economico Mexicano, S.A.B de C.V. (NYSE:FMX), climb back after its latest
+  drop?GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS Ahead of this morning's market
+  opening, Fomento Economico Mexicano, S.A.B de C.V. ADR has shown some weakness in
+  recent days. Fomento Economico Mexicano, S.A.B de C.V…
+
+---
+fecha: 2026-10-15 02:13
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) slumps 13% in past 3 months
+fuente: GLORDP
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c28ns:0
+resumen:
+  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) slumps 13% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
+  Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC) last traded at $196.49 for a year to
+  date return of -25.5%. Grupo Aeroportuario del Pacifico S.A.B. de CV, has slumped
+  $29.46 (or 13.0%) in the past 3 months to close at $196.49 today…
+
+---
+fecha: 2026-10-15 02:13
+emisora: GAPB
+titulo: Will Grupo Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC), climb back after its latest drop?
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c2a4a:0
+resumen:
+  Will Grupo Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC), climb back after its
+  latest drop?GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS Ahead of this morning's market
+  opening, Grupo Aeroportuario del Pacifico S.A.B. de CV ADR has shown some weakness in
+  recent days. Grupo Aeroportuario del Pacifico S.A.B…
+
+---
+fecha: 2026-10-15 02:13
+emisora: KOFUBL
+titulo: Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF) advances 14% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c2736:0
+resumen:
+  Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF) advances 14% in past 3 monthsGLOBAL ROUND UP
+  ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Coca-Cola FEMSA S.A.B de CV
+  (NYSE:KOF) last traded at $116.92 for a year to date return of 26.1%. Coca-Cola FEMSA
+  S.A.B de CV, has advanced $14.55 (or 14.2%) in the past 3 months to close at $116.92
+  today…
+
+---
+fecha: 2026-10-15 02:13
+emisora: OMAB
+titulo: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADR (NASDAQ:OMAB) plunges 18% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c27xq:0
+
+---
+fecha: 2026-10-15 02:13
+emisora: WALMEX
+titulo: Wal-Mart De Mexico S.A.B. de C.V. ADR (OTCQX:WMMVY) tumbles 9% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c2675:0
+
+---
+fecha: 2026-10-15 02:12
+emisora: FEMSAUBD
+titulo: Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) tumbles 9% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c24h5:0
+resumen:
+  Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) tumbles 9% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Fomento
+  Economico Mexicano, S.A.B de C.V. (NYSE:FMX) last traded at $120.68 for a year to date
+  return of 22.9%. Fomento Economico Mexicano, S.A.B de C.V., has tumbled $11.81 (or
+  8.9%) in the past 3 months to close at $120.68 today…
+
+---
+fecha: 2026-10-15 02:12
+emisora: PINFRA
+titulo: Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY) dips 2% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c25ia:0
+
+---
+fecha: 2026-10-15 02:12
+emisora: KIMBERA
+titulo: Kimberly-Clark de Mexico, S.A.B de C.V. ADR (OTC:KCDMY) dips 2% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c25is:0
+
+---
+fecha: 2026-10-15 02:12
+emisora: VESTA
+titulo: Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX) dips 0.3% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c25ty:0
+
+---
+fecha: 2026-10-15 02:11
+emisora: ASURB
+titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) plummets 17% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c20z9:0
+resumen:
+  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) plummets 17% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
+  Aeroportuario del Sureste S.A. de C.V. (NYSE:ASR) last traded at $230.08 for a year to
+  date return of -27.5%. Grupo Aeroportuario del Sureste S.A. de C.V., has plummeted
+  $45.53 (or 16.5%) in the past 3 months to close at $230.08 today…
+
+---
+fecha: 2026-10-15 02:11
+emisora: FEMSAUBD
+titulo: Past Week: Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF:$116.92) in top 1% performers of BNY Mellon Composite ADR Index in past week; +$10.44 [9.8%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c203u:0
+resumen:
+  Past Week: Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF:$116.92) in top 1% performers of
+  BNY Mellon Composite ADR Index in past week; +$10.44 [9.8%]GLOBAL ROUND UP ADRS AND
+  DEPOSITORY RECEIPTS www.buysellsignals.com Coca-Cola FEMSA S.A.B de CV (NYSE:KOF
+  $116.92), the International Depository Receipt (IDR) market's 13th largest Beverages
+  company by market cap, has accelerated higher by $10.44 (or 9.8%) in the past week t…
+
+---
+fecha: 2026-10-15 02:11
+emisora: OMAB
+titulo: Past Week: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADR (NASDAQ:OMAB:$88.75) keeps sliding: down 12% in 3 weeks; -$12.55 [-12.4%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1zgx:0
+
+---
+fecha: 2026-10-15 02:11
+emisora: VESTA
+titulo: Past Week: Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX:$34.28) up 7% in 2 weeks; +$2.10 [6.5%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c21gz:0
+
+---
+fecha: 2026-10-15 02:10
+emisora: AMXB
+titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) plummets 17% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1za9:0
+resumen:
+  America Movil S.A.B. de CV ADR (NYSE:AMX) plummets 17% in past 3 monthsGLOBAL ROUND UP
+  ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com America Movil S.A.B. de CV
+  (NYSE:AMX) last traded at $21.84 for a year to date return of 6.9%. America Movil
+  S.A.B. de CV, has plummeted $4.34 (or 16.6%) in the past 3 months to close at $21.84
+  today…
+
+---
+fecha: 2026-10-15 02:10
+emisora: AMXB
+titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) increases 16.0c on robust volume to close at $21.84; +16c [0.7%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1xkl:0
+resumen:
+  America Movil S.A.B. de CV ADR (NYSE:AMX) increases 16.0c on robust volume to close at
+  $21.84; +16c [0.7%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com
+  America Movil S.A.B. de CV ADR (NYSE:AMX $21.84) increased 16.0c (0.7%) from its
+  previous trading session to close at $21.84…
+
+---
+fecha: 2026-10-15 02:10
+emisora: ASURB
+titulo: Past Week: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR:$230.08) keeps sliding: down 12% in 7 weeks; -$32.44 [-12.4%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1z43:0
+resumen:
+  Past Week: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR:$230.08) keeps
+  sliding: down 12% in 7 weeks; -$32.44 [-12.4%]GLOBAL ROUND UP ADRS AND DEPOSITORY
+  RECEIPTS www.buysellsignals.com Grupo Aeroportuario del Sureste S.A. de C.V…
+
+---
+fecha: 2026-10-15 02:10
+emisora: ASURB
+titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) drops 1.8% weakening below moving average price; -$4.31 [-1.8%]
+fuente: GLORDP
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1xkc:0
+resumen:
+  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) drops 1.8% weakening below
+  moving average price; -$4.31 [-1.8%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR
+  $230.08) dropped $4.31 (1.8%) from its previous trading session to close at $230.08…
+
+---
+fecha: 2026-10-15 02:10
+emisora: FEMSAUBD
+titulo: Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF) extends rally with a 9.1% gain in 6 days; closes at $116.92 up $1.32; +$1.32 [1.1%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1xwl:0
+resumen:
+  Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF) extends rally with a 9.1% gain in 6 days;
+  closes at $116.92 up $1.32; +$1.32 [1.1%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF $116.92) extended its
+  gains on Wednesday, rising an additional $1.32 (1.1%) to close at $116.92…
+
+---
+fecha: 2026-10-15 02:10
+emisora: FEMSAUBD
+titulo: Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) ADRs fall 0.4%; -50c [-0.4%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1ym0:0
+resumen:
+  Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) ADRs fall 0.4%; -50c
+  [-0.4%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Fomento
+  Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX $120.68) fell 50.0c (0.4%) from its
+  previous trading session to close at $120.68. Compared with the BNY Mellon Composite
+  ADR Index which fell 3.4 points (1.2%) in the day, the relative price increase was
+  0.8%…
+
+---
+fecha: 2026-10-15 02:10
+emisora: OMAB
+titulo: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADR (NASDAQ:OMAB) falls in 4 out of last 5 days, 5-day fall of 3.2%; -$1.08 [-1.2%]
+fuente: GLORDP
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1z6r:0
+
+---
+fecha: 2026-10-15 02:10
+emisora: WALMEX
+titulo: Past Week: Wal-Mart De Mexico S.A.B. de C.V. ADR (OTCQX:WMMVY:$25.76) drifts lower 0.5%, 2 weeks' volume in a week; -13c [-0.5%]
+fuente: GLORDP
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c20gc:0
+
+---
+fecha: 2026-10-15 02:10
+emisora: KIMBERA
+titulo: Past Week: Kimberly-Clark de Mexico, S.A.B de C.V. ADR (OTC:KCDMY:$10.64) posts a weekly gain of 2.9%, 2 weeks' volume in a week; +30c [2.9%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c20g0:0
+
+---
+fecha: 2026-10-15 02:10
+emisora: KIMBERA
+titulo: Kimberly-Clark de Mexico, S.A.B de C.V. ADR (OTC:KCDMY) ADR nudges 0.3% lower; -3c [-0.3%]
+fuente: GLORDP
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1xku:0
+
+---
+fecha: 2026-10-15 02:10
+emisora: VESTA
+titulo: Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX) decreases 0.2% in today's session; -8c [-0.2%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c20r9:0
+
+---
+fecha: 2026-10-15 02:09
+emisora: GAPB
+titulo: Past Week: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC:$196.49) posts worst week in four weeks; -$4.92 [-2.4%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1wnz:0
+resumen:
+  Past Week: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC:$196.49) posts
+  worst week in four weeks; -$4.92 [-2.4%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Grupo Aeroportuario del Pacifico S.A.B…
+
+---
+fecha: 2026-10-15 02:09
+emisora: PINFRA
+titulo: Past Week: Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY:$315.99) climbs 6% on robust volume; +$17.99 [6.0%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1v9l:0
+
+---
+fecha: 2026-10-15 02:09
+emisora: PINFRA
+titulo: Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY) increases $1.14 on feeble volume to close at $315.99, hits 34-day high; +$1.14 [0.4%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1tb1:0
+
+---
+fecha: 2026-10-15 02:07
+emisora: AC
+titulo: Past Week: Arca Continental SAB de CV (BMV:AC) gains 6% on strong volume; +MX$11.57 [6.0%]
+fuente: CNBSTR
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1mke:0
+resumen:
+  Past Week: Arca Continental SAB de CV (BMV:AC) gains 6% on strong volume; +MX$11.57
+  [6.0%]MEXICAN END-OF-WEEK STOCK REPORT www.buysellsignals.com Arca Continental SAB de
+  CV (BMV:AC MX$205.68), Mexico's largest Beverages company by market cap, has gained
+  MX$11.57 (or 6.0%) in the past week to close at MX$205.68…
+
+---
+fecha: 2026-10-15 02:07
+emisora: MEGACPO
+titulo: Past Week: Megacable Holdings (BMV:MEGA) rises for a second consecutive week, a two-week rise of 6%; +MX$3.34 [6.5%]
+fuente: CNBSTR
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1mkd:0
+resumen:
+  Past Week: Megacable Holdings (BMV:MEGA) rises for a second consecutive week, a
+  two-week rise of 6%; +MX$3.34 [6.5%]MEXICAN END-OF-WEEK STOCK REPORT
+  www.buysellsignals.com Megacable Holdings (BMV:MEGA MX$55.08), Mexico's largest Media
+  company by market cap, has risen MX$2.70 (or 5.2%) to close at MX$55.08. The stock rose
+  for a second consecutive week on Wednesday bringing its two-week rise to MX$3.34 or
+  6.5%…
+
+---
+fecha: 2026-10-15 02:06
+emisora: PEOLES
+titulo: Past Week: Industrias Penoles SAB de CV (BMV:PE&OLES*) drifts lower 0.5%, 3 weeks' volume in a week; -MX$4.42 [-0.5%]
+fuente: CNBSTR
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1muq:0
+
+---
+fecha: 2026-10-15 02:01
+emisora: GFNORTEO
+titulo: Grupo Financiero Banorte (OTCMKTS:GBOOF) Stock Crosses Below 200 Day Moving Average – Here's Why
+fuente: STOOBS
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c19af:0
+resumen:
+  Grupo Financiero Banorte (OTCMKTS:GBOOF) Stock Crosses Below 200 Day Moving Average –
+  Here's WhyOct 13, 2026 Grupo Financiero Banorte, S.A.B. de C.V. (OTCMKTS:GBOOF - Get
+  Free Report) crossed below its two hundred day moving average during trading on Monday.
+  The stock has a two hundred day moving average of $11.09 and traded as low as $10.1625…
+
+---
+fecha: 2026-10-15 02:00
+emisora: BOLSAA
+titulo: Mexican Stock Markets End Four-Day Winning Streak
+fuente: NOTENG
+tono: negativa
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c1600:0
+resumen:
+  Mexican Stock Markets End Four-Day Winning StreakThe two stock exchanges operating in
+  Mexico (BMV and BIVA) halted their upward trend of four consecutive days on Wednesday,
+  closing with slight losses due to global caution and inflation data from the United
+  States…
+
+---
+fecha: 2026-10-15 02:00
+emisora: PEOLES
+titulo: Mexican Stock Exchange declines after four days of gains; Peñoles leads the losses
+fuente: NOTENG
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c13bi:0
+
+---
+fecha: 2026-10-15 01:58
+emisora: AC
+titulo: On Thursday 15th of October Arca Continental Sab De Cv trades -0.63 percent lower
+fuente: STOCKP
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c0uy7:0
+resumen:
+  On Thursday 15th of October Arca Continental Sab De Cv trades -0.63 percent lowerOct
+  14, 2026 Arca Continental Sab De Cv (AC.MX) traded down -0.63 % during a 24 hours
+  period ending at 02:41 AM Central Europe on Thursday 15th. One Arca Continental Sab De
+  Cv stock can currently be bought for about MXN 205.79 on popular exchanges. Current
+  supply of Arca Continental Sab De Cv stocks is 1.7 bn…
+
+---
+fecha: 2026-10-15 01:56
+emisora: KOFUBL
+titulo: Coca Cola Femsa (NYSE:KOF) Sets New 1-Year High – Here's What Happened
+fuente: STOOBS
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c0gku:0
+resumen:
+  Coca Cola Femsa (NYSE:KOF) Sets New 1-Year High – Here's What HappenedOct 13, 2026 Coca
+  Cola Femsa S.A.B. de C.V. (NYSE:KOF - Get Free Report) reached a new 52-week high
+  during trading on Wednesday. The stock traded as high as $117.12 and last traded at
+  $117.1750, with a volume of 45,530 shares. The stock had previously closed at $115.60.
+  A number of equities research analysts recently weighed in on KOF shares…
+
+---
+fecha: 2026-10-15 01:55
+emisora: BBAJIOO
+titulo: Banco Del Bajio (BBAJIOO.MX) is trading 0.56 percent higher on Wednesday 14th of October and has a trading volume of MXN 203 mn
+fuente: STOCKP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2c0fcu:0
+resumen:
+  Banco Del Bajio (BBAJIOO.MX) is trading 0.56 percent higher on Wednesday 14th of
+  October and has a trading volume of MXN 203 mnOct 14, 2026 Banco Del Bajio (BBAJIOO.MX)
+  traded up 0.56 % during a 24 hours period ending at 11:06 PM Central Europe on
+  Wednesday 14th. One Banco Del Bajio stock can currently be bought for about MXN 58.03
+  on popular exchanges. Current supply of Banco Del Bajio stocks is 1.2 bn…
+
+---
+fecha: 2026-10-14 18:38
+emisora: BOLSAA
+titulo: BMV - Aviso de Tenedores de FUNO 25L
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261015:nNDL7W1Dy2:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/9BB4F43AE7AFAD9C011A553C9DFE9440904BDF59). BOLSA
+  MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO Aviso a Tenedores EMISIÓN CLAVE
+  DE COTIZACIÓN SERIE/T.V…
+
+---
+fecha: 2026-10-14 17:31
+emisora: BOLSAA
+titulo: BMV - Aviso de Tenedores de FNCOT 25-2
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261014:nNDL7fB39R:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/7C6E3D08661A2973E4E4D5BD1422158720824736). Aviso a
+  Tenedores FECHA: 14/10/2026 BOLSA MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO
+  Aviso a Tenedores EMISIÓN CLAVE DE COTIZACIÓN SERIE/T.V…
+
+---
+fecha: 2026-10-14 17:31
+emisora: BOLSAA
+titulo: BMV - Composición de Cartera TRACS
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261014:nNDL2l6w5X:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/24F0AECA1324066C8DAE6791E51F581F96A0CC95)…
+
+---
+fecha: 2026-10-14 12:10
+emisora: AC
+titulo: Arca Continental SAB de CV - Arca Continental Invests MXN 26 Million in New PetStar Collection Center in Chihuahua
+fuente: PUBT
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261014:nNDL6PzcYG:1
+resumen:
+  * The new center will have the capacity to recover up to 54 million PET bottles per
+  year. * The project will strengthen the local recycling chain and help generate
+  approximately 650 indirect jobs in the region. Chihuahua, Chihuahua, October 13, 2026…
+
+---
+fecha: 2026-10-14 07:58
+emisora: PEOLES
+titulo: Bolsa mexicana cae luego de cuatro sesiones de ganancias
+fuente: Reuters
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261014:nL1N46000H:1
+
+---
+fecha: 2026-10-14 04:56
+emisora: MEGACPO
+titulo: Traders look to see if Megacable Holdings' (BMV:MEGA), recent rise will continue
+fuente: GLORDP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261014:nNRA2blrsg:0
+resumen:
+  Traders look to see if Megacable Holdings' (BMV:MEGA), recent rise will continueMEXICAN
+  STOCK REPORT Ahead of this morning's market opening, Megacable Holdings closed higher
+  the previous trading day. Megacable Holdings (BMV:MEGA), Mexico's largest Media company
+  by market cap, lifted 1.8% during its previous trading session to close at $53.38…
+
+---
+fecha: 2026-10-14 02:19
+emisora: MEGACPO
+titulo: Megacable -Cpo is trading 1.68 percent higher with a volume of MXN 41.2 mn on Wednesday 14th of October
+fuente: STOCKP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261014:nNRA2bj8fn:0
+
+---
 fecha: 2026-10-13 18:25
 emisora: BOLSAA
 titulo: BMV - Amortizaciones FONDO 01326
@@ -1112,935 +1933,3 @@ resumen:
   SAB de CV has shown some strength in recent days. Arca Continental SAB de CV (BMV:AC),
   Mexico's largest Beverages company by market cap, climbed 2.2% during its previous
   trading session to close at $205.36…
-
----
-fecha: 2026-10-13 04:56
-emisora: ASURB
-titulo: Tuesday's Preview: Can Grupo Aeroportuario del Sureste SAB de CV (BMV:ASUR), continue its recent gains?
-fuente: GLORDP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b2uxs:0
-resumen:
-  Tuesday's Preview: Can Grupo Aeroportuario del Sureste SAB de CV (BMV:ASUR), continue
-  its recent gains?MEXICAN STOCK REPORT Ahead of this morning's market opening, Grupo
-  Aeroportuario del Sureste SAB de CV has shown some strength in recent days…
-
----
-fecha: 2026-10-13 04:56
-emisora: GFNORTEO
-titulo: Market Watch Moves to Grupo Financiero Banorte, S.A.B De C.V. (BMV:GFNORTE),. Will the rise Continue?
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b2tbl:0
-resumen:
-  Market Watch Moves to Grupo Financiero Banorte, S.A.B De C.V. (BMV:GFNORTE),. Will the
-  rise Continue?MEXICAN STOCK REPORT Ahead of this morning's market opening, Grupo
-  Financiero Banorte, S.A.B De C.V. closed higher the previous trading day. Grupo
-  Financiero Banorte, S.A.B De C.V. (BMV:GFNORTE), Mexico's 3rd largest Bank by market
-  cap, lifted 1.9% during its previous trading session to close at $193.47…
-
----
-fecha: 2026-10-13 04:56
-emisora: MEGACPO
-titulo: Will Megacable Holdings (BMV:MEGA), bounce back this Tuesday?
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b2tlv:0
-
----
-fecha: 2026-10-13 04:56
-emisora: PEOLES
-titulo: Traders look to see if Industrias Penoles SAB de CV's (BMV:PE&OLES*), recent rally will continue
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b2umc:0
-
----
-fecha: 2026-10-13 04:56
-emisora: PINFRA
-titulo: How Far Can Promotora Y Operadora De Infraestructura, S.A.B. De C.V. (BMV:PINFRA), Push Its Gains
-fuente: GLORDP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b2uxv:0
-
----
-fecha: 2026-10-13 04:22
-emisora: PEOLES
-titulo: Fresnillo PLC (OTCMKTS:FNLPF) Stock Rated "Reduce" by Sell-Side Brokerages
-fuente: ZOLCOM
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2b2cyw:0
-
----
-fecha: 2026-10-13 01:24
-emisora: AC
-titulo: With a trading volume of MXN 150.9 mn AC.MX trades 2.02 percent higher today
-fuente: STOCKP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2azmtk:0
-resumen:
-  With a trading volume of MXN 150.9 mn AC.MX trades 2.02 percent higher todayOct 13,
-  2026 Arca Continental Sab De Cv (AC.MX) traded up 2.02 % during a 24 hours period
-  ending at 08:04 AM Central Europe on Tuesday 13th. One Arca Continental Sab De Cv stock
-  can currently be bought for about MXN 205.04 on popular exchanges. Current supply of
-  Arca Continental Sab De Cv stocks is 1.7 bn…
-
----
-fecha: 2026-10-12 20:42
-emisora: ASURB
-titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) plunges 17% in past 3 months
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2avisg:0
-resumen:
-  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) plunges 17% in past 3
-  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
-  Aeroportuario del Sureste S.A. de C.V. (NYSE:ASR) last traded at $237.43 for a year to
-  date return of -25.2%. Grupo Aeroportuario del Sureste S.A. de C.V., has plunged $47.69
-  (or 16.7%) in the past 3 months to close at $237.43 today…
-
----
-fecha: 2026-10-12 20:42
-emisora: GFNORTEO
-titulo: Grupo Financiero Banorte, S.A.B. De C.V. ADR (OTCQX:GBOOY) dips 0.8% in past 3 months
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2avi77:0
-resumen:
-  Grupo Financiero Banorte, S.A.B. De C.V. ADR (OTCQX:GBOOY) dips 0.8% in past 3
-  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
-  Financiero Banorte, S.A.B. De C.V. (OTCQX:GBOOY) last traded at $52.86 for a year to
-  date return of 20.2%. Grupo Financiero Banorte, S.A.B. De C.V., has dipped 40.0c (or
-  0.8%) in the past 3 months to close at $52.86 today…
-
----
-fecha: 2026-10-12 17:26
-emisora: AC
-titulo: Past Week: Arca Continental SAB de CV (BMV:AC) climbs 6% on strong volume; +MX$12.02 [6.2%]
-fuente: CNBSTR
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261012:nNRA2atk45:0
-resumen:
-  Past Week: Arca Continental SAB de CV (BMV:AC) climbs 6% on strong volume; +MX$12.02
-  [6.2%]MEXICAN END-OF-WEEK STOCK REPORT www.buysellsignals.com Arca Continental SAB de
-  CV (BMV:AC MX$205.36), Mexico's largest Beverages company by market cap, has climbed
-  MX$12.02 (or 6.2%) in the past week to close at MX$205.36…
-
----
-fecha: 2026-10-12 17:26
-emisora: MEGACPO
-titulo: Past Week: Megacable Holdings (BMV:MEGA) ticks up 1.3%, 3 weeks' volume in a week; +68 Centavo [1.3%]
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261012:nNRA2atje9:0
-
----
-fecha: 2026-10-12 17:26
-emisora: PEOLES
-titulo: Past Week: Industrias Penoles SAB de CV (BMV:PE&OLES*) rises 5% on high volume; +MX$45.74 [5.2%]
-fuente: CNBSTR
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261012:nNRA2atisq:0
-
----
-fecha: 2026-10-12 13:01
-emisora: AC
-titulo: Arca Continental (BMV:AC) Altman-Z and Other Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261012:nNRA2ar3sh:0
-resumen:
-  Arca Continental (BMV:AC) Altman-Z and Other Risk MetricsMEXICAN STOCK REPORT To
-  mitigate risks in their investments including bankruptcy, insolvency, low levels of
-  liquidity and inflated earnings, investors look at several key metrics and scores to
-  assess each company. Below we include some of the analysis used to mitigate such risks…
-
----
-fecha: 2026-10-12 13:01
-emisora: MEGACPO
-titulo: Megacable (BMV:MEGA) Altman-Z and Other Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261012:nNRA2ar362:0
-
----
-fecha: 2026-10-12 12:13
-emisora: BBAJIOO
-titulo: Banco del Bajío raises 7.5 billion pesos through bond issuance with 3 and 5-year maturities on the BMV
-fuente: NOTENG
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261012:nNRA2aqh4n:0
-resumen:
-  Banco del Bajío raises 7.5 billion pesos through bond issuance with 3 and 5-year
-  maturities on the BMVBanco del Bajío, a lender focused on serving businesses, raised
-  7.5 billion pesos (approximately 410 million dollars) through the issuance of two
-  sustainable bonds on the Mexican Stock Exchange…
-
----
-fecha: 2026-10-12 10:10
-emisora: BBAJIOO
-titulo: Banco del Bajío SA Institución de Banca Múltiple - 09/10/2026 BanBajío emite Certificados Bursátiles de Largo Plazo (Evento relevante 172)
-fuente: PUBT
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:reuters.com:20261012:nNDL7XCGPn:1
-resumen:
-  The text version of this document is not available. You can access the original
-  document here (https://docs.publicnow.com/D1F51A20153EFB5D3B7C86CC5EB90C416C24EA1A)…
-
----
-fecha: 2026-10-12 06:51
-emisora: BBAJIOO
-titulo: BANBAJÍO CONCRETA COLOCACIÓN DE DEUDA POR 7,500 MILLONES DE PESOS
-fuente: VISOR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:reuters.com:20261012:nVIS5vTHRp:1
-resumen:
-  Banco del Bajío (BanBajío) concretó una colocación de Certificados Bursátiles Bancarios
-  de largo plazo por 7,500 millones de pesos. Lo anterior, mediante dos emisiones de
-  largo plazo que se colocaron en la modalidad de vasos comunicantes, al amparo de su
-  programa revolvente autorizado por hasta 15,000 millones de pesos…
-
----
-fecha: 2026-10-09 17:14
-emisora: BBAJIOO
-titulo: Banco del Bajío SA Institución de Banca Múltiple - [2018] Eventos Relevantes - Emisoras - BBAJIO
-fuente: PUBT
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:reuters.com:20261009:nNDL29M6fr:1
-resumen:
-  The text version of this document is not available. You can access the original
-  document here (https://docs.publicnow.com/A25C06015312FEA097B4E732174FBC0058919163)…
-
----
-fecha: 2026-10-07 19:03
-emisora: MERCADO
-titulo: Talarico says Paxton-backed tariffs threaten free chips and salsa
-fuente: USADAY
-tono: neutral
-impacto: bajo
-id: lseg:urn:newsml:reuters.com:20261008:nNRA28ncct:1
-resumen:
-  For best results when printing this announcement, please click on link below:
-  https://newsfile.refinitiv.com/getnewsfile/v1/story?guid=urn:newsml:reuters.com:20261008:nNRA28ncct&default-theme=true
-  Democrat James Talarico says Republican-backed tariffs on Mexican tomatoes are driving
-  up costs for restaurants and could threaten a Texas dining staple: free chips and
-  salsa. In an Oct…
-
----
-fecha: 2026-10-07 18:28
-emisora: MERCADO
-titulo: Caribbean Cement Company Ltd. (JA:CCC) posts back-to-back gains, moving higher 3.6% over 2 days; increases 12.0c to close at J$114.0; +J$4 [+3.6%]
-fuente: CNBSTR
-tono: positiva
-impacto: bajo
-id: lseg:urn:newsml:newsroom:20261008:nNRA28n5lo:0
-resumen:
-  Caribbean Cement Company Ltd. (JA:CCC) posts back-to-back gains, moving higher 3.6%
-  over 2 days; increases 12.0c to close at J$114.0; +J$4 [+3.6%]JAMAICAN END-OF-DAY STOCK
-  REPORT www.buysellsignals.com Caribbean Cement Company Ltd.'s (JA:CCC J$114.0) stock
-  price extended its gains on Wednesday, rising an additional 12.0c (0.1%) to close at
-  J$114.0…
-
----
-fecha: 2026-10-07 18:13
-emisora: GAPB
-titulo: GAP Leads Declines on BMV and Drags Down Airlines and Airports Following Traffic Report
-fuente: NOTENG
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28n0oc:0
-resumen:
-  GAP Leads Declines on BMV and Drags Down Airlines and Airports Following Traffic
-  ReportShares of airlines and airport groups operating in Mexico led the declines in the
-  local stock market on Wednesday, following the release of the first passenger traffic
-  results for September, which indicated that they continue to operate in a challenging
-  environment due to rising fuel prices…
-
----
-fecha: 2026-10-07 18:13
-emisora: ASURB
-titulo: Asur reports no growth in September as Brazil and others contribute; Cancún declines again
-fuente: NOTENG
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28n0ol:0
-resumen:
-  Asur reports no growth in September as Brazil and others contribute; Cancún declines
-  againAeroportuario del Sureste Group, one of the largest airport operators in Latin
-  America, reported mixed results in its passenger traffic for September, taking into
-  account the influx at its airports in Brazil and other recently consolidated markets…
-
----
-fecha: 2026-10-07 18:13
-emisora: MERCADO
-titulo: Mexican stocks decline after a three-session winning streak
-fuente: NOTENG
-tono: negativa
-impacto: bajo
-id: lseg:urn:newsml:newsroom:20261008:nNRA28n0dv:0
-resumen:
-  Mexican stocks decline after a three-session winning streakMexican stock indices closed
-  Wednesday's session with losses, in line with the behavior of international markets,
-  driven by increasing risk aversion due to rising oil prices and U.S. Treasury bond
-  yields…
-
----
-fecha: 2026-10-07 18:12
-emisora: FEMSAUBD
-titulo: Fomento Economico Mexicano (BMV:FEMSA) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mzrz:0
-resumen:
-  Fomento Economico Mexicano (BMV:FEMSA) Solvency and Other Financial Risk MetricsMEXICAN
-  STOCK REPORT To mitigate risks in their investments including bankruptcy, insolvency,
-  low levels of liquidity and inflated earnings, investors look at several key metrics
-  and scores to assess each company. Below we include some of the analysis used to
-  mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: GMEXICOB
-titulo: Grupo Mexico (BMV:GMEXICO) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261008:nNRA28my4t:0
-resumen:
-  Grupo Mexico (BMV:GMEXICO) Solvency and Other Financial Risk MetricsMEXICAN STOCK
-  REPORT To mitigate risks in their investments including bankruptcy, insolvency, low
-  levels of liquidity and inflated earnings, investors look at several key metrics and
-  scores to assess each company. Below we include some of the analysis used to mitigate
-  such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: AMXB
-titulo: America Movil (BMV:AMXL) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mz4o:0
-resumen:
-  America Movil (BMV:AMXL) Solvency and Other Financial Risk MetricsMEXICAN STOCK REPORT
-  To mitigate risks in their investments including bankruptcy, insolvency, low levels of
-  liquidity and inflated earnings, investors look at several key metrics and scores to
-  assess each company. Below we include some of the analysis used to mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: AMXB
-titulo: America Movil (BMV:AMXA) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mzgu:0
-resumen:
-  America Movil (BMV:AMXA) Solvency and Other Financial Risk MetricsMEXICAN STOCK REPORT
-  To mitigate risks in their investments including bankruptcy, insolvency, low levels of
-  liquidity and inflated earnings, investors look at several key metrics and scores to
-  assess each company. Below we include some of the analysis used to mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: WALMEX
-titulo: Wal-Mart de Mexico (BMV:WALMEX) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mz4p:0
-resumen:
-  Wal-Mart de Mexico (BMV:WALMEX) Solvency and Other Financial Risk MetricsMEXICAN STOCK
-  REPORT To mitigate risks in their investments including bankruptcy, insolvency, low
-  levels of liquidity and inflated earnings, investors look at several key metrics and
-  scores to assess each company. Below we include some of the analysis used to mitigate
-  such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: AC
-titulo: Arca Continental (BMV:AC) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mzgw:0
-resumen:
-  Arca Continental (BMV:AC) Solvency and Other Financial Risk MetricsMEXICAN STOCK REPORT
-  To mitigate risks in their investments including bankruptcy, insolvency, low levels of
-  liquidity and inflated earnings, investors look at several key metrics and scores to
-  assess each company. Below we include some of the analysis used to mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: ASURB
-titulo: Grupo Aeroportuario del Sureste (BMV:ASUR) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mzs0:0
-resumen:
-  Grupo Aeroportuario del Sureste (BMV:ASUR) Solvency and Other Financial Risk
-  MetricsMEXICAN STOCK REPORT To mitigate risks in their investments including
-  bankruptcy, insolvency, low levels of liquidity and inflated earnings, investors look
-  at several key metrics and scores to assess each company. Below we include some of the
-  analysis used to mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: MEGACPO
-titulo: Megacable (BMV:MEGA) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28my4s:0
-resumen:
-  Megacable (BMV:MEGA) Solvency and Other Financial Risk MetricsMEXICAN STOCK REPORT To
-  mitigate risks in their investments including bankruptcy, insolvency, low levels of
-  liquidity and inflated earnings, investors look at several key metrics and scores to
-  assess each company. Below we include some of the analysis used to mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: OMAB
-titulo: Grupo Aeroportuario del Centro Norte (BMV:OMA) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mzgv:0
-resumen:
-  Grupo Aeroportuario del Centro Norte (BMV:OMA) Solvency and Other Financial Risk
-  MetricsMEXICAN STOCK REPORT To mitigate risks in their investments including
-  bankruptcy, insolvency, low levels of liquidity and inflated earnings, investors look
-  at several key metrics and scores to assess each company. Below we include some of the
-  analysis used to mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: KIMBERA
-titulo: Kimberly Clark de Mexico (BMV:KIMBERA) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28my4r:0
-resumen:
-  Kimberly Clark de Mexico (BMV:KIMBERA) Solvency and Other Financial Risk MetricsMEXICAN
-  STOCK REPORT To mitigate risks in their investments including bankruptcy, insolvency,
-  low levels of liquidity and inflated earnings, investors look at several key metrics
-  and scores to assess each company. Below we include some of the analysis used to
-  mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: KIMBERA
-titulo: Kimberly Clark de Mexico (BMV:KIMBERB) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mzs1:0
-resumen:
-  Kimberly Clark de Mexico (BMV:KIMBERB) Solvency and Other Financial Risk MetricsMEXICAN
-  STOCK REPORT To mitigate risks in their investments including bankruptcy, insolvency,
-  low levels of liquidity and inflated earnings, investors look at several key metrics
-  and scores to assess each company. Below we include some of the analysis used to
-  mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: VESTA
-titulo: Corp Inmobiliaria Vesta (BMV:VESTA) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mzgt:0
-resumen:
-  Corp Inmobiliaria Vesta (BMV:VESTA) Solvency and Other Financial Risk MetricsMEXICAN
-  STOCK REPORT To mitigate risks in their investments including bankruptcy, insolvency,
-  low levels of liquidity and inflated earnings, investors look at several key metrics
-  and scores to assess each company. Below we include some of the analysis used to
-  mitigate such risks…
-
----
-fecha: 2026-10-07 18:12
-emisora: MERCADO
-titulo: El Puerto de Liverpool (BMV:LIVEPOLC-1) Solvency and Other Financial Risk Metrics
-fuente: GLOSTK
-tono: negativa
-impacto: bajo
-id: lseg:urn:newsml:newsroom:20261008:nNRA28mzs2:0
-resumen:
-  El Puerto de Liverpool (BMV:LIVEPOLC-1) Solvency and Other Financial Risk
-  MetricsMEXICAN STOCK REPORT To mitigate risks in their investments including
-  bankruptcy, insolvency, low levels of liquidity and inflated earnings, investors look
-  at several key metrics and scores to assess each company. Below we include some of the
-  analysis used to mitigate such risks…
-
----
-fecha: 2026-10-07 18:02
-emisora: BOLSAA
-titulo: BMV - Aviso de Tenedores de EDUCA 26L
-fuente: PUBT
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261008:nNDL2ks9Mq:1
-resumen:
-  Attention : The text below has been extracted from an image-only document using OCR
-  technology and may contain errors and omissions. You can access the original document
-  here (https://docs.publicnow.com/38049831D312E481C152787ED254D13A775599CB). BOLSA
-  MEXICANA DE VALORES, S.A.B. DE C.V., INFORMA: PREFIJO Aviso a Tenedores EMISIÓN CLAVE
-  DE COTIZACIÓN SERIE/T.V…
-
----
-fecha: 2026-10-07 17:48
-emisora: AMXB
-titulo: Telekom Austria is trading -1.56 percent lower with a volume of EUR 407.7 k on Thursday 8th of October
-fuente: STOCKP
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mknk:0
-resumen:
-  Telekom Austria is trading -1.56 percent lower with a volume of EUR 407.7 k on Thursday
-  8th of OctoberOct 07, 2026 Telekom Austria (TKA.VI) traded down -1.56 % during a 24
-  hours period ending at 12:59 AM Central Europe on Thursday 8th. One Telekom Austria
-  stock can currently be bought for about EUR 8.84 on popular exchanges. Current supply
-  of Telekom Austria stocks is 665.2 mn…
-
----
-fecha: 2026-10-07 17:26
-emisora: GMEXICOB
-titulo: Grupo Mexico SAB de CV (FRA:4GE) up 6.4% in 2 days; closes at €11.45 up 20.0c; +69c [+6.4%]
-fuente: CNBSTR
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mfyd:0
-resumen:
-  Grupo Mexico SAB de CV (FRA:4GE) up 6.4% in 2 days; closes at €11.45 up 20.0c; +69c
-  [+6.4%]GERMAN END-OF-DAY STOCK REPORT www.buysellsignals.com MEXICO, D.F, Tuesday, Oct
-  06, 2026 - Grupo Mexico SAB de CV's (FRA:4GE €11.45) stock price extended its gains on
-  Tuesday, rising an additional 20.0c (1.8%) to close at €11.45…
-
----
-fecha: 2026-10-07 17:26
-emisora: GMEXICOB
-titulo: Southern Copper Corp. (FRA:PCU) stock ticks down 3.1%; -€5.80 [-3.1%]
-fuente: CNBSTR
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mhbs:0
-resumen:
-  Southern Copper Corp. (FRA:PCU) stock ticks down 3.1%; -€5.80 [-3.1%]GERMAN END-OF-DAY
-  STOCK REPORT www.buysellsignals.com PHOENIX, Tuesday, Oct 06, 2026 - Southern Copper
-  Corp.'s (FRA:PCU €178.45) stock price ticked down €5.80 (3.1%) from its previous
-  trading session to close at €178.45. Compared with the DAX Index which rose 216.1
-  points (0.9%) in the day, the relative price change was -4.0%…
-
----
-fecha: 2026-10-07 17:26
-emisora: GMEXICOB
-titulo: Past Week: Grupo Mexico, S.A.B. De C.V. (BMV:GMEXICO) keeps rising: up 8% in 3 weeks; +MX$17.45 [8.2%]
-fuente: CNBSTR
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mfw1:0
-resumen:
-  Past Week: Grupo Mexico, S.A.B. De C.V. (BMV:GMEXICO) keeps rising: up 8% in 3 weeks;
-  +MX$17.45 [8.2%]MEXICAN END-OF-WEEK STOCK REPORT www.buysellsignals.com Grupo Mexico,
-  S.A.B. De C.V. (BMV:GMEXICO MX$230.65), Mexico's largest Mining company by market cap,
-  extended its gains in the past week ended Wednesday, rising an additional MX$5.0 (or
-  2.2%) to close at MX$230.65…
-
----
-fecha: 2026-10-07 17:26
-emisora: GAPB
-titulo: Past Week: Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP) shares post worst week in five weeks; -MX$9.40 [-2.5%]
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mfvy:0
-resumen:
-  Past Week: Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP) shares post worst week
-  in five weeks; -MX$9.40 [-2.5%]MEXICAN END-OF-WEEK STOCK REPORT www.buysellsignals.com
-  Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP MX$361.80), Mexico's largest
-  Engineering & construction company by market cap, has slipped MX$9.40 (or 2.5%) in the
-  past week to close at MX$361.80…
-
----
-fecha: 2026-10-07 17:26
-emisora: AMXB
-titulo: America Movil, S.A.B. de C.V. (FRA:MV90) posts back-to-back gains, rallying 7.2% over 2 days; gains 70.0c (3.8%) to close at €19.30; +€1.30 [+7.2%]
-fuente: CNBSTR
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mfxd:0
-resumen:
-  America Movil, S.A.B. de C.V. (FRA:MV90) posts back-to-back gains, rallying 7.2% over 2
-  days; gains 70.0c (3.8%) to close at €19.30; +€1.30 [+7.2%]GERMAN END-OF-DAY STOCK
-  REPORT www.buysellsignals.com America Movil, S.A.B. de C.V.'s (FRA:MV90 €19.30) ADR
-  price extended its gains on Tuesday, rising an additional 70.0c (3.8%) to close at
-  €19.30…
-
----
-fecha: 2026-10-07 17:26
-emisora: GFNORTEO
-titulo: Past Week: Grupo Financiero Banorte, S.A.B De C.V. (BMV:GFNORTE) drifts lower 0.5%, 6 weeks' volume in a week; -96 Centavo [-0.5%]
-fuente: CNBSTR
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mh9j:0
-resumen:
-  Past Week: Grupo Financiero Banorte, S.A.B De C.V. (BMV:GFNORTE) drifts lower 0.5%, 6
-  weeks' volume in a week; -96 Centavo [-0.5%]MEXICAN END-OF-WEEK STOCK REPORT
-  www.buysellsignals.com Grupo Financiero Banorte, S.A.B De C.V. (BMV:GFNORTE MX$189.79),
-  Mexico's 3rd largest Bank by market cap, has drifted lower 96 Centavo (or 0.5%) in the
-  past week to close at MX$189.79…
-
----
-fecha: 2026-10-07 17:26
-emisora: WALMEX
-titulo: Past Week: Wal - Mart De Mexico, S.A.B. De C.V. (BMV:WALMEX) ticks up 1.3%, 5 weeks' volume in a week; +58 Centavo [1.3%]
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mhlb:0
-resumen:
-  Past Week: Wal - Mart De Mexico, S.A.B. De C.V. (BMV:WALMEX) ticks up 1.3%, 5 weeks'
-  volume in a week; +58 Centavo [1.3%]MEXICAN END-OF-WEEK STOCK REPORT
-  www.buysellsignals.com Wal - Mart De Mexico, S.A.B. De C.V. (BMV:WALMEX MX$46.69),
-  Mexico's largest Retailer/Wholesaler company by market cap, has ticked up 58 Centavo
-  (or 1.3%) in the past week to close at MX$46.69…
-
----
-fecha: 2026-10-07 17:26
-emisora: AC
-titulo: Past Week: Arca Continental SAB de CV (BMV:AC) edges up 0.5%, 3 weeks' volume in a week; +87 Centavo [0.5%]
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mh9i:0
-resumen:
-  Past Week: Arca Continental SAB de CV (BMV:AC) edges up 0.5%, 3 weeks' volume in a
-  week; +87 Centavo [0.5%]MEXICAN END-OF-WEEK STOCK REPORT www.buysellsignals.com Arca
-  Continental SAB de CV (BMV:AC MX$194.11), Mexico's largest Beverages company by market
-  cap, has edged up 87 Centavo (or 0.5%) in the past week to close at MX$194.11…
-
----
-fecha: 2026-10-07 17:26
-emisora: ASURB
-titulo: Past Week: Grupo Aeroportuario del Sureste SAB de CV (BMV:ASUR) shares post worst week in five weeks; -MX$8.97 [-2.1%]
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mfvw:0
-resumen:
-  Past Week: Grupo Aeroportuario del Sureste SAB de CV (BMV:ASUR) shares post worst week
-  in five weeks; -MX$8.97 [-2.1%]MEXICAN END-OF-WEEK STOCK REPORT www.buysellsignals.com
-  Grupo Aeroportuario del Sureste SAB de CV (BMV:ASUR MX$416.79), Mexico's 2nd largest
-  Engineering & construction company by market cap, has dipped MX$8.97 (or 2.1%) in the
-  past week to close at MX$416.79…
-
----
-fecha: 2026-10-07 17:26
-emisora: PINFRA
-titulo: Past Week: Promotora Y Operadora De Infraestructura, S.A.B. De C.V. (BMV:PINFRA) keeps rising: up 4.9% in 3 weeks; +MX$12.50 [4.9%]
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mhlg:0
-resumen:
-  Past Week: Promotora Y Operadora De Infraestructura, S.A.B. De C.V. (BMV:PINFRA) keeps
-  rising: up 4.9% in 3 weeks; +MX$12.50 [4.9%]MEXICAN END-OF-WEEK STOCK REPORT
-  www.buysellsignals.com Promotora Y Operadora De Infraestructura, S.A.B. De C.V…
-
----
-fecha: 2026-10-07 17:26
-emisora: MEGACPO
-titulo: Past Week: Megacable Holdings (BMV:MEGA) ticks up 1.2%, 3 weeks' volume in a week; +64 Centavo [1.2%]
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mfvx:0
-resumen:
-  Past Week: Megacable Holdings (BMV:MEGA) ticks up 1.2%, 3 weeks' volume in a week; +64
-  Centavo [1.2%]MEXICAN END-OF-WEEK STOCK REPORT www.buysellsignals.com Megacable
-  Holdings (BMV:MEGA MX$52.38), Mexico's largest Media company by market cap, has ticked
-  up 64 Centavo (or 1.2%) in the past week to close at MX$52.38…
-
----
-fecha: 2026-10-07 17:26
-emisora: OMAB
-titulo: Past Week: Grupo Aeroportuario Del Centro Norte, S.A.B. De C.V. (BMV:OMA) in bottom 1% performers of Prices & Quotations Index in past week; -MX$12...
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mglq:0
-resumen:
-  Past Week: Grupo Aeroportuario Del Centro Norte, S.A.B. De C.V. (BMV:OMA) in bottom 1%
-  performers of Prices & Quotations Index in past week; -MX$12.54 [-5.8%]Past Week: Grupo
-  Aeroportuario Del Centro Norte, S.A.B. De C.V. (BMV:OMA) in bottom 1% performers of
-  Prices & Quotations Index in past week; -MX$12.54 [-5.8%] MEXICAN END-OF-WEEK STOCK
-  REPORT www.buysellsignals.com Grupo Aeroportuario Del Centro Norte, S.A.B…
-
----
-fecha: 2026-10-07 17:26
-emisora: VESTA
-titulo: Past Week: Corp Inmobiliaria Vesta SAB de CV (BMV:VESTA) in top 4% performers of Mexican market in past week; +MX$2.42 [4.2%]
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mglp:0
-resumen:
-  Past Week: Corp Inmobiliaria Vesta SAB de CV (BMV:VESTA) in top 4% performers of
-  Mexican market in past week; +MX$2.42 [4.2%]MEXICAN END-OF-WEEK STOCK REPORT
-  www.buysellsignals.com Corp Inmobiliaria Vesta SAB de CV (BMV:VESTA MX$60.71), Mexico's
-  largest Real estate company by market cap, has traded higher by MX$2.42 (or 4.2%) in
-  the past week to close at MX$60.71…
-
----
-fecha: 2026-10-07 17:13
-emisora: MERCADO
-titulo: Drought Hits Agricultural Production
-fuente: NOTENG
-tono: neutral
-impacto: bajo
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mdrb:0
-resumen:
-  Drought Hits Agricultural ProductionMexico City.- For Mexican farmers, the impact of
-  drought has significantly affected both grain and vegetable production, leading to
-  changes in planting schemes, with a greater emphasis on protected agriculture and a
-  reduction in open-air farming…
-
----
-fecha: 2026-10-07 17:12
-emisora: MERCADO
-titulo: Mexican Stock Exchange Drops After Three-Day Surge; Airport Stocks Weigh Down Market
-fuente: NOTENG
-tono: negativa
-impacto: bajo
-id: lseg:urn:newsml:newsroom:20261007:nNRA28mc1u:0
-resumen:
-  Mexican Stock Exchange Drops After Three-Day Surge; Airport Stocks Weigh Down MarketThe
-  stock exchanges in Mexico closed with significant losses during trading on Wednesday.
-  Local indices fell after a streak of three consecutive sessions of gains, with airline
-  sector stocks leading the decline…
-
----
-fecha: 2026-10-07 17:07
-emisora: GMEXICOB
-titulo: Southern Copper Corporation's (NYSE:SCCO $200.51) Yields 2%: In-Depth Bullish/Bearish Signals Overview
-fuente: NEWBTS
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28m9ue:0
-resumen:
-  Southern Copper Corporation's (NYSE:SCCO $200.51) Yields 2%: In-Depth Bullish/Bearish
-  Signals OverviewNYSE END-OF-DAY STOCK REPORT PHOENIX, Wednesday, Oct 07, 2026 -
-  Southern Copper Corporation's (NYSE:SCCO $200.51) stock price dropped $3.75 (1.8%) from
-  its previous trading session to close at $200.51. Compared with the S&P 500 Index which
-  fell 20.1 points (0.3%) in the day, the relative price change was -1.6%…
-
----
-fecha: 2026-10-07 17:07
-emisora: GMEXICOB
-titulo: Southern Copper Corporation (NYSE:SCCO) Posts Q2 2026 Revenue of USD 4.29 Billion and Net Income USD 1.67 Billion
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28ma7m:0
-resumen:
-  Southern Copper Corporation (NYSE:SCCO) Posts Q2 2026 Revenue of USD 4.29 Billion and
-  Net Income USD 1.67 BillionUNITED STATES EDITION 07 October 2026 19:03 EDT Southern
-  Copper Corporation (NYSE:SCCO) traded at EUR 183.73 on 5th October 2026, up 0.69
-  percent from EUR 182.48, as reported by Lang & Schwarz…
-
----
-fecha: 2026-10-07 16:52
-emisora: GMEXICOB
-titulo: Here's Why Southern Copper (SCCO) Fell More Than Broader Market
-fuente: ZACKSC
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261007:nNRA28m6xx:1
-resumen:
-  For best results when printing this announcement, please click on link below:
-  https://newsfile.refinitiv.com/getnewsfile/v1/story?guid=urn:newsml:reuters.com:20261007:nNRA28m6xx&default-theme=true
-  Oct 07, 2026 Free: See Our Top Stock And 4 Runners Up Southern Copper Corporation
-  (SCCO): Free Stock Analysis Report In the latest trading session, Southern Copper
-  (SCCO) closed at $200.57, marking a -1.81% move from the pr…
-
----
-fecha: 2026-10-07 16:52
-emisora: OMAB
-titulo: OMA September Traffic Shows Domestic Weakness Amid International Gains
-fuente: TIPRAN
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28m7of:0
-resumen:
-  OMA September Traffic Shows Domestic Weakness Amid International GainsGrupo
-  Aeroportuario del Centro Norte SAB de CV ( (MX:OMAB) ) has shared an announcement.
-  Mexican airport operator OMA reported a 4.8% year-on-year decline in total passenger
-  traffic across its 13 airports in September 2026, reflecting softer domestic demand…
-
----
-fecha: 2026-10-07 16:48
-emisora: ASURB
-titulo: ASUR - 7 October, 2026 - ASUR Announces Total Passenger Traffic for September 2026
-fuente: PUBT
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:reuters.com:20261007:nNDL3WtjCH:1
-resumen:
-  The text version of this document is not available. You can access the original
-  document here (https://docs.publicnow.com/6C88FA2EC695D6AAC92010F7C8FAA531E0770BDA)…
-
----
-fecha: 2026-10-07 16:43
-emisora: ASURB
-titulo: ASUR - 7 octubre, 2026 - ASUR anuncia el total de tráfico para Septiembre del 2026
-fuente: PUBT
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:reuters.com:20261007:nNDLYhdlt:1
-resumen:
-  The text version of this document is not available. You can access the original
-  document here (https://docs.publicnow.com/A29061BC4EE332965272CDE84C15E5B0A573402F)…
-
----
-fecha: 2026-10-07 16:34
-emisora: MEGACPO
-titulo: On Wednesday 7th of October Megacable -Cpo trades 1.93 percent higher
-fuente: STOCKP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261007:nNRA28m3cg:0
-resumen:
-  On Wednesday 7th of October Megacable -Cpo trades 1.93 percent higherOct 07, 2026
-  Megacable -Cpo (MEGACPO.MX) traded up 1.93 % during a 24 hours period ending at 11:58
-  PM Central Europe on Wednesday 7th. One Megacable -Cpo stock can currently be bought
-  for about MXN 52.38 on popular exchanges. Current supply of Megacable -Cpo stocks is
-  858.9 mn…
-
----
-fecha: 2026-10-07 16:32
-emisora: MERCADO
-titulo: Fitch México SA de CV - Baja la Calificación de Morelia a ‘BBB+(mex)’
-fuente: PUBT
-tono: negativa
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261007:nNDL1fmpHT:1
-resumen:
-   Sign In | Register RATING ACTION COMMENTARY Fitch Baja la Calificación de Morelia a
-  'BBB+(mex)'; Perspectiva Negativa Mexico
-  (https://www.fitchratings.com/es/region/mexico) Wed 07 Oct, 2026 - 2:33 PM ET Fitch
-  Ratings - Mexico City - 07 Oct 2026: Fitch Ratings bajó la calificación nacional del
-  municipio de Morelia, Michoacán a 'BBB+(mex)' desde 'A-(mex)'. La Perspectiva de la
-  calificación se mantiene Negativa…
-
----
-fecha: 2026-10-07 16:31
-emisora: MERCADO
-titulo: Fitch México SA de CV - Sube la Calificación de Atizapán de Zaragoza a ‘AA(mex)’
-fuente: PUBT
-tono: positiva
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261007:nNDL78BKFl:1
-resumen:
-   Sign In | Register RATING ACTION COMMENTARY Fitch Sube la Calificación de Atizapán de
-  Zaragoza a 'AA(mex)'; Perspectiva Estable Mexico
-  (https://www.fitchratings.com/es/region/mexico) Wed 07 Oct, 2026 - 5:21 PM ET Fitch
-  Ratings - Mexico City - 07 Oct 2026: Fitch Ratings subió la calificación nacional de
-  largo plazo del municipio de Atizapán de Zaragoza, Estado de México, a 'AA(mex)' desde
-  'AA-(mex)'…
-
----
-fecha: 2026-10-07 16:22
-emisora: GMEXICOB
-titulo: Moody's de Mexico SA de CV - Moody''s Local México afirma calificación de INVTACB 26
-fuente: PUBT
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:reuters.com:20261007:nNDL4fMg3J:1
-resumen:
-  The text version of this document is not available. You can access the original
-  document here (https://docs.publicnow.com/0146B33D347DBB129935B413BB978002277FF444)…
-
----
-fecha: 2026-10-07 16:13
-emisora: MERCADO
-titulo: ICC Mexico recommends enhancing certainty regarding the investment review mechanism
-fuente: NOTENG
-tono: neutral
-impacto: bajo
-id: lseg:urn:newsml:newsroom:20261007:nNRA28lwgh:0
-resumen:
-  ICC Mexico recommends enhancing certainty regarding the investment review mechanismThe
-  International Chamber of Commerce Mexico (ICC Mexico) has presented four
-  recommendations to provide greater certainty for the new mechanism for reviewing
-  investments in the country, aiming to avoid unnecessarily complex procedures that could
-  impact companies' decisions…
-
----
-fecha: 2026-10-07 16:12
-emisora: ASURB
-titulo: ASUR Announces Total Passenger Traffic for September 2026
-fuente: WPRPRO
-tono: neutral
-impacto: medio
-id: lseg:urn:link:webnews:20261007:nNRA28lw1t:0
-
----
-fecha: 2026-10-07 16:02
-emisora: OMAB
-titulo: Grupo Aeroportuario del Centro Norte SAB de CV - [2018] Eventos Relevantes - Emisoras - OMA
-fuente: PUBT
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:reuters.com:20261007:nNDL3rrHwg:1
-resumen:
-  The text version of this document is not available. You can access the original
-  document here (https://docs.publicnow.com/2955DCAE3E15C7ADB20A3974B56F2DCE43BAE78D)…
-
----
-fecha: 2026-10-07 16:00
-emisora: OMAB
-titulo: Grupo Aeroportuario del Centro Norte SAB de CV - OMA reporta tráfico septiembre 2026
-fuente: PUBT
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:reuters.com:20261007:nNDLbSsStc:1
-resumen:
-  The text version of this document is not available. You can access the original
-  document here (https://docs.publicnow.com/AFF82EE3DFB0F50D6C68297F019C21B00E4289E7)…
-
----
-fecha: 2026-10-07 15:57
-emisora: GMEXICOB
-titulo: Southern Copper Corporation's (NYSE:SCCO $200.51): Recent News and Research Digest
-fuente: NEWBTS
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261007:nNRA28lpee:0
-resumen:
-  Southern Copper Corporation's (NYSE:SCCO $200.51): Recent News and Research DigestNYSE
-  END-OF-DAY STOCK REPORT PHOENIX, Wednesday, Oct 07, 2026 - Southern Copper
-  Corporation's (NYSE:SCCO $200.51) stock price dropped $3.75 (1.8%) from its previous
-  trading session to close at $200.51. Compared with the S&P 500 Index which fell 20.1
-  points (0.3%) in the day, the relative price change was -1.6%…
