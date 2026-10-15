@@ -1,8 +1,8 @@
 {
-  "estado": "error",
-  "detalle": "Sin datos de Workspace: timed out",
-  "errores_seguidos": 12,
-  "ultima_revision": "2026-10-15T15:06:08+00:00",
-  "hora_cdmx": "15/10/2026 09:06",
+  "estado": "ok",
+  "detalle": "Vigilante iniciado",
+  "errores_seguidos": 0,
+  "ultima_revision": "2026-10-15T16:34:48+00:00",
+  "hora_cdmx": "15/10/2026 10:34",
   "maquina": "DAHEL"
 }
