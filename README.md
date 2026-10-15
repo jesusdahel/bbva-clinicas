@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 15/10/2026 11:06 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 15/10/2026 11:22 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cierre del portafolio de referencia, el **16/10/2026**. Las órdenes van antes de las **12:45**; hasta el 16/10 las ventas no pagan comisión y las compras sí (0.30% + IVA). Liquidación T+1 hábil.
@@ -10,28 +10,28 @@ Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cie
 
 | Emisora | Títulos | Precio | Cambio hoy | Peso |
 |---|---:|---:|---:|---:|
-| MEXTRAC | 38,326 | 66.47 | +1.06% | 25.14% |
-| GMEXICOB | 5,411 | 239.51 | -0.68% | 12.79% |
-| FEMSAUBD | 5,009 | 226.12 | +1.58% | 11.18% |
-| KOFUBL | 3,638 | 217.50 | +0.88% | 7.81% |
-| BOLSAA | 16,440 | 35.98 | -2.12% | 5.84% |
-| GAPB | 1,394 | 367.53 | +1.36% | 5.06% |
-| AMXB | 24,344 | 20.46 | +1.54% | 4.91% |
-| GFNORTEO | 2,430 | 198.26 | +0.81% | 4.75% |
-| PINFRA | 1,233 | 293.76 | +1.66% | 3.57% |
-| WALMEX | 6,439 | 48.20 | +1.03% | 3.06% |
-| AC | 1,469 | 207.60 | +0.88% | 3.01% |
-| MEGACPO | 3,980 | 56.36 | +2.14% | 2.21% |
-| ASURB | 437 | 428.17 | +0.90% | 1.85% |
-| PEOLES | 181 | 866.89 | -0.30% | 1.55% |
-| BBAJIOO | 2,387 | 58.13 | +0.03% | 1.37% |
-| OMAB | 170 | 206.98 | +1.36% | 0.35% |
+| MEXTRAC | 38,326 | 65.73 | -0.03% | 25.02% |
+| GMEXICOB | 5,411 | 240.56 | -2.05% | 12.93% |
+| FEMSAUBD | 5,009 | 223.11 | +0.45% | 11.10% |
+| KOFUBL | 3,638 | 216.30 | +1.79% | 7.82% |
+| BOLSAA | 16,440 | 36.63 | +2.32% | 5.98% |
+| GAPB | 1,394 | 363.49 | -0.56% | 5.03% |
+| AMXB | 24,344 | 20.20 | +1.41% | 4.88% |
+| GFNORTEO | 2,430 | 197.00 | +0.27% | 4.75% |
+| PINFRA | 1,233 | 288.17 | -0.35% | 3.53% |
+| WALMEX | 6,439 | 47.74 | +1.12% | 3.05% |
+| AC | 1,469 | 205.68 | +0.88% | 3.00% |
+| MEGACPO | 3,980 | 55.08 | +3.18% | 2.18% |
+| ASURB | 437 | 423.40 | -1.66% | 1.84% |
+| PEOLES | 181 | 867.52 | -3.15% | 1.56% |
+| BBAJIOO | 2,387 | 58.03 | +2.08% | 1.38% |
+| OMAB | 170 | 204.78 | -0.44% | 0.35% |
 
-## Stop-loss y take-profit (datos al 15/10/2026)
+## Stop-loss y take-profit (datos al 14/10/2026)
 
 Las reglas empiezan a medir después del cierre del 16/10/2026 (fecha de entrada).
 
-Quién explica más el TE del libro: GMEXICOB 1.13 pp · BOLSAA 0.51 pp · FEMSAUBD 0.32 pp · PEOLES 0.31 pp · PINFRA 0.26 pp
+Quién explica más el TE del libro: GMEXICOB 1.15 pp · BOLSAA 0.52 pp · FEMSAUBD 0.32 pp · PEOLES 0.31 pp · PINFRA 0.27 pp
 
 ## Noticias recientes (LSEG)
 
