@@ -145,6 +145,91 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-15 10:57
+emisora: BOLSAA
+titulo: BMV - Convocatoria de Tenedores de la ICUA2CK 14
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261015:nNDL7bjdsM:1
+resumen:
+  Attention : The text below has been extracted from an image-only document using OCR
+  technology and may contain errors and omissions. You can access the original document
+  here (https://docs.publicnow.com/79F322A9C84B96FBF27CD0A2D67764AE0005DF32).
+  Convocatoria de Asamblea de Tenedores FECHA: 15/10/2026 BOLSA MEXICANA DE VALORES,
+  S.A.B…
+
+---
+fecha: 2026-10-15 10:49
+emisora: GMEXICOB
+titulo: Moody's de Mexico SA de CV - Moody’s Local MX retiro calificación de ENGENCB 24
+fuente: PUBT
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261015:nNDL4QkqXs:1
+resumen:
+  The text version of this document is not available. You can access the original
+  document here (https://docs.publicnow.com/19E5C9CA64C0FD1E75C16516D5BE166E22A96BFF)…
+
+---
+fecha: 2026-10-15 10:37
+emisora: GMEXICOB
+titulo: Mexico Fund, Inc. (NYSE:MXF) continues to underperform Grupo Mexico, S.A.B. De C.V. by 16.9% in the past month
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbxu5:0
+resumen:
+  Mexico Fund, Inc. (NYSE:MXF) continues to underperform Grupo Mexico, S.A.B. De C.V. by
+  16.9% in the past monthNYSE STOCK REPORT Mexico Fund, Inc.'s (NYSE:MXF) unit price is
+  continuing to underperform that of Grupo Mexico, S.A.B. De C.V. (BMV:GMEXICO). Mexico
+  Fund, Inc.'s return over the past month has been -6.7% and Grupo Mexico, S.A.B. De
+  C.V.'s return has been 10.2% over the same period…
+
+---
+fecha: 2026-10-15 10:37
+emisora: MERCADO
+titulo: Mexico Fund, Inc. (NYSE:MXF) continues to outperform Aberdeen Asia-Pacific Income Fund, Inc. by 4.7% in the past month
+fuente: GLORDP
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbwtb:0
+resumen:
+  Mexico Fund, Inc. (NYSE:MXF) continues to outperform Aberdeen Asia-Pacific Income Fund,
+  Inc. by 4.7% in the past monthNYSE STOCK REPORT Mexico Fund, Inc.'s (NYSE:MXF) unit
+  price is continuing to outperform that of Aberdeen Asia-Pacific Income Fund, Inc. (NYSE
+  American:FAX)…
+
+---
+fecha: 2026-10-15 10:37
+emisora: MERCADO
+titulo: Mexico Fund, Inc. (NYSE:MXF) continues to underperform Grupo Financiero Banorte, S.A.B De C.V. by 5.4% in the past month
+fuente: GLORDP
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbyrh:0
+resumen:
+  Mexico Fund, Inc. (NYSE:MXF) continues to underperform Grupo Financiero Banorte, S.A.B
+  De C.V. by 5.4% in the past monthNYSE STOCK REPORT Mexico Fund, Inc.'s (NYSE:MXF) unit
+  price is continuing to underperform that of Grupo Financiero Banorte, S.A.B De C.V.
+  (BMV:GFNORTE)…
+
+---
+fecha: 2026-10-15 10:37
+emisora: MERCADO
+titulo: Mexico Fund, Inc. (NYSE:MXF) continues to outperform abrdn Emerging Markets Equity Income Fund Inc. by 1.5% in the past month
+fuente: GLORDP
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261015:nNRA2cbwte:0
+resumen:
+  Mexico Fund, Inc. (NYSE:MXF) continues to outperform abrdn Emerging Markets Equity
+  Income Fund Inc. by 1.5% in the past monthNYSE STOCK REPORT Mexico Fund, Inc.'s
+  (NYSE:MXF) unit price is continuing to outperform that of abrdn Emerging Markets Equity
+  Income Fund Inc. (NYSE American:AEF). Mexico Fund, Inc.'s return over the past month
+  has been -6.7% and abrdn Emerging Markets Equity Income Fund Inc…
+
+---
 fecha: 2026-10-15 10:34
 emisora: BOLSAA
 titulo: BMV - Aviso de Tenedores de OMA 25
@@ -467,6 +552,20 @@ resumen:
   to trade at $195.80 at 10:16 am, Thursday…
 
 ---
+fecha: 2026-10-15 08:41
+emisora: AMXB
+titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) in 4th consecutive rise; +25c [1.1%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261015:nNRA2ca548:0
+resumen:
+  America Movil S.A.B. de CV ADR (NYSE:AMX) in 4th consecutive rise; +25c [1.1%]GLOBAL
+  ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com America Movil S.A.B. de CV
+  (NYSE:AMX $22.09), ADR price extended its gains on Thursday, rising an additional 25.0c
+  (1.1%) to trade at $22.09 at 10:16 am, Thursday…
+
+---
 fecha: 2026-10-15 08:37
 emisora: GAPB
 titulo: Raul Revuelta Musalem-led Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP), decreases 2.1% Month-to-Date Thursday October 15, 2026
@@ -499,9 +598,7 @@ resumen:
 ---
 fecha: 2026-10-15 07:32
 emisora: GFNORTEO
-titulo: @Jotatrader_ok: Retweeted @arielsbdar: 2021 -> "LOS CHICOS DEL INSTAGRAM QUE SE DEDIQUEN A HACER VIDEITOS EN LAS REDES SOCIALES"
-
-2026 -> TOP BANCO Y GRUPO FINANCIERO CON MÁS CRECIMIENTO DE LA REGIÓN! https://t.co/H5vVEaYTVi
+titulo: @Jotatrader_ok: Retweeted @arielsbdar: 2021 -> "LOS CHICOS DEL INSTAGRAM QUE SE DEDIQUEN A HACER VIDEITOS EN LAS REDES SOCIALES" 2026 -> TOP BANCO Y GRUPO FINANCIERO CON MÁS CRECIMIENTO DE LA REGIÓN! https://t.co/H5vVEaYTVi
 fuente: X
 tono: neutral
 impacto: medio
@@ -1960,85 +2057,3 @@ fuente: STOCKP
 tono: positiva
 impacto: alto
 id: lseg:urn:newsml:newsroom:20261013:nNRA2bbozx:0
-
----
-fecha: 2026-10-13 16:20
-emisora: MEGACPO
-titulo: On Tuesday 13th of October Megacable -Cpo trades -0.66 percent lower
-fuente: STOCKP
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2bbovc:0
-
----
-fecha: 2026-10-13 15:54
-emisora: AMXB
-titulo: New DICT head De Claro defends predecessor
-fuente: INQNEW
-tono: neutral
-impacto: medio
-id: lseg:urn:link:webnews:20261013:nNRA2bbeqf:0
-
----
-fecha: 2026-10-13 14:51
-emisora: FEMSAUBD
-titulo: Benchmarking Anheuser-Busch Inbev SA (NYSE:BUD) vs Fomento Economico Mexicano, S.A.B de C.V.: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261013:nNRA2batte:0
-resumen:
-  Benchmarking Anheuser-Busch Inbev SA (NYSE:BUD) vs Fomento Economico Mexicano, S.A.B de
-  C.V.: Comprehensive Financial Performance Overview *Updated*GLOBAL ROUND UP ADRS AND
-  DEPOSITORY RECEIPTS This comparative analysis covers the financial performance of
-  Anheuser-Busch Inbev SA and Fomento Economico Mexicano, S.A.B de C.V…
-
----
-fecha: 2026-10-13 14:51
-emisora: WALMEX
-titulo: Benchmarking Wal-Mart De Mexico S.A.B. de C.V. (OTCQX:WMMVY) vs Christian Dior S.E.: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261013:nNRA2batfc:0
-
----
-fecha: 2026-10-13 14:15
-emisora: GAPB
-titulo: BANORTE AJUSTA POSICIONES EN SU PORTAFOLIO; SALE GAP Y ENTRARÁ SIGMA
-fuente: VISOR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:reuters.com:20261013:nVIS2ZnNvt:1
-resumen:
-  Analistas de Banorte ajustaron la composición de su portafolio de inversión con la
-  salida de Grupo Aeroportuario del Pacífico GAPB <GAPB.MX>, y una menor exposición en
-  Walmex. En un reporte indican que, aunque los fundamentales de GAP son sólidos, los
-  retos para la recuperación del tráfico continúan (septiembre -7.3%)…
-
----
-fecha: 2026-10-13 13:52
-emisora: FEMSAUBD
-titulo: Benchmarking Fomento Economico Mexicano, S.A.B de C.V. (NYSE:FMX) vs Coca-Cola FEMSA S.A.B de CV: Comprehensive Financial Performance Overview *Upd...
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261013:nNRA2bab83:0
-resumen:
-  Benchmarking Fomento Economico Mexicano, S.A.B de C.V. (NYSE:FMX) vs Coca-Cola FEMSA
-  S.A.B de CV: Comprehensive Financial Performance Overview *Updated*Benchmarking Fomento
-  Economico Mexicano, S.A.B de C.V…
-
----
-fecha: 2026-10-13 13:52
-emisora: FEMSAUBD
-titulo: Benchmarking Heineken Holding N.V. (OTCQX:HKHHY) vs Fomento Economico Mexicano, S.A.B de C.V.: Comprehensive Financial Performance Overview *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261013:nNRA2baa4h:0
-resumen:
-  Benchmarking Heineken Holding N.V. (OTCQX:HKHHY) vs Fomento Economico Mexicano, S.A.B
-  de C.V.: Comprehensive Financial Performance Overview *Updated*GLOBAL ROUND UP ADRS AND
-  DEPOSITORY RECEIPTS This comparative analysis covers the financial performance of
-  Heineken Holding N.V. and Fomento Economico Mexicano, S.A.B de C.V…
