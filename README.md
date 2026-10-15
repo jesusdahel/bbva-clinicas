@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 15/10/2026 10:35 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 15/10/2026 10:50 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cierre del portafolio de referencia, el **16/10/2026**. Las órdenes van antes de las **12:45**; hasta el 16/10 las ventas no pagan comisión y las compras sí (0.30% + IVA). Liquidación T+1 hábil.
@@ -10,22 +10,22 @@ Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cie
 
 | Emisora | Títulos | Precio | Cambio hoy | Peso |
 |---|---:|---:|---:|---:|
-| MEXTRAC | 38,326 | 66.42 | +0.99% | 25.11% |
-| GMEXICOB | 5,411 | 239.84 | -0.54% | 12.80% |
-| FEMSAUBD | 5,009 | 226.18 | +1.60% | 11.18% |
-| KOFUBL | 3,638 | 217.55 | +0.90% | 7.81% |
-| BOLSAA | 16,440 | 36.36 | -1.09% | 5.90% |
-| GAPB | 1,394 | 366.31 | +1.02% | 5.04% |
+| MEXTRAC | 38,326 | 66.49 | +1.09% | 25.12% |
+| GMEXICOB | 5,411 | 239.68 | -0.61% | 12.79% |
+| FEMSAUBD | 5,009 | 226.50 | +1.75% | 11.19% |
+| KOFUBL | 3,638 | 218.13 | +1.17% | 7.82% |
+| BOLSAA | 16,440 | 36.14 | -1.69% | 5.86% |
+| GAPB | 1,394 | 367.36 | +1.31% | 5.05% |
 | AMXB | 24,344 | 20.48 | +1.64% | 4.92% |
-| GFNORTEO | 2,430 | 198.42 | +0.89% | 4.76% |
-| PINFRA | 1,233 | 292.16 | +1.11% | 3.55% |
-| WALMEX | 6,439 | 48.28 | +1.19% | 3.07% |
-| AC | 1,469 | 206.34 | +0.27% | 2.99% |
-| MEGACPO | 3,980 | 56.42 | +2.25% | 2.22% |
-| ASURB | 437 | 428.98 | +1.10% | 1.85% |
-| PEOLES | 181 | 866.72 | -0.32% | 1.55% |
-| BBAJIOO | 2,387 | 58.11 | +0.00% | 1.37% |
-| OMAB | 170 | 206.70 | +1.22% | 0.35% |
+| GFNORTEO | 2,430 | 198.30 | +0.83% | 4.75% |
+| PINFRA | 1,233 | 293.27 | +1.49% | 3.57% |
+| WALMEX | 6,439 | 48.18 | +0.99% | 3.06% |
+| AC | 1,469 | 207.28 | +0.72% | 3.00% |
+| MEGACPO | 3,980 | 56.36 | +2.14% | 2.21% |
+| ASURB | 437 | 428.97 | +1.09% | 1.85% |
+| PEOLES | 181 | 867.12 | -0.27% | 1.55% |
+| BBAJIOO | 2,387 | 58.12 | +0.02% | 1.37% |
+| OMAB | 170 | 207.00 | +1.37% | 0.35% |
 
 ## Stop-loss y take-profit (datos al 15/10/2026)
 
