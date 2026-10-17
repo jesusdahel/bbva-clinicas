@@ -1,10 +1,8 @@
 {
-  "estado": "error",
-  "detalle": "1 fallos seguidos",
-  "errores_seguidos": 1,
-  "ultima_revision": "2026-10-15T17:14:43+00:00",
-  "hora_cdmx": "15/10/2026 11:14",
-  "maquina": "DAHEL",
-  "operaciones": 31,
-  "bitacora": "Excel"
+  "estado": "ok",
+  "detalle": "Vigilante iniciado",
+  "errores_seguidos": 0,
+  "ultima_revision": "2026-10-17T00:47:50+00:00",
+  "hora_cdmx": "16/10/2026 18:47",
+  "maquina": "DAHEL"
 }
