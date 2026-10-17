@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 15/10/2026 11:22 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 16/10/2026 18:48 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cierre del portafolio de referencia, el **16/10/2026**. Las órdenes van antes de las **12:45**; hasta el 16/10 las ventas no pagan comisión y las compras sí (0.30% + IVA). Liquidación T+1 hábil.
@@ -10,46 +10,46 @@ Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cie
 
 | Emisora | Títulos | Precio | Cambio hoy | Peso |
 |---|---:|---:|---:|---:|
-| MEXTRAC | 38,326 | 65.73 | -0.03% | 25.02% |
-| GMEXICOB | 5,411 | 240.56 | -2.05% | 12.93% |
-| FEMSAUBD | 5,009 | 223.11 | +0.45% | 11.10% |
-| KOFUBL | 3,638 | 216.30 | +1.79% | 7.82% |
-| BOLSAA | 16,440 | 36.63 | +2.32% | 5.98% |
-| GAPB | 1,394 | 363.49 | -0.56% | 5.03% |
-| AMXB | 24,344 | 20.20 | +1.41% | 4.88% |
-| GFNORTEO | 2,430 | 197.00 | +0.27% | 4.75% |
-| PINFRA | 1,233 | 288.17 | -0.35% | 3.53% |
-| WALMEX | 6,439 | 47.74 | +1.12% | 3.05% |
-| AC | 1,469 | 205.68 | +0.88% | 3.00% |
-| MEGACPO | 3,980 | 55.08 | +3.18% | 2.18% |
-| ASURB | 437 | 423.40 | -1.66% | 1.84% |
-| PEOLES | 181 | 867.52 | -3.15% | 1.56% |
-| BBAJIOO | 2,387 | 58.03 | +2.08% | 1.38% |
-| OMAB | 170 | 204.78 | -0.44% | 0.35% |
+| MEXTRAC | 38,326 | 68.00 | +1.90% | 25.14% |
+| GMEXICOB | 5,301 | 244.87 | +2.21% | 12.52% |
+| FEMSAUBD | 5,539 | 234.00 | +5.49% | 12.50% |
+| KOFUBL | 3,638 | 220.32 | +4.04% | 7.73% |
+| BOLSAA | 16,440 | 37.43 | +3.00% | 5.94% |
+| GAPB | 1,394 | 376.21 | +0.76% | 5.06% |
+| AMXB | 24,344 | 21.19 | +2.27% | 4.98% |
+| GFNORTEO | 2,430 | 205.54 | +3.16% | 4.82% |
+| PINFRA | 1,233 | 296.21 | -1.29% | 3.52% |
+| WALMEX | 6,439 | 49.30 | +2.26% | 3.06% |
+| BBAJIOO | 5,399 | 57.73 | -0.88% | 3.01% |
+| AC | 1,469 | 209.08 | +1.31% | 2.96% |
+| MEGACPO | 3,980 | 56.72 | -1.60% | 2.18% |
+| ASURB | 437 | 442.80 | +2.23% | 1.87% |
+| PEOLES | 181 | 895.59 | +1.81% | 1.56% |
+| OMAB | 170 | 212.09 | +0.62% | 0.35% |
 
-## Stop-loss y take-profit (datos al 14/10/2026)
+## Stop-loss y take-profit (datos al 16/10/2026)
 
 Las reglas empiezan a medir después del cierre del 16/10/2026 (fecha de entrada).
 
-Quién explica más el TE del libro: GMEXICOB 1.15 pp · BOLSAA 0.52 pp · FEMSAUBD 0.32 pp · PEOLES 0.31 pp · PINFRA 0.27 pp
+Quién explica más el TE del libro: GMEXICOB 0.92 pp · BOLSAA 0.49 pp · FEMSAUBD 0.44 pp · PEOLES 0.28 pp · PINFRA 0.22 pp
 
 ## Noticias recientes (LSEG)
 
-- • **BOLSAA** · 15/10 10:57 · PUBT — BMV - Convocatoria de Tenedores de la ICUA2CK 14
-- • **GMEXICOB** · 15/10 10:49 · PUBT — Moody's de Mexico SA de CV - Moody’s Local MX retiro calificación de ENGENCB 24
-- • **GMEXICOB** · 15/10 10:37 · GLORDP — Mexico Fund, Inc. (NYSE:MXF) continues to underperform Grupo Mexico, S.A.B. De C.V. by 16.9% in the past month
-- • **MERCADO** · 15/10 10:37 · GLORDP — Mexico Fund, Inc. (NYSE:MXF) continues to outperform Aberdeen Asia-Pacific Income Fund, Inc. by 4.7% in the past month
-- • **MERCADO** · 15/10 10:37 · GLORDP — Mexico Fund, Inc. (NYSE:MXF) continues to underperform Grupo Financiero Banorte, S.A.B De C.V. by 5.4% in the past month
-- • **MERCADO** · 15/10 10:37 · GLORDP — Mexico Fund, Inc. (NYSE:MXF) continues to outperform abrdn Emerging Markets Equity Income Fund Inc. by 1.5% in the past month
-- • **BOLSAA** · 15/10 10:34 · PUBT — BMV - Aviso de Tenedores de OMA 25
-- • **BOLSAA** · 15/10 10:34 · PUBT — BMV - Aviso de Tenedores de GAP 25-2
-- • **BOLSAA** · 15/10 10:34 · PUBT — BMV - Acuerdos de Asamblea Extraordinaria
-- • **AMXB** · 15/10 10:17 · GLORDP — America Movil S.A.B. de CV ADR (NYSE:AMX) in 4th consecutive rise; +36c [1.6%]
-- • **FEMSAUBD** · 15/10 10:17 · GLORDP — Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) climbs 2.0% strengthening above moving average price; +$2.44 [2.0%]
-- • **MERCADO** · 15/10 10:13 · NOTENG — Mexican Peso Recovers Ground from Its Lowest Level in Nearly a Year Amid Dollar Decline
-- • **GMEXICOB** · 15/10 10:12 · GLOSTK — Confirmatory Bearish Trend: Southern Copper Corporation (NYSE:SCCO) in 4th consecutive fall Friday October 16, 2026 02:29 AEDT6
-- • **GMEXICOB** · 15/10 10:12 · NEWBTS — Southern Copper Corporation in 4th consecutive fall, nears low Thursday, October 15, 2026 11:00:00
-- • **GMEXICOB** · 15/10 09:57 · GLOTRA — Southern Copper Corporation (NYSE:SCCO) stock decreases 0.5%; -$1.04 [-0.5%]
+- • **MERCADO** · 16/10 18:32 · CNBSTR — Caribbean Cement Company Ltd. (JA:CCC) strengthens above moving average price; +85c [+0.7%]
+- • **MERCADO** · 16/10 18:17 · CNBSTR — Weekly: Caribbean Cement Company Ltd. (JA:CCC) nudges higher 0.7% on weak volume; +85c [0.7%]
+- • **WALMEX** · 16/10 18:12 · NOTENG — Walmart Mexico faces its first year under Barrientos with a stock market decline of over 12%
+- • **MERCADO** · 16/10 18:12 · NOTENG — Mexico exports, but it needs to strengthen its own industry: Marcelo Ebrard
+- • **MERCADO** · 16/10 18:12 · NOTENG — Mexico maintains tariffs on only 20% of its trade with the U.S., Ebrard asserts
+- ▼ **MERCADO** · 16/10 18:12 · NOTENG — Private consumption in Mexico weakens; a monthly decline of 0.1% is expected in September: Inegi
+- • **GMEXICOB** · 16/10 17:32 · BENZIN — Here's How Much $100 Invested In Southern Copper 10 Years Ago Would Be Worth Today
+- • **AC** · 16/10 17:27 · GLOSTK — Weekly Summary: Arca Continental SAB de CV (BMV:AC) shares post best week in twenty-three weeks; +MX$8.09 [4.0%]
+- • **ASURB** · 16/10 17:27 · GLOSTK — Weekly Summary: Grupo Aeroportuario del Sureste SAB de CV (BMV:ASUR) shares post best week in seventeen weeks; +MX$15 [3.5%]
+- • **BOLSAA** · 16/10 17:27 · GLOSTK — Weekly Summary: Bolsa Mexicana De Valores, S.A.B. De C.V. (BMV:BOLSA) shares post best week in forty-three weeks; +MX$2.13 [6.0%]
+- ▲ **GAPB** · 16/10 17:27 · GLOSTK — Weekly Summary: Grupo Aeroportuario del Pacifico SAB de CV (BMV:GAP) rises for a second consecutive week, a two-week rise of 3.3%; +MX$4.90 [1.3%]
+- • **GFNORTEO** · 16/10 17:27 · GLOSTK — Weekly Summary: Grupo Financiero Banorte, S.A.B De C.V. (BMV:GFNORTE) rallies on spectacular volume; +MX$15.67 [8.3%]
+- • **GMEXICOB** · 16/10 17:27 · GLOSTK — Weekly Summary: Grupo Mexico, S.A.B. De C.V. (BMV:GMEXICO) ticks up 1.1%, 8 weeks' volume in a week; +MX$2.77 [1.1%]
+- ▲ **MEGACPO** · 16/10 17:27 · GLOSTK — Weekly Summary: Megacable Holdings (BMV:MEGA) extends higher by 7% on extraordinary volume; +MX$3.80 [7.2%]
+- ▲ **OMAB** · 16/10 17:27 · GLOSTK — Weekly Summary: Grupo Aeroportuario Del Centro Norte, S.A.B. De C.V. (BMV:OMA) advances 2.1% on strong volume; +MX$4.38 [2.1%]
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._
