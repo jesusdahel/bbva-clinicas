@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 16/10/2026 18:48 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 19/10/2026 08:31 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cierre del portafolio de referencia, el **16/10/2026**. Las órdenes van antes de las **12:45**; hasta el 16/10 las ventas no pagan comisión y las compras sí (0.30% + IVA). Liquidación T+1 hábil.
@@ -11,21 +11,21 @@ Semana de construcción. El rendimiento contra el MEXTRAC09 se mide desde el cie
 | Emisora | Títulos | Precio | Cambio hoy | Peso |
 |---|---:|---:|---:|---:|
 | MEXTRAC | 38,326 | 68.00 | +1.90% | 25.14% |
-| GMEXICOB | 5,301 | 244.87 | +2.21% | 12.52% |
-| FEMSAUBD | 5,539 | 234.00 | +5.49% | 12.50% |
-| KOFUBL | 3,638 | 220.32 | +4.04% | 7.73% |
-| BOLSAA | 16,440 | 37.43 | +3.00% | 5.94% |
-| GAPB | 1,394 | 376.21 | +0.76% | 5.06% |
-| AMXB | 24,344 | 21.19 | +2.27% | 4.98% |
-| GFNORTEO | 2,430 | 205.54 | +3.16% | 4.82% |
-| PINFRA | 1,233 | 296.21 | -1.29% | 3.52% |
-| WALMEX | 6,439 | 49.30 | +2.26% | 3.06% |
-| BBAJIOO | 5,399 | 57.73 | -0.88% | 3.01% |
-| AC | 1,469 | 209.08 | +1.31% | 2.96% |
-| MEGACPO | 3,980 | 56.72 | -1.60% | 2.18% |
-| ASURB | 437 | 442.80 | +2.23% | 1.87% |
-| PEOLES | 181 | 895.59 | +1.81% | 1.56% |
-| OMAB | 170 | 212.09 | +0.62% | 0.35% |
+| GMEXICOB | 5,301 | 244.87 | +2.29% | 12.52% |
+| FEMSAUBD | 5,539 | 234.00 | +4.98% | 12.50% |
+| KOFUBL | 3,638 | 220.32 | +3.69% | 7.73% |
+| BOLSAA | 16,440 | 37.43 | +2.72% | 5.94% |
+| GAPB | 1,394 | 376.21 | +1.07% | 5.06% |
+| AMXB | 24,344 | 21.19 | +2.42% | 4.98% |
+| GFNORTEO | 2,430 | 205.54 | +2.86% | 4.82% |
+| PINFRA | 1,233 | 296.21 | -1.56% | 3.52% |
+| WALMEX | 6,439 | 49.30 | +2.18% | 3.06% |
+| BBAJIOO | 5,399 | 57.73 | -0.79% | 3.01% |
+| AC | 1,469 | 209.08 | +1.08% | 2.96% |
+| MEGACPO | 3,980 | 56.72 | -1.17% | 2.18% |
+| ASURB | 437 | 442.80 | +2.29% | 1.87% |
+| PEOLES | 181 | 895.59 | +1.77% | 1.56% |
+| OMAB | 170 | 212.09 | +0.61% | 0.35% |
 
 ## Stop-loss y take-profit (datos al 16/10/2026)
 
