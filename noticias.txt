@@ -145,6 +145,73 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-20 19:18
+emisora: AMXB
+titulo: América Móvil reporta alza de 7 % en beneficios netos durante tercer trimestre de 2026
+fuente: ABCCOL
+tono: positiva
+impacto: medio
+id: lseg:urn:link:webnews:20261021:nNRA2ekmz4:0
+
+---
+fecha: 2026-10-20 19:13
+emisora: AMXB
+titulo: América Móvil's Earnings Rise 7% in Q3
+fuente: NOTENG
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2eklpd:0
+resumen:
+  América Móvil's Earnings Rise 7% in Q3América Móvil announced that its earnings for the
+  third quarter increased by 7% compared to the previous year, although they fell short
+  of analysts' forecasts. The group controlled by the family of Carlos Slim recorded a
+  net profit of 24.28 billion pesos (approximately $1.34 billion). Meanwhile, revenues
+  grew by 7.6% to 250.63 billion pesos (about $13.86 billion)…
+
+---
+fecha: 2026-10-20 19:13
+emisora: BOLSAA
+titulo: BMV Group meets expectations in the third quarter with margins still under pressure
+fuente: NOTENG
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekm05:0
+resumen:
+  BMV Group meets expectations in the third quarter with margins still under
+  pressureGrupo Bolsa Mexicana de Valores, the leading provider of services for the local
+  stock market, continued to grow its results in the third quarter of the year, although
+  its margins remained under pressure due to ongoing investments…
+
+---
+fecha: 2026-10-20 19:13
+emisora: GMEXICOB
+titulo: Tía María reaches 49.6% completion: when will Southern Copper's project begin operations?
+fuente: NOTENG
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2eklph:0
+resumen:
+  Tía María reaches 49.6% completion: when will Southern Copper's project begin
+  operations?Tía María, the copper project by Southern Copper in Arequipa, reached 49.6%
+  completion as of September 30, 2026, getting closer to halfway through its execution.
+  The company reported that large-scale earthworks have concluded and that work continues
+  on installing processing and electrical supply infrastructure…
+
+---
+fecha: 2026-10-20 19:12
+emisora: AMXB
+titulo: Amer Movil (AMX) Tops Q3 Earnings and Revenue Estimates
+fuente: ZACKSC
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:reuters.com:20261021:nNRA2ekjy8:1
+resumen:
+  For best results when printing this announcement, please click on link below:
+  https://newsfile.refinitiv.com/getnewsfile/v1/story?guid=urn:newsml:reuters.com:20261021:nNRA2ekjy8&default-theme=true
+  Oct 20, 2026 America Movil, S.A.B. de C.V. Unsponsored ADR (AMX): Free Stock Analysis
+  Report Ceragon Networks Ltd…
+
+---
 fecha: 2026-10-20 19:07
 emisora: MERCADO
 titulo: Betterware de Mexico S.A.B. de C.V.'s (NYSE:BWMX $16.12) Yields 5.6%: In-Depth Bullish/Bearish Signals Overview
@@ -1829,64 +1896,3 @@ resumen:
   www.buysellsignals.com MEXICO, D.F, Friday, Oct 16, 2026 - Grupo Aeroportuario del
   Sureste SAB de CV's (FRA:AED €20.40) stock price climbed 50.0c (2.5%) from its previous
   trading session to close at €20.40…
-
----
-fecha: 2026-10-16 11:41
-emisora: PINFRA
-titulo: German trading: Promotora y Operadora de Infraestructura SAB de CV (FRA:AKY) gains 50.0c (3.7%) on feeble volume to close at €13.90, hits 49-day hi...
-fuente: CNBSTR
-tono: positiva
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cwjnq:0
-
----
-fecha: 2026-10-16 10:41
-emisora: BBAJIOO
-titulo: BanBajío aims to leap into the G8 of Mexican banking with Iván Lomelí
-fuente: CENAFT
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cvs6w:0
-resumen:
-  BanBajío aims to leap into the G8 of Mexican banking with Iván LomelíIván Lomelí took
-  over as the general director of BanBajío on May 1 with a goal that could change the
-  institution's standing in the Mexican financial system: achieving the necessary
-  relevance to be considered a systemically important bank …
-
----
-fecha: 2026-10-16 09:17
-emisora: OMAB
-titulo: FY2025 Annual Report: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. (NASDAQ:OMAB) Net Profit up 8.4% Saturday October 17, 2026 11:12 EDT
-fuente: NEWBTS
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cumbk:0
-
----
-fecha: 2026-10-16 07:38
-emisora: AC
-titulo: The Coca-Cola Company's (NYSE:KO) dividend in perspective: comparison with Arca Continental SAB de CV
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2ct7zy:0
-resumen:
-  The Coca-Cola Company's (NYSE:KO) dividend in perspective: comparison with Arca
-  Continental SAB de CVNYSE STOCK REPORT The Coca-Cola Company's trailing twelve months
-  dividend is $2.10. Its dividend yield at its current price is 2.29%. Its current price
-  is at a 2.3% discount to its 52 week high. Its current price is at a 40.5% premium to
-  its 52 week low…
-
----
-fecha: 2026-10-16 07:22
-emisora: ASURB
-titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) climbs 2.2% on rising relative strength; +$5 [+2.2%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2csxgg:0
-resumen:
-  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) climbs 2.2% on rising
-  relative strength; +$5 [+2.2%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
-  www.buysellsignals.com Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR
-  $235.08) climbed $5.0 (2.2%) from its previous trading session to close at $235.08…

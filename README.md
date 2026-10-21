@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 20/10/2026 19:23 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 20/10/2026 19:38 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 | | Último cierre (20/10) | Acumulado |
@@ -50,6 +50,11 @@ Quién explica más el TE del libro: GMEXICOB 0.89 pp · FEMSAUBD 0.46 pp · BOL
 
 ## Noticias recientes (LSEG)
 
+- ▲ **AMXB** · 20/10 19:18 · ABCCOL — América Móvil reporta alza de 7 % en beneficios netos durante tercer trimestre de 2026
+- • **AMXB** · 20/10 19:13 · NOTENG — América Móvil's Earnings Rise 7% in Q3
+- • **BOLSAA** · 20/10 19:13 · NOTENG — BMV Group meets expectations in the third quarter with margins still under pressure
+- • **GMEXICOB** · 20/10 19:13 · NOTENG — Tía María reaches 49.6% completion: when will Southern Copper's project begin operations?
+- • **AMXB** · 20/10 19:12 · ZACKSC — Amer Movil (AMX) Tops Q3 Earnings and Revenue Estimates
 - • **MERCADO** · 20/10 19:07 · NEWBTS — Betterware de Mexico S.A.B. de C.V.'s (NYSE:BWMX $16.12) Yields 5.6%: In-Depth Bullish/Bearish Signals Overview
 - ▲ **KIMBERA** · 20/10 18:52 · TIPRAN — Kimberly-Clark de México Delivers Margin Gains and Strong Cash Position in Third Quarter 2026
 - • **MERCADO** · 20/10 18:42 · PENQAT — Mexico halts Brazil chicken imports after Newcastle disease outbreak
@@ -60,11 +65,6 @@ Quién explica más el TE del libro: GMEXICOB 0.89 pp · FEMSAUBD 0.46 pp · BOL
 - • **BOLSAA** · 20/10 18:13 · PUBT — BMV - Aviso de Tenedores de FONDO 03026
 - • **BOLSAA** · 20/10 18:13 · PUBT — BMV - Aviso de Tenedores de FONDO 00426
 - ▲ **KIMBERA** · 20/10 18:13 · PUBT — Kimberly-Clark de Mexico SAB de CV - [2018] Eventos Relevantes - Emisoras - KIMBER
-- • **MERCADO** · 20/10 18:13 · NOTENG — Fibra Mty reaches agreement to acquire industrial portfolio in NL for $22 million
-- • **KIMBERA** · 20/10 18:10 · PUBT — Kimberly-Clark de Mexico SAB de CV - THIRD QUARTER 2026 RESULTS
-- • **KIMBERA** · 20/10 18:09 · PUBT — Kimberly-Clark de Mexico SAB de CV - RESULTADOS DEL TERCER TRIMESTRE 2026
-- • **GMEXICOB** · 20/10 18:06 · GLORDP — Southern Copper Corporation's (NYSE:SCCO $202.11) 2-Day Rise of 0.8% Fueled by High Volume: Bullish Parameters Update
-- • **BOLSAA** · 20/10 18:02 · PUBT — BMV - Grupo BMV presenta sus resultados al Tercer Trimestre 2026
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._
