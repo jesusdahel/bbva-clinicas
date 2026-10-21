@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 20/10/2026 19:08 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 20/10/2026 19:23 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 | | Último cierre (20/10) | Acumulado |
