@@ -1,10 +1,10 @@
 {
  "version": "v6",
- "actualizado": "2026-10-20T20:44:00-06:00",
- "capital": 10000000.0,
- "inicio": "2026-08-24",
- "fin": "2026-10-09",
- "fin_semana_libre": "2026-08-28",
+ "actualizado": "2026-10-20T20:47:20-06:00",
+ "capital": 10000856.62,
+ "inicio": "2026-10-12",
+ "fin": "2026-11-27",
+ "fin_semana_libre": "2026-10-16",
  "compra_paga_semana": true,
  "fecha_referencia": "2026-10-16",
  "dias_liquidacion": 1,
@@ -19,7 +19,7 @@
   "2026-12-25",
   "2027-01-01"
  ],
- "fecha_base_reglas": "2026-08-28",
+ "fecha_base_reglas": "2026-10-16",
  "bloques": {
   "MEXTRAC": "ETF",
   "PEOLES": "ACTIVA",
@@ -46,7 +46,7 @@
   "RA": "REPRESENTATIVA",
   "TLEVISACPO": "REPRESENTATIVA",
   "GENTERA": "REPRESENTATIVA",
-  "GCARSOA1": "ACTIVA",
+  "GCARSOA1": "REPRESENTATIVA",
   "GRUMAB": "REPRESENTATIVA",
   "CHDRAUIB": "REPRESENTATIVA",
   "ALPEKA": "REPRESENTATIVA",

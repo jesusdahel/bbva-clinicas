@@ -145,6 +145,22 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-20 20:45
+emisora: AMXB
+titulo: @business: America Movil outpaced market estimates across its major financial metrics for the third quarter, showing robust demand is offsetting a government-mandated user registration process that weighed on prepaid growth in Mexico https://t.co/GOWiWPxPKJ
+fuente: X
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:social:20261021:nTWTlBHyv:1
+resumen:
+  America Movil outpaced market estimates across its major financial metrics for the
+  third quarter, showing robust demand is offsetting a government-mandated user
+  registration process that weighed on prepaid growth in Mexico https://t.co/GOWiWPxPKJ
+  Bloomberg &#160; @business (https://twitter.com/business) 10:45:07 PM EDT 20-Oct-2026
+  America Movil outpaced market estimates across its major financial metrics for the
+  thir…
+
+---
 fecha: 2026-10-20 20:26
 emisora: KIMBERA
 titulo: Kimberly-Clark de Mexico SAB de CV - [2019-01-01] IFRS 2019 para ICS - KIMBER
@@ -1987,12 +2003,3 @@ resumen:
   week; +MX$2.77 [1.1%]MEXICAN END-OF-WEEK STOCK REPORT www.buysellsignals.com Grupo
   Mexico, S.A.B. De C.V. (BMV:GMEXICO MX$244.87), Mexico's largest Mining company by
   market cap, has ticked up MX$2.77 (or 1.1%) in the past week to close at MX$244.87…
-
----
-fecha: 2026-10-16 17:26
-emisora: MEGACPO
-titulo: Weekly: Megacable Holdings (BMV:MEGA) extends higher by 7% on extraordinary volume; +MX$3.80 [7.2%]
-fuente: CNBSTR
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2czy5n:0
