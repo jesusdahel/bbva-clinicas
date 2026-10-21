@@ -145,6 +145,313 @@ resumen:
   turistas provenientes de Estados Unidos, principal mercado emisor.
 
 ---
+fecha: 2026-10-20 20:07
+emisora: MERCADO
+titulo: Betterware de Mexico S.A.B. de C.V.'s (NYSE:BWMX $16.12) 2-Day Rise of 0.12% Fueled by High Volume: Bullish Parameters Update
+fuente: NEWBTS
+tono: neutral
+impacto: bajo
+id: lseg:urn:newsml:newsroom:20261021:nNRA2el2n5:0
+resumen:
+  Betterware de Mexico S.A.B. de C.V.'s (NYSE:BWMX $16.12) 2-Day Rise of 0.12% Fueled by
+  High Volume: Bullish Parameters UpdateNYSE END-OF-DAY STOCK REPORT Betterware de Mexico
+  S.A.B. de C.V.'s (NYSE:BWMX $16.12) stock price increased 9.0c (0.6%) from its previous
+  trading session to close at $16.12. Compared with the S&P 500 Index which rose 21.8
+  points (0.3%) in the day, the relative price increase was 0.3%…
+
+---
+fecha: 2026-10-20 20:02
+emisora: AMXB
+titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) increases 7.0c on firm volume to close at $22.90, hits 33-day high; +7c [0.3%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2el0bp:0
+resumen:
+  America Movil S.A.B. de CV ADR (NYSE:AMX) increases 7.0c on firm volume to close at
+  $22.90, hits 33-day high; +7c [0.3%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com America Movil S.A.B. de CV ADR (NYSE:AMX $22.90) increased 7.0c
+  (0.3%) from its previous trading session to close at $22.90…
+
+---
+fecha: 2026-10-20 20:01
+emisora: AMXB
+titulo: America Movil S.A.B. de CV ADR (NYSE:AMX) slumps 12% in past 3 months
+fuente: GLORDP
+tono: negativa
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekz0g:0
+resumen:
+  America Movil S.A.B. de CV ADR (NYSE:AMX) slumps 12% in past 3 monthsGLOBAL ROUND UP
+  ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com America Movil S.A.B. de CV
+  (NYSE:AMX) last traded at $22.90 for a year to date return of 12.1%. America Movil
+  S.A.B. de CV, has slumped $3.20 (or 12.3%) in the past 3 months to close at $22.90
+  today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: ASURB
+titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) offers dividend yield of 5.6%, hits 34-day high; +$8.43 [3.5%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekzvm:0
+resumen:
+  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) offers dividend yield of
+  5.6%, hits 34-day high; +$8.43 [3.5%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR
+  $247.96) ranks 12 in the Top 20 by dividend yielding ADRs in the BNY Mellon Composite
+  ADR Index of 152 stocks. GRUPO AEROPORTUARIO DEL SURESTE S.A. DE C.V…
+
+---
+fecha: 2026-10-20 20:01
+emisora: ASURB
+titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) tumbles 10% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekzt4:0
+resumen:
+  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) tumbles 10% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
+  Aeroportuario del Sureste S.A. de C.V. (NYSE:ASR) last traded at $247.96 for a year to
+  date return of -21.9%. Grupo Aeroportuario del Sureste S.A. de C.V., has tumbled $26.41
+  (or 9.6%) in the past 3 months to close at $247.96 today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: FEMSAUBD
+titulo: Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) hits three-month high on robust volume; +$2.18 [1.7%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekzjo:0
+resumen:
+  Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) hits three-month high on
+  robust volume; +$2.18 [1.7%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX $129.11)
+  traded at its 84-day high of $130.76. The last time the price hit that high level was
+  on Tuesday, Jul 28, 2026…
+
+---
+fecha: 2026-10-20 20:01
+emisora: FEMSAUBD
+titulo: Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF) ADR ticks down 1.4%; -$1.67 [-1.4%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekz8d:0
+resumen:
+  Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF) ADR ticks down 1.4%; -$1.67 [-1.4%]GLOBAL
+  ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Coca-Cola FEMSA S.A.B de
+  CV ADR (NYSE:KOF $118.29) ticked down $1.67 (1.4%) from its previous trading session to
+  close at $118.29. Compared with the BNY Mellon Composite ADR Index which rose 1.7
+  points (0.7%) in the day, the relative price change was -2.0%…
+
+---
+fecha: 2026-10-20 20:01
+emisora: FEMSAUBD
+titulo: Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) dips 0.1% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekz5v:0
+resumen:
+  Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX) dips 0.1% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Fomento
+  Economico Mexicano, S.A.B de C.V. (NYSE:FMX) last traded at $129.11 for a year to date
+  return of 31.5%. Fomento Economico Mexicano, S.A.B de C.V., has dipped 19.15c (or 0.1%)
+  in the past 3 months to close at $129.11 today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: FEMSAUBD
+titulo: Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF) advances 15% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekz3v:0
+resumen:
+  Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF) advances 15% in past 3 monthsGLOBAL ROUND UP
+  ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Coca-Cola FEMSA S.A.B de CV
+  (NYSE:KOF) last traded at $118.29 for a year to date return of 27.6%. Coca-Cola FEMSA
+  S.A.B de CV, has advanced $15.54 (or 15.1%) in the past 3 months to close at $118.29
+  today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) surges 7.1% on rising relative strength, hits 71-day high; +$14.32 [7.1%]
+fuente: GLORDP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekzv8:0
+resumen:
+  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) surges 7.1% on rising
+  relative strength, hits 71-day high; +$14.32 [7.1%]GLOBAL ROUND UP ADRS AND DEPOSITORY
+  RECEIPTS www.buysellsignals.com Grupo Aeroportuario del Pacifico S.A.B. de CV ADR
+  (NYSE:PAC $217.41) surged $14.32 (7.1%) from its previous trading session to close at
+  $217.41…
+
+---
+fecha: 2026-10-20 20:01
+emisora: GAPB
+titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) strengthens 0.1% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2eky82:0
+resumen:
+  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) strengthens 0.1% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
+  Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC) last traded at $217.41 for a year to
+  date return of -17.5%. Grupo Aeroportuario del Pacifico S.A.B. de CV, has strengthened
+  29.0c (or 0.1%) in the past 3 months to close at $217.41 today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: GFNORTEO
+titulo: Grupo Financiero Banorte, S.A.B. De C.V. ADR (OTCQX:GBOOY) gains 7% in past 3 months
+fuente: GLORDP
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekyvl:0
+resumen:
+  Grupo Financiero Banorte, S.A.B. De C.V. ADR (OTCQX:GBOOY) gains 7% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
+  Financiero Banorte, S.A.B. De C.V. (OTCQX:GBOOY) last traded at $55.44 for a year to
+  date return of 26.1%. Grupo Financiero Banorte, S.A.B. De C.V., has gained $3.79 (or
+  7.3%) in the past 3 months to close at $55.44 today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: OMAB
+titulo: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADR (NASDAQ:OMAB) tumbles 9% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekzhx:0
+resumen:
+  Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADR (NASDAQ:OMAB) tumbles 9% in
+  past 3 monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
+  Aeroportuario del Centro Norte S.A.B. de C.V. (NASDAQ:OMAB) last traded at $94.90 for a
+  year to date return of -10.2%. Grupo Aeroportuario del Centro Norte S.A.B. de C.V., has
+  tumbled $9.11 (or 8.8%) in the past 3 months to close at $94.90 today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: PINFRA
+titulo: Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY) climbs 2.8% on rising relative strength; +$8.80 [2.8%]
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekz7p:0
+resumen:
+  Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY) climbs 2.8% on rising
+  relative strength; +$8.80 [2.8%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY
+  $326.0) climbed $8.80 (2.8%) from its previous trading session to close at $326.0…
+
+---
+fecha: 2026-10-20 20:01
+emisora: PINFRA
+titulo: Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY) strengthens 0.9% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: alto
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekxfi:0
+resumen:
+  Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY) strengthens 0.9% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Promotora Y
+  Operadora de Infraestructura SA (OTC:PUODY) last traded at $326.0 for a year to date
+  return of 10.6%. Promotora Y Operadora de Infraestructura SA, has strengthened $3.04
+  (or 0.9%) in the past 3 months to close at $326.0 today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: WALMEX
+titulo: Wal-Mart De Mexico S.A.B. de C.V. ADR (OTCQX:WMMVY) decreases 4% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekzwe:0
+resumen:
+  Wal-Mart De Mexico S.A.B. de C.V. ADR (OTCQX:WMMVY) decreases 4% in past 3 monthsGLOBAL
+  ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Wal-Mart De Mexico S.A.B.
+  de C.V. (OTCQX:WMMVY) last traded at $27.06 for a year to date return of -13.2%.
+  Wal-Mart De Mexico S.A.B. de C.V., has decreased $1.26 (or 4.4%) in the past 3 months
+  to close at $27.06 today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: KIMBERA
+titulo: Kimberly-Clark de Mexico, S.A.B de C.V. ADR (OTC:KCDMY) dips 4% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekzkk:0
+resumen:
+  Kimberly-Clark de Mexico, S.A.B de C.V. ADR (OTC:KCDMY) dips 4% in past 3 monthsGLOBAL
+  ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Kimberly-Clark de Mexico,
+  S.A.B de C.V. (OTC:KCDMY) last traded at $10.47 for a year to date return of 2%.
+  Kimberly-Clark de Mexico, S.A.B de C.V., has dipped 41.87c (or 3.8%) in the past 3
+  months to close at $10.47 today…
+
+---
+fecha: 2026-10-20 20:01
+emisora: VESTA
+titulo: Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX) hits three-year high on robust volume; +73c [2.0%]
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekyx7:0
+resumen:
+  Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX) hits three-year high on
+  robust volume; +73c [2.0%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
+  www.buysellsignals.com Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX
+  $36.72) traded at its thirty-one-month high of $36.95. The last time the price hit that
+  high level was on Tuesday, Apr 09, 2024…
+
+---
+fecha: 2026-10-20 20:01
+emisora: VESTA
+titulo: Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX) lifts 8% in past 3 months
+fuente: GLORDP
+tono: neutral
+impacto: medio
+id: lseg:urn:newsml:newsroom:20261021:nNRA2ekxf2:0
+resumen:
+  Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX) lifts 8% in past 3
+  monthsGLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Corporacion
+  Inmobiliaria Vesta, S.A.B. de C.V. (NYSE:VTMX) last traded at $36.72 for a year to date
+  return of 22.7%. Corporacion Inmobiliaria Vesta, S.A.B. de C.V., has lifted $2.76 (or
+  8.1%) in the past 3 months to close at $36.72 today…
+
+---
+fecha: 2026-10-20 20:00
+emisora: MERCADO
+titulo: Grupo Aeroméxico (AERO) Can Expand Mexico City Flights After US Restrictions End
+fuente: YAHNEX
+tono: neutral
+impacto: bajo
+id: lseg:urn:link:webnews:20261021:nNRA2ekxcr:0
+
+---
+fecha: 2026-10-20 19:41
+emisora: AMXB
+titulo: América Móvil tiene un buen trimestre: Eleva 7% su utilidad y supera los 24 mil mdp
+fuente: ELFINC
+tono: positiva
+impacto: medio
+id: lseg:urn:newsml:reuters.com:20261021:nNRA2ektxg:1
+resumen:
+  For best results when printing this announcement, please click on link below:
+  https://newsfile.refinitiv.com/getnewsfile/v1/story?guid=urn:newsml:reuters.com:20261021:nNRA2ektxg&default-theme=true
+  América Móvil, el gigante de telecomunicaciones móviles y fijas, informó que, durante
+  el tercer trimestre de 2026, alcanzó una utilidad neta de 24 mil 282 millones de pesos,
+  lo que representó un aumento de 7 por ciento con …
+
+---
 fecha: 2026-10-20 19:18
 emisora: AMXB
 titulo: América Móvil reporta alza de 7 % en beneficios netos durante tercer trimestre de 2026
@@ -1665,234 +1972,3 @@ resumen:
   BUDWEISER BREWING CO APAC LTD.'s trailing twelve months dividend is 22.64c. Its
   dividend yield at its current price is 7.73%. Its current price is at a 28% discount to
   its 52 week high. Its current price is at a 4.6% premium to its 52 week low…
-
----
-fecha: 2026-10-16 15:31
-emisora: FEMSAUBD
-titulo: Bolsa mexicana sube con fuerza impulsada por FEMSA; registra avance semanal
-fuente: ELEMXS
-tono: positiva
-impacto: alto
-id: lseg:urn:link:webnews:20261016:nNRA2cz0pb:0
-
----
-fecha: 2026-10-16 14:57
-emisora: KIMBERA
-titulo: Recap of H2 FY2026 Earnings: Kimberly-Clark de Mexico, S.A.B de C.V. (OTC:KCDMY) reports 9.6% rise in Half-Yearly Net Profit Corporate Wire Date: 1...
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cyqh8:0
-
----
-fecha: 2026-10-16 14:56
-emisora: OMAB
-titulo: Recap of FY2025 Earnings: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. (NASDAQ:OMAB) Net Profit up 8.4% Corporate Wire Date: 16 Oct 2026 11:...
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cyr1a:0
-
----
-fecha: 2026-10-16 14:56
-emisora: KIMBERA
-titulo: Recap of FY2025 Earnings: Kimberly-Clark de Mexico, S.A.B de C.V. (OTC:KCDMY) Net Profit down 3.2% Corporate Wire Date: 16 Oct 2026 11:12 EDT
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cyq5d:0
-
----
-fecha: 2026-10-16 14:51
-emisora: FEMSAUBD
-titulo: Fomento Economico Mexicano, S.A.B de C.V.'s (NYSE:FMX) dividend in perspective: comparison with Heineken N.V. *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cyowh:0
-resumen:
-  Fomento Economico Mexicano, S.A.B de C.V.'s (NYSE:FMX) dividend in perspective:
-  comparison with Heineken N.V. *Updated*GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
-  Fomento Economico Mexicano, S.A.B de C.V.'s trailing twelve months dividend is $3.88.
-  Its dividend yield at its current price is 4.34%. Its current price is at a 14.5%
-  discount to its 52 week high. Its current price is at a 37% premium to its 52 week low…
-
----
-fecha: 2026-10-16 14:51
-emisora: FEMSAUBD
-titulo: Kirin Holdings Co., Ltd.'s (OTC:KNBWY) dividend in perspective: comparison with Coca-Cola FEMSA S.A.B de CV *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cyo7g:0
-resumen:
-  Kirin Holdings Co., Ltd.'s (OTC:KNBWY) dividend in perspective: comparison with
-  Coca-Cola FEMSA S.A.B de CV *Updated*GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS Kirin
-  Holdings Co., Ltd.'s trailing twelve months dividend is 48.46c. Its dividend yield at
-  its current price is 2.63%. Its current price is at a 7.8% discount to its 52 week
-  high. Its current price is at a 35.5% premium to its 52 week low…
-
----
-fecha: 2026-10-16 14:51
-emisora: GFNORTEO
-titulo: Grupo Financiero Banorte, S.A.B. De C.V.'s (OTCQX:GBOOY) dividend in perspective: comparison with Mizuho Financial Group Inc. *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cyo8e:0
-resumen:
-  Grupo Financiero Banorte, S.A.B. De C.V.'s (OTCQX:GBOOY) dividend in perspective:
-  comparison with Mizuho Financial Group Inc. *Updated*GLOBAL ROUND UP ADRS AND
-  DEPOSITORY RECEIPTS Grupo Financiero Banorte, S.A.B. De C.V.'s trailing twelve months
-  dividend is $4.95. Its dividend yield at its current price is 9.17%. Its current price
-  is at a 15.3% discount to its 52 week high…
-
----
-fecha: 2026-10-16 14:51
-emisora: KOFUBL
-titulo: Heineken N.V.'s (OTCQX:HEINY) dividend in perspective: comparison with Coca-Cola FEMSA S.A.B de CV *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cyp3h:0
-
----
-fecha: 2026-10-16 14:51
-emisora: WALMEX
-titulo: Wal-Mart De Mexico S.A.B. de C.V.'s (OTCQX:WMMVY) dividend in perspective: comparison with Alibaba Group Holding Limited *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cyowb:0
-
----
-fecha: 2026-10-16 14:16
-emisora: KIMBERA
-titulo: German trading: Kimberly-Clark de Mexico SAB de CV (FRA:4FX) posts a fourth straight gain, rallying 5.6% in 4 days; lifts 3.0c to close at €1.90; +...
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cyf25:0
-
----
-fecha: 2026-10-16 13:52
-emisora: GAPB
-titulo: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) up 3.0% in 2 days; +19c [0.1%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cy1u1:0
-resumen:
-  Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC) up 3.0% in 2 days; +19c
-  [0.1%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS www.buysellsignals.com Grupo
-  Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC $202.33), ADR price extended its
-  gains on Friday, rising an additional 19.0c (0.1%) to trade at $202.33 at 15:26 pm,
-  Friday. The ADRs have lifted $5.84 (3.0%) over the past two trading days…
-
----
-fecha: 2026-10-16 12:51
-emisora: GAPB
-titulo: How Grupo Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC) Has Fared Since Its Recent Analyst Ratings Changes *Updated*
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cxebv:0
-resumen:
-  How Grupo Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC) Has Fared Since Its Recent
-  Analyst Ratings Changes *Updated*GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS Grupo
-  Aeroportuario del Pacifico S.A.B. de CV (NYSE:PAC), the International Depository
-  Receipt (IDR) market's 7th largest Engineering & construction company by market cap, is
-  down 23% Year to Date…
-
----
-fecha: 2026-10-16 12:47
-emisora: ASURB
-titulo: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) inches higher, resistance at 12-day EMA; +$5 [+2.2%]
-fuente: GLORDP
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cxa0i:0
-resumen:
-  Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR) inches higher, resistance
-  at 12-day EMA; +$5 [+2.2%]GLOBAL ROUND UP ADRS AND DEPOSITORY RECEIPTS
-  www.buysellsignals.com Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR
-  $235.08) climbed 2.2% but fell short of the 12-day Exponential Moving Average [EMA] of
-  $235.33…
-
----
-fecha: 2026-10-16 12:47
-emisora: KOFUBL
-titulo: Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF) drops 1.1% in today's session; -$1.25 [-1.1%]
-fuente: GLORDP
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cxadc:0
-
----
-fecha: 2026-10-16 12:47
-emisora: OMAB
-titulo: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADR (NASDAQ:OMAB) climbs 2.9%, 2 days' volume in a day; +$2.58 [+2.9%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cxbok:0
-
----
-fecha: 2026-10-16 12:47
-emisora: PINFRA
-titulo: Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY) up 4.6% in 2 days; closes at $329.34 up $13.35 (4.2%); +$14.49 [+4.6%]
-fuente: GLORDP
-tono: neutral
-impacto: alto
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cxc20:0
-
----
-fecha: 2026-10-16 12:47
-emisora: VESTA
-titulo: Corporacion Inmobiliaria Vesta, S.A.B. de C.V. ADR (NYSE:VTMX) ADR ticks up 1.2%; +40c [+1.2%]
-fuente: GLORDP
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cxaop:0
-
----
-fecha: 2026-10-16 11:42
-emisora: PEOLES
-titulo: Industrias Peñoles, S.A.B. de C.V. (OTCMKTS:IPOAF) Shares Shorted: Short Interest Down 39.8% in September
-fuente: TRADAJ
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cwmmm:0
-
----
-fecha: 2026-10-16 11:42
-emisora: PEOLES
-titulo: German trading: Fresnillo PLC (FRA:FNL) surges €2.56 (8.5%) on miniscule volume to close at €32.80; +€2.56 [+8.5%]
-fuente: CNBSTR
-tono: positiva
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cwjth:0
-
----
-fecha: 2026-10-16 11:42
-emisora: PEOLES
-titulo: German trading: Industrias Penoles SAB de CV (FRA:4FO) lifts 60.0c on weak volume to close at €41.60; +60c [+1.5%]
-fuente: CNBSTR
-tono: negativa
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cwl7l:0
-
----
-fecha: 2026-10-16 11:41
-emisora: ASURB
-titulo: German trading: Grupo Aeroportuario del Sureste SAB de CV (FRA:AED) climbs 50.0c on average volume to close at €20.40; +50c [+2.5%]
-fuente: CNBSTR
-tono: neutral
-impacto: medio
-id: lseg:urn:newsml:newsroom:20261016:nNRA2cwjbi:0
-resumen:
-  German trading: Grupo Aeroportuario del Sureste SAB de CV (FRA:AED) climbs 50.0c on
-  average volume to close at €20.40; +50c [+2.5%]GERMAN END-OF-DAY STOCK REPORT
-  www.buysellsignals.com MEXICO, D.F, Friday, Oct 16, 2026 - Grupo Aeroportuario del
-  Sureste SAB de CV's (FRA:AED €20.40) stock price climbed 50.0c (2.5%) from its previous
-  trading session to close at €20.40…
