@@ -1,6 +1,6 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 22/10/2026 04:00 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 22/10/2026 17:04 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
 | | Último cierre (21/10) | Acumulado |
@@ -9,7 +9,7 @@
 | MEXTRAC | +0.35% | +1.62% |
 | **Diferencia** | **+0.73%** | **-0.07%** |
 
-Valor del portafolio **$10,528,635.91** · día 3 desde el portafolio de referencia (16/10) · TE ex ante 5.82% (límite 10%) · beta 0.94
+Valor del portafolio **$10,528,635.91** · día 3 desde el portafolio de referencia (16/10) · TE ex ante 5.81% (límite 10%) · beta 0.94
 
 
 ## Día por día
@@ -24,16 +24,16 @@ Valor del portafolio **$10,528,635.91** · día 3 desde el portafolio de referen
 
 | Pieza | Aporte |
 |---|---:|
-| Emisoras | -33.06 pb |
+| Emisoras | -32.66 pb |
 | Efectivo | -0.98 pb |
-| MEXTRAC estimado / contra su canasta | +107.50 pb |
+| MEXTRAC estimado / contra su canasta | +107.10 pb |
 | Operaciones (ejecución contra cierre) | +0.09 pb |
 | Comisión e IVA | -0.95 pb |
 | **Total = alfa del día** | **+72.60 pb** |
 
-Sumaron: KIMBERA +8.7 pb · PINFRA +5.0 pb · GMEXICOB +4.7 pb · Restaron: AMXB -18.4 pb · OMAB -11.5 pb · ASURB -7.2 pb
+Sumaron: KIMBERA +8.5 pb · PINFRA +5.0 pb · GMEXICOB +4.3 pb · Restaron: AMXB -17.7 pb · OMAB -11.3 pb · ASURB -7.2 pb
 
-Réplica en Python contra el tracker: diferencia máxima 4.4e-16 (2026-10-22T03:56).
+Réplica en Python contra el tracker: diferencia máxima 4.4e-16 (2026-10-22T16:38).
 
 ## Posiciones · movimiento de hoy
 
@@ -62,7 +62,7 @@ Día 3 desde la entrada · señales contra el precio del MEXTRAC09 (estimado los
 
 Sin señales hoy.
 
-Quién explica más el TE del libro: FEMSAUBD 0.77 pp · GMEXICOB 0.67 pp · BOLSAA 0.41 pp · PEOLES 0.26 pp · PINFRA 0.21 pp
+Quién explica más el TE del libro: FEMSAUBD 0.77 pp · GMEXICOB 0.61 pp · BOLSAA 0.41 pp · PEOLES 0.26 pp · PINFRA 0.21 pp
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._

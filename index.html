@@ -1236,8 +1236,8 @@ td{padding:11px 12px} th,thead th{padding:11px 12px}
           <div class="grid g23" style="margin-bottom:14px">
             <div class="card"><div class="card-h"><h3><svg class="i"><use href="#i-chart"/></svg>Portafolio contra el índice de referencia</h3><div class="spacer"></div><div class="seg" id="segMain"></div></div>
               <div class="chart-box tall"><canvas id="chMain"></canvas></div><p class="chart-pista">Rueda del ratón para acercar · arrastre para desplazarse · doble clic para reencuadrar</p><p class="chart-nota" id="mainNota"></p></div>
-            <div class="card"><div class="card-h"><h3>Composición</h3></div>
-              <div class="chart-box sm"><canvas id="chDonut"></canvas></div><hr class="sep"><div id="compBreak"></div></div>
+            <div class="card"><div class="card-h"><h3>Composición</h3><div class="spacer"></div><div class="seg" id="segDonut"></div></div>
+              <div class="chart-box" style="height:250px"><canvas id="chDonut"></canvas></div><p class="chart-nota" id="donutNota"></p><hr class="sep"><div id="compBreak"></div></div>
           </div>
           <div class="grid g2" style="margin-bottom:14px">
             <div class="card"><div class="card-h"><h3>Indicadores de riesgo</h3><span class="hint" id="riskObs"></span></div><div id="dashRisk"></div></div>
@@ -1881,7 +1881,7 @@ c 810 FEMSAUBD a 202.18</pre>
         </div>
       </section>
 
-      <!-- ══════════ ATRIBUCIÓN Y REPORTE (v6.3 · tracker) ══════════ -->
+      <!-- ══════════ ATRIBUCIÓN Y REPORTE (v6.3 · tracker · parche v6.4) ══════════ -->
       <section class="view" id="v-atribucion">
         <div class="tabs" data-tabs="atribucion">
           <button class="tab on" data-p="atrdia">Atribución</button>
@@ -1907,6 +1907,17 @@ c 810 FEMSAUBD a 202.18</pre>
             <div class="kpi"><div class="lbl">Días con MEXTRAC estimado</div><div class="val sm" id="atv-es">—</div><div class="delta" id="atv-esd"></div></div>
           </div>
           <div class="card" style="margin-bottom:14px"><p class="atv-expl" id="atv-nota" style="margin:0"></p></div>
+          <div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Cómo se lee la atribución</h3></div>
+            <p class="atv-expl"><b>Alfa</b> = lo que rindió la cartera − lo que rindió el MEXTRAC09 (100 pb = 1%). Sale de cuatro lados:</p>
+            <p class="atv-expl"><b>1. Emisoras.</b> En cada acción comparamos cuánto pesa en la cartera (lo directo más lo que trae el MEXTRAC) contra cuánto pesa en el benchmark.
+              Si pesamos <b>más</b> en una que le ganó al MEXTRAC09, suma; si pesamos más en una que se quedó atrás, resta. Si pesamos <b>menos</b>, es al revés.
+              Aporte = (peso cartera − peso benchmark) × (rendimiento de la acción − rendimiento del MEXTRAC09). Agrupado por sector es lo mismo, partido en
+              <b>asignación</b> (pesar distinto el sector), <b>selección</b> (escoger mejores o peores acciones dentro del sector) e <b>interacción</b> (cargar más justo donde escogimos mejor o peor).</p>
+            <p class="atv-expl"><b>2. Efectivo.</b> El benchmark está invertido al 100%. Si el mercado sube, el efectivo resta; si baja, suma.</p>
+            <p class="atv-expl"><b>3. MEXTRAC contra su canasta.</b> El benchmark es el precio del ETF, y el ETF no siempre vale lo mismo que las acciones que trae (su valor teórico del PCF).
+              Lo que tenemos en acciones directas sigue a la canasta: si el ETF rinde menos que su canasta, eso nos da alfa; si rinde más, nos lo quita. Es temporal: se regresa cuando el precio alcanza a la canasta.</p>
+            <p class="atv-expl" style="margin-bottom:0"><b>4. Operaciones y comisiones.</b> Comprar o vender a un precio distinto del cierre, y la comisión con IVA, que siempre resta.</p>
+            <hr class="sep"><p class="atv-expl" id="atv-ejemplo" style="margin:0"></p></div>
           <div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Acumulado: cartera contra benchmark</h3><span class="hint">verde: vamos arriba · rojo: abajo</span></div>
             <p class="atv-expl">Rendimiento acumulado desde el día 0. El área entre las dos líneas es el <b>alfa</b>; los triángulos marcan los días con MEXTRAC estimado.</p>
             <div class="chart-box tall"><canvas id="atvCum"></canvas></div></div>
@@ -1914,14 +1925,20 @@ c 810 FEMSAUBD a 202.18</pre>
             <div class="card"><div class="card-h"><h3>P&amp;L diario en pesos</h3></div>
               <p class="atv-expl">Lo que ganó o perdió la cartera cada día, contra lo que habría hecho el MEXTRAC09 con el mismo dinero.</p>
               <div class="chart-box"><canvas id="atvPnl"></canvas></div></div>
-            <div class="card"><div class="card-h"><h3>Cascada: quién hizo el alfa</h3></div>
-              <p class="atv-expl">Las emisoras que más movieron el alfa, el resto, el efectivo, el MEXTRAC estimado (o contra su canasta), las operaciones y la comisión con IVA.
-                Cada barra arranca donde terminó la anterior; la última es el alfa.</p>
+            <div class="card"><div class="card-h"><h3>Quién hizo el alfa</h3></div>
+              <p class="atv-expl">Cada barra es lo que sumó (azul) o restó (rojo) cada pieza, de la que más sumó a la que más restó.
+                La barra oscura del final es el alfa total: la suma de todas las demás.</p>
               <div class="chart-box"><canvas id="atvCas"></canvas></div></div>
           </div>
           <div class="card pad0" style="margin-bottom:14px"><div class="card-h" style="padding:18px 19px 0"><h3>Mapa de calor · día × emisora</h3><span class="hint">aporte al alfa en pb · azul suma · rojo resta</span></div>
             <p class="atv-expl" style="padding:0 19px">Cada celda es (peso cartera − peso benchmark) × (rendimiento − benchmark) de ese día. ▲ en la fecha = MEXTRAC estimado.</p>
             <div class="tbl-wrap" style="max-height:560px;padding:0 12px 12px"><table class="atv-calor" id="atvCalor"></table></div></div>
+          <div class="card pad0" style="margin-bottom:14px"><div class="card-h" style="padding:18px 19px 0"><h3>Día por día</h3><span class="hint">en pb · clic en el encabezado para ordenar</span></div>
+            <p class="atv-expl" style="padding:0 19px" id="atv-diasnota"></p>
+            <div class="tbl-wrap"><table id="atvTDias"></table></div></div>
+          <div class="card pad0" style="margin-bottom:14px"><div class="card-h" style="padding:18px 19px 0"><h3>Sectores día por día</h3><div class="spacer"></div><div class="seg" id="atv-efecto"></div></div>
+            <p class="atv-expl" style="padding:0 19px">Aporte de cada sector cada día, en pb. Elija el efecto: asignación, selección, interacción o el total. ▲ = MEXTRAC estimado.</p>
+            <div class="tbl-wrap" style="padding:0 12px 12px"><table class="atv-calor" id="atvSecDia"></table></div></div>
           <div class="grid g2" style="margin-bottom:14px">
             <div class="card"><div class="card-h"><h3>Sectores · Brinson, Hood y Beebower</h3></div>
               <p class="atv-expl"><b>Asignación</b> = II − I, por pesar distinto que el benchmark. <b>Selección</b> = III − I, por escoger mejores o peores acciones.
@@ -1943,7 +1960,7 @@ c 810 FEMSAUBD a 202.18</pre>
 
         <div class="pane" id="p-atremi">
           <div class="pill-row"><div class="seg" id="atv-vent"></div><div class="spacer"></div><span class="chip b" id="atv-emi-t"></span></div>
-          <p class="atv-expl">Absoluto = rendimiento de la emisora con su dividendo. Relativo = rendimiento de la emisora − rendimiento del MEXTRAC09 en el mismo lapso.</p>
+          <p class="atv-expl" id="atv-emi-nota"></p>
           <div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Absoluto y relativo al MEXTRAC09</h3></div><div class="chart-box tall"><canvas id="atvRend"></canvas></div></div>
           <div class="card pad0"><div class="card-h" style="padding:18px 19px 0"><h3>Rendimiento por emisora</h3><span class="hint">clic en el encabezado para ordenar</span></div>
             <div class="tbl-wrap" style="max-height:640px"><table id="atvTRend"></table></div></div>
@@ -1970,7 +1987,8 @@ c 810 FEMSAUBD a 202.18</pre>
 
         <div class="pane" id="p-atrops">
           <div class="card pad0" style="margin-bottom:14px"><div class="card-h" style="padding:18px 19px 0"><h3>Abiertas</h3></div>
-            <p class="atv-expl" style="padding:0 19px">Costo = valor al cierre del día 0 para lo que ya se tenía, más lo comprado después con comisión e IVA. Rendimiento activo = rendimiento − MEXTRAC09 desde la fecha base.</p>
+            <p class="atv-expl" style="padding:0 19px">Costo = valor al cierre del día 0 (16-oct) para lo que ya se tenía, más lo comprado después con comisión e IVA.
+              El precio de asignación del 12-oct es solo para comparar: el rendimiento se mide desde el día 0. Rendimiento activo = rendimiento − MEXTRAC09 desde la fecha base.</p>
             <div class="tbl-wrap"><table id="atvTAb"></table></div></div>
           <div class="card pad0"><div class="card-h" style="padding:18px 19px 0"><h3>Cerradas</h3></div>
             <p class="atv-expl" style="padding:0 19px">Posiciones que una venta dejó en cero después del día 0, con el resultado que dejaron.</p>
@@ -1978,9 +1996,15 @@ c 810 FEMSAUBD a 202.18</pre>
         </div>
 
         <div class="pane" id="p-atrrank">
+          <div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Ranking del portafolio · lo que tenemos</h3><span class="hint">desde el día 0</span></div>
+            <p class="atv-expl" id="atv-rkpnota"></p>
+            <div class="chart-box tall"><canvas id="atvRankP"></canvas></div></div>
+          <div class="card pad0" style="margin-bottom:14px"><div class="card-h" style="padding:18px 19px 0"><h3>Posiciones del portafolio</h3><span class="hint">clic en el encabezado para ordenar</span></div>
+            <p class="atv-expl" style="padding:0 19px">Aporte a la cartera = ganancia de la posición ÷ valor del portafolio en el día 0. El rendimiento es absoluto; el activo es contra el MEXTRAC09 en el mismo lapso.</p>
+            <div class="tbl-wrap"><table id="atvTRankP"></table></div></div>
           <div class="pill-row"><div class="seg" id="atv-rk"></div></div>
           <p class="atv-expl" id="atv-rknota"></p>
-          <div class="card pad0"><div class="card-h" style="padding:18px 19px 0"><h3>Ranking de emisoras</h3><span class="hint">clic en el encabezado para ordenar</span></div>
+          <div class="card pad0"><div class="card-h" style="padding:18px 19px 0"><h3>Ranking de emisoras del universo</h3><span class="hint">clic en el encabezado para ordenar</span></div>
             <div class="tbl-wrap" style="max-height:700px"><table id="atvTRank"></table></div></div>
         </div>
       </section>
@@ -2104,36 +2128,36 @@ const GESTOR = MODO === 'gestor';
    px = cierre del 13/10/2026 · prev y base = cierre del 12/10/2026, día de la asignación de BBVA. Cierres de LSEG
    Refinitiv. Al abrir el tablero el precio base real se toma del histórico: el cierre del día de la asignación y,
    en cuanto exista, el del portafolio de referencia (viernes 16/10).
-   bShares   = acciones implícitas por unidad del MEXTRAC 09 con los pesos del índice de la presentación (2-oct-2026).
+   bShares   = acciones por unidad mínima del MEXTRAC 09 según el PCF del 21-oct-2026 (parche v6.4).
    ric       = instrumento en LSEG Refinitiv. El tablero solo usa Refinitiv. */
 const PX_DATE='2026-10-13';
 const V0_DATE='2026-10-12';   // arranque de la gestión (lunes 12 de octubre de 2026)
 const UNIVERSE = [
-  {s:'AC',         n:'Arca Continental',                    sec:'Consumo Frecuente',     sub:'Bebidas',                       bShares:1183, px:203.8900, prev:205.3600, base:205.3600,   y:'AC.MX',         td:'AC', ric:'AC.MX'},
-  {s:'AMXB',       n:'América Móvil',                       sec:'Comunicaciones',        sub:'Telecom inalámbrica',           bShares:16299, px:19.9200, prev:19.5900, base:19.5900,   y:'AMXB.MX',       td:'AMXB', ric:'AMXB.MX'},
-  {s:'ASURB',      n:'Grupo Aeroportuario del Sureste',     sec:'Industriales',          sub:'Servicios aeroportuarios',      bShares:438, px:430.5500, prev:434.0900, base:434.0900,  y:'ASURB.MX',      td:'ASURB', ric:'ASURB.MX'},
-  {s:'BBAJIOO',    n:'Banco del Bajío',                     sec:'Financieros',           sub:'Bancos diversificados',         bShares:1094, px:56.8500, prev:56.6600, base:56.6600,   y:'BBAJIOO.MX',    td:'BBAJIOO', ric:'BBAJIOO.MX'},
-  {s:'BIMBOA',     n:'Grupo Bimbo',                         sec:'Consumo Frecuente',     sub:'Alimentos empacados',           bShares:1171, px:57.4400, prev:57.4400, base:57.4400,   y:'BIMBOA.MX',     td:'BIMBOA', ric:'BIMBOA.MX'},
-  {s:'CEMEXCPO',   n:'Cemex',                               sec:'Materiales',            sub:'Materiales de construcción',    bShares:2449, px:18.0200, prev:17.5900, base:17.5900,   y:'CEMEXCPO.MX',   td:'CEMEXCPO', ric:'CEMEXCPO.MX'},
-  {s:'CHDRAUIB',   n:'Grupo Comercial Chedraui',            sec:'Consumo Frecuente',     sub:'Autoservicio',                  bShares:81, px:87.6800, prev:87.1200, base:87.1200,   y:'CHDRAUIB.MX',   td:'CHDRAUIB', ric:'CHDRAUIB.MX'},
-  {s:'FEMSAUBD',   n:'Fomento Económico Mexicano',          sec:'Consumo Frecuente',     sub:'Bebidas',                       bShares:1551, px:222.1100, prev:221.6200, base:221.6200,  y:'FEMSAUBD.MX',   td:'FEMSAUBD', ric:'FEMSAUBD.MX'},
-  {s:'GAPB',       n:'Grupo Aeroportuario del Pacífico',    sec:'Industriales',          sub:'Servicios aeroportuarios',      bShares:895, px:365.5300, prev:370.4900, base:370.4900,  y:'GAPB.MX',       td:'GAPB', ric:'GAPB.MX'},
-  {s:'GCARSOA1',   n:'Grupo Carso',                         sec:'Industriales',          sub:'Conglomerados',                 bShares:132, px:155.8900, prev:156.3100, base:156.3100,  y:'GCARSOA1.MX',   td:'GCARSOA1', ric:'GCARSOA1.MX'},
-  {s:'GENTERA',    n:'Gentera',                             sec:'Financieros',           sub:'Financiamiento al consumo',     bShares:526, px:38.8200, prev:38.1300, base:38.1300,   y:'GENTERA.MX',    td:'GENTERA', ric:'GENTERA.MX'},
-  {s:'GFNORTEO',   n:'Grupo Financiero Banorte',            sec:'Financieros',           sub:'Bancos diversificados',         bShares:1565, px:196.4600, prev:193.4700, base:193.4700,  y:'GFNORTEO.MX',   td:'GFNORTEO', ric:'GFNORTEO.MX'},
-  {s:'GMEXICOB',   n:'Grupo México',                        sec:'Materiales',            sub:'Metales y minería',             bShares:1337, px:245.5900, prev:242.0000, base:242.0000,  y:'GMEXICOB.MX',   td:'GMEXICOB', ric:'GMEXICOB.MX'},
+  {s:'AC',         n:'Arca Continental',                    sec:'Consumo Frecuente',     sub:'Bebidas',                       bShares:1179, px:203.8900, prev:205.3600, base:205.3600,   y:'AC.MX',         td:'AC', ric:'AC.MX'},
+  {s:'AMXB',       n:'América Móvil',                       sec:'Comunicaciones',        sub:'Telecom inalámbrica',           bShares:16100, px:19.9200, prev:19.5900, base:19.5900,   y:'AMXB.MX',       td:'AMXB', ric:'AMXB.MX'},
+  {s:'ASURB',      n:'Grupo Aeroportuario del Sureste',     sec:'Industriales',          sub:'Servicios aeroportuarios',      bShares:437, px:430.5500, prev:434.0900, base:434.0900,  y:'ASURB.MX',      td:'ASURB', ric:'ASURB.MX'},
+  {s:'BBAJIOO',    n:'Banco del Bajío',                     sec:'Financieros',           sub:'Bancos diversificados',         bShares:1086, px:56.8500, prev:56.6600, base:56.6600,   y:'BBAJIOO.MX',    td:'BBAJIOO', ric:'BBAJIOO.MX'},
+  {s:'BIMBOA',     n:'Grupo Bimbo',                         sec:'Consumo Frecuente',     sub:'Alimentos empacados',           bShares:1185, px:57.4400, prev:57.4400, base:57.4400,   y:'BIMBOA.MX',     td:'BIMBOA', ric:'BIMBOA.MX'},
+  {s:'CEMEXCPO',   n:'Cemex',                               sec:'Materiales',            sub:'Materiales de construcción',    bShares:2488, px:18.0200, prev:17.5900, base:17.5900,   y:'CEMEXCPO.MX',   td:'CEMEXCPO', ric:'CEMEXCPO.MX'},
+  {s:'CHDRAUIB',   n:'Grupo Comercial Chedraui',            sec:'Consumo Frecuente',     sub:'Autoservicio',                  bShares:80, px:87.6800, prev:87.1200, base:87.1200,   y:'CHDRAUIB.MX',   td:'CHDRAUIB', ric:'CHDRAUIB.MX'},
+  {s:'FEMSAUBD',   n:'Fomento Económico Mexicano',          sec:'Consumo Frecuente',     sub:'Bebidas',                       bShares:1572, px:222.1100, prev:221.6200, base:221.6200,  y:'FEMSAUBD.MX',   td:'FEMSAUBD', ric:'FEMSAUBD.MX'},
+  {s:'GAPB',       n:'Grupo Aeroportuario del Pacífico',    sec:'Industriales',          sub:'Servicios aeroportuarios',      bShares:891, px:365.5300, prev:370.4900, base:370.4900,  y:'GAPB.MX',       td:'GAPB', ric:'GAPB.MX'},
+  {s:'GCARSOA1',   n:'Grupo Carso',                         sec:'Industriales',          sub:'Conglomerados',                 bShares:130, px:155.8900, prev:156.3100, base:156.3100,  y:'GCARSOA1.MX',   td:'GCARSOA1', ric:'GCARSOA1.MX'},
+  {s:'GENTERA',    n:'Gentera',                             sec:'Financieros',           sub:'Financiamiento al consumo',     bShares:523, px:38.8200, prev:38.1300, base:38.1300,   y:'GENTERA.MX',    td:'GENTERA', ric:'GENTERA.MX'},
+  {s:'GFNORTEO',   n:'Grupo Financiero Banorte',            sec:'Financieros',           sub:'Bancos diversificados',         bShares:1582, px:196.4600, prev:193.4700, base:193.4700,  y:'GFNORTEO.MX',   td:'GFNORTEO', ric:'GFNORTEO.MX'},
+  {s:'GMEXICOB',   n:'Grupo México',                        sec:'Materiales',            sub:'Metales y minería',             bShares:1375, px:245.5900, prev:242.0000, base:242.0000,  y:'GMEXICOB.MX',   td:'GMEXICOB', ric:'GMEXICOB.MX'},
   {s:'GRUMAB',     n:'Gruma',                               sec:'Consumo Frecuente',     sub:'Alimentos empacados',           bShares:57, px:242.1000, prev:238.4200, base:238.4200,  y:'GRUMAB.MX',     td:'GRUMAB', ric:'GRUMAB.MX'},
-  {s:'KIMBERA',    n:'Kimberly-Clark de México',            sec:'Consumo Frecuente',     sub:'Cuidado del hogar',             bShares:2251, px:39.2000, prev:38.6300, base:38.6300,   y:'KIMBERA.MX',    td:'KIMBERA', ric:'KIMBERA.MX'},
-  {s:'KOFUBL',     n:'Coca-Cola FEMSA',                     sec:'Consumo Frecuente',     sub:'Bebidas',                       bShares:1312, px:212.4900, prev:208.4400, base:208.4400,  y:'KOFUBL.MX',     td:'KOFUBL', ric:'KOFUBL.MX'},
-  {s:'MEGACPO',    n:'Megacable Holdings',                  sec:'Comunicaciones',        sub:'Cable y satélite',              bShares:384, px:53.3800, prev:52.4600, base:52.4600,   y:'MEGACPO.MX',    td:'MEGACPO', ric:'MEGACPO.MX'},
-  {s:'OMAB',       n:'Grupo Aeroportuario Centro Norte',    sec:'Industriales',          sub:'Servicios aeroportuarios',      bShares:554, px:205.6900, prev:209.0100, base:209.0100,  y:'OMAB.MX',       td:'OMAB', ric:'OMAB.MX'},
+  {s:'KIMBERA',    n:'Kimberly-Clark de México',            sec:'Consumo Frecuente',     sub:'Cuidado del hogar',             bShares:2267, px:39.2000, prev:38.6300, base:38.6300,   y:'KIMBERA.MX',    td:'KIMBERA', ric:'KIMBERA.MX'},
+  {s:'KOFUBL',     n:'Coca-Cola FEMSA',                     sec:'Consumo Frecuente',     sub:'Bebidas',                       bShares:1317, px:212.4900, prev:208.4400, base:208.4400,  y:'KOFUBL.MX',     td:'KOFUBL', ric:'KOFUBL.MX'},
+  {s:'MEGACPO',    n:'Megacable Holdings',                  sec:'Comunicaciones',        sub:'Cable y satélite',              bShares:378, px:53.3800, prev:52.4600, base:52.4600,   y:'MEGACPO.MX',    td:'MEGACPO', ric:'MEGACPO.MX'},
+  {s:'OMAB',       n:'Grupo Aeroportuario Centro Norte',    sec:'Industriales',          sub:'Servicios aeroportuarios',      bShares:568, px:205.6900, prev:209.0100, base:209.0100,  y:'OMAB.MX',       td:'OMAB', ric:'OMAB.MX'},
   {s:'PINFRA',     n:'Promotora y Operadora de Infraestructura',  sec:'Industriales',          sub:'Carreteras',                    bShares:72, px:289.1900, prev:293.9800, base:293.9800,  y:'PINFRA.MX',     td:'PINFRA', ric:'PINFRA.MX'},
-  {s:'Q',          n:'Quálitas Controladora',               sec:'Financieros',           sub:'Seguros P&C',                   bShares:307, px:168.6500, prev:158.9200, base:158.9200,  y:'Q.MX',          td:'Q', ric:'Q.MX'},
-  {s:'RA',         n:'Regional',                            sec:'Financieros',           sub:'Bancos regionales',             bShares:222, px:146.2600, prev:142.7600, base:142.7600,  y:'RA.MX',         td:'RA', ric:'RA.MX'},
-  {s:'SIGMAFA',    n:'Sigma Foods',                         sec:'Consumo Frecuente',     sub:'Alimentos empacados',           bShares:1916, px:19.0200, prev:18.7400, base:18.7400,   y:'SIGMAFA.MX',    td:'SIGMAFA', ric:'SIGMAFA.MX'},
-  {s:'TLEVISACPO', n:'Grupo Televisa',                      sec:'Comunicaciones',        sub:'Telecom integrada',             bShares:2477, px:8.1300, prev:8.1400, base:8.1400,    y:'TLEVISACPO.MX', td:'TLEVISACPO', ric:'TLEVISACPO.MX'},
-  {s:'VESTA',      n:'Vesta Real Estate',                   sec:'Bienes Raíces',         sub:'Inmobiliaria operativa',        bShares:1162, px:63.2200, prev:63.2000, base:63.2000,   y:'VESTA.MX',      td:'VESTA', ric:'VESTA.MX'},
-  {s:'WALMEX',     n:'Wal-Mart de México',                  sec:'Consumo Frecuente',     sub:'Autoservicio',                  bShares:5075, px:47.2100, prev:47.8400, base:47.8400,   y:'WALMEX.MX',     td:'WALMEX', ric:'WALMEX.MX'},
+  {s:'Q',          n:'Quálitas Controladora',               sec:'Financieros',           sub:'Seguros P&C',                   bShares:304, px:168.6500, prev:158.9200, base:158.9200,  y:'Q.MX',          td:'Q', ric:'Q.MX'},
+  {s:'RA',         n:'Regional',                            sec:'Financieros',           sub:'Bancos regionales',             bShares:221, px:146.2600, prev:142.7600, base:142.7600,  y:'RA.MX',         td:'RA', ric:'RA.MX'},
+  {s:'SIGMAFA',    n:'Sigma Foods',                         sec:'Consumo Frecuente',     sub:'Alimentos empacados',           bShares:1930, px:19.0200, prev:18.7400, base:18.7400,   y:'SIGMAFA.MX',    td:'SIGMAFA', ric:'SIGMAFA.MX'},
+  {s:'TLEVISACPO', n:'Grupo Televisa',                      sec:'Comunicaciones',        sub:'Telecom integrada',             bShares:2399, px:8.1300, prev:8.1400, base:8.1400,    y:'TLEVISACPO.MX', td:'TLEVISACPO', ric:'TLEVISACPO.MX'},
+  {s:'VESTA',      n:'Vesta Real Estate',                   sec:'Bienes Raíces',         sub:'Inmobiliaria operativa',        bShares:1137, px:63.2200, prev:63.2000, base:63.2000,   y:'VESTA.MX',      td:'VESTA', ric:'VESTA.MX'},
+  {s:'WALMEX',     n:'Wal-Mart de México',                  sec:'Consumo Frecuente',     sub:'Autoservicio',                  bShares:5116, px:47.2100, prev:47.8400, base:47.8400,   y:'WALMEX.MX',     td:'WALMEX', ric:'WALMEX.MX'},
   {s:'LIVEPOLC1',  n:'El Puerto de Liverpool',              sec:'Consumo Discrecional',  sub:'Tiendas departamentales',       bShares:0, px:102.0000, prev:102.7000, base:102.7000,   y:'LIVEPOLC-1.MX', td:'LIVEPOL1', ric:'LIVEPOLC1.MX'},
   {s:'ALSEA',      n:'Alsea',                               sec:'Consumo Discrecional',  sub:'Restaurantes',                  bShares:0, px:49.5600, prev:48.6200, base:48.6200,    y:'ALSEA.MX',      td:'ALSEA', ric:'ALSEA.MX'},
   {s:'LACOMERUBC', n:'La Comer',                            sec:'Consumo Frecuente',     sub:'Autoservicio',                  bShares:0, px:32.9900, prev:31.8900, base:31.8900,   y:'LACOMERUBC.MX', td:'LACOMERUBC', ric:'LACOMERUBC.MX'},
@@ -2152,9 +2176,9 @@ const UNIVERSE = [
 const ETF = {s:'MEXTRAC', n:'MEXTRAC 09 · ETF índice de referencia', sec:'ETF', sub:'Núcleo pasivo',
              bShares:0, px:65.7500, prev:65.2300, base:65.2300, y:'MEXTRAC09.MX', td:'MEXTRAC09', ric:'MEXTRAC09.MX', derived:true};
 
-const PCF = {fecha:'22/09/2026 · pesos del índice al 2/10/2026', clave:'MEXTRAC', serie:'09', emitidos:4000000000, circulacion:303100000,
-  unidadesMinimas:6062, valorFideicomiso:19098331000.00, valorUnidadOficial:3150500.00,
-  precioCertOficial:63.0100, efectivo:492.71};
+const PCF = {fecha:'21/10/2026', clave:'MEXTRAC', serie:'09', emitidos:4000000000, circulacion:316150000,
+  unidadesMinimas:6323, valorFideicomiso:22155487302.72, valorUnidadOficial:3503951.81,
+  precioCertOficial:70.0790, efectivo:777.87};
 PCF.certPorUnidad = PCF.circulacion / PCF.unidadesMinimas;   // 50,000
 
 const SYMS = UNIVERSE.map(u=>u.s);
@@ -2190,24 +2214,24 @@ const DEFAULT_CFG = {
   puente:'http://127.0.0.1:8787', autoSync:false, logo:'',
   guíaVista:false,
   asOfDate:'',                 // fecha de valuación y de captura; vacío = hoy o el inicio de gestión
-  logoBase:'https://cdn.jsdelivr.net/gh/jesusdahel/bbva-clinicas@main/', logoGuess:true, logoUrlBrand:'',
+  logoBase:'https://cdn.jsdelivr.net/gh/northstar-strategies/bbva-clinicas@main/', logoGuess:true, logoUrlBrand:'',
   // Archivos que el gestor edita a diario. Se usa raw.githubusercontent porque jsDelivr
   // cachea una semana y no serviría para algo que cambia todos los días.
-  urlPesos:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/pesos.csv',
-  urlPrecios:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/precios.csv',
-  urlCotiz:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/cotizaciones.csv',
-  urlNoticias:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/noticias.txt',
-  urlEmpresas:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/empresas.txt',
-  urlBetas:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/betas.csv',
-  urlHistorico:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/historico.csv',
-  urlIntradia:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/intradia.csv',
-  urlEstado:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/vigilante_estado.json',
+  urlPesos:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/pesos.csv',
+  urlPrecios:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/precios.csv',
+  urlCotiz:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/cotizaciones.csv',
+  urlNoticias:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/noticias.txt',
+  urlEmpresas:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/empresas.txt',
+  urlBetas:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/betas.csv',
+  urlHistorico:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/historico.csv',
+  urlIntradia:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/intradia.csv',
+  urlEstado:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/vigilante_estado.json',
   // La bitácora completa del tracker (con la comisión y el IVA de cada operación) y los rendimientos
   // oficiales que calcula el vigilante con la misma contabilidad.
-  urlOperaciones:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/operaciones.csv',
-  urlRendimientos:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/rendimientos.csv',
+  urlOperaciones:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/operaciones.csv',
+  urlRendimientos:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/rendimientos.csv',
   // Parámetros del tracker (capital, fechas, comisión, liquidación, feriados y bloques) que publica el vigilante v6.
-  urlParametros:'https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/parametros.json',
+  urlParametros:'https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/parametros.json',
   lastCotizSync:null,
   remoteAuto:true, remoteSec:5, remoteReplaceAll:false, lastPesosSync:null, lastPreciosSync:null
 };
@@ -2260,7 +2284,7 @@ const estrategiaDe = s => (BLOQUE[s]==='ETF' || BLOQUE[s]==='REPRESENTATIVA') ? 
    y cachea una semana: perfecto para archivos que no cambian.
    Para agregar las emisoras que faltan basta subir el SVG al repo y registrar el nombre aquí,
    o nombrarlo <TICKER>.svg y la app lo encuentra sola. */
-const LOGO_BASE='https://cdn.jsdelivr.net/gh/jesusdahel/bbva-clinicas@main/';
+const LOGO_BASE='https://cdn.jsdelivr.net/gh/northstar-strategies/bbva-clinicas@main/';
 const BRAND_LOGO=LOGO_BASE+'logo%20star.svg';
 const BBVA_LOGO =LOGO_BASE+'BBVA_logo_2025%20(1).svg';
 const LOGOS={
@@ -4679,16 +4703,34 @@ const Charts=(()=>{
       ? `La cartera se constituyó el ${ini}. Antes de esa fecha la línea muestra una <b>simulación</b>: cómo se habría comportado la composición actual con los precios de entonces. Los rendimientos reportados solo incluyen la gestión real.`
       : period==='ITD' ? `Desde la constitución de la cartera, el ${ini} · ${dias} días de gestión.` : '';
   }
-  function donut(){
-    const pos=Portfolio.positions(), cash=Portfolio.cash();
-    const top=pos.slice(0,9), rest=pos.slice(9).reduce((s,p)=>s+p.mv,0);
-    const labels=top.map(p=>p.sym), data=top.map(p=>p.mv);
-    if(rest>0){labels.push('Otras');data.push(rest);} labels.push('Efectivo'); data.push(cash);
-    const tot=data.reduce((a,b)=>a+b,0)||1;
-    const pal=['#D4EDFC','#1464A5','#0066CC','#004D99','#5B8FD4','#7FB6E8','#2E5E9E','#9CC9EE','#133062','#3D7AB8','#22C77E'];
-    up('chDonut','doughnut',{labels,datasets:[{data,backgroundColor:pal,borderColor:'#0A1834',borderWidth:2,hoverOffset:7}]},
-      {cutout:'64%',plugins:{legend:{position:'right',labels:{boxWidth:7,padding:7,font:{size:9.5}}},
-        tooltip:{callbacks:{label:c=>` ${c.label}: ${money(c.raw)} · ${(c.raw/tot*100).toFixed(2)}%`}}}});
+  // parche v6.4: con el MEXTRAC abierto cada emisora pesa lo directo más su parte dentro del ETF, y el ETF deja de ser
+  // una rebanada; «como en la cuenta» muestra lo que hay en el contrato, con el MEXTRAC como una sola posición.
+  function donut(modo='ABIERTO'){
+    const pos=Portfolio.positions(), bw=Bmk.weights(), etf=pos.find(p=>p.sym==='MEXTRAC'), etfV=etf?etf.mv:0;
+    let filas, caja=Portfolio.cash();
+    if(modo==='CUENTA') filas=pos.map(p=>({l:p.sym, v:p.mv, d:p.mv, e:0}));
+    else{ const m={};
+      pos.forEach(p=>{ if(p.sym!=='MEXTRAC') (m[p.sym]||(m[p.sym]={l:p.sym,d:0,e:0})).d+=p.mv; });
+      if(etfV>0) Object.keys(bw).forEach(s=>{ if(s!=='__cash' && bw[s]>0) (m[s]||(m[s]={l:s,d:0,e:0})).e+=etfV*bw[s]/100; });
+      filas=Object.values(m).map(f=>({...f, v:f.d+f.e})); caja+=etfV*(bw.__cash||0)/100; }
+    filas.sort((a,b)=>b.v-a.v);
+    const N=modo==='CUENTA'?9:13, top=filas.slice(0,N), resto=filas.slice(N);
+    const rebs=[...top, ...(resto.length?[{l:`Otras ${resto.length}`, v:resto.reduce((s,f)=>s+f.v,0), otras:resto}]:[]), {l:'Efectivo', v:caja, caja:true}];
+    const tot=rebs.reduce((a,b)=>a+b.v,0)||1, w=v=>(v/tot*100).toFixed(2)+'%';
+    const pal=['#D4EDFC','#1464A5','#4A9DF0','#0B4F8A','#7FB6E8','#2E5E9E','#9CC9EE','#3D7AB8','#5B8FD4','#174A7C','#B8DCF5','#2A78C6','#6AA7E0'];
+    const col=rebs.map((r,i)=>r.caja?'#22C77E':r.otras?'#5A6B86':pal[i%pal.length]);
+    up('chDonut','doughnut',{labels:rebs.map(r=>r.l),datasets:[{data:rebs.map(r=>r.v),backgroundColor:col,borderColor:'#0A1834',borderWidth:2,hoverOffset:7}]},
+      {cutout:'62%',plugins:{legend:{position:'right',labels:{boxWidth:7,padding:5,font:{size:9.5}}},
+        tooltip:{callbacks:{label:c=>` ${c.label}: ${money(c.raw)} · ${w(c.raw)}`,
+          afterLabel:c=>{ const r=rebs[c.dataIndex];
+            if(r.otras) return r.otras.map(f=>`   ${f.l} ${w(f.v)}`+(f.e>0&&f.d>0?' (directo + MEXTRAC)':f.e>0?' (vía MEXTRAC)':''));
+            if(r.caja) return modo==='CUENTA'?'':'incluye el efectivo del PCF dentro del MEXTRAC';
+            if(r.l==='MEXTRAC' && etfV>0) return ['Adentro trae (parte de la cartera):'].concat(Object.keys(bw).filter(s=>s!=='__cash')
+              .sort((a,b)=>bw[b]-bw[a]).slice(0,6).map(s=>`   ${s} ${w(etfV*bw[s]/100)}`)).concat(['Cambie a «MEXTRAC abierto» para verlo sumado a cada acción']);
+            return r.e>0 ? `directo ${w(r.d)} + vía MEXTRAC ${w(r.e)}` : ''; }}}}});
+    const n=$('#donutNota'); if(!n.ausente){ const f=filas.find(x=>x.d>0 && x.e>0);
+      n.innerHTML = modo==='CUENTA' ? 'Como está en el contrato: el MEXTRAC09 es una sola posición. Pase el cursor por el MEXTRAC para ver qué trae adentro.'
+        : `El MEXTRAC09 está repartido en las acciones que trae adentro (PCF del ${PCF.fecha}).`+(f?` Ejemplo: ${f.l} pesa ${w(f.v)} = ${w(f.d)} directo + ${w(f.e)} vía MEXTRAC.`:''); }
   }
   function pnl(){
     const pos=Portfolio.positions();
@@ -4899,19 +4941,19 @@ const Charts=(()=>{
   return {main,donut,pnl,weights,deviation,cum,compare,hist5,risk,prosp,destroy,atribucion};
 })();
 
-/* ═══════════ 16b. ATRIBUCIÓN DEL TRACKER · lo que publica el vigilante v6.3 ═══════════
+/* ═══════════ 16b. ATRIBUCIÓN DEL TRACKER · lo que publica el vigilante v6.4 ═══════════
    atribucion_diaria.csv, atribucion_sector.csv, semanal.csv y riesgo.csv salen de la réplica en Python del tracker y
    cuadran con el Excel a diferencia 0. En GitHub Pages se leen por ruta relativa (mismo repositorio, se actualizan solos
    cada vez que el vigilante publica); abierto como archivo, desde raw.githubusercontent. El tablero no recalcula la
    atribución: solo enlaza los días de un periodo con Cariño para que la suma de los efectos dé exacto el alfa. */
 const AtrV=(()=>{
-  const RAW='https://raw.githubusercontent.com/jesusdahel/bbva-clinicas/main/';
+  const RAW='https://raw.githubusercontent.com/northstar-strategies/bbva-clinicas/main/';
   const enPages=()=>/\.github\.io$/i.test(location.hostname);
   const enWeb=()=>/^https?:$/.test(location.protocol);
   const bust=u=>u+'?_ts='+Date.now();
   const reg={}, orden={};
   let D=null, cargando=null, err='', leido=0, fuente='';
-  const st={alcance:'periodo', dia:'', desde:'', hasta:'', vent:'dia0', semana:null, rankVer:'TODAS'};
+  const st={alcance:'periodo', dia:'', desde:'', hasta:'', vent:'dia0', semana:null, rankVer:'TODAS', efecto:'Total'};
   const x=v=>{ const y=parseFloat(v); return isFinite(y)?y:null; };
   const ok=v=>v!==null && v!==undefined && isFinite(v);
   const fpb=v=>!ok(v)?'—':(v>0?'+':v<0?'−':'')+Math.abs(v*1e4).toFixed(2)+' pb';
@@ -4921,7 +4963,7 @@ const AtrV=(()=>{
   const fmx=v=>!ok(v)?'—':money(v);
   const cl=v=>!ok(v)?'neu':v>0?'pos':v<0?'neg':'neu';
   const kpi=(id,v,d)=>{ $('#'+id).innerHTML=v; $('#'+id+'d').innerHTML=d||''; };
-  const AZ='#3F8FE6', RJ='#E5484D', ICE='#D4EDFC', BLUE='#1464A5', NAVY='#072146';
+  const AZ='#3F8FE6', RJ='#E5484D', ICE='#D4EDFC', BLUE='#1464A5';
 
   // Primero la ruta relativa (GitHub Pages o el mismo servidor); si ahí no está el archivo, raw.githubusercontent.
   async function texto(f){
@@ -4934,7 +4976,8 @@ const AtrV=(()=>{
     const dias={}, fechas=[];
     filas(ad).forEach(r=>{ let d=dias[r.fecha]; if(!d){ d=dias[r.fecha]={fecha:r.fecha, em:[], pz:{}}; fechas.push(r.fecha); }
       if(r.concepto==='DIA') Object.assign(d,{v0:x(r.valor_ini), v1:x(r.valor_fin), pnl:x(r.ganancia), rp:x(r.rend_cartera),
-        rb:x(r.rend_bench), alfa:x(r.alfa), k:x(r.k_carino), wetf:x(r.peso_etf), wc:x(r.peso_caja), est:r.mextrac_estimado==='1'});
+        rb:x(r.rend_bench), alfa:x(r.alfa), k:x(r.k_carino), wetf:x(r.peso_etf), wc:x(r.peso_caja), est:r.mextrac_estimado==='1',
+        teo:x(r.mextrac_teorico), premio:x(r.premio_etf)});
       else if(r.concepto==='EMISORA') d.em.push({sym:r.emisora, sec:r.sector, bl:r.bloque, tit:x(r.titulos), g:x(r.ganancia),
         r:x(r.rendimiento), wp:x(r.peso_cartera), wb:x(r.peso_benchmark), wd:x(r.peso_directo), ap:x(r.aporte)});
       else d.pz[r.concepto]={ap:x(r.aporte), g:x(r.ganancia), r:x(r.rendimiento), w:x(r.peso_cartera)}; });
@@ -4974,8 +5017,7 @@ const AtrV=(()=>{
     if(!st.hasta || !D.dias[st.hasta]) st.hasta=ult;
     if(!st.desde || (st.desde!==D.d0 && !D.dias[st.desde])) st.desde=D.d0;
     if(st.desde>=st.hasta) st.desde=D.d0;
-    const ds=st.alcance==='dia' ? [D.dias[st.dia]] : F.filter(f=>f>st.desde && f<=st.hasta).map(f=>D.dias[f]);
-    return ds;
+    return st.alcance==='dia' ? [D.dias[st.dia]] : F.filter(f=>f>st.desde && f<=st.hasta).map(f=>D.dias[f]);
   }
   function enlazar(ds){
     const RP=ds.reduce((a,d)=>a*(1+d.rp),1)-1, RB=ds.reduce((a,d)=>a*(1+d.rb),1)-1;
@@ -5002,6 +5044,7 @@ const AtrV=(()=>{
       q.a+=s.a*d.k/E.kP; q.se+=s.se*d.k/E.kP; q.i+=s.i*d.k/E.kP; q.wp+=s.wp; q.wb+=s.wb; q.fp*=1+s.rp; q.fb*=1+s.rb; q.n++; }));
     return Object.values(m).map(q=>({...q, t:q.a+q.se+q.i, wp:q.wp/q.n, wb:q.wb/q.n, rp:q.fp-1, rb:q.fb-1}));
   }
+  const total=(d,k)=>(D.sec[d.fecha]||[]).find(s=>s.s==='TOTAL')?.[k];
   const frase=(ap,act,rel,prom)=>{ if(!ok(ap)||Math.abs(ap)<1e-6) return 'Casi no movió el alfa.';
     const q=prom?'en promedio ':''; return (ap>0?'Sumó: ':'Restó: ')+'la tuvimos '+q+Math.abs(act*100).toFixed(2)+' pp '+(act>=0?'arriba':'abajo')+
       ' del benchmark y rindió '+Math.abs(rel*100).toFixed(2)+' pp '+(rel>=0?'más':'menos')+' que el MEXTRAC09: '+
@@ -5036,9 +5079,11 @@ const AtrV=(()=>{
   }
   const fechaCorta=f=>{ const [y,m,d]=String(f).split('-'); return d+'/'+m; };
   const opcion=(f,sel,etq)=>`<option value="${f}" ${f===sel?'selected':''}>${etq||fdate(f)}${D.dias[f]?.est?' · MEXTRAC estimado':''}</option>`;
+  const calorCelda=(v,mx)=>{ const a=Math.min(1,Math.abs(v)/mx), c=v>=0?'63,143,230':'229,72,77';
+    return `<td title="${fpb(v)}" style="background:rgba(${c},${(0.08+0.82*a).toFixed(2)});color:${a>.55?'#fff':'var(--txt-2)'};text-align:center">${(v*1e4).toFixed(1)}</td>`; };
   function falta(el){ const e=document.getElementById(el); if(!e) return;
     e.innerHTML=`<div class="empty">${err?('No se pudieron leer los archivos del vigilante: '+esc(err)+'. '):'Leyendo atribucion_diaria.csv, atribucion_sector.csv, semanal.csv y riesgo.csv… '}`+
-      'Los publica el vigilante v6.3 en el mismo repositorio.</div>'; }
+      'Los publica el vigilante en el mismo repositorio.</div>'; }
 
   /* ═════ PESTAÑA 1 · ATRIBUCIÓN ═════ */
   function rDia(){
@@ -5053,14 +5098,25 @@ const AtrV=(()=>{
       on('atv-dia','dia'); on('atv-desde','desde'); on('atv-hasta','hasta');
     }
     const etq=st.alcance==='dia' ? 'el '+fdate(st.dia) : 'del cierre del '+fdate(st.desde)+' al del '+fdate(st.hasta);
-    const pnlB=E.v0*E.RB, pnl=E.v1-E.v0;
+    const pnlB=E.v0*E.RB, pnl=E.v1-E.v0, sumEm=em.reduce((a,q)=>a+q.ap,0);
     kpi('atv-rp',fps(E.RP,2),fmx(pnl)+' de P&L');
     kpi('atv-rb',fps(E.RB,2),fmx(pnlB)+' con el mismo dinero');
     kpi('atv-al',fpb(E.alfa),(E.alfa>=0?'le ganamos al MEXTRAC09 ':'nos ganó el MEXTRAC09 ')+etq);
     kpi('atv-es',String(P.est),P.est?'día(s) con MEXTRAC estimado':'el MEXTRAC09 se movió todos los días');
-    const suma=em.reduce((a,q)=>a+q.ap,0)+P.efectivo+P.mextrac+P.ops+P.com;
-    $('#atv-nota').innerHTML=`Alfa ${etq}: <b>${fpb(E.alfa)}</b> = emisoras <b>${fpb(em.reduce((a,q)=>a+q.ap,0))}</b> + efectivo <b>${fpb(P.efectivo)}</b> + MEXTRAC estimado / contra su canasta <b>${fpb(P.mextrac)}</b> + operaciones <b>${fpb(P.ops)}</b> + comisión e IVA <b>${fpb(P.com)}</b>. `+
-      `La suma da <b>${fpb(suma)}</b> (diferencia ${Math.abs(suma-E.alfa)<1e-9?'0':fpb(suma-E.alfa)}).`+(st.alcance==='periodo'?' Los días se enlazan con Cariño.':'');
+    const suma=sumEm+P.efectivo+P.mextrac+P.ops+P.com;
+    $('#atv-nota').innerHTML=`<b>Alfa ${etq}: ${fpb(E.alfa)}</b> (100 pb = 1%). Se reparte así: las acciones que pesamos distinto que el benchmark <b>${fpb(sumEm)}</b>, `+
+      `el efectivo sin invertir <b>${fpb(P.efectivo)}</b>, el precio del MEXTRAC09 contra su canasta <b>${fpb(P.mextrac)}</b>, `+
+      `comprar o vender a un precio distinto del cierre <b>${fpb(P.ops)}</b> y la comisión con IVA <b>${fpb(P.com)}</b>. `+
+      `Suman <b>${fpb(suma)}</b> (diferencia ${Math.abs(suma-E.alfa)<1e-9?'0':fpb(suma-E.alfa)}).`+(st.alcance==='periodo'?' Los días se enlazan con Cariño.':'');
+    // ejemplo con la emisora que más movió el alfa
+    const top1=[...em].sort((a,b)=>Math.abs(b.ap)-Math.abs(a.ap))[0];
+    const prem=E.ds.filter(d=>ok(d.premio)).map(d=>fechaCorta(d.fecha)+' '+fps(d.premio)).join(' · ');
+    $('#atv-ejemplo').innerHTML=(top1?`<b>Ejemplo con ${esc(top1.sym)}</b>, la que más movió el alfa: la tuvimos ${fpp(top1.act)} contra el benchmark `+
+      `(${fpw(top1.wp)} en la cartera, contando lo que trae el MEXTRAC, contra ${fpw(top1.wb)} en el benchmark) y rindió ${fpp(top1.rel)} contra el MEXTRAC09. `+
+      `Aporte = ${fpp(top1.act)} × ${fpp(top1.rel)} = <b>${fpb(top1.ap)}</b>. ${frase(top1.ap,top1.act,top1.rel,false).replace(/^(Sumó|Restó): /,'Regla: ')} `:'')+
+      (prem?`<br><b>MEXTRAC contra su canasta:</b> el ETF no siempre cotiza en su valor teórico (PCF). Precio del ETF contra su valor teórico: ${prem}. `+
+        `Cuando el ETF rinde menos que su canasta, lo que no tenemos en el ETF (${fpw(1-(E.ds[E.ds.length-1]?.wetf||0),0)} de la cartera) sigue a la canasta y nos da alfa: `+
+        `${fpb(P.mextrac)} en lo elegido. Se regresa cuando el precio del ETF alcanza a su canasta.`:'');
     // a) acumulado con el alfa sombreado
     const serie=[{f:D.d0,p:0,b:0}]; let fp=1,fb=1; F.forEach(f=>{ const d=D.dias[f]; fp*=1+d.rp; fb*=1+d.rb; serie.push({f,p:fp-1,b:fb-1,est:d.est}); });
     graf('atvCum',{type:'line',data:{labels:serie.map(s=>fechaCorta(s.f)),datasets:[
@@ -5077,22 +5133,47 @@ const AtrV=(()=>{
       options:{scales:ejes(v=>(Math.abs(v)>=1e3?(v/1e3).toFixed(0)+'K':v.toFixed(0))),plugins:{legend:{display:true,position:'top',align:'end'},
         tooltip:{callbacks:{label:c=>' '+c.dataset.label+' '+money(c.raw), afterBody:c=>{ const d=D.dias[F[c[0].dataIndex]];
           return ['Alfa '+fpb(d.alfa)].concat(d.est?['MEXTRAC estimado']:[]); }}}}}});
-    // c) cascada de quién hizo el alfa
-    const top=[...em].sort((a,b)=>Math.abs(b.ap)-Math.abs(a.ap)).slice(0,6), resto=em.reduce((a,q)=>a+q.ap,0)-top.reduce((a,q)=>a+q.ap,0);
-    const pasos=[...top.map(q=>[q.sym,q.ap]),['Otras emisoras',resto],['Efectivo',P.efectivo],['MEXTRAC estimado',P.mextrac],['Operaciones',P.ops],['Comisión e IVA',P.com]];
-    let acc=0; const bar=pasos.map(([l,v])=>{ const a=acc; acc+=v; return {l,v,a,b:acc}; }); bar.push({l:'Alfa',v:acc,a:0,b:acc,tot:true});
-    graf('atvCas',{type:'bar',data:{labels:bar.map(b=>b.l),datasets:[{label:'Aporte',data:bar.map(b=>[b.a*1e4,b.b*1e4]),
-        backgroundColor:bar.map(b=>b.tot?BLUE:(b.v>=0?AZ:RJ)),borderRadius:3,borderSkipped:false}]},
-      options:{scales:ejes(v=>v.toFixed(0)+' pb'),plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+fpb(bar[c.dataIndex].v)}}}}});
+    // c) quién hizo el alfa: cada pieza como barra (ordenadas) y el alfa total al final
+    const top=[...em].sort((a,b)=>Math.abs(b.ap)-Math.abs(a.ap)).slice(0,8), resto=sumEm-top.reduce((a,q)=>a+q.ap,0);
+    const piezasC=[...top.map(q=>({l:q.sym,v:q.ap})),{l:'Otras emisoras',v:resto},{l:'Efectivo',v:P.efectivo},
+      {l:'MEXTRAC contra su canasta',v:P.mextrac},{l:'Operaciones',v:P.ops},{l:'Comisión e IVA',v:P.com}].filter(p=>Math.abs(p.v)>=5e-7)
+      .sort((a,b)=>b.v-a.v);
+    piezasC.push({l:'= Alfa total',v:E.alfa,tot:true});
+    graf('atvCas',{type:'bar',data:{labels:piezasC.map(b=>b.l),datasets:[{label:'Aporte al alfa',data:piezasC.map(b=>b.v*1e4),
+        backgroundColor:piezasC.map(b=>b.tot?BLUE:(b.v>=0?AZ:RJ)),borderRadius:3,barThickness:14}]},
+      options:{indexAxis:'y',scales:ejesH(v=>v.toFixed(0)+' pb'),plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:c=>' '+fpb(piezasC[c.dataIndex].v)+(piezasC[c.dataIndex].tot?' (la suma de todas las barras)':'')}}}}});
     // d) mapa de calor día × emisora
-    const total={}; F.forEach(f=>D.dias[f].em.forEach(e=>{ total[e.sym]=(total[e.sym]||0)+e.ap; }));
-    const syms=Object.keys(total).filter(s=>F.some(f=>Math.abs(D.dias[f].em.find(e=>e.sym===s)?.ap||0)>=5e-7)).sort((a,b)=>total[b]-total[a]);
+    const tot={}; F.forEach(f=>D.dias[f].em.forEach(e=>{ tot[e.sym]=(tot[e.sym]||0)+e.ap; }));
+    const syms=Object.keys(tot).filter(s=>F.some(f=>Math.abs(D.dias[f].em.find(e=>e.sym===s)?.ap||0)>=5e-7)).sort((a,b)=>tot[b]-tot[a]);
     const mx=Math.max(1e-9,...F.flatMap(f=>D.dias[f].em.map(e=>Math.abs(e.ap))));
-    const celda=v=>{ const a=Math.min(1,Math.abs(v)/mx), c=v>=0?'63,143,230':'229,72,77';
-      return `<td title="${fpb(v)}" style="background:rgba(${c},${(0.08+0.82*a).toFixed(2)});color:${a>.55?'#fff':'var(--txt-2)'};text-align:center">${(v*1e4).toFixed(1)}</td>`; };
-    $('#atvCalor').innerHTML=`<thead><tr><th>Emisora</th>${F.map(f=>`<th title="${D.dias[f].est?'MEXTRAC estimado':''}">${fechaCorta(f)}${D.dias[f].est?' ▲':''}</th>`).join('')}<th>Total</th></tr></thead><tbody>`+
-      syms.map(s=>`<tr><td><b>${s}</b></td>${F.map(f=>celda(D.dias[f].em.find(e=>e.sym===s)?.ap||0)).join('')}<td class="${cl(total[s])}"><b>${(total[s]*1e4).toFixed(1)}</b></td></tr>`).join('')+'</tbody>';
-    // e) sectores BHB
+    $('#atvCalor').innerHTML=`<thead><tr><th>Emisora</th>${F.map(f=>`<th title="${D.dias[f].est?'MEXTRAC estimado':''}">${fechaCorta(f)}${D.dias[f].est?' ▲':''}</th>`).join('')}<th>Suma</th></tr></thead><tbody>`+
+      syms.map(s=>`<tr><td><b>${s}</b></td>${F.map(f=>calorCelda(D.dias[f].em.find(e=>e.sym===s)?.ap||0,mx)).join('')}<td class="${cl(tot[s])}"><b>${(tot[s]*1e4).toFixed(1)}</b></td></tr>`).join('')+'</tbody>';
+    // e) día por día: alfa y sus piezas, con asignación, selección e interacción de cada día
+    const filasD=F.map(f=>{ const d=D.dias[f]; return {fecha:f, rp:d.rp, rb:d.rb, alfa:d.alfa,
+      em:d.em.reduce((a,e)=>a+e.ap,0), ef:d.pz.EFECTIVO?.ap, asig:total(d,'a'), sel:total(d,'se'), inter:total(d,'i'),
+      mex:d.pz.MEXTRAC?.ap, ops:d.pz.OPERACIONES?.ap, com:d.pz.COMISIONES?.ap, premio:d.premio, marca:d.est?'MEXTRAC estimado':''}; });
+    tabla('atvTDias',[{k:'fecha',l:'Fecha',f:fdate},{k:'rp',l:'Cartera',f:v=>fps(v),c:cl},{k:'rb',l:'MEXTRAC09',f:v=>fps(v),c:cl},
+      {k:'alfa',l:'Alfa',f:fpb,c:cl,t:'Cartera − MEXTRAC09'},{k:'em',l:'Emisoras',f:fpb,c:cl},{k:'ef',l:'Efectivo',f:fpb,c:cl},
+      {k:'asig',l:'Asignación',f:fpb,c:cl,t:'Por pesar distinto que el benchmark en cada sector (incluye el efectivo)'},
+      {k:'sel',l:'Selección',f:fpb,c:cl,t:'Por escoger mejores o peores acciones dentro de cada sector'},
+      {k:'inter',l:'Interacción',f:fpb,c:cl,t:'Por haber cargado más justo donde escogimos mejor (o peor)'},
+      {k:'mex',l:'MEXTRAC vs canasta',f:fpb,c:cl},{k:'ops',l:'Operaciones',f:fpb,c:cl},{k:'com',l:'Comisión e IVA',f:fpb,c:cl},
+      {k:'premio',l:'ETF vs su teórico',f:v=>fps(v),c:cl,t:'Precio del MEXTRAC09 contra su valor teórico según el PCF'},{k:'marca',l:'MEXTRAC'}],filasD,'+fecha');
+    const sumD=k=>E.L(d=>({em:d.em.reduce((a,e)=>a+e.ap,0),ef:d.pz.EFECTIVO?.ap,asig:total(d,'a'),sel:total(d,'se'),inter:total(d,'i')}[k]));
+    $('#atv-diasnota').innerHTML=`Cada renglón es un día de cierre a cierre. <b>Emisoras + efectivo = asignación + selección + interacción</b>: es el mismo alfa visto por acción o por sector. `+
+      `Para el periodo elegido (enlazado con Cariño): asignación <b>${fpb(sumD('asig'))}</b>, selección <b>${fpb(sumD('sel'))}</b>, interacción <b>${fpb(sumD('inter'))}</b>, `+
+      `MEXTRAC contra su canasta <b>${fpb(P.mextrac)}</b>, operaciones <b>${fpb(P.ops)}</b> y comisiones <b>${fpb(P.com)}</b> = alfa <b>${fpb(E.alfa)}</b>.`;
+    // f) sectores día por día con el efecto elegido
+    UI.seg('atv-efecto',['Total','Asignación','Selección','Interacción'],st.efecto,k=>{ st.efecto=k; UI.render(); });
+    const ck={Total:'t',Asignación:'a',Selección:'se',Interacción:'i'}[st.efecto];
+    const sectores=[...new Set(F.flatMap(f=>(D.sec[f]||[]).map(s=>s.s)))].filter(s=>s!=='TOTAL' &&
+      F.some(f=>Math.abs((D.sec[f]||[]).find(z=>z.s===s)?.[ck]||0)>=5e-7));
+    const vs=(f,s)=>(D.sec[f]||[]).find(z=>z.s===s)?.[ck]||0;
+    const mx2=Math.max(1e-9,...F.flatMap(f=>sectores.map(s=>Math.abs(vs(f,s)))));
+    $('#atvSecDia').innerHTML=`<thead><tr><th>Sector · ${esc(st.efecto.toLowerCase())}</th>${F.map(f=>`<th>${fechaCorta(f)}${D.dias[f].est?' ▲':''}</th>`).join('')}<th>Suma</th></tr></thead><tbody>`+
+      sectores.map(s=>{ const sm=F.reduce((a,f)=>a+vs(f,s),0); return `<tr><td><b>${esc(s)}</b></td>${F.map(f=>calorCelda(vs(f,s),mx2)).join('')}<td class="${cl(sm)}"><b>${(sm*1e4).toFixed(1)}</b></td></tr>`; }).join('')+'</tbody>';
+    // g) sectores BHB del alcance elegido
     const S_=se.filter(s=>s.s!=='Efectivo' && (Math.abs(s.wp)+Math.abs(s.wb))>0);
     graf('atvSec',{type:'bar',data:{labels:S_.map(s=>s.s),datasets:[
         {label:'Asignación',data:S_.map(s=>s.a*1e4),backgroundColor:ICE,borderRadius:3},
@@ -5108,8 +5189,8 @@ const AtrV=(()=>{
     let cuad='';
     if(st.alcance==='dia'){ const q=(D.sec[st.dia]||[]).find(s=>s.s==='TOTAL')?.q||[];
       cuad=` Cuadrantes del día: I (política) ${fps(q[0],3)} · II (política y asignación) ${fps(q[1],3)} · III (política y selección) ${fps(q[2],3)} · IV (real) ${fps(q[3],3)}.`; }
-    $('#atv-secnota').innerHTML=`Total por sectores <b>${fpb(tb)}</b> + MEXTRAC estimado ${fpb(P.mextrac)} + operaciones ${fpb(P.ops)} + comisiones ${fpb(P.com)} = <b>${fpb(tb+P.mextrac+P.ops+P.com)}</b>.`+cuad;
-    // f) top 5 sobre y sub (último día de la selección, MEXTRAC abierto)
+    $('#atv-secnota').innerHTML=`Total por sectores <b>${fpb(tb)}</b> + MEXTRAC contra su canasta ${fpb(P.mextrac)} + operaciones ${fpb(P.ops)} + comisiones ${fpb(P.com)} = <b>${fpb(tb+P.mextrac+P.ops+P.com)}</b>.`+cuad;
+    // h) top 5 sobre y sub (último día de la selección, MEXTRAC abierto)
     const ultd=E.ds[E.ds.length-1], act=(ultd?.em||[]).map(e=>({sym:e.sym, a:e.wp-e.wb, wp:e.wp, wb:e.wb})).sort((a,b)=>b.a-a.a);
     const t5=[...act.slice(0,5),...act.slice(-5)];
     graf('atvTop',{type:'bar',data:{labels:t5.map(t=>t.sym),datasets:[{label:'Peso activo',data:t5.map(t=>t.a*100),
@@ -5117,11 +5198,11 @@ const AtrV=(()=>{
       options:{indexAxis:'y',scales:ejesH(v=>v.toFixed(1)+' pp'),plugins:{legend:{display:false},
         tooltip:{callbacks:{label:c=>{ const t=t5[c.dataIndex]; return [' activo '+fpp(t.a),' cartera '+fpw(t.wp)+' · benchmark '+fpw(t.wb)]; }}}}}});
     // tabla por emisora
-    tabla('atvTEm',[{k:'sym',l:'Emisora',f:v=>`<b>${esc(v)}</b>`},{k:'sec',l:'Sector'},{k:'g',l:'Ganancia $',f:fmx,c:cl},{k:'r',l:'Rendimiento',f:v=>fps(v),c:cl},
-      {k:'wp',l:'Peso cartera',f:fpw,t:'Con el MEXTRAC abierto en sus emisoras'},{k:'wb',l:'Peso benchmark',f:fpw},{k:'act',l:'Activo',f:fpp,c:cl},
-      {k:'rel',l:'Rend. − MEXTRAC',f:v=>fps(v),c:cl},{k:'ap',l:'Aporte al alfa',f:fpb,c:cl},{k:'txt',l:'Por qué',f:v=>`<span class="atv-frase">${esc(v)}</span>`}],
+    tabla('atvTEm',[{k:'sym',l:'Emisora',f:v=>`<b>${esc(v)}</b>`},{k:'sec',l:'Sector'},{k:'g',l:'Ganancia $',f:fmx,c:cl,t:'Lo que ganó o perdió la posición directa'},{k:'r',l:'Rendimiento',f:v=>fps(v),c:cl},
+      {k:'wp',l:'Peso cartera',f:fpw,t:'Directo más lo que trae el MEXTRAC'},{k:'wb',l:'Peso benchmark',f:fpw},{k:'act',l:'Peso activo',f:fpp,c:cl},
+      {k:'rel',l:'Rend. − MEXTRAC09',f:v=>fps(v),c:cl},{k:'ap',l:'Aporte al alfa',f:fpb,c:cl,t:'Peso activo × (rendimiento − MEXTRAC09)'},{k:'txt',l:'Por qué',f:v=>`<span class="atv-frase">${esc(v)}</span>`}],
       em.map(q=>({...q, txt:frase(q.ap,q.act,q.rel,st.alcance==='periodo' && E.ds.length>1)})),'ap');
-    // g) VaR
+    // i) VaR
     const R=D.R, v=k=>x(R[k]);
     graf('atvVar',{type:'bar',data:{labels:['Histórico','Paramétrico'],datasets:[
         {label:'Absoluto',data:[v('var95_hist_mxn'),v('var95_param_mxn')],backgroundColor:ICE,borderRadius:3},
@@ -5144,10 +5225,12 @@ const AtrV=(()=>{
     const segEl=document.getElementById('atv-vent'); if(segEl) segEl.querySelectorAll('button').forEach(b=>b.textContent={dia:'Del día',semana:'De la semana',dia0:'Desde el día 0'}[b.dataset.k]);
     const V=vent[st.vent]; const RB=V.ds.reduce((a,d)=>a*(1+d.rb),1)-1;
     const m={}; V.ds.forEach(d=>d.em.forEach(e=>{ const q=m[e.sym]||(m[e.sym]={sym:e.sym, sec:e.sec, bl:e.bl, f:1, tit:0}); q.f*=1+e.r; q.tit=e.tit; }));
-    const rows=Object.values(m).map(q=>({sym:q.sym, sec:q.sec, bl:q.bl, cart:q.tit>0?'Sí':'No', abs:q.f-1, mex:RB, rel:(q.f-1)-RB}));
-    $('#atv-emi-t').textContent=V.t+' · MEXTRAC09 '+fps(RB);
+    const rows=Object.values(m).map(q=>({sym:q.sym, sec:q.sec, bl:q.bl, cart:q.tit>0?'Sí':'No', abs:q.f-1, rel:(q.f-1)-RB}));
+    $('#atv-emi-t').textContent=V.t+' · el MEXTRAC09 rindió '+fps(RB)+' en el mismo lapso';
+    $('#atv-emi-nota').innerHTML=`<b>Absoluto</b> = cuánto subió o bajó la acción, con su dividendo. <b>Relativo</b> = absoluto − ${fps(RB)} (lo que rindió el MEXTRAC09 en el mismo lapso): `+
+      `positivo, le ganó al benchmark; negativo, se quedó atrás. El MEXTRAC09 es el mismo para todas, por eso ya no se repite en la tabla.`;
     tabla('atvTRend',[{k:'sym',l:'Emisora',f:v=>`<b>${esc(v)}</b>`},{k:'sec',l:'Sector'},{k:'cart',l:'¿En cartera?'},
-      {k:'abs',l:'Rendimiento (absoluto)',f:v=>fps(v),c:cl},{k:'mex',l:'MEXTRAC09',f:v=>fps(v)},{k:'rel',l:'Relativo (r − R_b)',f:v=>fps(v),c:cl}],rows,'rel');
+      {k:'abs',l:'Rendimiento absoluto',f:v=>fps(v),c:cl},{k:'rel',l:'Relativo al MEXTRAC09',f:v=>fps(v),c:cl}],rows,'rel');
     const o=[...rows].sort((a,b)=>b.rel-a.rel);
     graf('atvRend',{type:'bar',data:{labels:o.map(r=>r.sym),datasets:[
         {label:'Absoluto',data:o.map(r=>r.abs*100),backgroundColor:'rgba(212,237,252,.75)',borderRadius:2},
@@ -5203,31 +5286,45 @@ const AtrV=(()=>{
   }
 
   /* ═════ PESTAÑA 4 · OPERACIONES ABIERTAS Y CERRADAS ═════ */
+  function abiertas(){ return Object.entries(D.S.ABIERTAS).map(([s,q])=>({sym:s, ...Object.fromEntries(Object.entries(q).map(([k,v])=>[k,k==='fecha_base'?v:x(v)]))})); }
   function rOps(){
-    const A=D.S.ABIERTAS, Cr=D.S.CERRADAS;
-    tabla('atvTAb',[{k:'sym',l:'Emisora',f:v=>`<b>${esc(v)}</b>`},{k:'titulos',l:'Títulos',f:ints},{k:'costo',l:'Costo (día 0 o compra)',f:fmx},
-      {k:'costo_titulo',l:'Costo por título',f:v=>num(v,4)},{k:'precio',l:'Precio',f:v=>num(v,2)},{k:'valor',l:'Valor',f:fmx},
+    tabla('atvTAb',[{k:'sym',l:'Emisora',f:v=>`<b>${esc(v)}</b>`},{k:'titulos',l:'Títulos',f:ints},
+      {k:'precio_asignacion',l:'Precio de asignación (12-oct)',f:v=>ok(v)?num(v,2):'—',t:'Solo informativo: lo que valía cuando BBVA la asignó'},
+      {k:'precio_dia0',l:'Cierre del día 0 (16-oct)',f:v=>num(v,2),t:'La base contra la que medimos'},{k:'costo_titulo',l:'Costo por título',f:v=>num(v,4)},
+      {k:'precio',l:'Precio hoy',f:v=>num(v,2)},{k:'costo',l:'Costo (día 0 o compra)',f:fmx},{k:'valor',l:'Valor',f:fmx},{k:'ganancia',l:'Ganancia $',f:fmx,c:cl},
       {k:'rendimiento',l:'Rendimiento al momento',f:v=>fps(v),c:cl},{k:'peso',l:'% del portafolio',f:fpw},{k:'fecha_base',l:'Fecha base',f:fdate},
-      {k:'bench',l:'MEXTRAC09 desde la base',f:v=>fps(v)},{k:'activo',l:'Rendimiento activo acumulado',f:v=>fps(v),c:cl}],
-      Object.entries(A).map(([s,q])=>({sym:s, ...Object.fromEntries(Object.entries(q).map(([k,v])=>[k,k==='fecha_base'?v:x(v)]))})),'valor');
+      {k:'bench',l:'MEXTRAC09 desde la base',f:v=>fps(v)},{k:'activo',l:'Rendimiento activo acumulado',f:v=>fps(v),c:cl}],abiertas(),'valor');
     tabla('atvTCe',[{k:'sym',l:'Emisora',f:v=>`<b>${esc(v)}</b>`},{k:'resultado',l:'Resultado realizado desde el día 0',f:fmx,c:cl}],
-      Object.entries(Cr).map(([s,q])=>({sym:s, resultado:x(q.resultado)})),'resultado');
+      Object.entries(D.S.CERRADAS).map(([s,q])=>({sym:s, resultado:x(q.resultado)})),'resultado');
   }
 
   /* ═════ PESTAÑA 5 · RANKING ═════ */
   function rRank(){
+    // ranking del portafolio: lo que tenemos, por lo que le dio a la cartera desde el día 0
+    const A=abiertas().filter(a=>ok(a.ganancia)).sort((a,b)=>b.ganancia-a.ganancia); A.forEach((a,i)=>a.n=i+1);
+    tabla('atvTRankP',[{k:'n',l:'#'},{k:'sym',l:'Emisora',f:v=>`<b>${esc(v)}</b>`},{k:'peso',l:'% del portafolio',f:fpw},
+      {k:'rendimiento',l:'Rendimiento',f:v=>fps(v),c:cl},{k:'bench',l:'MEXTRAC09 mismo lapso',f:v=>fps(v)},{k:'activo',l:'Rend. activo',f:v=>fps(v),c:cl},
+      {k:'ganancia',l:'Ganancia $',f:fmx,c:cl},{k:'aporte',l:'Aporte a la cartera',f:fpp,c:cl,t:'Ganancia ÷ valor del día 0'}],A,'+n');
+    graf('atvRankP',{type:'bar',data:{labels:A.map(a=>a.sym),datasets:[{label:'Aporte a la cartera',data:A.map(a=>a.aporte*100),
+        backgroundColor:A.map(a=>a.aporte>=0?AZ:RJ),borderRadius:3,barThickness:13}]},
+      options:{indexAxis:'y',scales:ejesH(v=>v.toFixed(2)+' pp'),plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:c=>{ const a=A[c.dataIndex]; return [' aporte '+fpp(a.aporte),' ganancia '+money(a.ganancia)+' · rendimiento '+fps(a.rendimiento)]; }}}}}});
+    const sumA=A.reduce((s,a)=>s+a.aporte,0);
+    $('#atv-rkpnota').innerHTML=A.length?`Las posiciones que tenemos aportaron <b>${fpp(sumA)}</b> desde el día 0; con el efectivo y las comisiones da el rendimiento de la cartera. `+
+      `La que más dio: <b>${esc(A[0].sym)} ${fpp(A[0].aporte)}</b>; la que más quitó: <b>${esc(A[A.length-1].sym)} ${fpp(A[A.length-1].aporte)}</b>.`:'';
+    // ranking de emisoras del universo (rendimiento absoluto de cada acción)
     UI.seg('atv-rk',['TODAS','EN CARTERA'],st.rankVer,k=>{ st.rankVer=k; UI.render(); });
     const rows=Object.entries(D.S.RANKING).map(([s,q])=>({sym:s, sec:q.sector, bl:q.bloque, cart:q.en_cartera, r0:x(q.rend_dia0), rs:x(q.rend_semana),
       vol:x(q.vol), cor:x(q.correl), beta:x(q.beta)})).filter(r=>st.rankVer==='TODAS' || r.cart==='Sí');
     const rk=(k,des=true)=>{ const v=rows.filter(r=>ok(r[k])).sort((a,b)=>des?b[k]-a[k]:a[k]-b[k]); v.forEach((r,i)=>r['n_'+k]=i+1); };
     rk('r0'); rk('vol'); rk('cor');
     tabla('atvTRank',[{k:'n_r0',l:'#'},{k:'sym',l:'Emisora',f:v=>`<b>${esc(v)}</b>`},{k:'sec',l:'Sector'},{k:'cart',l:'¿En cartera?'},
-      {k:'r0',l:'Rendimiento desde el día 0',f:v=>fps(v),c:cl},{k:'rs',l:'Rendimiento de la semana',f:v=>fps(v),c:cl},
+      {k:'r0',l:'Rendimiento desde el día 0 (absoluto)',f:v=>fps(v),c:cl},{k:'rs',l:'Rendimiento de la semana (absoluto)',f:v=>fps(v),c:cl},
       {k:'vol',l:'Volatilidad anual',f:fpw},{k:'n_vol',l:'Lugar por volatilidad'},{k:'cor',l:'Correlación con el MEXTRAC09',f:v=>ok(v)?v.toFixed(2):'—'},
       {k:'n_cor',l:'Lugar por correlación'},{k:'beta',l:'Beta',f:v=>ok(v)?v.toFixed(2):'—'}],rows,'r0');
     const o=[...rows].filter(r=>ok(r.r0)).sort((a,b)=>b.r0-a.r0);
-    $('#atv-rknota').innerHTML=o.length?`Mayor rendimiento desde el día 0: <b>${o.slice(0,3).map(r=>r.sym+' '+fps(r.r0)).join(' · ')}</b>. Menor: <b>${o.slice(-3).reverse().map(r=>r.sym+' '+fps(r.r0)).join(' · ')}</b>. `+
-      'La bursatilidad (importe operado diario promedio de 3 meses) está en la hoja Ranking del tracker cuando LSEG la entrega.':'';
+    $('#atv-rknota').innerHTML=o.length?`Rendimiento <b>absoluto</b> de cada acción del universo, la tengamos o no. Mayor desde el día 0: <b>${o.slice(0,3).map(r=>r.sym+' '+fps(r.r0)).join(' · ')}</b>. `+
+      `Menor: <b>${o.slice(-3).reverse().map(r=>r.sym+' '+fps(r.r0)).join(' · ')}</b>. La bursatilidad está en la hoja Ranking del tracker cuando LSEG la entrega.`:'';
   }
 
   function render(p){
@@ -5235,7 +5332,7 @@ const AtrV=(()=>{
     if(!D.fechas.length){ falta('atv-ctl'); return; }
     try{
       if(p==='atrdia') rDia(); if(p==='atremi') rEmi(); if(p==='atrsem') rSem(); if(p==='atrops') rOps(); if(p==='atrrank') rRank();
-      const f=$('#atv-fuente'); if(f && !f.ausente) f.textContent='vigilante v6.3 · '+(enPages()?'GitHub Pages · ':'')+fuente+' · leído '+new Date(leido).toLocaleTimeString('es-MX');
+      const f=$('#atv-fuente'); if(f && !f.ausente) f.textContent='vigilante v6.4 · '+(enPages()?'GitHub Pages · ':'')+fuente+' · leído '+new Date(leido).toLocaleTimeString('es-MX');
     }catch(e){ console.error('Atribución:',e); }
   }
   return {iniciar, cargar, render, datos:()=>D};
@@ -5246,7 +5343,7 @@ const UI=(()=>{
   const sortState={}, F={pos:'',ops:'',px:'',bmk:'',mdl:'',posStrat:'TODAS',opsTipo:'TODAS',pxUni:'TODAS',mdlF:'TODAS'};
   let view='portafolio', pane={portafolio:'dash',operaciones:GESTOR?'alta':'log',modelo:'pesos',
     mercado:'px',analisis:'rend',control:'efec',noticias:'',simulador:'',atribucion:'atrdia'};
-  let period='ITD', mainPeriod='ITD', prospDays=252, rebalList=[];
+  let period='ITD', mainPeriod='ITD', donutModo='ABIERTO', prospDays=252, rebalList=[];
   let cmp={from:'',to:'',cont:true,quick:'EN MODELO',q:''};
   let noti={tono:'TODAS',sym:'TODAS',q:''};
   let hist5={per:'5A', series:null};
@@ -5324,7 +5421,7 @@ const UI=(()=>{
   }
   // Las claves cortas (1D, 1S, ITD…) se quedan en el código; en pantalla se leen completas.
   const ETQ_SEG={'1D':'1 día','1S':'1 semana','1M':'1 mes','3M':'3 meses','6M':'6 meses','1A':'1 año','3A':'3 años','5A':'5 años',
-    'ITD':'Desde el inicio','Máx':'Todo el histórico','MEXTRAC 09':'En el índice (MEXTRAC 09)','FUERA':'Fuera del índice'};
+    'ITD':'Desde el inicio','ABIERTO':'MEXTRAC abierto','CUENTA':'Como en la cuenta','Máx':'Todo el histórico','MEXTRAC 09':'En el índice (MEXTRAC 09)','FUERA':'Fuera del índice'};
   function seg(id,items,cur,cb){const el=document.getElementById(id); if(!el) return;
     el.innerHTML=items.map(i=>`<button data-k="${i}" class="${i===cur?'on':''}">${ETQ_SEG[i]||i}</button>`).join('');
     el.querySelectorAll('button').forEach(b=>b.onclick=()=>cb(b.dataset.k));}
@@ -6099,7 +6196,8 @@ const UI=(()=>{
     // Antes del arranque "desde el inicio" no tiene nada que mostrar: se abre en 3M, que trae la simulación.
     const perEf=(mainPeriod==='ITD' && Calc.recorte('ITD').length<2)?'3M':mainPeriod;
     seg('segMain',['1D','1S','1M','3M','6M','1A','ITD'],perEf,k=>{mainPeriod=k;rDash();});
-    Charts.main(perEf); Charts.donut();
+    seg('segDonut',['ABIERTO','CUENTA'],donutModo,k=>{donutModo=k;rDash();});
+    Charts.main(perEf); Charts.donut(donutModo);
     const sp=Portfolio.strategySplit();
     $('#compBreak').innerHTML=[['Estrategia pasiva',sp.pasiva,sp.pasivaPct,`${POLICY.pasivaMin} a ${POLICY.pasivaMax}%`],
       ['Estrategia activa',sp.activa,sp.activaPct,`${POLICY.activaMin} a ${POLICY.activaMax}%`],
@@ -6135,9 +6233,11 @@ const UI=(()=>{
   function rPos(){
     seg('segPosStrat',['TODAS','ACTIVA','PASIVA'],F.posStrat,k=>{F.posStrat=k;rPos();});
     const bw=Bmk.weights(), pw=Portfolio.weights(), lt=Portfolio.lookThroughWeights();
+    const AB=(typeof AtrV!=='undefined' && AtrV.datos()?.S?.ABIERTAS)||{};   // precios de asignación y del día 0, del tracker
     let rows=Portfolio.positions().map(p=>({...p,w:pw[p.sym]||0,bw:bw[p.sym]||0,
       wEff:p.sym==='MEXTRAC'?null:(lt[p.sym]||0), dev:p.sym==='MEXTRAC'?null:(lt[p.sym]||0)-(bw[p.sym]||0),
-      nombre:META[p.sym]?.n||'',sector:META[p.sym]?.sec||''}));
+      nombre:META[p.sym]?.n||'',sector:META[p.sym]?.sec||'',
+      pAsig:+(AB[p.sym]?.precio_asignacion)||null, p0:+(AB[p.sym]?.precio_dia0)||null}));
     if(F.posStrat!=='TODAS') rows=rows.filter(r=>r.stratLabel===F.posStrat);
     if(F.pos) rows=rows.filter(r=>(r.sym+r.nombre+r.sector).toLowerCase().includes(F.pos.toLowerCase()));
     table('tPos',[
@@ -6145,6 +6245,8 @@ const UI=(()=>{
       {k:'stratLabel',l:'Estrategia',f:v=>`<span class="chip ${v==='ACTIVA'?'b':''}">${v==='ACTIVA'?'ACTIVA':'PASIVA'}</span>`},
       {k:'qty',l:'Títulos',f:v=>ints(v)},
       {k:'px',l:'Precio',f:v=>money(v),flash:true},
+      {k:'pAsig',l:'Precio de asignación (12-oct)',f:v=>v>0?money(v):'—',t:'Solo informativo: el precio con el que BBVA asignó la posición. No entra al rendimiento.'},
+      {k:'p0',l:'Cierre del día 0 (16-oct)',f:v=>v>0?money(v):'—',t:'La base contra la que se mide el rendimiento'},
       {k:'dayChgPct',l:'Variación del día',f:v=>pctS(v),cl:v=>cls(v)},
       {k:'avg',l:'Costo promedio',f:v=>money(v)},
       {k:'mv',l:'Valor de mercado',f:v=>money(v),flash:true},
@@ -6905,8 +7007,11 @@ WALMEX,46.05,45.49,2026-09-14T18:51:21+00:00</pre>
     kpi('s-pv',money(r.V),`efectivo hoy ${money(r.caja)}${r.porCobrar?` · ${money(r.porCobrar)} por cobrar`:''}`);
     kpi('s-buy',money(t.compras),`${t.nC} ${t.nC===1?'compra':'compras'} · comisión e IVA ${money(t.costos)}`);
     kpi('s-sell',money(t.ventas),`${t.nV} ${t.nV===1?'venta':'ventas'}${r.ventasLibres?' · sin comisión esta semana':''}`);
+    // parche v6.4: la cuenta completa, para que se vea por qué cambia el efectivo
     kpi('s-cash',`<span class="${t.efectivoFinal<0?'neg':''}">${money(t.efectivoFinal)}</span>`,
-      `${pct(t.efectivoPct*100)} del portafolio · ${t.fuera?`<span class="neg">${t.fuera} fuera de política</span>`:'<span class="pos">sin restricciones rotas</span>'}`);
+      `${money(r.caja)} de efectivo hoy${r.porCobrar?` − ${money(r.porCobrar)} por cobrar`:''} + ventas ${money(t.ventas)} − compras ${money(t.compras)} − comisión e IVA ${money(t.costos)}`
+      +`<br>${pct(t.efectivoPct*100)} del portafolio · ${t.fuera?`<span class="neg">${t.fuera} fuera de política</span>`:'<span class="pos">sin restricciones rotas</span>'}`
+      +(t.nC+t.nV?`<br><span style="color:var(--txt-3)">Son órdenes simuladas: ${s.vacio==='OBJETIVO'?'con «Llevarlas al peso objetivo» el simulador propone llevar cada emisora a su peso del modelo, y eso usa casi todo el efectivo':'las que usted capturó'}. Nada se opera hasta registrarlo en el tracker.</span>`:''));
     // controles
     const fi=$('#s-fecha'); if(!fi.ausente && !enFoco('#s-fecha')) fi.value=s.fecha||'';
     const bi=$('#s-banda'); if(!bi.ausente && !enFoco('#s-banda')) bi.value=String(s.banda??0.05);
@@ -8121,6 +8226,9 @@ function seedFromModel(S){
     const b=Store.blank(); seedFromModel(b); Store.set(b);
   }
   Store.get().esquema=ESQUEMA;
+  // parche v6.4: el repositorio pasó a la organización; las direcciones guardadas en este navegador se actualizan
+  { const c=Store.get().cfg; Object.keys(c).forEach(k=>{ if(typeof c[k]==='string' && c[k].includes('jesusdahel/bbva-clinicas'))
+      c[k]=c[k].split('jesusdahel/bbva-clinicas').join('northstar-strategies/bbva-clinicas'); }); }
   Store.sub(()=>UI.render());
   try{ bindEvents(); }
   catch(e){ console.error('Fallo al enlazar controles:',e); }
