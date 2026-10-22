@@ -75,4 +75,3 @@ fecha,hora,simbolo,tipo,titulos,precio,comision,iva,bloque,motivo,comentario,caj
 2026-10-21,10:58,FEMSAUBD,COMPRA,100,238.7900,71.64,11.46,ACTIVA,Rebalanceo al modelo,Ejecución FEMSAUBD.MX 10:58:04.174 · vendedor JPM,-23962.10,2026-10-22
 2026-10-21,10:58,FEMSAUBD,COMPRA,100,238.8000,71.64,11.46,ACTIVA,Rebalanceo al modelo,Ejecución FEMSAUBD.MX 10:58:04.174 · vendedor JPM,-23963.10,2026-10-22
 2026-10-21,10:58,FEMSAUBD,COMPRA,64,238.8000,45.85,7.34,ACTIVA,Rebalanceo al modelo,Ejecución FEMSAUBD.MX 10:58:04.175 · vendedor JPM,-15336.39,2026-10-22
-2026-10-14,,FEMSAUBD,DIVIDENDO,5009,3.2029,0.00,0.00,ACTIVA,Dividendo en efectivo,pago 2026-10-15 · BMV · aviso de derechos del 29-sep-2026 · 3ª exhibición: ordinario 1.1880 + extraordinario 2.014925 · captura manual,16043.45,2026-10-15

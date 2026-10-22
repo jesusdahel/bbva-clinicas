@@ -1,70 +1,68 @@
 # North Star Strategies · Fondo de Inversión ITESM-BBVA
 
-**Actualizado:** 20/10/2026 20:47 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
+**Actualizado:** 22/10/2026 04:00 (hora CDMX) · precios **LSEG Refinitiv** · benchmark **MEXTRAC09** (etf)
 
 
-| | Último cierre (20/10) | Acumulado |
+| | Último cierre (21/10) | Acumulado |
 |---|---:|---:|
-| Cartera | +0.54% | +0.47% |
-| MEXTRAC | +0.89% | +1.26% |
-| **Diferencia** | **-0.35%** | **-0.80%** |
+| Cartera | +1.07% | +1.55% |
+| MEXTRAC | +0.35% | +1.62% |
+| **Diferencia** | **+0.73%** | **-0.07%** |
 
-Valor del portafolio **$10,432,752.81** · día 2 desde el portafolio de referencia (16/10) · TE ex ante 6.50% (límite 10%) · beta 0.90
+Valor del portafolio **$10,528,635.91** · día 3 desde el portafolio de referencia (16/10) · TE ex ante 5.82% (límite 10%) · beta 0.94
 
 
 ## Día por día
 
 | Fecha | Valor | Cartera | MEXTRAC | Diferencia | Acum. cartera | Acum. MEXTRAC | Acum. diferencia |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| 20/10/2026 | $10,432,753 | +0.54% | +0.89% | -0.35% | +0.47% | +1.26% | -0.80% |
-| 19/10/2026 | $10,376,371 | -0.08% | +0.37% | -0.44% | -0.08% | +0.37% | -0.44% |
+| 21/10/2026 | $10,528,636 | +1.07% | +0.35% | +0.73% | +1.55% | +1.62% | -0.07% |
+| 20/10/2026 | $10,416,709 | +0.54% | +0.89% | -0.35% | +0.47% | +1.26% | -0.80% |
+| 19/10/2026 | $10,360,327 | -0.08% | +0.37% | -0.44% | -0.08% | +0.37% | -0.44% |
+
+## Atribución del 21/10/2026 · alfa +72.6 pb
+
+| Pieza | Aporte |
+|---|---:|
+| Emisoras | -33.06 pb |
+| Efectivo | -0.98 pb |
+| MEXTRAC estimado / contra su canasta | +107.50 pb |
+| Operaciones (ejecución contra cierre) | +0.09 pb |
+| Comisión e IVA | -0.95 pb |
+| **Total = alfa del día** | **+72.60 pb** |
+
+Sumaron: KIMBERA +8.7 pb · PINFRA +5.0 pb · GMEXICOB +4.7 pb · Restaron: AMXB -18.4 pb · OMAB -11.5 pb · ASURB -7.2 pb
+
+Réplica en Python contra el tracker: diferencia máxima 4.4e-16 (2026-10-22T03:56).
 
 ## Posiciones · movimiento de hoy
 
 | Emisora | Títulos | Precio | Cambio hoy | Peso |
 |---|---:|---:|---:|---:|
-| MEXTRAC | 38,326 | 68.86 | +0.89% | 25.30% |
-| FEMSAUBD | 5,539 | 238.09 | +1.62% | 12.64% |
-| GMEXICOB | 5,301 | 240.47 | -1.39% | 12.22% |
-| KOFUBL | 3,638 | 217.10 | -1.83% | 7.57% |
-| BOLSAA | 16,440 | 36.06 | -1.42% | 5.68% |
-| GAPB | 1,394 | 400.34 | +7.16% | 5.35% |
-| AMXB | 24,344 | 21.12 | +0.19% | 4.93% |
-| GFNORTEO | 2,430 | 204.73 | -0.06% | 4.77% |
-| PINFRA | 1,233 | 300.33 | +0.42% | 3.55% |
-| WALMEX | 6,439 | 49.94 | -0.30% | 3.08% |
-| AC | 1,469 | 217.48 | +2.33% | 3.06% |
-| BBAJIOO | 5,399 | 58.15 | +1.03% | 3.01% |
-| MEGACPO | 3,980 | 54.82 | -1.33% | 2.09% |
-| ASURB | 437 | 457.10 | +3.33% | 1.91% |
-| PEOLES | 181 | 878.01 | -2.06% | 1.52% |
-| OMAB | 170 | 219.43 | +3.21% | 0.36% |
+| MEXTRAC | 38,326 | 69.10 | +0.35% | 25.15% |
+| FEMSAUBD | 6,734 | 238.86 | +0.32% | 15.28% |
+| GMEXICOB | 5,301 | 243.37 | +1.21% | 12.25% |
+| KOFUBL | 3,638 | 219.99 | +1.33% | 7.60% |
+| BOLSAA | 16,440 | 35.90 | -0.44% | 5.61% |
+| GAPB | 1,394 | 412.90 | +3.14% | 5.47% |
+| AMXB | 24,344 | 22.73 | +7.62% | 5.26% |
+| GFNORTEO | 2,430 | 207.28 | +1.25% | 4.78% |
+| PINFRA | 1,233 | 306.20 | +1.95% | 3.59% |
+| WALMEX | 6,439 | 49.52 | -0.84% | 3.03% |
+| AC | 1,469 | 215.41 | -0.95% | 3.01% |
+| BBAJIOO | 5,399 | 58.09 | -0.10% | 2.98% |
+| MEGACPO | 3,980 | 55.41 | +1.08% | 2.09% |
+| ASURB | 437 | 472.32 | +3.33% | 1.96% |
+| PEOLES | 181 | 884.17 | +0.70% | 1.52% |
+| OMAB | 170 | 230.78 | +5.17% | 0.37% |
 
-## Stop-loss y take-profit (datos al 20/10/2026)
+## Stop-loss y take-profit (datos al 21/10/2026)
 
-Día 2 desde la entrada · señales contra el NAV del MEXTRAC09.
+Día 3 desde la entrada · señales contra el precio del MEXTRAC09 (estimado los días sin movimiento).
 
 Sin señales hoy.
 
-Quién explica más el TE del libro: GMEXICOB 0.89 pp · FEMSAUBD 0.46 pp · BOLSAA 0.46 pp · PEOLES 0.26 pp · PINFRA 0.21 pp
-
-## Noticias recientes (LSEG)
-
-- • **AMXB** · 20/10 20:45 · X — @business: America Movil outpaced market estimates across its major financial metrics for the third quarter, showing robust demand is offsetting a government-mandated user registration process that weighed on prepaid growth in Mexico https://t.co/GOWiWPxPKJ
-- • **KIMBERA** · 20/10 20:26 · PUBT — Kimberly-Clark de Mexico SAB de CV - [2019-01-01] IFRS 2019 para ICS - KIMBER
-- ▲ **AMXB** · 20/10 20:23 · NOTFIN — Los ingresos de América Móvil crecen un 7,6% en el tercer trimestre de 2026, impulsando sus ganancias.
-- • **KIMBERA** · 20/10 20:23 · PUBT — Kimberly-Clark de Mexico SAB de CV - DECLARACIÓN DE FUNCIONARIOS 3T''26
-- ▲ **ASURB** · 20/10 20:22 · GLORDP — PAST WEEK: TOP 10 ADRs DAILY - TOP RISES OF ADRs End-of-day: Tuesday October 20, 2026 16:00 EST (GMT: 21:00)
-- • **KIMBERA** · 20/10 20:22 · PUBT — Kimberly-Clark de Mexico SAB de CV - INFORMACIÓN FINANCIERA TRIMESTRAL 3T''26
-- • **GAPB** · 20/10 20:17 · GLORDP — Past Week: Grupo Aeroportuario del Pacifico S.A.B. de CV ADR (NYSE:PAC:$217.41) in top 3% performers of BNY Mellon Composite ADR Index in past week...
-- • **PINFRA** · 20/10 20:17 · GLORDP — Past Week: Promotora Y Operadora de Infraestructura SA ADR (OTC:PUODY:$326.0) up 8% in 2 weeks; +$23.19 [7.7%]
-- • **FEMSAUBD** · 20/10 20:16 · GLORDP — Past Week: Coca-Cola FEMSA S.A.B de CV ADR (NYSE:KOF:$118.29) up 10% in 2 weeks; +$11.09 [10.3%]
-- • **FEMSAUBD** · 20/10 20:16 · GLORDP — Past Week: Fomento Economico Mexicano, S.A.B de C.V. ADR (NYSE:FMX:$129.11) in top 5% performers of BNY Mellon Composite ADR Index in past week; +$...
-- • **AMXB** · 20/10 20:16 · GLORDP — Past Week: America Movil S.A.B. de CV ADR (NYSE:AMX:$22.90) posts best week in eighteen weeks; +$1.22 [5.6%]
-- ▲ **WALMEX** · 20/10 20:16 · GLORDP — Past Week: Wal-Mart De Mexico S.A.B. de C.V. ADR (OTCQX:WMMVY:$27.06) gains 6% on high volume; +$1.42 [5.5%]
-- • **ASURB** · 20/10 20:16 · GLORDP — Past Week: Grupo Aeroportuario del Sureste S.A. de C.V. ADR (NYSE:ASR:$247.96) posts best week in eighteen weeks; +$13.57 [5.8%]
-- • **OMAB** · 20/10 20:16 · GLORDP — Past Week: Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADR (NASDAQ:OMAB:$94.90) posts best week in four weeks; +$5.07 [5.6%]
-- • **KIMBERA** · 20/10 20:16 · GLORDP — Past Week: Kimberly-Clark de Mexico, S.A.B de C.V. ADR (OTC:KCDMY:$10.47) posts worst week in three weeks; -20c [-1.9%]
+Quién explica más el TE del libro: FEMSAUBD 0.77 pp · GMEXICOB 0.67 pp · BOLSAA 0.41 pp · PEOLES 0.26 pp · PINFRA 0.21 pp
 
 ---
 _Lo genera `vigilante_refinitiv.py`. Los CSV de esta carpeta alimentan el tablero del cliente._

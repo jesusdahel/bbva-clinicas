@@ -1,6 +1,9 @@
 {
- "version": "v6",
- "actualizado": "2026-10-21T18:02:20-06:00",
+ "version": "v6.3",
+ "actualizado": "2026-10-22T04:00:49-06:00",
+ "benchmark": "precio del MEXTRAC09, estimado los días sin movimiento",
+ "cetes28": 0.0623,
+ "caja_invertida": "NO",
  "capital": 10000856.62,
  "inicio": "2026-10-12",
  "fin": "2026-11-27",
